@@ -217,7 +217,7 @@
     <header>
       <h1>Kebijakan Privasi TokuGo</h1>
       <!-- PERIKSA 3: tanggal berlaku -->
-      <p class="stamp">Berlaku sejak 24 September 2026 &middot; Versi 1.0</p>
+      <p class="stamp">Berlaku sejak 28 September 2026 &middot; Versi 1.1</p>
     </header>
 
     <div class="tldr">
@@ -306,15 +306,19 @@
       supaya aplikasi bisa diperbaiki.</p>
       <p><span class="label">Data</span> Pengenal instansi aplikasi (nomor acak per pemasangan),
       layar yang dibuka, kejadian bawaan seperti aplikasi dibuka atau diperbarui, model
-      perangkat, versi Android, bahasa, dan perkiraan negara dari alamat IP. Aplikasi tidak
-      mengirim satu pun kejadian buatan sendiri, sehingga kata, nilai, atau isi belajarmu tidak
-      pernah ikut terkirim.</p>
+      perangkat, versi Android, bahasa, dan perkiraan negara dari alamat IP. Selain itu aplikasi
+      mengirim empat kejadian buatan sendiri yang hanya berisi jenis dan jumlah: sesi belajar
+      selesai (kosakata atau kanji, dan berapa kartu), layar Premium dibuka (dari tombol mana),
+      hasil pembelian Premium (berhasil, batal, atau gagal, tanpa data pembayaran), dan latihan
+      ujian selesai (jenis ujiannya saja). Kata yang kamu pelajari, jawabanmu, nilai kuis, skor,
+      dan hasil ujian tidak pernah ikut terkirim.</p>
     </div>
 
     <div class="svc">
       <h3>Firebase Crashlytics</h3>
       <p><span class="label">Untuk</span> Menerima laporan ketika aplikasi berhenti mendadak,
-      supaya bisa diperbaiki.</p>
+      atau ketika sebuah proses gagal di tengah jalan (misalnya mencadangkan data atau memproses
+      pembelian), supaya bisa diperbaiki.</p>
       <p><span class="label">Data</span> Jejak kesalahan (stack trace), model perangkat, versi
       Android, versi aplikasi, sisa memori dan ruang penyimpanan, serta pengenal pemasangan acak
       dari Crashlytics.</p>
@@ -493,7 +497,7 @@
   <main lang="en">
     <header>
       <h1>TokuGo Privacy Policy</h1>
-      <p class="stamp">Effective 24 September 2026 &middot; Version 1.0</p>
+      <p class="stamp">Effective 28 September 2026 &middot; Version 1.1</p>
     </header>
 
     <div class="tldr">
@@ -576,13 +580,18 @@
       so the app can be improved.</p>
       <p><span class="label">Data</span> App instance identifier (a random number per install),
       screens opened, built-in events such as app open or app update, device model, Android
-      version, language, and approximate country derived from the IP address. The app sends no
-      custom events of its own, so your words, scores and study content are never included.</p>
+      version, language, and approximate country derived from the IP address. In addition, the app
+      sends four events of its own that contain only kinds and counts: a study session finished
+      (vocabulary or kanji, and how many cards), the Premium screen opened (from which button),
+      the result of a Premium purchase (succeeded, cancelled or failed, with no payment data), and
+      a practice exam finished (the exam type only). The words you study, your answers, quiz
+      scores, exam scores and results are never included.</p>
     </div>
 
     <div class="svc">
       <h3>Firebase Crashlytics</h3>
-      <p><span class="label">Purpose</span> Receiving reports when the app crashes, so it can be
+      <p><span class="label">Purpose</span> Receiving reports when the app crashes, or when an
+      operation fails midway (such as backing up data or processing a purchase), so it can be
       fixed.</p>
       <p><span class="label">Data</span> Stack traces, device model, Android version, app
       version, free memory and storage, and a random Crashlytics installation identifier.</p>
