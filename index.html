@@ -3,814 +3,277 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kebijakan Privasi TokuGo</title>
-<meta name="description" content="Kebijakan Privasi aplikasi Android TokuGo (com.tokugo.app) - Privacy Policy for the TokuGo Android app.">
+<title>TokuGo: flashcard kosakata &amp; kanji Jepang untuk JFT-Basic dan JLPT</title>
+<meta name="description" content="Aplikasi flashcard kosakata dan kanji bahasa Jepang untuk calon pekerja SSW (Tokutei Ginou) dan peserta JLPT N5–N1: 36.385 kata, 2.230 kanji, kuis, dan simulasi ujian JFT-Basic dan JLPT.">
 
 <!--
   ============================================================================
-  KEBIJAKAN PRIVASI TokuGo - berkas tunggal, tanpa berkas pendukung apa pun.
-  Cukup unggah berkas ini sebagai index.html, lalu nyalakan GitHub Pages.
+  HALAMAN UTAMA tokugo.my.id (bahasa Indonesia). Versi Inggris: en/index.html.
+  Kalau mengubah isi di sini, ubah juga di en/index.html.
 
-  SEBELUM DI-HOST, PERIKSA 3 HAL INI (cari tanda "PERIKSA" di bawah):
-    1. Nama pengembang  - sekarang tertulis "TokuGo". Ganti kalau nama di
-       Play Console berbeda; Google membandingkan keduanya.
-    2. Email kontak     - sekarang amdigracrative@gmail.com. Ganti kalau mau
-       pakai email khusus aplikasi.
-    3. Tanggal berlaku  - 24 September 2026.
+  Semua angka dan klaim di halaman ini SAMA dengan deskripsi Play Store
+  (docs/play-listing/indonesia/3-deskripsi-lengkap.txt) dan sudah dicocokkan
+  dengan aplikasinya. Jangan menulis angka baru di sini tanpa mengeceknya.
 
-  Bahasa: Indonesia (bawaan) dan Inggris dalam satu halaman.
-  Tambahkan ?lang=en di belakang alamat untuk membuka versi Inggris langsung.
-  Kalau JavaScript mati, kedua bahasa tampil berurutan - halaman tetap terbaca.
+  Cara menerbitkan: docs/situs/README.md.
   ============================================================================
 -->
 
-<style>
-  :root {
-    color-scheme: light dark;
-    /* Washi - tema terang aplikasi */
-    --bg: #EAE3D3;
-    --card: #F1EBDE;
-    --card-alt: #E4DDCD;
-    --line: #D3C9B5;
-    --text: #24201A;
-    --muted: #5E574B;
-    --accent: #A8402A;
-    --accent-soft: rgba(168, 64, 42, 0.10);
-  }
-  /* Media query DI LUAR selector, bukan bersarang: CSS nesting baru ada di
-     Chrome 112, sedangkan aplikasi ini masih mendukung Android 7. */
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      /* Yoru - tema gelap aplikasi */
-      --bg: #0E0E11;
-      --card: #14161F;
-      --card-alt: #1F2333;
-      --line: #2A2F42;
-      --text: #E6E1E9;
-      --muted: #A8A3B4;
-      --accent: #A9A1F1;
-      --accent-soft: rgba(169, 161, 241, 0.14);
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #0E0E11;
-    --card: #14161F;
-    --card-alt: #1F2333;
-    --line: #2A2F42;
-    --text: #E6E1E9;
-    --muted: #A8A3B4;
-    --accent: #A9A1F1;
-    --accent-soft: rgba(169, 161, 241, 0.14);
-  }
+<!-- Aplikasi versi lama membuka kebijakan privasi di alamat akar dengan ?lang=en.
+     Sekarang akar adalah halaman ini, jadi pengunjung itu diantar ke versi Inggris. -->
+<script>if (/[?&]lang=en\b/.test(location.search)) location.replace('en/');</script>
 
-  * { box-sizing: border-box; }
+<link rel="canonical" href="https://tokugo.my.id/">
+<link rel="alternate" hreflang="id" href="https://tokugo.my.id/">
+<link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/">
+<link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
 
-  body {
-    margin: 0;
-    padding: 0 16px 64px;
-    background: var(--bg);
-    color: var(--text);
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
-    font-size: 16px;
-    line-height: 1.65;
-    -webkit-text-size-adjust: 100%;
-  }
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TokuGo">
+<meta property="og:locale" content="id_ID">
+<meta property="og:url" content="https://tokugo.my.id/">
+<meta property="og:title" content="TokuGo: kosakata &amp; kanji Jepang untuk kerja dan JLPT">
+<meta property="og:description" content="Flashcard, kuis, dan latihan ujian JFT-Basic dan JLPT N5–N1. 36.385 kata, 2.230 kanji, 21 kategori khusus tempat kerja.">
+<meta property="og:image" content="https://tokugo.my.id/aset/sampul-id.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta name="twitter:card" content="summary_large_image">
 
-  .wrap { max-width: 720px; margin: 0 auto; }
+<meta name="theme-color" content="#25214A">
+<link rel="icon" type="image/png" sizes="32x32" href="aset/ikon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="aset/ikon-192.png">
+<link rel="apple-touch-icon" href="aset/ikon-192.png">
+<link rel="preload" href="aset/font/sourcesans3-latin.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="aset/situs.css">
 
-  header { padding: 32px 0 8px; }
-
-  h1 {
-    font-size: 1.75rem;
-    line-height: 1.25;
-    margin: 0 0 8px;
-    letter-spacing: -0.01em;
-  }
-
-  .stamp {
-    color: var(--muted);
-    font-size: 0.875rem;
-    margin: 0 0 20px;
-  }
-
-  h2 {
-    font-size: 1.15rem;
-    line-height: 1.35;
-    margin: 36px 0 10px;
-    padding-top: 20px;
-    border-top: 1px solid var(--line);
-  }
-
-  h3 {
-    font-size: 1rem;
-    margin: 22px 0 6px;
-    color: var(--accent);
-  }
-
-  p, ul, ol { margin: 0 0 12px; }
-  ul, ol { padding-left: 22px; }
-  li { margin-bottom: 6px; }
-
-  a { color: var(--accent); overflow-wrap: anywhere; }
-
-  strong { font-weight: 650; }
-
-  .tldr {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-left: 4px solid var(--accent);
-    border-radius: 12px;
-    padding: 16px;
-    margin: 0 0 8px;
-  }
-  .tldr p:last-child { margin-bottom: 0; }
-
-  .svc {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 14px 16px;
-    margin: 0 0 12px;
-  }
-  .svc h3 { margin-top: 0; }
-  .svc p:last-child { margin-bottom: 0; }
-  .svc .label {
-    display: inline-block;
-    min-width: 74px;
-    color: var(--muted);
-    font-size: 0.8125rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-
-  .perm {
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    overflow: hidden;
-    margin-bottom: 12px;
-  }
-  .perm > div {
-    padding: 12px 16px;
-    border-bottom: 1px solid var(--line);
-    background: var(--card);
-  }
-  .perm > div:nth-child(even) { background: var(--card-alt); }
-  .perm > div:last-child { border-bottom: 0; }
-  .perm b { display: block; }
-  .perm span { color: var(--muted); font-size: 0.9375rem; }
-
-  .langbar {
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    display: flex;
-    gap: 8px;
-    padding: 10px 0;
-    background: var(--bg);
-    border-bottom: 1px solid var(--line);
-  }
-  .langbar button {
-    flex: 0 0 auto;
-    font: inherit;
-    font-size: 0.875rem;
-    padding: 7px 16px;
-    min-height: 40px;
-    border-radius: 999px;
-    border: 1px solid var(--line);
-    background: transparent;
-    color: var(--muted);
-    cursor: pointer;
-  }
-  .langbar button[aria-pressed="true"] {
-    background: var(--accent-soft);
-    border-color: var(--accent);
-    color: var(--accent);
-    font-weight: 600;
-  }
-
-  footer {
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid var(--line);
-    color: var(--muted);
-    font-size: 0.875rem;
-  }
-
-  /* Satu bahasa saja saat JavaScript hidup. Tanpa JavaScript, atribut
-     data-lang tidak pernah dipasang sehingga kedua bahasa tetap tampil. */
-  html[data-lang="id"] main[lang="en"] { display: none; }
-  html[data-lang="en"] main[lang="id"] { display: none; }
-  html:not([data-lang]) .langbar { display: none; }
-</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "TokuGo",
+  "operatingSystem": "Android 7.0+",
+  "applicationCategory": "EducationalApplication",
+  "description": "Aplikasi flashcard kosakata dan kanji bahasa Jepang untuk JFT-Basic dan JLPT N5–N1.",
+  "url": "https://tokugo.my.id/",
+  "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "IDR" }
+}
+</script>
 </head>
 
 <body>
-<div class="wrap">
 
-  <nav class="langbar" aria-label="Pilih bahasa / Choose language">
-    <button type="button" data-set="id" aria-pressed="true">Bahasa Indonesia</button>
-    <button type="button" data-set="en" aria-pressed="false">English</button>
-  </nav>
-
-  <!-- ===================== INDONESIA ===================== -->
-  <main lang="id">
-    <header>
-      <h1>Kebijakan Privasi TokuGo</h1>
-      <!-- PERIKSA 3: tanggal berlaku -->
-      <p class="stamp">Berlaku sejak 28 September 2026 &middot; Versi 1.1</p>
-    </header>
-
-    <div class="tldr">
-      <p><strong>Ringkasnya.</strong> TokuGo tidak punya sistem akun dan tidak pernah meminta
-      nama, alamat email, atau nomor teleponmu. Seluruh catatan belajarmu disimpan di dalam
-      HP-mu sendiri dan tidak pernah dikirim ke pengembang &mdash; kami memang tidak punya
-      server. Yang keluar dari HP hanyalah data teknis milik layanan Google yang kami pakai
-      untuk menampilkan iklan, mengukur pemakaian, dan menerima laporan kerusakan. Kami tidak
-      menjual data pribadimu.</p>
+<header class="malam">
+  <div class="wadah">
+    <div class="kepala">
+      <a class="merek" href="./" aria-label="TokuGo, halaman utama">
+        <img src="aset/ikon-96.png" width="32" height="32" alt="">
+        TokuGo
+      </a>
+      <nav class="menu" aria-label="Menu">
+        <a class="opsional" href="#fitur">Fitur</a>
+        <a href="privacy/">Privasi</a>
+        <a class="bahasa" href="en/" lang="en" hreflang="en" aria-label="English version">EN</a>
+      </nav>
     </div>
 
-    <h2>1. Tentang kebijakan ini</h2>
-    <p>Kebijakan ini menjelaskan data apa yang ditangani aplikasi Android <strong>TokuGo</strong>
-    (nama paket <code>com.tokugo.app</code>) yang tersedia di Google Play, dan apa yang terjadi
-    pada data itu.</p>
-    <!-- PERIKSA 1: nama pengembang -->
-    <p>Penanggung jawab aplikasi: <strong>TokuGo</strong>. Kontak ada di bagian 15.</p>
+    <div class="pembuka">
+      <div class="teks">
+        <span class="label">JFT-Basic &middot; JLPT N5&ndash;N1</span>
+        <h1>Kosakata &amp; kanji Jepang untuk <b>kerja dan JLPT</b></h1>
+        <div class="garis-koral"></div>
+        <p class="pengantar">TokuGo adalah aplikasi flashcard (kartu hafalan) kosakata dan kanji
+        bahasa Jepang untuk calon pekerja Tokutei Ginou (SSW) yang harus lulus JFT-Basic, dan
+        untuk peserta JLPT N5 sampai N1.</p>
+        <div class="aksi">
+          <a class="tombol" href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
+            Unduh di Google Play
+          </a>
+          <a class="tautan-fitur" href="#fitur">Lihat fiturnya</a>
+        </div>
+        <p class="catatan">Gratis untuk mulai &middot; Tanpa akun &middot; Android 7.0 ke atas</p>
+      </div>
 
-    <h2>2. Yang tidak kami lakukan</h2>
-    <ul>
-      <li>Tidak ada pendaftaran akun, login, nama, alamat email, atau nomor telepon.</li>
-      <li>Tidak ada akses ke kontak, kamera, mikrofon, galeri foto, SMS, atau lokasi GPS.
-      Aplikasi tidak meminta izin-izin itu sama sekali.</li>
-      <li>Tidak ada catatan belajar &mdash; kata yang kamu pelajari, nilai kuis, hasil ujian
-      &mdash; yang dikirim ke pengembang.</li>
-      <li>Kami tidak menjual data pribadi kepada siapa pun.</li>
+      <div class="panggung">
+        <div class="hp">
+          <img src="aset/layar/id/kartu.webp" width="540" height="1200" fetchpriority="high"
+               alt="Layar kartu TokuGo: kata 介護 (kaigo) dengan arti perawatan, dari kategori Perawatan Lansia">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="wadah">
+    <ul class="angka">
+      <li><b>36.385</b><span>kata dengan cara baca, romaji, dan arti</span></li>
+      <li><b>2.230</b><span>kanji JLPT dengan urutan goresan</span></li>
+      <li><b>107</b><span>kategori kosakata, 21 khusus tempat kerja</span></li>
+      <li><b>6</b><span>level simulasi ujian: JFT-Basic dan JLPT N5&ndash;N1</span></li>
     </ul>
+  </div>
 
-    <h2>3. Data yang disimpan di HP-mu saja</h2>
-    <p>Semua hal berikut hidup di penyimpanan pribadi aplikasi pada HP-mu, tidak dapat dibaca
-    aplikasi lain, dan <strong>hilang seluruhnya begitu kamu meng-uninstall TokuGo</strong>:</p>
-    <ul>
-      <li>Progres belajar: kartu hafalan kosakata dan kanji, riwayat setiap penilaian kartu,
-      jadwal ulangan berikutnya, dan tahap penguasaan tiap kata.</li>
-      <li>Statistik harian: jumlah kartu, waktu belajar, dan rentetan hari.</li>
-      <li>Kuis dan ujian: sesi kuis, sesi latihan ujian, jawabanmu, dan skornya.</li>
-      <li>Tanda (bookmark), target belajar, serta laporan yang kamu kirim lewat tombol
-      "laporkan item".</li>
-      <li>Pengaturan: bahasa antarmuka, tema terang/gelap, jam pengingat, tampilan
-      furigana/romaji, dan kategori yang terakhir dibuka.</li>
-      <li>Status Premium (salinan lokal dari hak yang diberikan Google Play), penghitung
-      iklan, sisa waktu bebas iklan dari iklan berhadiah, dan penghitung ajakan menilai
-      aplikasi.</li>
-      <li>Satu nomor acak (UUID) yang dibuat aplikasi saat pertama kali dijalankan. Nomor ini
-      hanya dipakai untuk mengacak urutan soal ujian agar tidak sama di tiap sesi. Nomor itu
-      tidak pernah dikirim ke mana pun dan tidak terhubung dengan identitasmu.</li>
-    </ul>
+  <section class="bagian" id="fitur">
+    <div class="wadah">
+      <h2>Kosakata yang benar-benar nempel</h2>
+      <div class="inti">
 
-    <h2>4. Cadangan data</h2>
-    <p><strong>Cadangan manual.</strong> Lewat Pengaturan kamu bisa mengekspor seluruh progres
-    ke satu berkas JSON. Berkas itu disimpan ke lokasi yang <strong>kamu</strong> pilih sendiri
-    lewat pemilih berkas Android. Aplikasi tidak pernah mengunggahnya ke mana pun; berkas itu
-    sepenuhnya milikmu.</p>
-    <p><strong>Cadangan otomatis Android.</strong> Android dapat mencadangkan data aplikasi ke
-    Google Drive milik akunmu. Ini fitur sistem operasi, bukan milik kami: cadangannya masuk ke
-    akun Google-mu, bukan ke pengembang. Kamu bisa mematikannya di Setelan Android &rarr;
-    Google &rarr; Cadangan.</p>
+        <article class="kartu">
+          <div class="kartu-kepala">
+            <span class="ubin" lang="ja" aria-hidden="true">覚</span>
+            <h3>Kartu yang tahu kapan kamu akan lupa</h3>
+          </div>
+          <p>Setiap kartu dijadwalkan dengan FSRS, algoritma pengulangan berjarak modern. Kamu
+          cukup menilai diri sendiri, lalu aplikasi menghitung kapan kata itu muncul lagi:
+          beberapa menit, hari, atau minggu kemudian. Jadwalnya tertulis di setiap tombol.</p>
+          <div class="peraga">
+            <div class="nilai" role="img" aria-label="Contoh tombol nilai: Belum hafal muncul lagi 5 menit, Ragu 6 hari, Hafal 15 hari">
+              <span class="belum"><b>Belum hafal</b><i>5 menit</i></span>
+              <span class="ragu"><b>Ragu</b><i>6 hari</i></span>
+              <span class="hafal"><b>Hafal</b><i>15 hari</i></span>
+            </div>
+          </div>
+        </article>
 
-    <h2>5. Layanan pihak ketiga</h2>
-    <p>Aplikasi memakai layanan Google berikut. Kami tidak mengendalikan data yang mereka
-    kumpulkan, dan pemrosesannya tunduk pada
-    <a href="https://policies.google.com/privacy">Kebijakan Privasi Google</a>.</p>
+        <article class="kartu">
+          <div class="kartu-kepala">
+            <span class="ubin" lang="ja" aria-hidden="true">証</span>
+            <h3>Dikuasai harus dibuktikan</h3>
+          </div>
+          <p>Setiap kata melewati empat tahap. Tombol Hafal membawa kata ke tahap Hafal; untuk
+          naik ke Dikuasai, kamu harus menjawabnya benar di kuis pada <b>3 hari berbeda</b>. Kata
+          Dikuasai tetap diuji ulang saat jatuh tempo, dan turun lagi kalau salah.</p>
+          <div class="peraga">
+            <ol class="tahap" aria-label="Empat tahap kata">
+              <li><span>Baru</span></li>
+              <li><span>Belajar</span></li>
+              <li><span>Hafal</span></li>
+              <li class="puncak"><span>Dikuasai</span></li>
+            </ol>
+          </div>
+        </article>
 
-    <div class="svc">
-      <h3>Google AdMob &amp; User Messaging Platform</h3>
-      <p><span class="label">Untuk</span> Menampilkan iklan pada versi gratis.</p>
-      <p><span class="label">Data</span> ID Iklan (Advertising ID), alamat IP &mdash; yang bisa
-      dipakai memperkirakan negara atau kota secara kasar &mdash; jenis dan model perangkat,
-      versi sistem operasi, bahasa, serta interaksi dengan iklan seperti tampil dan diklik. Pada
-      Android versi baru juga sinyal Privacy Sandbox (Topics dan Attribution Reporting).</p>
-      <p><span class="label">Catatan</span> Di wilayah yang mewajibkannya (Uni Eropa, Inggris,
-      dan lainnya) sebuah formulir persetujuan muncul sebelum iklan pertama dimuat, dan sebelum
-      kamu menjawabnya aplikasi tidak meminta iklan apa pun. Bila kamu menolak, iklan
-      personalisasi berhenti; sebagian iklan sederhana masih dapat tampil atas dasar
-      "kepentingan yang sah" &mdash; iklan yang dipilih tanpa profil dirimu. Itu pun bisa kamu
-      tolak lewat <strong>Kelola opsi</strong> di formulir yang sama, atau kapan saja lewat
-      Pengaturan &rarr; Privasi &rarr; Pengaturan privasi iklan.</p>
-      <p><span class="label">Rujukan</span>
-      <a href="https://policies.google.com/technologies/partner-sites">Cara Google memakai data
-      dari situs dan aplikasi mitra</a></p>
+        <article class="kartu">
+          <div class="kartu-kepala">
+            <span class="ubin" lang="ja" aria-hidden="true">働</span>
+            <h3>Kosakata tempat kerja, bukan cuma ruang kelas</h3>
+          </div>
+          <p>Rumpun Tempat Kerja berisi <b>21 kategori</b>. Untuk hidup di Jepang ada kategori sewa
+          rumah, imigrasi, bank dan kantor pos, rumah sakit, belanja, dan transportasi. Setiap
+          kategori bisa dipelajari per level dan punya kuisnya sendiri.</p>
+          <div class="peraga">
+            <ul class="keping" aria-label="Contoh kategori tempat kerja">
+              <li>Keselamatan kerja</li>
+              <li>Pabrik</li>
+              <li>Konstruksi</li>
+              <li>Pertanian</li>
+              <li>Perikanan</li>
+              <li>Perawatan lansia</li>
+              <li>Perhotelan</li>
+              <li>Restoran</li>
+              <li class="lebih">+13 lainnya</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
     </div>
+  </section>
 
-    <div class="svc">
-      <h3>Google Analytics for Firebase</h3>
-      <p><span class="label">Untuk</span> Mengetahui fitur mana yang dipakai dan seberapa sering,
-      supaya aplikasi bisa diperbaiki.</p>
-      <p><span class="label">Data</span> Pengenal instansi aplikasi (nomor acak per pemasangan),
-      layar yang dibuka, kejadian bawaan seperti aplikasi dibuka atau diperbarui, model
-      perangkat, versi Android, bahasa, dan perkiraan negara dari alamat IP. Selain itu aplikasi
-      mengirim empat kejadian buatan sendiri yang hanya berisi jenis dan jumlah: sesi belajar
-      selesai (kosakata atau kanji, dan berapa kartu), layar Premium dibuka (dari tombol mana),
-      hasil pembelian Premium (berhasil, batal, atau gagal, tanpa data pembayaran), dan latihan
-      ujian selesai (jenis ujiannya saja). Kata yang kamu pelajari, jawabanmu, nilai kuis, skor,
-      dan hasil ujian tidak pernah ikut terkirim.</p>
+  <section class="bagian malam" id="layar">
+    <div class="wadah">
+      <h2>Dari kartu pertama sampai <b>simulasi ujian</b></h2>
+      <div class="galeri">
+        <figure>
+          <div class="bingkai"><img src="aset/layar/id/kerja.webp" width="540" height="1200" loading="lazy" alt="Daftar kategori Tempat Kerja: konstruksi, pertanian, perikanan, perawatan lansia, perhotelan, restoran"></div>
+          <figcaption><b>Kosakata sesuai bidang kerjamu</b><span>21 kategori, dari konstruksi sampai perawatan lansia</span></figcaption>
+        </figure>
+        <figure>
+          <div class="bingkai"><img src="aset/layar/id/kuis.webp" width="540" height="1200" loading="lazy" alt="Layar kuis: sebuah kata Jepang dengan empat pilihan arti"></div>
+          <figcaption><b>Kuis di setiap kategori</b><span>Benar di kuis pada 3 hari berbeda untuk mencapai Dikuasai</span></figcaption>
+        </figure>
+        <figure>
+          <div class="bingkai"><img src="aset/layar/id/kanji.webp" width="540" height="1200" loading="lazy" alt="Kartu kanji 金 dengan onyomi, kunyomi, urutan goresan, dan contoh kata"></div>
+          <figcaption><b>2.230 kanji, goresan demi goresan</b><span>Cara baca, contoh kata, kartu dan kuis kanji</span></figcaption>
+        </figure>
+        <figure>
+          <div class="bingkai"><img src="aset/layar/id/ujian.webp" width="540" height="1200" loading="lazy" alt="Soal membaca pada latihan ujian, dengan penghitung waktu"></div>
+          <figcaption><b>Latihan ujian JFT-Basic &amp; JLPT</b><span>Waktu resmi, skor dibanding ambang lulus</span></figcaption>
+        </figure>
+        <figure>
+          <div class="bingkai"><img src="aset/layar/id/kamus.webp" width="540" height="1200" loading="lazy" alt="Kamus: hasil pencarian kata sakit"></div>
+          <figcaption><b>Kamus saku 36.385 kata</b><span>Cari lewat kanji, kana, romaji, atau arti</span></figcaption>
+        </figure>
+      </div>
+      <p class="catatan-galeri">Skor latihan adalah perkiraan untuk mengukur kemajuan, bukan prediksi skor ujian resmi.</p>
     </div>
+  </section>
 
-    <div class="svc">
-      <h3>Firebase Crashlytics</h3>
-      <p><span class="label">Untuk</span> Menerima laporan ketika aplikasi berhenti mendadak,
-      atau ketika sebuah proses gagal di tengah jalan (misalnya mencadangkan data atau memproses
-      pembelian), supaya bisa diperbaiki.</p>
-      <p><span class="label">Data</span> Jejak kesalahan (stack trace), model perangkat, versi
-      Android, versi aplikasi, sisa memori dan ruang penyimpanan, serta pengenal pemasangan acak
-      dari Crashlytics.</p>
+  <section class="bagian">
+    <div class="wadah">
+      <h2>Fitur lain</h2>
+      <ul class="daftar">
+        <li><b>Tiap hari tahu harus belajar apa.</b> Kartu jatuh tempo, kata baru, dan latihan Kilat 60 detik.</li>
+        <li><b>Kata sulit dan Ditandai.</b> Daftar kata sulit dibuat otomatis; tandai sendiri kata yang ingin kamu ulang.</li>
+        <li><b>Pengingat.</b> Pengingat harian, plus pemberitahuan saat kartu jatuh tempo.</li>
+        <li><b>Pelafalan.</b> Dibacakan suara bahasa Jepang bawaan HP-mu.</li>
+        <li><b>Statistik.</b> Rentetan hari, target harian, peta aktivitas, progres per rumpun dan level.</li>
+        <li><b>Cadangan.</b> Simpan progres ke berkas, lalu pulihkan di HP lain.</li>
+        <li><b>Tema terang dan gelap,</b> plus tutorial di dalam aplikasi.</li>
+        <li><b>13 bahasa antarmuka.</b> Arti kata dalam bahasa Indonesia dan Inggris.</li>
+      </ul>
     </div>
+  </section>
 
-    <div class="svc">
-      <h3>Firebase Performance Monitoring</h3>
-      <p><span class="label">Untuk</span> Mengukur kecepatan aplikasi, misalnya lama membuka
-      aplikasi dan lama sebuah layar tampil.</p>
-      <p><span class="label">Data</span> Durasi tiap proses, model perangkat, versi Android,
-      versi aplikasi, dan jenis koneksi.</p>
+  <section class="bagian">
+    <div class="wadah dua">
+      <article class="kartu">
+        <h3>Gratis untuk mulai</h3>
+        <p>Versi gratis langsung memberi <b>9.626 kata</b>: 100 kata teratas di setiap kategori,
+        mencakup 99% kosakata JFT-Basic dan 96% JLPT N5, plus seluruh <b>284 kanji N5 dan N4</b>,
+        dengan iklan. Semua simulasi ujian dan seluruh kamus terbuka untuk semua.</p>
+        <p class="kecil">Premium membuka seluruh kata dan kanji N3&ndash;N1, menghilangkan iklan, dan
+        memungkinkan belajar tanpa internet. Di versi gratis, memulai sesi belajar atau ujian
+        membutuhkan koneksi internet.</p>
+      </article>
+      <article class="kartu">
+        <h3>Catatan belajarmu tetap di HP-mu</h3>
+        <p>Tanpa akun, tanpa pendaftaran, tanpa kata sandi. Pengembang tidak punya server:
+        catatan belajarmu disimpan di HP-mu dan tidak pernah dikirim ke pengembang.</p>
+        <p class="kecil">Iklan, pengukuran pemakaian, dan laporan kerusakan memakai layanan Google.
+        Rinciannya ada di kebijakan privasi.</p>
+        <a class="tautan" href="privacy/">Baca Kebijakan Privasi &rarr;</a>
+      </article>
     </div>
+  </section>
 
-    <div class="svc">
-      <h3>Google Play Billing</h3>
-      <p><span class="label">Untuk</span> Memproses pembelian Premium.</p>
-      <p><span class="label">Data</span> Pembelian ditangani sepenuhnya oleh Google Play.
-      Aplikasi hanya menerima jawaban "hak ini aktif" atau "tidak aktif" lalu menyimpannya di
-      HP. <strong>Aplikasi tidak pernah melihat atau menyimpan nomor kartu, nama pemilik kartu,
-      atau data pembayaran apa pun.</strong></p>
+</main>
+
+<footer class="malam">
+  <div class="wadah">
+    <div class="penutup">
+      <h2>Mau kerja di Jepang, atau mau <b>lulus JLPT</b>?</h2>
+      <p>Kuncinya sama: kosakata yang benar-benar nempel di kepala.</p>
+      <div class="aksi">
+        <a class="tombol" href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
+          Unduh di Google Play
+        </a>
+      </div>
     </div>
-
-    <div class="svc">
-      <h3>Google Play In-App Review</h3>
-      <p><span class="label">Untuk</span> Menampilkan ajakan menilai aplikasi di Play Store.</p>
-      <p><span class="label">Data</span> Penilaian dan ulasan kamu kirim langsung ke Google Play.
-      Aplikasi tidak pernah tahu bintang berapa yang kamu beri, bahkan tidak tahu apakah kamu
-      jadi menilai atau tidak.</p>
+    <div class="kaki">
+      <span>&copy; 2026 TokuGo</span>
+      <nav aria-label="Tautan kaki">
+        <a href="privacy/">Kebijakan Privasi</a>
+        <a href="mailto:amdigracrative@gmail.com">Kontak</a>
+        <a href="en/" lang="en" hreflang="en">English</a>
+      </nav>
     </div>
+  </div>
+</footer>
 
-    <div class="svc">
-      <h3>Google Play Install Referrer</h3>
-      <p><span class="label">Untuk</span> Dipakai otomatis oleh SDK Google di atas untuk
-      mengetahui sumber pemasangan, misalnya dari kampanye iklan.</p>
-    </div>
-
-    <h2>6. Izin aplikasi dan alasannya</h2>
-    <div class="perm">
-      <div><b>Internet dan status jaringan</b><span>Memuat iklan, mengirim statistik dan laporan
-      kerusakan, serta memeriksa status Premium.</span></div>
-      <div><b>Notifikasi</b><span>Pengingat belajar harian dan pemberitahuan saat kartu jatuh
-      tempo. Boleh ditolak; aplikasi tetap berjalan normal tanpa notifikasi.</span></div>
-      <div><b>Jalan setelah HP dinyalakan ulang</b><span>Memasang kembali jadwal pengingat
-      setelah HP di-restart. Tanpa izin ini semua pengingat hilang setiap kali HP
-      dimatikan.</span></div>
-      <div><b>ID Iklan</b><span>Dipakai SDK AdMob untuk menampilkan dan mengukur iklan.</span></div>
-      <div><b>Penagihan (billing)</b><span>Pembelian Premium lewat Google Play.</span></div>
-    </div>
-
-    <h2>7. Iklan dan pilihanmu</h2>
-    <ul>
-      <li>Di wilayah yang mewajibkan persetujuan, formulir persetujuan muncul sebelum iklan
-      pertama dimuat, dan sebelum kamu menjawabnya aplikasi tidak meminta iklan apa pun.</li>
-      <li>Menolak persetujuan menghentikan iklan personalisasi, tapi tidak selalu menghentikan
-      seluruh iklan: sebagian tujuan periklanan sederhana berjalan atas dasar "kepentingan yang
-      sah". Untuk menolak yang itu juga, buka <strong>Kelola opsi</strong> di formulir
-      persetujuan, atau Pengaturan &rarr; Privasi &rarr; Pengaturan privasi iklan.</li>
-      <li>Di semua wilayah kamu bisa membatasi iklan personalisasi lewat <strong>Setelan Android
-      &rarr; Google &rarr; Semua layanan &rarr; Iklan</strong>, dengan menghapus atau mengatur
-      ulang ID Iklan.</li>
-      <li>Berlangganan Premium, atau menonton iklan berhadiah, membuat aplikasi berhenti memuat
-      iklan selama masa itu.</li>
-      <li>Iklan tidak pernah ditampilkan di layar kartu hafalan, layar kuis, dan layar soal
-      ujian &mdash; untuk semua pengguna, berbayar maupun tidak.</li>
-      <li>Kami tidak menjual data pribadi. Namun iklan personalisasi lewat AdMob dapat dihitung
-      sebagai "berbagi data untuk iklan lintas konteks" menurut sebagian undang-undang,
-      misalnya CCPA di California. Membatasi ID Iklan seperti di atas menghentikan hal itu.</li>
-    </ul>
-
-    <h2>8. Anak-anak</h2>
-    <p>TokuGo ditujukan untuk pelajar bahasa Jepang remaja dan dewasa, bukan untuk anak di bawah
-    13 tahun, atau batas usia lain yang berlaku di negaramu. Kami tidak dengan sengaja
-    mengumpulkan data anak-anak. Bila kamu orang tua atau wali dan yakin anakmu memberikan data
-    lewat aplikasi ini, hubungi kami dan akan kami tangani.</p>
-
-    <h2>9. Berapa lama data disimpan</h2>
-    <p><strong>Di HP-mu:</strong> sampai kamu menghapusnya lewat aplikasi atau meng-uninstall
-    aplikasi.</p>
-    <p><strong>Di layanan Google:</strong> mengikuti kebijakan penyimpanan Google untuk tiap
-    layanan. Laporan kerusakan dan data analitik disimpan dalam jangka terbatas, lalu dihapus
-    atau disimpan hanya dalam bentuk agregat.</p>
-
-    <h2>10. Hak kamu</h2>
-    <p>Karena kami tidak menyimpan data apa pun tentangmu di server kami, sebagian besar hak
-    dapat kamu jalankan sendiri saat itu juga:</p>
-    <ul>
-      <li><strong>Melihat data:</strong> semuanya ada di HP-mu. Pakai ekspor cadangan untuk
-      membacanya dalam bentuk berkas.</li>
-      <li><strong>Menghapus data:</strong> uninstall aplikasi &mdash; seluruh data lokal ikut
-      terhapus.</li>
-      <li><strong>Menolak iklan personalisasi:</strong> lihat bagian 7.</li>
-      <li>Bila kamu berada di wilayah dengan undang-undang perlindungan data, misalnya GDPR di
-      Uni Eropa dan Inggris, CCPA di California, atau UU PDP di Indonesia, kamu juga berhak
-      meminta informasi, koreksi, penghapusan, dan menolak pemrosesan atas data yang dipegang
-      Google sebagai mitra kami. Kirim email ke alamat di bagian 15 dan kami bantu sejauh
-      kemampuan kami.</li>
-    </ul>
-
-    <h2 id="hapus-data">11. Menghapus datamu</h2>
-    <p>Bagian ini berlaku untuk aplikasi Android <strong>TokuGo</strong> (<code>com.tokugo.app</code>)
-    di Google Play. Ada dua cara, dan cara pertama sudah cukup untuk hampir semua orang.</p>
-
-    <h3>Cara 1 &mdash; hapus sendiri, seketika</h3>
-    <ol>
-      <li>Buka <strong>Setelan</strong> di HP-mu.</li>
-      <li>Pilih <strong>Aplikasi</strong>, lalu cari dan pilih <strong>TokuGo</strong>.</li>
-      <li>Ketuk <strong>Hapus instalan</strong> (Uninstall), lalu konfirmasi.</li>
-    </ol>
-    <p>Tidak perlu meminta izin siapa pun dan tidak ada masa tunggu. Begitu aplikasi terhapus,
-    <strong>seluruh</strong> data berikut ikut terhapus dari HP-mu:</p>
-    <ul>
-      <li>catatan belajar: kartu hafalan kosakata dan kanji, riwayat penilaian kartu, jadwal
-      ulangan, tahap penguasaan tiap kata;</li>
-      <li>statistik harian, sesi kuis, sesi latihan ujian beserta jawabannya, tanda (bookmark),
-      target belajar, dan laporan item;</li>
-      <li>pengaturan: bahasa, tema, jam pengingat, tampilan furigana, kategori terakhir dibuka;</li>
-      <li>salinan lokal status Premium, penghitung iklan, dan penghitung ajakan menilai aplikasi;</li>
-      <li>nomor acak (UUID) yang dipakai untuk mengacak urutan soal ujian.</li>
-    </ul>
-    <p>Yang <strong>tidak</strong> ikut terhapus hanyalah berkas cadangan JSON yang pernah kamu
-    ekspor sendiri, karena berkas itu milikmu dan tersimpan di tempat yang kamu pilih. Hapus
-    manual bila memang tidak diperlukan lagi.</p>
-
-    <h3>Cara 2 &mdash; minta penghapusan data teknis di layanan Google</h3>
-    <ol>
-      <li>Kirim email ke <a href="mailto:amdigracrative@gmail.com">amdigracrative@gmail.com</a>.</li>
-      <li>Tulis subjek <strong>Permintaan penghapusan data TokuGo</strong>.</li>
-      <li>Sebutkan merek dan tipe HP-mu serta perkiraan tanggal terakhir memakai aplikasi, supaya
-      permintaannya bisa kami teruskan dengan benar.</li>
-    </ol>
-    <p>Kami menanggapi paling lambat <strong>30 hari</strong>. Yang dapat diminta lewat jalur ini
-    adalah data teknis yang dipegang Google AdMob, Google Analytics for Firebase, Firebase
-    Crashlytics, dan Firebase Performance Monitoring: ID Iklan, pengenal instansi aplikasi,
-    pengenal pemasangan Crashlytics, laporan kerusakan, dan data pengukuran kecepatan. Rinciannya
-    ada di bagian 5.</p>
-
-    <h3>Berapa lama data disimpan sesudahnya</h3>
-    <ul>
-      <li><strong>Di HP-mu:</strong> tidak ada retensi tambahan sama sekali. Data hilang seketika
-      saat aplikasi dihapus.</li>
-      <li><strong>Di sisi kami:</strong> tidak ada retensi tambahan, karena kami tidak punya server
-      dan tidak pernah menyimpan salinan apa pun tentangmu.</li>
-      <li><strong>Di layanan Google:</strong> mengikuti masa retensi yang berlaku untuk tiap
-      layanan, lalu dihapus atau disimpan hanya dalam bentuk agregat yang tidak dapat dikaitkan
-      dengan seseorang. Lihat <a href="https://policies.google.com/privacy">Kebijakan Privasi
-      Google</a>.</li>
-    </ul>
-
-    <h2>12. Pemrosesan lintas negara</h2>
-    <p>Layanan Google memproses data di pusat data yang tersebar di berbagai negara, termasuk
-    Amerika Serikat. Dengan memakai aplikasi ini kamu memahami bahwa data teknis tersebut dapat
-    diproses di luar negara tempat tinggalmu.</p>
-
-    <h2>13. Keamanan</h2>
-    <p>Catatan belajarmu berada di penyimpanan pribadi aplikasi yang dilindungi sistem Android
-    dan tidak dapat dibaca aplikasi lain. Karena data belajar tidak pernah dikirim keluar dari
-    HP, tidak ada basis data pengguna di sisi kami yang bisa bocor.</p>
-
-    <h2>14. Perubahan kebijakan</h2>
-    <p>Bila kebijakan ini berubah, tanggal "Berlaku sejak" di bagian atas akan diperbarui dan
-    perubahan besar akan disertai pembaruan aplikasi. Versi terbaru selalu tersedia di alamat
-    halaman ini.</p>
-
-    <h2>15. Hubungi kami</h2>
-    <!-- PERIKSA 2: email kontak -->
-    <p>Email: <a href="mailto:amdigracrative@gmail.com">amdigracrative@gmail.com</a><br>
-    Aplikasi: TokuGo (<code>com.tokugo.app</code>)</p>
-
-    <footer>
-      <p>&copy; 2026 TokuGo. Kebijakan ini berlaku untuk aplikasi Android TokuGo dan tidak
-      berlaku untuk layanan pihak ketiga yang kamu buka dari dalam aplikasi.</p>
-    </footer>
-  </main>
-
-  <!-- ===================== ENGLISH ===================== -->
-  <main lang="en">
-    <header>
-      <h1>TokuGo Privacy Policy</h1>
-      <p class="stamp">Effective 28 September 2026 &middot; Version 1.1</p>
-    </header>
-
-    <div class="tldr">
-      <p><strong>In short.</strong> TokuGo has no account system and never asks for your name,
-      email address or phone number. All of your study records stay on your own phone and are
-      never sent to the developer &mdash; we do not run a server. The only things that leave
-      your phone are technical data belonging to the Google services we use to show ads, measure
-      usage and receive crash reports. We do not sell your personal data.</p>
-    </div>
-
-    <h2>1. About this policy</h2>
-    <p>This policy explains what data the <strong>TokuGo</strong> Android app (package name
-    <code>com.tokugo.app</code>), available on Google Play, handles and what happens to it.</p>
-    <p>The app is published by <strong>TokuGo</strong>. Contact details are in section 15.</p>
-
-    <h2>2. What we do not do</h2>
-    <ul>
-      <li>No sign-up, no login, no name, no email address, no phone number.</li>
-      <li>No access to contacts, camera, microphone, photo gallery, SMS or GPS location. The app
-      does not request those permissions at all.</li>
-      <li>No study records &mdash; the words you learn, your quiz scores, your exam results
-      &mdash; are ever sent to the developer.</li>
-      <li>We do not sell personal data to anyone.</li>
-    </ul>
-
-    <h2>3. Data kept only on your phone</h2>
-    <p>Everything below lives in the app's private storage on your phone, cannot be read by
-    other apps, and <strong>is deleted entirely when you uninstall TokuGo</strong>:</p>
-    <ul>
-      <li>Study progress: vocabulary and kanji flashcards, the history of every card rating, the
-      next review schedule, and the mastery stage of each word.</li>
-      <li>Daily statistics: card counts, study time and day streaks.</li>
-      <li>Quizzes and exams: quiz sessions, practice exam sessions, your answers and scores.</li>
-      <li>Bookmarks, study goals, and any reports you send through the "report item" button.</li>
-      <li>Settings: interface language, light or dark theme, reminder time, furigana/romaji
-      display, and the category you last opened.</li>
-      <li>Premium status (a local copy of the entitlement granted by Google Play), ad counters,
-      remaining ad-free time earned from rewarded ads, and rating-prompt counters.</li>
-      <li>A single random number (UUID) created the first time the app runs. It is used only to
-      shuffle exam question order so that sessions differ. It is never sent anywhere and is not
-      linked to your identity.</li>
-    </ul>
-
-    <h2>4. Backups</h2>
-    <p><strong>Manual backup.</strong> In Settings you can export all your progress to a single
-    JSON file. The file is written to a location <strong>you</strong> choose yourself through
-    the Android file picker. The app never uploads it anywhere; the file is entirely yours.</p>
-    <p><strong>Android Auto Backup.</strong> Android may back up app data to your own Google
-    Drive. That is an operating-system feature, not ours: the backup goes to your Google
-    account, not to the developer. You can turn it off in Android Settings &rarr; Google &rarr;
-    Backup.</p>
-
-    <h2>5. Third-party services</h2>
-    <p>The app uses the following Google services. We do not control the data they collect, and
-    their processing is governed by the
-    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
-
-    <div class="svc">
-      <h3>Google AdMob &amp; User Messaging Platform</h3>
-      <p><span class="label">Purpose</span> Showing ads in the free version.</p>
-      <p><span class="label">Data</span> Advertising ID, IP address &mdash; which can be used to
-      estimate country or city roughly &mdash; device type and model, operating system version,
-      language, and ad interactions such as impressions and clicks. On newer Android versions,
-      Privacy Sandbox signals (Topics and Attribution Reporting) as well.</p>
-      <p><span class="label">Note</span> In regions that require it (the European Union, the
-      United Kingdom and others) a consent form appears before the first ad is loaded, and the
-      app requests no ads at all until you answer it. If you refuse, personalised advertising
-      stops; some basic advertising may still appear on the basis of "legitimate interest"
-      &mdash; ads chosen without profiling you. You can refuse that too, via
-      <strong>Manage options</strong> in the same form, or at any time via Settings &rarr;
-      Privacy &rarr; Ad privacy settings.</p>
-      <p><span class="label">See</span>
-      <a href="https://policies.google.com/technologies/partner-sites">How Google uses data from
-      partner sites and apps</a></p>
-    </div>
-
-    <div class="svc">
-      <h3>Google Analytics for Firebase</h3>
-      <p><span class="label">Purpose</span> Understanding which features are used and how often,
-      so the app can be improved.</p>
-      <p><span class="label">Data</span> App instance identifier (a random number per install),
-      screens opened, built-in events such as app open or app update, device model, Android
-      version, language, and approximate country derived from the IP address. In addition, the app
-      sends four events of its own that contain only kinds and counts: a study session finished
-      (vocabulary or kanji, and how many cards), the Premium screen opened (from which button),
-      the result of a Premium purchase (succeeded, cancelled or failed, with no payment data), and
-      a practice exam finished (the exam type only). The words you study, your answers, quiz
-      scores, exam scores and results are never included.</p>
-    </div>
-
-    <div class="svc">
-      <h3>Firebase Crashlytics</h3>
-      <p><span class="label">Purpose</span> Receiving reports when the app crashes, or when an
-      operation fails midway (such as backing up data or processing a purchase), so it can be
-      fixed.</p>
-      <p><span class="label">Data</span> Stack traces, device model, Android version, app
-      version, free memory and storage, and a random Crashlytics installation identifier.</p>
-    </div>
-
-    <div class="svc">
-      <h3>Firebase Performance Monitoring</h3>
-      <p><span class="label">Purpose</span> Measuring app speed, such as how long the app takes
-      to start and how long a screen takes to appear.</p>
-      <p><span class="label">Data</span> Durations, device model, Android version, app version
-      and connection type.</p>
-    </div>
-
-    <div class="svc">
-      <h3>Google Play Billing</h3>
-      <p><span class="label">Purpose</span> Processing Premium purchases.</p>
-      <p><span class="label">Data</span> Purchases are handled entirely by Google Play. The app
-      only receives an "entitlement active" or "not active" answer and stores it on the phone.
-      <strong>The app never sees or stores card numbers, cardholder names or any payment
-      details.</strong></p>
-    </div>
-
-    <div class="svc">
-      <h3>Google Play In-App Review</h3>
-      <p><span class="label">Purpose</span> Showing a prompt to rate the app on the Play
-      Store.</p>
-      <p><span class="label">Data</span> Your rating and review go directly to Google Play. The
-      app never learns how many stars you gave, or even whether you rated it at all.</p>
-    </div>
-
-    <div class="svc">
-      <h3>Google Play Install Referrer</h3>
-      <p><span class="label">Purpose</span> Used automatically by the Google SDKs above to
-      determine the install source, for example an ad campaign.</p>
-    </div>
-
-    <h2>6. App permissions and why</h2>
-    <div class="perm">
-      <div><b>Internet and network state</b><span>Loading ads, sending usage statistics and
-      crash reports, and checking Premium status.</span></div>
-      <div><b>Notifications</b><span>Daily study reminders and alerts when cards are due. You may
-      decline; the app works normally without notifications.</span></div>
-      <div><b>Run after the phone restarts</b><span>Re-registering reminder schedules after a
-      reboot. Without it, every reminder is lost each time the phone is switched off.</span></div>
-      <div><b>Advertising ID</b><span>Used by the AdMob SDK to show and measure ads.</span></div>
-      <div><b>Billing</b><span>Premium purchases through Google Play.</span></div>
-    </div>
-
-    <h2>7. Ads and your choices</h2>
-    <ul>
-      <li>In regions where consent is required, a consent form appears before the first ad
-      loads, and the app requests no ads at all until you answer it.</li>
-      <li>Refusing consent stops personalised advertising, but does not always stop advertising
-      altogether: some basic advertising purposes run on the basis of "legitimate interest". To
-      refuse those as well, open <strong>Manage options</strong> in the consent form, or go to
-      Settings &rarr; Privacy &rarr; Ad privacy settings.</li>
-      <li>In all regions you can limit personalised ads through <strong>Android Settings &rarr;
-      Google &rarr; All services &rarr; Ads</strong>, by deleting or resetting your Advertising
-      ID.</li>
-      <li>Subscribing to Premium, or watching a rewarded ad, stops the app from loading ads for
-      that period.</li>
-      <li>Ads are never shown on flashcard screens, quiz screens or exam question screens
-      &mdash; for every user, paying or not.</li>
-      <li>We do not sell personal data. However, personalised advertising through AdMob may
-      count as "sharing data for cross-context behavioural advertising" under some laws, such as
-      the CCPA in California. Limiting your Advertising ID as described above stops this.</li>
-    </ul>
-
-    <h2>8. Children</h2>
-    <p>TokuGo is intended for teenage and adult learners of Japanese, not for children under 13,
-    or another minimum age that applies in your country. We do not knowingly collect data from
-    children. If you are a parent or guardian and believe your child has provided data through
-    this app, contact us and we will address it.</p>
-
-    <h2>9. How long data is kept</h2>
-    <p><strong>On your phone:</strong> until you delete it within the app or uninstall the
-    app.</p>
-    <p><strong>In Google services:</strong> according to Google's retention policy for each
-    service. Crash reports and analytics data are kept for a limited period, then deleted or
-    retained only in aggregate form.</p>
-
-    <h2>10. Your rights</h2>
-    <p>Because we hold no data about you on any server of ours, you can exercise most rights
-    yourself, immediately:</p>
-    <ul>
-      <li><strong>Access:</strong> everything is on your phone. Use the backup export to read it
-      as a file.</li>
-      <li><strong>Deletion:</strong> uninstall the app &mdash; all local data goes with it.</li>
-      <li><strong>Opt out of personalised ads:</strong> see section 7.</li>
-      <li>If you are in a region with data protection laws, such as the GDPR in the European
-      Union and the United Kingdom, the CCPA in California, or the PDP Law in Indonesia, you
-      also have the right to request information, correction, erasure, and to object to
-      processing of data held by Google as our partner. Email the address in section 15 and we
-      will help as far as we are able.</li>
-    </ul>
-
-    <h2 id="delete-data">11. Deleting your data</h2>
-    <p>This section applies to the <strong>TokuGo</strong> Android app
-    (<code>com.tokugo.app</code>) on Google Play. There are two routes, and the first is enough
-    for almost everyone.</p>
-
-    <h3>Route 1 &mdash; delete it yourself, immediately</h3>
-    <ol>
-      <li>Open <strong>Settings</strong> on your phone.</li>
-      <li>Choose <strong>Apps</strong>, then find and select <strong>TokuGo</strong>.</li>
-      <li>Tap <strong>Uninstall</strong> and confirm.</li>
-    </ol>
-    <p>No permission from anyone is needed and there is no waiting period. The moment the app is
-    removed, <strong>all</strong> of the following is deleted from your phone:</p>
-    <ul>
-      <li>study records: vocabulary and kanji flashcards, the history of every card rating, review
-      schedules, the mastery stage of each word;</li>
-      <li>daily statistics, quiz sessions, practice exam sessions and your answers, bookmarks,
-      study goals, and item reports;</li>
-      <li>settings: language, theme, reminder time, furigana display, last opened category;</li>
-      <li>the local copy of your Premium status, ad counters, and rating-prompt counters;</li>
-      <li>the random number (UUID) used to shuffle exam question order.</li>
-    </ul>
-    <p>The only thing <strong>not</strong> deleted is any JSON backup file you exported yourself,
-    because that file is yours and is stored where you chose to put it. Delete it manually if you
-    no longer need it.</p>
-
-    <h3>Route 2 &mdash; request deletion of technical data held by Google services</h3>
-    <ol>
-      <li>Email <a href="mailto:amdigracrative@gmail.com">amdigracrative@gmail.com</a>.</li>
-      <li>Use the subject <strong>TokuGo data deletion request</strong>.</li>
-      <li>State your phone make and model and roughly when you last used the app, so the request
-      can be passed on correctly.</li>
-    </ol>
-    <p>We respond within <strong>30 days</strong>. This route covers the technical data held by
-    Google AdMob, Google Analytics for Firebase, Firebase Crashlytics and Firebase Performance
-    Monitoring: Advertising ID, app instance identifier, Crashlytics installation identifier,
-    crash reports, and speed measurements. Details are in section 5.</p>
-
-    <h3>How long data is kept afterwards</h3>
-    <ul>
-      <li><strong>On your phone:</strong> no additional retention at all. The data is gone the
-      moment the app is uninstalled.</li>
-      <li><strong>On our side:</strong> no additional retention, because we run no server and
-      never hold a copy of anything about you.</li>
-      <li><strong>In Google services:</strong> according to the retention period that applies to
-      each service, after which it is deleted or kept only in aggregate form that cannot be linked
-      to any person. See the <a href="https://policies.google.com/privacy">Google Privacy
-      Policy</a>.</li>
-    </ul>
-
-    <h2>12. International processing</h2>
-    <p>Google services process data in data centres across many countries, including the United
-    States. By using this app you understand that such technical data may be processed outside
-    your country of residence.</p>
-
-    <h2>13. Security</h2>
-    <p>Your study records sit in the app's private storage, protected by Android and unreadable
-    by other apps. Because study data never leaves your phone, there is no user database on our
-    side that could be breached.</p>
-
-    <h2>14. Changes to this policy</h2>
-    <p>If this policy changes, the "Effective" date at the top will be updated and significant
-    changes will accompany an app update. The current version is always available at this
-    address.</p>
-
-    <h2>15. Contact us</h2>
-    <p>Email: <a href="mailto:amdigracrative@gmail.com">amdigracrative@gmail.com</a><br>
-    App: TokuGo (<code>com.tokugo.app</code>)</p>
-
-    <footer>
-      <p>&copy; 2026 TokuGo. This policy covers the TokuGo Android app and does not cover
-      third-party services you open from inside the app.</p>
-    </footer>
-  </main>
-
-</div>
-
-<script>
-  (function () {
-    var root = document.documentElement;
-    var buttons = document.querySelectorAll('.langbar button');
-
-    function apply(lang, remember) {
-      if (lang !== 'en') { lang = 'id'; }
-      root.setAttribute('data-lang', lang);
-      root.setAttribute('lang', lang);
-      for (var i = 0; i < buttons.length; i++) {
-        buttons[i].setAttribute('aria-pressed', buttons[i].dataset.set === lang ? 'true' : 'false');
-      }
-      if (remember) {
-        try { localStorage.setItem('tokugo-privacy-lang', lang); } catch (e) { /* mode privat */ }
-      }
-    }
-
-    // Urutan: ?lang= atau #en di alamat, lalu pilihan tersimpan, lalu bahasa peramban.
-    var wanted = null;
-    var match = /[?&]lang=(id|en)/i.exec(location.search);
-    if (match) { wanted = match[1].toLowerCase(); }
-    else if (location.hash === '#en') { wanted = 'en'; }
-    if (!wanted) {
-      try { wanted = localStorage.getItem('tokugo-privacy-lang'); } catch (e) { /* mode privat */ }
-    }
-    if (!wanted) {
-      var nav = (navigator.language || 'id').toLowerCase();
-      wanted = (nav.indexOf('id') === 0 || nav.indexOf('in') === 0) ? 'id' : 'en';
-    }
-    apply(wanted, false);
-
-    // Tautan dalam dari Play Console memakai #hapus-data. Bagian yang sama bernama
-    // #delete-data di versi Inggris, jadi digulir ke mana pun yang sedang tampil.
-    var anchors = { '#hapus-data': 1, '#delete-data': 1 };
-    if (anchors[location.hash]) {
-      var target = document.querySelector('main[lang="' + (wanted === 'en' ? 'en' : 'id') + '"] h2[id]');
-      if (target) { target.scrollIntoView(); }
-    }
-
-    for (var j = 0; j < buttons.length; j++) {
-      buttons[j].addEventListener('click', function () {
-        apply(this.dataset.set, true);
-        window.scrollTo(0, 0);
-      });
-    }
-  })();
-</script>
 </body>
 </html>
