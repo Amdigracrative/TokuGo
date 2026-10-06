@@ -17,6 +17,16 @@
   src: url('font/sourcesans3-latin.woff') format('woff');
   font-weight: 400 700;
   font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010-2027, U+2190-2193;
+}
+/* Huruf Vietnam dan Kiril (Mongolia). Karena unicode-range, peramban hanya mengunduh
+   berkas ini di halaman yang memang memakai huruf-huruf itu. */
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('font/sourcesans3-luas.woff') format('woff');
+  font-weight: 400 700;
+  font-display: swap;
+  unicode-range: U+0100-024F, U+0300-036F, U+0400-04FF, U+1E00-1EFF, U+20AB;
 }
 @font-face {
   font-family: 'Zen Kaku Gothic New';
@@ -45,11 +55,20 @@
 
   --lebar: 1120px;
   --tepi: 20px;
+
+  /* Tinggi baris dan ukuran judul. Diubah per aksara di bagian TIPOGRAFI PER AKSARA. */
+  --b-isi: 1.55;
+  --b-h1: 1.07;
+  --b-h2: 1.15;
+  --b-h3: 1.25;
+  --b-kecil: 1.3;
+  --u-h1: clamp(2.1rem, 8.4vw, 3.75rem);
+  --ls: 1;          /* pengali jarak huruf judul; 0 untuk aksara yang tidak boleh dirapatkan */
 }
 
 * { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 68px; }
 
 body {
   margin: 0;
@@ -57,7 +76,7 @@ body {
   color: var(--tinta);
   font-family: 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
   font-size: 17px;
-  line-height: 1.55;
+  line-height: var(--b-isi);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -100,9 +119,21 @@ ul, ol { padding: 0; list-style: none; }
 .malam > * { position: relative; }
 
 /* --------------------------------------------------------------------------
-   KEPALA: 56px, sama dengan kepala layar di aplikasi
+   KEPALA: tetap di atas saat halaman digulir, 56px seperti kepala layar aplikasi.
+   Berdiri sendiri di luar bagian .malam, karena `position: sticky` tidak bekerja di
+   dalam wadah yang `overflow: hidden`.
    -------------------------------------------------------------------------- */
 .kepala {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  color: #fff;
+  background: rgba(37, 33, 74, 0.96);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+.kepala .wadah {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -121,7 +152,7 @@ ul, ol { padding: 0; list-style: none; }
 .merek img { width: 32px; height: 32px; border-radius: 9px; }
 
 .menu { display: flex; align-items: center; gap: 2px; }
-.menu a {
+.menu > a {
   display: inline-flex;
   align-items: center;
   min-height: 44px;
@@ -131,15 +162,72 @@ ul, ol { padding: 0; list-style: none; }
   font-size: 0.95rem;
   font-weight: 600;
   text-decoration: none;
+  white-space: nowrap;
 }
-.menu a:hover { color: #fff; background: rgba(255, 255, 255, 0.08); }
-.menu .bahasa {
-  min-height: 36px;
-  margin-left: 6px;
+.menu > a:hover { color: #fff; background: rgba(255, 255, 255, 0.08); }
+/* Di HP, kata "privasi" yang panjang (bahasa selain Indonesia/Inggris) tidak muat di
+   samping merek dan pemilih bahasa. Tautannya tetap ada di kaki halaman. */
+@media (max-width: 560px) { .menu > a.panjang { display: none; } }
+
+/* Pemilih bahasa: <details> biasa, jadi tetap bisa dibuka tanpa JavaScript */
+.bahasa { position: relative; margin-left: 6px; }
+.bahasa summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 40px;
+  padding: 0 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  color: #fff;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
-@media (max-width: 400px) { .menu .opsional { display: none; } }
+.bahasa summary::-webkit-details-marker { display: none; }
+.bahasa summary::after {
+  content: '';
+  width: 7px; height: 7px;
+  margin: -4px 2px 0 1px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  opacity: 0.8;
+}
+.bahasa summary:hover, .bahasa[open] summary { background: rgba(255, 255, 255, 0.1); }
+.bahasa ul {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  width: 240px;
+  max-height: calc(100vh - 76px);
+  overflow-y: auto;
+  padding: 6px;
+  border: 1px solid var(--garis);
+  border-radius: 16px;
+  background: var(--kertas);
+  color: var(--tinta);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.35);
+}
+.bahasa li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.bahasa li a:hover { background: var(--washi); }
+.bahasa li a[aria-current] { background: var(--kesemek-lembut); color: #350D02; }
+.bendera { font-size: 1.3em; line-height: 1; }
+/* Windows tidak punya gambar bendera; lihat skrip di kaki halaman */
+.tanpa-bendera .bendera { display: none; }
 
 /* --------------------------------------------------------------------------
    PEMBUKA
@@ -160,14 +248,12 @@ ul, ol { padding: 0; list-style: none; }
 
 h1 {
   margin-top: 14px;
-  font-size: clamp(2.1rem, 8.4vw, 3.75rem);
-  line-height: 1.07;
+  font-size: var(--u-h1);
+  line-height: var(--b-h1);
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: calc(-0.02em * var(--ls));
 }
 h1 b, .malam h2 b { color: var(--indigo); font-weight: inherit; }
-/* Frasa beraksen tidak boleh terbelah dua baris ("kerja dan" / "JLPT") */
-h1 b { white-space: nowrap; }
 h1, h2, h3 { text-wrap: balance; }
 
 /* Garis koral: tanda yang sama dengan garis di bawah kanji pada ikon aplikasi */
@@ -182,7 +268,7 @@ h1, h2, h3 { text-wrap: balance; }
   max-width: 34em;
   color: var(--putih-lembut);
   font-size: 1.1rem;
-  line-height: 1.5;
+  line-height: calc(var(--b-isi) - 0.05);
 }
 
 .aksi { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 22px; margin-top: 22px; }
@@ -269,7 +355,7 @@ h1, h2, h3 { text-wrap: balance; }
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
-.angka li > span { display: block; margin-top: 2px; color: var(--tinta-lembut); font-size: 0.93rem; line-height: 1.3; }
+.angka li > span { display: block; margin-top: 2px; color: var(--tinta-lembut); font-size: 0.93rem; line-height: var(--b-kecil); }
 @media (min-width: 760px) {
   .angka { grid-template-columns: repeat(4, 1fr); }
   .angka li { padding: 20px 22px 22px; }
@@ -285,11 +371,11 @@ h1, h2, h3 { text-wrap: balance; }
 h2 {
   margin-bottom: 18px;
   font-size: clamp(1.55rem, 5vw, 2.1rem);
-  line-height: 1.15;
+  line-height: var(--b-h2);
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: calc(-0.015em * var(--ls));
 }
-h3 { font-size: 1.2rem; line-height: 1.25; letter-spacing: -0.01em; }
+h3 { font-size: 1.2rem; line-height: var(--b-h3); letter-spacing: calc(-0.01em * var(--ls)); }
 
 @media (min-width: 900px) {
   .bagian { padding: 60px 0; }
@@ -342,7 +428,7 @@ h3 { font-size: 1.2rem; line-height: 1.25; letter-spacing: -0.01em; }
   border: 1.5px solid;
   border-radius: 12px;
   text-align: center;
-  line-height: 1.2;
+  line-height: calc(var(--b-kecil) - 0.1);
 }
 .nilai b { display: block; font-size: 0.93rem; }
 .nilai i { display: block; margin-top: 2px; font-size: 0.82rem; font-style: normal; opacity: 0.78; }
@@ -378,7 +464,7 @@ h3 { font-size: 1.2rem; line-height: 1.25; letter-spacing: -0.01em; }
   border-radius: 999px;
   background: var(--washi);
   font-size: 0.9rem;
-  line-height: 1.35;
+  line-height: calc(var(--b-kecil) + 0.05);
 }
 .keping .lebih { border-color: transparent; background: var(--kesemek-lembut); color: #350D02; font-weight: 600; }
 
@@ -407,13 +493,13 @@ h3 { font-size: 1.2rem; line-height: 1.25; letter-spacing: -0.01em; }
 }
 .galeri img { width: 100%; border-radius: 23px; }
 .galeri figcaption { padding: 12px 2px 0; }
-.galeri figcaption b { display: block; font-size: 1.05rem; line-height: 1.25; }
+.galeri figcaption b { display: block; font-size: 1.05rem; line-height: var(--b-h3); }
 .galeri figcaption > span {
   display: block;
   margin-top: 3px;
   color: var(--putih-lembut);
   font-size: 0.93rem;
-  line-height: 1.35;
+  line-height: calc(var(--b-kecil) + 0.05);
 }
 .catatan-galeri { margin-top: 8px; color: var(--putih-lembut); font-size: 0.88rem; }
 
@@ -483,6 +569,27 @@ h3 { font-size: 1.2rem; line-height: 1.25; letter-spacing: -0.01em; }
 .kaki a:hover { color: #fff; }
 
 @media (min-width: 900px) { .penutup { padding: 72px 0 64px; } }
+
+/* --------------------------------------------------------------------------
+   TIPOGRAFI PER AKSARA
+   Ukuran bawaan disetel untuk huruf Latin. Aksara yang menumpuk tanda di atas dan di
+   bawah huruf butuh baris lebih lega (kalau tidak, tanda baris kedua menabrak baris
+   pertama), dan jarak hurufnya tidak boleh dirapatkan. Sama dengan penyesuaian di
+   docs/play-listing/template/tema.css.
+   -------------------------------------------------------------------------- */
+html:lang(vi) { --b-h1: 1.2; --b-h2: 1.25; --b-h3: 1.3; }
+html:lang(zh-CN) {
+  --b-isi: 1.7; --b-h1: 1.25; --b-h2: 1.3; --b-h3: 1.4; --b-kecil: 1.45;
+  --u-h1: clamp(2rem, 8vw, 3.4rem); --ls: 0;
+}
+html:lang(th), html:lang(ne), html:lang(hi), html:lang(bn) {
+  --b-isi: 1.7; --b-h1: 1.34; --b-h2: 1.38; --b-h3: 1.42; --b-kecil: 1.5;
+  --u-h1: clamp(1.85rem, 7.4vw, 3.2rem); --ls: 0;
+}
+html:lang(my), html:lang(km), html:lang(si) {
+  --b-isi: 1.9; --b-h1: 1.5; --b-h2: 1.5; --b-h3: 1.55; --b-kecil: 1.65;
+  --u-h1: clamp(1.7rem, 6.8vw, 3rem); --ls: 0;
+}
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

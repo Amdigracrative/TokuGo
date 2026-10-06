@@ -7,33 +7,53 @@
 <meta name="description" content="Aplikasi flashcard kosakata dan kanji bahasa Jepang untuk calon pekerja SSW (Tokutei Ginou) dan peserta JLPT N5–N1: 36.385 kata, 2.230 kanji, kuis, dan simulasi ujian JFT-Basic dan JLPT.">
 
 <!--
-  ============================================================================
-  HALAMAN UTAMA tokugo.my.id (bahasa Indonesia). Versi Inggris: en/index.html.
-  Kalau mengubah isi di sini, ubah juga di en/index.html.
-
-  Semua angka dan klaim di halaman ini SAMA dengan deskripsi Play Store
-  (docs/play-listing/indonesia/3-deskripsi-lengkap.txt) dan sudah dicocokkan
-  dengan aplikasinya. Jangan menulis angka baru di sini tanpa mengeceknya.
-
-  Cara menerbitkan: docs/situs/README.md.
-  ============================================================================
+  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html dan
+  docs/situs/sumber/teks/id.json. Jangan disunting di sini: perubahan akan tertimpa.
 -->
-
-<!-- Aplikasi versi lama membuka kebijakan privasi di alamat akar dengan ?lang=en.
-     Sekarang akar adalah halaman ini, jadi pengunjung itu diantar ke versi Inggris. -->
-<script>if (/[?&]lang=en\b/.test(location.search)) location.replace('en/');</script>
-
+<script>
+(function () {
+  var ADA = ["id", "en", "vi", "ne", "my", "fil", "th", "km", "mn", "si", "bn", "hi", "zh"];
+  var SAMA = { 'in': 'id', 'tl': 'fil' };
+  // Aplikasi versi lama membuka kebijakan privasi berbahasa Inggris di alamat akar.
+  if (/[?&]lang=en\b/.test(location.search)) { location.replace('privacy/?lang=en'); return; }
+  if (/bot|crawl|spider|slurp|preview|inspectiontool|lighthouse|headless|facebookexternalhit|whatsapp|telegram/i.test(navigator.userAgent)) return;
+  var pilih = null;
+  try { pilih = localStorage.getItem('bahasa'); } catch (e) {}
+  if (ADA.indexOf(pilih) < 0) {
+    pilih = null;
+    var hp = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'id'];
+    for (var i = 0; i < hp.length && !pilih; i++) {
+      var k = String(hp[i]).toLowerCase().split(/[-_]/)[0];
+      k = SAMA[k] || k;
+      if (ADA.indexOf(k) >= 0) pilih = k;
+    }
+    pilih = pilih || 'en';
+  }
+  if (pilih !== 'id') location.replace(pilih + '/');
+})();
+</script>
 <link rel="canonical" href="https://tokugo.my.id/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="TokuGo">
 <meta property="og:locale" content="id_ID">
 <meta property="og:url" content="https://tokugo.my.id/">
-<meta property="og:title" content="TokuGo: kosakata &amp; kanji Jepang untuk kerja dan JLPT">
-<meta property="og:description" content="Flashcard, kuis, dan latihan ujian JFT-Basic dan JLPT N5–N1. 36.385 kata, 2.230 kanji, 21 kategori khusus tempat kerja.">
+<meta property="og:title" content="TokuGo: flashcard kosakata &amp; kanji Jepang untuk JFT-Basic dan JLPT">
+<meta property="og:description" content="Aplikasi flashcard kosakata dan kanji bahasa Jepang untuk calon pekerja SSW (Tokutei Ginou) dan peserta JLPT N5–N1: 36.385 kata, 2.230 kanji, kuis, dan simulasi ujian JFT-Basic dan JLPT.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-id.jpg">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="500">
@@ -53,38 +73,59 @@
   "name": "TokuGo",
   "operatingSystem": "Android 7.0+",
   "applicationCategory": "EducationalApplication",
-  "description": "Aplikasi flashcard kosakata dan kanji bahasa Jepang untuk JFT-Basic dan JLPT N5–N1.",
+  "inLanguage": "id",
+  "description": "Aplikasi flashcard kosakata dan kanji bahasa Jepang untuk calon pekerja SSW (Tokutei Ginou) dan peserta JLPT N5–N1: 36.385 kata, 2.230 kanji, kuis, dan simulasi ujian JFT-Basic dan JLPT.",
   "url": "https://tokugo.my.id/",
   "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "IDR" }
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
 }
 </script>
 </head>
 
 <body>
 
-<header class="malam">
+<header class="kepala">
   <div class="wadah">
-    <div class="kepala">
-      <a class="merek" href="./" aria-label="TokuGo, halaman utama">
-        <img src="aset/ikon-96.png" width="32" height="32" alt="">
-        TokuGo
-      </a>
-      <nav class="menu" aria-label="Menu">
-        <a class="opsional" href="#fitur">Fitur</a>
-        <a href="privacy/">Privasi</a>
-        <a class="bahasa" href="en/" lang="en" hreflang="en" aria-label="English version">EN</a>
-      </nav>
-    </div>
+    <a class="merek" href="./" aria-label="TokuGo">
+      <img src="aset/ikon-96.png" width="32" height="32" alt="">
+      TokuGo
+    </a>
+    <nav class="menu">
+      <a href="privacy/">Privasi</a>
+      <details class="bahasa">
+        <summary aria-label="Pilih bahasa"><span class="bendera" aria-hidden="true">🇮🇩</span><span class="kode">ID</span></summary>
+        <ul>
+          <li><a href="./" lang="id" hreflang="id" data-bahasa="id" aria-current="true"><span class="bendera" aria-hidden="true">🇮🇩</span>Bahasa Indonesia</a></li>
+          <li><a href="en/" lang="en" hreflang="en" data-bahasa="en"><span class="bendera" aria-hidden="true">🇬🇧</span>English</a></li>
+          <li><a href="vi/" lang="vi" hreflang="vi" data-bahasa="vi"><span class="bendera" aria-hidden="true">🇻🇳</span>Tiếng Việt</a></li>
+          <li><a href="ne/" lang="ne" hreflang="ne" data-bahasa="ne"><span class="bendera" aria-hidden="true">🇳🇵</span>नेपाली</a></li>
+          <li><a href="my/" lang="my" hreflang="my" data-bahasa="my"><span class="bendera" aria-hidden="true">🇲🇲</span>မြန်မာဘာသာ</a></li>
+          <li><a href="fil/" lang="fil" hreflang="fil" data-bahasa="fil"><span class="bendera" aria-hidden="true">🇵🇭</span>Filipino</a></li>
+          <li><a href="th/" lang="th" hreflang="th" data-bahasa="th"><span class="bendera" aria-hidden="true">🇹🇭</span>ไทย</a></li>
+          <li><a href="km/" lang="km" hreflang="km" data-bahasa="km"><span class="bendera" aria-hidden="true">🇰🇭</span>ខ្មែរ</a></li>
+          <li><a href="mn/" lang="mn" hreflang="mn" data-bahasa="mn"><span class="bendera" aria-hidden="true">🇲🇳</span>Монгол</a></li>
+          <li><a href="si/" lang="si" hreflang="si" data-bahasa="si"><span class="bendera" aria-hidden="true">🇱🇰</span>සිංහල</a></li>
+          <li><a href="bn/" lang="bn" hreflang="bn" data-bahasa="bn"><span class="bendera" aria-hidden="true">🇧🇩</span>বাংলা</a></li>
+          <li><a href="hi/" lang="hi" hreflang="hi" data-bahasa="hi"><span class="bendera" aria-hidden="true">🇮🇳</span>हिन्दी</a></li>
+          <li><a href="zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh"><span class="bendera" aria-hidden="true">🇨🇳</span>简体中文</a></li>
+        </ul>
+      </details>
+    </nav>
+  </div>
+</header>
 
+<div class="malam">
+  <div class="wadah">
     <div class="pembuka">
       <div class="teks">
-        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5&ndash;N1</span></span>
-        <h1>Kosakata &amp; kanji Jepang untuk <b>kerja dan JLPT</b></h1>
+        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span></span>
+        <h1>Kosakata &amp; kanji Jepang untuk <b class="rapat">kerja dan JLPT</b></h1>
         <div class="garis-koral"></div>
-        <p class="pengantar">TokuGo adalah aplikasi flashcard (kartu hafalan) kosakata dan kanji
-        bahasa Jepang untuk calon pekerja Tokutei Ginou (SSW) yang harus lulus <span class="rapat">JFT-Basic</span>, dan
-        untuk peserta JLPT N5 sampai N1.</p>
+        <p class="pengantar">TokuGo adalah aplikasi flashcard (kartu hafalan) kosakata dan kanji bahasa Jepang untuk calon pekerja Tokutei Ginou (SSW) yang harus lulus <span class="rapat">JFT-Basic</span>, dan untuk peserta JLPT N5 sampai N1.</p>
         <div class="aksi">
           <a class="tombol" href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
@@ -97,13 +138,12 @@
 
       <div class="panggung">
         <div class="hp">
-          <img src="aset/layar/id/kartu.webp" width="540" height="1200" fetchpriority="high"
-               alt="Layar kartu TokuGo: kata 介護 (kaigo) dengan arti perawatan, dari kategori Perawatan Lansia">
+          <img src="aset/layar/id/kartu.webp" width="540" height="1200" fetchpriority="high" alt="TokuGo: flashcard kosakata &amp; kanji Jepang untuk JFT-Basic dan JLPT">
         </div>
       </div>
     </div>
   </div>
-</header>
+</div>
 
 <main>
 
@@ -112,7 +152,7 @@
       <li><b>36.385</b><span>kata dengan cara baca, romaji, dan arti</span></li>
       <li><b>2.230</b><span>kanji JLPT dengan urutan goresan</span></li>
       <li><b>107</b><span>kategori kosakata, 21 khusus tempat kerja</span></li>
-      <li><b>6</b><span>level simulasi ujian: <span class="rapat">JFT-Basic</span> dan JLPT <span class="rapat">N5&ndash;N1</span></span></li>
+      <li><b>6</b><span>level simulasi ujian: <span class="rapat">JFT-Basic</span> dan JLPT <span class="rapat">N5–N1</span></span></li>
     </ul>
   </div>
 
@@ -126,11 +166,9 @@
             <span class="ubin" lang="ja" aria-hidden="true">覚</span>
             <h3>Kartu yang tahu kapan kamu akan lupa</h3>
           </div>
-          <p>Setiap kartu dijadwalkan dengan FSRS, algoritma pengulangan berjarak modern. Kamu
-          cukup menilai diri sendiri, lalu aplikasi menghitung kapan kata itu muncul lagi:
-          beberapa menit, hari, atau minggu kemudian. Jadwalnya tertulis di setiap tombol.</p>
+          <p>Setiap kartu dijadwalkan dengan FSRS, algoritma pengulangan berjarak modern. Kamu cukup menilai diri sendiri, lalu aplikasi menghitung kapan kata itu muncul lagi: beberapa menit, hari, atau minggu kemudian. Jadwalnya tertulis di setiap tombol.</p>
           <div class="peraga">
-            <div class="nilai" role="img" aria-label="Contoh tombol nilai: Belum hafal muncul lagi 5 menit, Ragu 6 hari, Hafal 15 hari">
+            <div class="nilai">
               <span class="belum"><b>Belum hafal</b><i>5 menit</i></span>
               <span class="ragu"><b>Ragu</b><i>6 hari</i></span>
               <span class="hafal"><b>Hafal</b><i>15 hari</i></span>
@@ -143,11 +181,9 @@
             <span class="ubin" lang="ja" aria-hidden="true">証</span>
             <h3>Dikuasai harus dibuktikan</h3>
           </div>
-          <p>Setiap kata melewati empat tahap. Tombol Hafal membawa kata ke tahap Hafal; untuk
-          naik ke Dikuasai, kamu harus menjawabnya benar di kuis pada <b>3 hari berbeda</b>. Kata
-          Dikuasai tetap diuji ulang saat jatuh tempo, dan turun lagi kalau salah.</p>
+          <p>Setiap kata melewati empat tahap. Tombol Hafal membawa kata ke tahap Hafal; untuk naik ke Dikuasai, kamu harus menjawabnya benar di kuis pada <b>3 hari berbeda</b>. Kata Dikuasai tetap diuji ulang saat jatuh tempo, dan turun lagi kalau salah.</p>
           <div class="peraga">
-            <ol class="tahap" aria-label="Empat tahap kata">
+            <ol class="tahap">
               <li><span>Baru</span></li>
               <li><span>Belajar</span></li>
               <li><span>Hafal</span></li>
@@ -161,22 +197,8 @@
             <span class="ubin" lang="ja" aria-hidden="true">働</span>
             <h3>Kosakata tempat kerja, bukan cuma ruang kelas</h3>
           </div>
-          <p>Rumpun Tempat Kerja berisi <b>21 kategori</b>. Untuk hidup di Jepang ada kategori sewa
-          rumah, imigrasi, bank dan kantor pos, rumah sakit, belanja, dan transportasi. Setiap
-          kategori bisa dipelajari per level dan punya kuisnya sendiri.</p>
-          <div class="peraga">
-            <ul class="keping" aria-label="Contoh kategori tempat kerja">
-              <li>Keselamatan kerja</li>
-              <li>Pabrik</li>
-              <li>Konstruksi</li>
-              <li>Pertanian</li>
-              <li>Perikanan</li>
-              <li>Perawatan lansia</li>
-              <li>Perhotelan</li>
-              <li>Restoran</li>
-              <li class="lebih">+13 lainnya</li>
-            </ul>
-          </div>
+          <p>Rumpun Tempat Kerja berisi <b>21 kategori</b>. Untuk hidup di Jepang ada kategori sewa rumah, imigrasi, bank dan kantor pos, rumah sakit, belanja, dan transportasi. Setiap kategori bisa dipelajari per level dan punya kuisnya sendiri.</p>
+          <div class="peraga"><ul class="keping"><li>Keselamatan kerja</li><li>Pabrik</li><li>Konstruksi</li><li>Pertanian</li><li>Perikanan</li><li>Perawatan lansia</li><li>Perhotelan</li><li>Restoran</li><li class="lebih">+13 lainnya</li></ul></div>
         </article>
 
       </div>
@@ -232,20 +254,14 @@
     <div class="wadah dua">
       <article class="kartu">
         <h3>Gratis untuk mulai</h3>
-        <p>Versi gratis langsung memberi <b>9.626 kata</b>: 100 kata teratas di setiap kategori,
-        mencakup 99% kosakata <span class="rapat">JFT-Basic</span> dan 96% JLPT N5, plus seluruh <b>284 kanji N5 dan N4</b>,
-        dengan iklan. Semua simulasi ujian dan seluruh kamus terbuka untuk semua.</p>
-        <p class="kecil">Premium membuka seluruh kata dan kanji <span class="rapat">N3&ndash;N1</span>, menghilangkan iklan, dan
-        memungkinkan belajar tanpa internet. Di versi gratis, memulai sesi belajar atau ujian
-        membutuhkan koneksi internet.</p>
+        <p>Versi gratis langsung memberi <b>9.626 kata</b>: 100 kata teratas di setiap kategori, mencakup 99% kosakata <span class="rapat">JFT-Basic</span> dan 96% JLPT N5, plus seluruh <b>284 kanji N5 dan N4</b>, dengan iklan. Semua simulasi ujian dan seluruh kamus terbuka untuk semua.</p>
+        <p class="kecil">Premium membuka seluruh kata dan kanji <span class="rapat">N3–N1</span>, menghilangkan iklan, dan memungkinkan belajar tanpa internet. Di versi gratis, memulai sesi belajar atau ujian membutuhkan koneksi internet.</p>
       </article>
       <article class="kartu">
         <h3>Catatan belajarmu tetap di <span class="rapat">HP-mu</span></h3>
-        <p>Tanpa akun, tanpa pendaftaran, tanpa kata sandi. Pengembang tidak punya server:
-        catatan belajarmu disimpan di <span class="rapat">HP-mu</span> dan tidak pernah dikirim ke pengembang.</p>
-        <p class="kecil">Iklan, pengukuran pemakaian, dan laporan kerusakan memakai layanan Google.
-        Rinciannya ada di kebijakan privasi.</p>
-        <a class="tautan" href="privacy/">Baca Kebijakan Privasi &rarr;</a>
+        <p>Tanpa akun, tanpa pendaftaran, tanpa kata sandi. Pengembang tidak punya server: catatan belajarmu disimpan di <span class="rapat">HP-mu</span> dan tidak pernah dikirim ke pengembang.</p>
+        <p class="kecil">Iklan, pengukuran pemakaian, dan laporan kerusakan memakai layanan Google. Rinciannya ada di kebijakan privasi.</p>
+        <a class="tautan" href="privacy/">Kebijakan Privasi &rarr;</a>
       </article>
     </div>
   </section>
@@ -266,14 +282,47 @@
     </div>
     <div class="kaki">
       <span>&copy; 2026 TokuGo</span>
-      <nav aria-label="Tautan kaki">
+      <nav>
         <a href="privacy/">Kebijakan Privasi</a>
         <a href="mailto:amdigracrative@gmail.com">Kontak</a>
-        <a href="en/" lang="en" hreflang="en">English</a>
       </nav>
     </div>
   </div>
 </footer>
+
+<script>
+(function () {
+  // Bahasa yang dipilih sendiri diingat, supaya halaman akar tidak mengantar pengunjung
+  // kembali ke bahasa HP-nya setiap kali dibuka.
+  var pemilih = document.querySelector('.bahasa');
+  pemilih.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a[data-bahasa]') : null;
+    if (a) { try { localStorage.setItem('bahasa', a.getAttribute('data-bahasa')); } catch (x) {} }
+  });
+  // Daftar bahasa menutup sendiri saat mengetuk di luarnya atau menekan Esc.
+  document.addEventListener('click', function (e) {
+    if (pemilih.open && !pemilih.contains(e.target)) pemilih.open = false;
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') pemilih.open = false;
+  });
+  // Windows tidak punya gambar bendera di font emojinya dan menampilkan dua huruf kode
+  // negara. Kalau begitu benderanya disembunyikan; kode bahasa di sebelahnya sudah cukup.
+  try {
+    var k = document.createElement('canvas');
+    k.width = k.height = 24;
+    var c = k.getContext('2d');
+    c.font = '18px sans-serif';
+    c.textBaseline = 'top';
+    c.fillText('🇮🇩', 0, 2);
+    var d = c.getImageData(0, 0, 24, 24).data, berwarna = false;
+    for (var i = 0; i < d.length; i += 4) {
+      if (d[i + 3] > 40 && (Math.abs(d[i] - d[i + 1]) > 40 || Math.abs(d[i] - d[i + 2]) > 40)) { berwarna = true; break; }
+    }
+    if (!berwarna) document.documentElement.className += ' tanpa-bendera';
+  } catch (x) {}
+})();
+</script>
 
 </body>
 </html>
