@@ -16,7 +16,7 @@
        Play Console berbeda; Google membandingkan keduanya.
     2. Email kontak     - sekarang amdigracrative@gmail.com. Ganti kalau mau
        pakai email khusus aplikasi.
-    3. Tanggal berlaku  - 24 September 2026.
+    3. Tanggal berlaku  - 13 Oktober 2026 (versi 1.2).
 
   Bahasa: Indonesia (bawaan) dan Inggris dalam satu halaman.
   Tambahkan ?lang=en di belakang alamat untuk membuka versi Inggris langsung.
@@ -217,7 +217,7 @@
     <header>
       <h1>Kebijakan Privasi TokuGo</h1>
       <!-- PERIKSA 3: tanggal berlaku -->
-      <p class="stamp">Berlaku sejak 28 September 2026 &middot; Versi 1.1</p>
+      <p class="stamp">Berlaku sejak 13 Oktober 2026 &middot; Versi 1.2</p>
     </header>
 
     <div class="tldr">
@@ -225,8 +225,10 @@
       nama, alamat email, atau nomor teleponmu. Seluruh catatan belajarmu disimpan di dalam
       HP-mu sendiri dan tidak pernah dikirim ke pengembang &mdash; kami memang tidak punya
       server. Yang keluar dari HP hanyalah data teknis milik layanan Google yang kami pakai
-      untuk menampilkan iklan, mengukur pemakaian, dan menerima laporan kerusakan. Kami tidak
-      menjual data pribadimu.</p>
+      untuk menampilkan iklan, mengukur pemakaian, dan menerima laporan kerusakan. Satu
+      pengecualian yang kamu kendalikan sendiri: kalau kamu memakai Latihan Ucap, suaramu
+      diproses layanan pengenal suara di HP-mu (bagian 5) &mdash; TokuGo sendiri tidak merekam
+      atau menyimpannya. Kami tidak menjual data pribadimu.</p>
     </div>
 
     <h2>1. Tentang kebijakan ini</h2>
@@ -239,8 +241,11 @@
     <h2>2. Yang tidak kami lakukan</h2>
     <ul>
       <li>Tidak ada pendaftaran akun, login, nama, alamat email, atau nomor telepon.</li>
-      <li>Tidak ada akses ke kontak, kamera, mikrofon, galeri foto, SMS, atau lokasi GPS.
-      Aplikasi tidak meminta izin-izin itu sama sekali.</li>
+      <li>Tidak ada akses ke kontak, kamera, galeri foto, SMS, atau lokasi GPS. Aplikasi tidak
+      meminta izin-izin itu sama sekali.</li>
+      <li>Tidak ada rekaman suara. Mikrofon hanya dipakai Latihan Ucap, baru setelah kamu
+      mengizinkannya, dan suaramu tidak direkam atau disimpan aplikasi (lihat bagian 5
+      dan 6).</li>
       <li>Tidak ada catatan belajar &mdash; kata yang kamu pelajari, nilai kuis, hasil ujian
       &mdash; yang dikirim ke pengembang.</li>
       <li>Kami tidak menjual data pribadi kepada siapa pun.</li>
@@ -252,12 +257,15 @@
     <ul>
       <li>Progres belajar: kartu hafalan kosakata dan kanji, riwayat setiap penilaian kartu,
       jadwal ulangan berikutnya, dan tahap penguasaan tiap kata.</li>
+      <li>Progres pelajaran dasar: hiragana, katakana, dan pelajaran tata bahasa yang sudah
+      kamu buka beserta hasil latihannya.</li>
       <li>Statistik harian: jumlah kartu, waktu belajar, dan rentetan hari.</li>
       <li>Kuis dan ujian: sesi kuis, sesi latihan ujian, jawabanmu, dan skornya.</li>
-      <li>Tanda (bookmark), target belajar, serta laporan yang kamu kirim lewat tombol
-      "laporkan item".</li>
-      <li>Pengaturan: bahasa antarmuka, tema terang/gelap, jam pengingat, tampilan
-      furigana/romaji, dan kategori yang terakhir dibuka.</li>
+      <li>Deck audio yang kamu susun di Audio Hafalan: nama deck dan daftar katanya.</li>
+      <li>Tanda (bookmark), target belajar termasuk target harian, serta laporan yang kamu
+      kirim lewat tombol "laporkan item".</li>
+      <li>Pengaturan: bahasa antarmuka dan bahasa terjemahan, tema terang/gelap, jam pengingat,
+      tampilan furigana/romaji, setelan suara pembaca, dan kategori yang terakhir dibuka.</li>
       <li>Status Premium (salinan lokal dari hak yang diberikan Google Play), penghitung
       iklan, sisa waktu bebas iklan dari iklan berhadiah, dan penghitung ajakan menilai
       aplikasi.</li>
@@ -266,11 +274,16 @@
       tidak pernah dikirim ke mana pun dan tidak terhubung dengan identitasmu.</li>
     </ul>
 
-    <h2>4. Cadangan data</h2>
+    <h2>4. Cadangan dan berkas yang kamu simpan sendiri</h2>
     <p><strong>Cadangan manual.</strong> Lewat Pengaturan kamu bisa mengekspor seluruh progres
     ke satu berkas JSON. Berkas itu disimpan ke lokasi yang <strong>kamu</strong> pilih sendiri
     lewat pemilih berkas Android. Aplikasi tidak pernah mengunggahnya ke mana pun; berkas itu
     sepenuhnya milikmu.</p>
+    <p><strong>Berkas audio unduhan.</strong> Pengguna Premium bisa menyimpan sebuah deck audio
+    sebagai berkas audio (M4A). Berkas itu dibuat di HP-mu sendiri oleh mesin pembaca teks HP,
+    lalu disimpan ke lokasi yang <strong>kamu</strong> pilih lewat pemilih berkas Android.
+    Aplikasi tidak mengunggahnya ke mana pun, dan isinya hanya kata beserta artinya, bukan
+    suaramu.</p>
     <p><strong>Cadangan otomatis Android.</strong> Android dapat mencadangkan data aplikasi ke
     Google Drive milik akunmu. Ini fitur sistem operasi, bukan milik kami: cadangannya masuk ke
     akun Google-mu, bukan ke pengembang. Kamu bisa mematikannya di Setelan Android &rarr;
@@ -279,7 +292,9 @@
     <h2>5. Layanan pihak ketiga</h2>
     <p>Aplikasi memakai layanan Google berikut. Kami tidak mengendalikan data yang mereka
     kumpulkan, dan pemrosesannya tunduk pada
-    <a href="https://policies.google.com/privacy">Kebijakan Privasi Google</a>.</p>
+    <a href="https://policies.google.com/privacy">Kebijakan Privasi Google</a>. Dua yang
+    terakhir adalah layanan suara yang terpasang di HP-mu sendiri; penyedianya bisa berbeda
+    di tiap HP.</p>
 
     <div class="svc">
       <h3>Google AdMob &amp; User Messaging Platform</h3>
@@ -355,17 +370,45 @@
       mengetahui sumber pemasangan, misalnya dari kampanye iklan.</p>
     </div>
 
+    <div class="svc">
+      <h3>Mesin pembaca teks (text-to-speech) di HP-mu</h3>
+      <p><span class="label">Untuk</span> Membacakan kata, soal menyimak, dan deck audio di
+      Audio Hafalan.</p>
+      <p><span class="label">Data</span> Aplikasi tidak membawa berkas suara. Teks materi
+      belajar (kata Jepang, artinya, naskah soal) diserahkan ke mesin pembaca teks yang
+      terpasang di HP-mu (di kebanyakan HP, milik Google) untuk diubah menjadi suara, di HP
+      atau &mdash; tergantung suara yang terpasang &mdash; di server penyedianya. Yang
+      diserahkan hanya teks materi itu; tidak ada nama, pengenal, atau catatan belajarmu yang
+      ikut.</p>
+    </div>
+
+    <div class="svc">
+      <h3>Layanan pengenal suara di HP-mu</h3>
+      <p><span class="label">Untuk</span> Latihan Ucap: mengenali kata yang kamu ucapkan.</p>
+      <p><span class="label">Data</span> Mikrofon hanya dibuka selagi kamu berlatih di layar itu,
+      oleh layanan pengenal suara yang terpasang di HP-mu (di kebanyakan HP, layanan milik
+      Google). Suaramu diproses layanan itu, di HP atau di servernya, menurut kebijakan privasi
+      penyedianya. <strong>TokuGo tidak merekam, tidak menyimpan, dan tidak mengirim suaramu ke
+      mana pun.</strong> Yang kembali ke aplikasi hanya tulisan hasil pengenalannya, dan tulisan
+      itu pun tidak disimpan.</p>
+    </div>
+
     <h2>6. Izin aplikasi dan alasannya</h2>
     <div class="perm">
       <div><b>Internet dan status jaringan</b><span>Memuat iklan, mengirim statistik dan laporan
       kerusakan, serta memeriksa status Premium.</span></div>
-      <div><b>Notifikasi</b><span>Pengingat belajar harian dan pemberitahuan saat kartu jatuh
-      tempo. Boleh ditolak; aplikasi tetap berjalan normal tanpa notifikasi.</span></div>
+      <div><b>Notifikasi</b><span>Pengingat belajar harian, pemberitahuan saat kartu jatuh
+      tempo, dan tombol kendali pemutar selagi deck audio diputar. Boleh ditolak; aplikasi tetap
+      berjalan normal tanpa notifikasi.</span></div>
       <div><b>Jalan setelah HP dinyalakan ulang</b><span>Memasang kembali jadwal pengingat
       setelah HP di-restart. Tanpa izin ini semua pengingat hilang setiap kali HP
       dimatikan.</span></div>
       <div><b>ID Iklan</b><span>Dipakai SDK AdMob untuk menampilkan dan mengukur iklan.</span></div>
       <div><b>Penagihan (billing)</b><span>Pembelian Premium lewat Google Play.</span></div>
+      <div><b>Mikrofon</b><span>Hanya untuk Latihan Ucap, dan baru diminta saat kamu membukanya.
+      Boleh ditolak; bagian lain aplikasi tetap berjalan normal.</span></div>
+      <div><b>Pemutar audio di latar</b><span>Supaya deck audio tetap dibacakan saat layar HP mati.
+      Hanya berjalan selagi kamu memutar deck audio, dan berhenti saat pemutarnya dihentikan.</span></div>
     </div>
 
     <h2>7. Iklan dan pilihanmu</h2>
@@ -431,16 +474,18 @@
     <strong>seluruh</strong> data berikut ikut terhapus dari HP-mu:</p>
     <ul>
       <li>catatan belajar: kartu hafalan kosakata dan kanji, riwayat penilaian kartu, jadwal
-      ulangan, tahap penguasaan tiap kata;</li>
+      ulangan, tahap penguasaan tiap kata, serta progres pelajaran hiragana, katakana, dan tata
+      bahasa;</li>
       <li>statistik harian, sesi kuis, sesi latihan ujian beserta jawabannya, tanda (bookmark),
-      target belajar, dan laporan item;</li>
+      target belajar, deck audio, dan laporan item;</li>
       <li>pengaturan: bahasa, tema, jam pengingat, tampilan furigana, kategori terakhir dibuka;</li>
       <li>salinan lokal status Premium, penghitung iklan, dan penghitung ajakan menilai aplikasi;</li>
       <li>nomor acak (UUID) yang dipakai untuk mengacak urutan soal ujian.</li>
     </ul>
-    <p>Yang <strong>tidak</strong> ikut terhapus hanyalah berkas cadangan JSON yang pernah kamu
-    ekspor sendiri, karena berkas itu milikmu dan tersimpan di tempat yang kamu pilih. Hapus
-    manual bila memang tidak diperlukan lagi.</p>
+    <p>Yang <strong>tidak</strong> ikut terhapus hanyalah berkas yang pernah kamu simpan sendiri
+    di luar aplikasi: berkas cadangan JSON dan berkas audio deck yang kamu unduh. Berkas itu
+    milikmu dan tersimpan di tempat yang kamu pilih. Hapus manual bila memang tidak diperlukan
+    lagi.</p>
 
     <h3>Cara 2 &mdash; minta penghapusan data teknis di layanan Google</h3>
     <ol>
@@ -453,7 +498,8 @@
     adalah data teknis yang dipegang Google AdMob, Google Analytics for Firebase, Firebase
     Crashlytics, dan Firebase Performance Monitoring: ID Iklan, pengenal instansi aplikasi,
     pengenal pemasangan Crashlytics, laporan kerusakan, dan data pengukuran kecepatan. Rinciannya
-    ada di bagian 5.</p>
+    ada di bagian 5. Suara dari Latihan Ucap tidak pernah kami pegang; pengelolaannya ada pada
+    penyedia layanan pengenal suara di HP-mu, lewat setelan akun atau aplikasinya.</p>
 
     <h3>Berapa lama data disimpan sesudahnya</h3>
     <ul>
@@ -497,7 +543,7 @@
   <main lang="en">
     <header>
       <h1>TokuGo Privacy Policy</h1>
-      <p class="stamp">Effective 28 September 2026 &middot; Version 1.1</p>
+      <p class="stamp">Effective 13 October 2026 &middot; Version 1.2</p>
     </header>
 
     <div class="tldr">
@@ -505,7 +551,10 @@
       email address or phone number. All of your study records stay on your own phone and are
       never sent to the developer &mdash; we do not run a server. The only things that leave
       your phone are technical data belonging to the Google services we use to show ads, measure
-      usage and receive crash reports. We do not sell your personal data.</p>
+      usage and receive crash reports. One exception that you control yourself: if you use
+      speaking practice, your voice is processed by the speech recognition service on your phone
+      (section 5) &mdash; TokuGo itself does not record or store it. We do not sell your personal
+      data.</p>
     </div>
 
     <h2>1. About this policy</h2>
@@ -516,8 +565,10 @@
     <h2>2. What we do not do</h2>
     <ul>
       <li>No sign-up, no login, no name, no email address, no phone number.</li>
-      <li>No access to contacts, camera, microphone, photo gallery, SMS or GPS location. The app
-      does not request those permissions at all.</li>
+      <li>No access to contacts, camera, photo gallery, SMS or GPS location. The app does not
+      request those permissions at all.</li>
+      <li>No voice recordings. The microphone is used only by speaking practice, only after you
+      allow it, and the app does not record or store your voice (see sections 5 and 6).</li>
       <li>No study records &mdash; the words you learn, your quiz scores, your exam results
       &mdash; are ever sent to the developer.</li>
       <li>We do not sell personal data to anyone.</li>
@@ -529,11 +580,16 @@
     <ul>
       <li>Study progress: vocabulary and kanji flashcards, the history of every card rating, the
       next review schedule, and the mastery stage of each word.</li>
+      <li>Basics progress: hiragana, katakana, and the grammar lessons you have opened, with
+      your practice results.</li>
       <li>Daily statistics: card counts, study time and day streaks.</li>
       <li>Quizzes and exams: quiz sessions, practice exam sessions, your answers and scores.</li>
-      <li>Bookmarks, study goals, and any reports you send through the "report item" button.</li>
-      <li>Settings: interface language, light or dark theme, reminder time, furigana/romaji
-      display, and the category you last opened.</li>
+      <li>The audio decks you build: deck names and their word lists.</li>
+      <li>Bookmarks, study goals including your daily goal, and any reports you send through the
+      "report item" button.</li>
+      <li>Settings: interface language and translation language, light or dark theme, reminder
+      time, furigana/romaji display, read-aloud voice settings, and the category you last
+      opened.</li>
       <li>Premium status (a local copy of the entitlement granted by Google Play), ad counters,
       remaining ad-free time earned from rewarded ads, and rating-prompt counters.</li>
       <li>A single random number (UUID) created the first time the app runs. It is used only to
@@ -541,10 +597,15 @@
       linked to your identity.</li>
     </ul>
 
-    <h2>4. Backups</h2>
+    <h2>4. Backups and files you save yourself</h2>
     <p><strong>Manual backup.</strong> In Settings you can export all your progress to a single
     JSON file. The file is written to a location <strong>you</strong> choose yourself through
     the Android file picker. The app never uploads it anywhere; the file is entirely yours.</p>
+    <p><strong>Downloaded audio files.</strong> Premium users can save an audio deck as an audio
+    file (M4A). The file is created on your own phone by the phone's text-to-speech engine, then
+    written to a location <strong>you</strong> choose through the Android file picker. The app
+    does not upload it anywhere, and it contains only words and their meanings, not your
+    voice.</p>
     <p><strong>Android Auto Backup.</strong> Android may back up app data to your own Google
     Drive. That is an operating-system feature, not ours: the backup goes to your Google
     account, not to the developer. You can turn it off in Android Settings &rarr; Google &rarr;
@@ -553,7 +614,9 @@
     <h2>5. Third-party services</h2>
     <p>The app uses the following Google services. We do not control the data they collect, and
     their processing is governed by the
-    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. The last two are
+    voice services installed on your own phone; their provider can differ from phone to
+    phone.</p>
 
     <div class="svc">
       <h3>Google AdMob &amp; User Messaging Platform</h3>
@@ -628,16 +691,44 @@
       determine the install source, for example an ad campaign.</p>
     </div>
 
+    <div class="svc">
+      <h3>The text-to-speech engine on your phone</h3>
+      <p><span class="label">Purpose</span> Reading words, listening questions and audio decks
+      aloud.</p>
+      <p><span class="label">Data</span> The app ships no sound files. Study text (Japanese
+      words, their meanings, question scripts) is handed to the text-to-speech engine installed
+      on your phone (on most phones, a Google engine) to be turned into speech, on the phone or
+      &mdash; depending on the installed voice &mdash; on its provider's servers. Only that
+      study text is handed over; no name, identifier or study record of yours goes with it.</p>
+    </div>
+
+    <div class="svc">
+      <h3>The speech recognition service on your phone</h3>
+      <p><span class="label">Purpose</span> Speaking practice: recognizing the word you say.</p>
+      <p><span class="label">Data</span> The microphone is opened only while you practise on that
+      screen, by the speech recognition service installed on your phone (on most phones, a
+      Google service). Your voice is processed by that service, on the phone or on its servers,
+      under its provider's privacy policy. <strong>TokuGo does not record, store or send your
+      voice anywhere.</strong> Only the recognized text comes back to the app, and that text is
+      not stored either.</p>
+    </div>
+
     <h2>6. App permissions and why</h2>
     <div class="perm">
       <div><b>Internet and network state</b><span>Loading ads, sending usage statistics and
       crash reports, and checking Premium status.</span></div>
-      <div><b>Notifications</b><span>Daily study reminders and alerts when cards are due. You may
-      decline; the app works normally without notifications.</span></div>
+      <div><b>Notifications</b><span>Daily study reminders, alerts when cards are due, and the
+      player controls while an audio deck is playing. You may decline; the app works normally
+      without notifications.</span></div>
       <div><b>Run after the phone restarts</b><span>Re-registering reminder schedules after a
       reboot. Without it, every reminder is lost each time the phone is switched off.</span></div>
       <div><b>Advertising ID</b><span>Used by the AdMob SDK to show and measure ads.</span></div>
       <div><b>Billing</b><span>Premium purchases through Google Play.</span></div>
+      <div><b>Microphone</b><span>Only for speaking practice, and requested only when you open it.
+      You may decline; the rest of the app works normally.</span></div>
+      <div><b>Background audio playback</b><span>So that an audio deck keeps being read aloud when the
+      screen is off. It runs only while you are playing an audio deck and stops when you stop the
+      player.</span></div>
     </div>
 
     <h2>7. Ads and your choices</h2>
@@ -703,16 +794,17 @@
     removed, <strong>all</strong> of the following is deleted from your phone:</p>
     <ul>
       <li>study records: vocabulary and kanji flashcards, the history of every card rating, review
-      schedules, the mastery stage of each word;</li>
+      schedules, the mastery stage of each word, and your hiragana, katakana and grammar lesson
+      progress;</li>
       <li>daily statistics, quiz sessions, practice exam sessions and your answers, bookmarks,
-      study goals, and item reports;</li>
+      study goals, audio decks, and item reports;</li>
       <li>settings: language, theme, reminder time, furigana display, last opened category;</li>
       <li>the local copy of your Premium status, ad counters, and rating-prompt counters;</li>
       <li>the random number (UUID) used to shuffle exam question order.</li>
     </ul>
-    <p>The only thing <strong>not</strong> deleted is any JSON backup file you exported yourself,
-    because that file is yours and is stored where you chose to put it. Delete it manually if you
-    no longer need it.</p>
+    <p>The only things <strong>not</strong> deleted are files you saved yourself outside the app:
+    any JSON backup file and any audio deck file you downloaded. Those files are yours and are
+    stored where you chose to put them. Delete them manually if you no longer need them.</p>
 
     <h3>Route 2 &mdash; request deletion of technical data held by Google services</h3>
     <ol>
@@ -724,7 +816,9 @@
     <p>We respond within <strong>30 days</strong>. This route covers the technical data held by
     Google AdMob, Google Analytics for Firebase, Firebase Crashlytics and Firebase Performance
     Monitoring: Advertising ID, app instance identifier, Crashlytics installation identifier,
-    crash reports, and speed measurements. Details are in section 5.</p>
+    crash reports, and speed measurements. Details are in section 5. We never hold any voice
+    data from speaking practice; it is managed by the provider of the speech recognition service
+    on your phone, through that provider's account or app settings.</p>
 
     <h3>How long data is kept afterwards</h3>
     <ul>
