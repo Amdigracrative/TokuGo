@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/en/vocabulary/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/kosakata/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/vocabulary/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/vocabulary/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/vocabulary/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/vocabulary/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/vocabulary/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/vocabulary/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/vocabulary/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/vocabulary/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Japanese vocabulary flashcards by topic: 38,085 words with FSRS">
 <meta property="og:description" content="Learn Japanese vocabulary with FSRS-scheduled flashcards: 38,085 N5–N1 words in 95 topics (21 for the workplace), a quiz per deck, a pocket dictionary, and meanings in 13 languages.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-en.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Free to start &middot; No account &middot; 13 interface languages &middot; Android 7.0 and up</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/kartu.webp" width="540" height="1200" fetchpriority="high" alt="A flipped flashcard for 介護: reading, romaji, meaning, component kanji, and the Don&#x27;t know, Unsure and Know it buttons with their intervals"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/kartu.webp" width="720" height="1600" fetchpriority="high" alt="A flipped flashcard for 介護: reading, romaji, meaning, component kanji, and the Don’t know, Unsure and Know it buttons with their intervals"></div></figure></div>
     </div>
   </div>
 </div>
@@ -151,37 +175,37 @@
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Cards that know when you are about to forget</h2><p>The front of a card shows the word (with furigana if you want it). Tap to flip: reading, romaji, meaning and component kanji, plus a pronunciation button. Then rate yourself with one of three buttons.</p><p>Scheduling is done by <b>FSRS</b>, the same spaced-repetition algorithm used by modern flashcard apps. Each button shows when the word will come back: minutes, days or weeks later. The more often you answer Know it, the longer the gap.</p><ul class="butir"><li><b>Don't know</b> sends the word back to Learning from any stage.</li><li><b>Unsure</b> shortens its interval.</li><li><b>Know it</b> moves the word to Known and pushes the next review further out.</li></ul></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kartu-depan.webp" width="540" height="1200" loading="lazy" alt="kartu-depan"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kartu.webp" width="540" height="1200" loading="lazy" alt="A flipped flashcard for 介護: reading, romaji, meaning, component kanji, and the Don&#x27;t know, Unsure and Know it buttons with their intervals"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kartu-depan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Cards that know when you are about to forget"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kartu.webp" width="720" height="1600" loading="lazy" decoding="async" alt="A flipped flashcard for 介護: reading, romaji, meaning, component kanji, and the Don’t know, Unsure and Know it buttons with their intervals"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
-      <div class="artikel-isi"><h2>Four stages, and Mastered must be proven</h2><p>Every word climbs four stages: <b>New</b>, <b>Learning</b>, <b>Known</b>, <b>Mastered</b>. Pressing Know it on a card only takes a word to Known. To reach Mastered you must answer it correctly in a quiz on <b>three different days</b>. Mastered words keep being tested when they fall due, and drop back if you get them wrong.</p><p>A deck's quiz opens once 20 of its words are Known or Mastered (smaller decks open as soon as all their words are known). Three question types: word to meaning, meaning to word, and word to reading. At the end you see the words newly mastered, the ones a step away, and the ones you got wrong.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kuis.webp" width="540" height="1200" loading="lazy" alt="A quiz question: a Japanese word with four possible meanings"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kuis-hasil.webp" width="540" height="1200" loading="lazy" alt="Quiz result 20 of 20 correct, newly mastered words, and words one quiz day away"></div></figure></div>
+      <div class="artikel-isi"><h2>Four stages, and Mastered must be proven</h2><p>Every word climbs four stages: <b>New</b>, <b>Learning</b>, <b>Known</b>, <b>Mastered</b>. Pressing Know it on a card only takes a word to Known. To reach Mastered you must answer it correctly in a quiz on <b>three different days</b>. Mastered words keep being tested when they fall due, and drop back if you get them wrong.</p><p>A deck's quiz opens once 20 of its words are Known or Mastered (smaller decks open as soon as all their words are known). Questions go both ways: word to meaning, and meaning to word. At the end you see the words newly mastered, the ones a step away, and the ones you got wrong.</p></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kuis.webp" width="720" height="1600" loading="lazy" decoding="async" alt="A quiz question: a Japanese word with four possible meanings"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kuis-hasil.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Four stages, and Mastered must be proven"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
-      <div class="artikel-isi"><h2>Study by topic, track every word</h2><p>The Vocabulary tab is divided into <b>11 groups</b>, and each group holds small decks. The filter above narrows everything to one JLPT level. Every deck has its own screen: a percent-complete ring, the word list with each word's status, a Learning/Known/Mastered filter, and the Study and Quiz buttons.</p><p>The <b>Workplace</b> group holds 21 decks for candidates going to work in Japan: Factory &amp; Production, Construction, Agriculture, Caregiving, Hospitality, Restaurants &amp; Kitchens, Tools &amp; Measuring, Workplace Safety, Instructions from Supervisors, Schedules &amp; Attendance, Office &amp; Documents, Fishery, Food Processing, Shipbuilding, Automotive &amp; Repair, Aviation &amp; Airports, Building Cleaning, Industrial Machinery, Electronics &amp; Electrical, Contracts &amp; Wages, Logistics &amp; Warehousing. For life in Japan there are decks for transport, shopping and money, home and furniture, plus the Social &amp; Administration and Body &amp; Health groups.</p><div class="tabel-gulir"><table><thead><tr><th>Group</th><th>Decks</th></tr></thead><tbody><tr><td>Everyday life</td><td>16</td></tr><tr><td>Workplace</td><td>21</td></tr><tr><td>Social &amp; Administration</td><td>8</td></tr><tr><td>Body &amp; Health</td><td>8</td></tr><tr><td>Character &amp; Emotions</td><td>8</td></tr><tr><td>Word classes</td><td>5</td></tr><tr><td>Technology &amp; Media</td><td>4</td></tr><tr><td>Nature &amp; Science</td><td>10</td></tr><tr><td>Academic</td><td>8</td></tr><tr><td>Culture</td><td>4</td></tr><tr><td>Sports</td><td>3</td></tr></tbody></table></div></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kosakata.webp" width="540" height="1200" loading="lazy" alt="Vocabulary tab: Bookmarked, Difficult, 60-second Blitz and Mixed quiz decks, the level filter, and the list of 11 groups"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kerja.webp" width="540" height="1200" loading="lazy" alt="The Workplace group opened: Workplace Safety, Instructions from Supervisors, Schedules &amp; Attendance, Contracts &amp; Wages, each with a progress bar"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/deck.webp" width="540" height="1200" loading="lazy" alt="The Caregiving deck: 12% complete of 95 words, the word list with Known and Mastered statuses, Study and Quiz buttons"></div></figure></div>
+      <div class="artikel-isi"><h2>Study by topic, track every word</h2><p>The Vocabulary tab is divided into <b>11 groups</b>, and each group holds small decks. The filter above narrows everything to one JLPT level. Every deck has its own screen: a percent-complete ring, the word list with each word's status, a Learning/Known/Mastered filter, and the Study and Quiz buttons.</p><p>The <b>Workplace</b> group holds 21 decks for candidates going to work in Japan: Workplace Safety, Instructions from Supervisors, Schedule &amp; Attendance, Contract &amp; Wages, Tools &amp; Measuring Instruments, Logistics &amp; Warehousing, Office &amp; Documents, Food Manufacturing, Caregiving, Factory &amp; Production, Industrial Machinery, Electronics &amp; Electrical, Construction, Restaurant &amp; Kitchen, Agriculture, Shipbuilding, Building Cleaning, Fishery, Automotive &amp; Repair, Aviation &amp; Airport, Hospitality. For life in Japan there are decks for transport, shopping and money, home and furniture, plus the Social &amp; Administration and Body &amp; Health groups.</p><div class="tabel-gulir"><table><thead><tr><th>Group</th><th>Decks</th></tr></thead><tbody><tr><td>Daily Life</td><td>16</td></tr><tr><td>Workplace</td><td>21</td></tr><tr><td>Social &amp; Administration</td><td>8</td></tr><tr><td>Body &amp; Health</td><td>8</td></tr><tr><td>Traits &amp; Emotions</td><td>8</td></tr><tr><td>Word Classes</td><td>5</td></tr><tr><td>Technology &amp; Media</td><td>4</td></tr><tr><td>Nature &amp; Science</td><td>10</td></tr><tr><td>Academic &amp; Opinion</td><td>8</td></tr><tr><td>Culture &amp; Religion</td><td>4</td></tr><tr><td>Sports &amp; Games</td><td>3</td></tr></tbody></table></div></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kosakata.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Study by topic, track every word"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/deck.webp" width="720" height="1600" loading="lazy" decoding="async" alt="The Caregiving deck: progress ring, Study and Quiz buttons, and the word list with Learning, Known or Mastered statuses"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Special decks and quick practice</h2><p>Above the group list sit three decks that draw from every deck: <b>Bookmarked</b> (words you starred), <b>Difficult</b> (fills itself with words you keep forgetting on cards or missing in quizzes), and the <b>60-second Blitz</b> (as many cards as fit in one minute). A fourth tile, <b>Mixed quiz</b>, tests Known and Mastered words from all decks at once.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/beranda.webp" width="540" height="1200" loading="lazy" alt="TokuGo home screen: greeting card with a Japanese proverb, daily goal ring 4 of 10, seven-day trail, and the Study words and Review kanji doors"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kosakata-gelap.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Special decks and quick practice"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>A pocket dictionary of 38,085 words</h2><p>The search icon in the header finds any word by kanji, kana, romaji or meaning. Results are ranked by how well they match, and romaji is matched with spelling tolerance: <i>shinbun</i> and <i>shimbun</i>, <i>koohii</i> and <i>kōhī</i>, <i>arigato</i> and <i>arigatou</i> all find the same word. Every word has a detail page: its stage and next review, meaning, component kanji with their readings, and a pronunciation button.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kamus.webp" width="540" height="1200" loading="lazy" alt="Dictionary search for hospital: 病院, 療養所, 大学病院 with readings and meanings"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/detail-kata.webp" width="540" height="1200" loading="lazy" alt="Word detail for 介護: stage Known, next review date, meaning, and the component kanji 介 and 護 with readings"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kamus.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Dictionary search results: 病院 and other words with readings, romaji and meanings"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/detail-kata.webp" width="720" height="1600" loading="lazy" decoding="async" alt="A pocket dictionary of 38,085 words"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar balik">
     <div class="wadah">
-      <div class="artikel-isi"><h2>Levels and meaning languages</h2><p>Word levels are an estimate: the Japan Foundation does not publish an official vocabulary list, so the mapping is built from the old JLPT lists and usage frequency. There is no separate "JFT" word level: <span class="rapat">JFT-Basic</span> tests the same basic vocabulary as N5 and N4, plus workplace words.</p><p>Meanings are complete in English and Indonesian. Other languages cover every free word and, in most of them, all <span class="rapat"><span class="rapat">N5–N4</span></span> words; words not yet translated are shown in English. The translation language can be chosen separately from the interface language in Settings.</p><div class="tabel-gulir"><table><thead><tr><th>Level</th><th>Words</th><th>Free</th></tr></thead><tbody><tr><td>N5</td><td>1,030</td><td>1,007</td></tr><tr><td>N4</td><td>2,044</td><td>1,505</td></tr><tr><td>N3</td><td>11,230</td><td>4,101</td></tr><tr><td>N2</td><td>11,309</td><td>2,291</td></tr><tr><td>N1</td><td>12,472</td><td>502</td></tr></tbody></table></div></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-isi"><h2>Levels and meaning languages</h2><p>Word levels are an estimate: the Japan Foundation does not publish an official vocabulary list, so the mapping is built from the old JLPT lists and usage frequency. There is no separate "JFT" word level: <span class="rapat">JFT-Basic</span> tests the same basic vocabulary as N5 and N4, plus workplace words.</p><p>Meanings are complete in English and Indonesian. Other languages cover every free word; words not yet translated are shown in English. The translation language can be chosen separately from the interface language in Settings.</p><div class="tabel-gulir"><table><thead><tr><th>Level</th><th>Words</th><th>Free</th></tr></thead><tbody><tr><td>N5</td><td>1,030</td><td>1,007</td></tr><tr><td>N4</td><td>2,044</td><td>1,505</td></tr><tr><td>N3</td><td>11,230</td><td>4,101</td></tr><tr><td>N2</td><td>11,309</td><td>2,291</td></tr><tr><td>N1</td><td>12,472</td><td>502</td></tr></tbody></table></div></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -189,9 +213,9 @@
     <div class="wadah">
       <h2>Related features</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../kanji/"><b>Kanji</b><span>The kanji of each level are split into sets of about 25, ordered the way Japanese schoolchildren learn them. Every kanji has meanings,&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../listen-speak-write/"><b>Listen · speak · write</b><span>Recognising a word on screen is only half the job. Three features in the home screen&#x27;s &quot;Listen · speak · write&quot; section&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../faq/"><b>FAQ</b><span>Can&#x27;t find your answer? Email the address in the&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../kanji/"><b>Kanji</b><span>The kanji of each level are split into sets of about 25, ordered the way Japanese schoolchildren learn them. Every kanji has meanings, readings with…</span></a>
+        <a class="kartu kartu-tautan" href="../listen-speak-write/"><b>Listen · speak · write</b><span>Recognising a word on screen is only half the job. Three features in the home screen&#x27;s &quot;Listen · speak · write&quot; section train your ears, mouth and…</span></a>
+        <a class="kartu kartu-tautan" href="../faq/"><b>FAQ</b><span>Can&#x27;t find your answer? Email the address in the footer.</span></a>
       </div>
     </div>
   </section>

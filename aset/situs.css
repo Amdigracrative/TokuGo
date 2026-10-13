@@ -252,6 +252,9 @@ table { border-collapse: collapse; }
   .menu-besar { display: flex; }
   .menu-kecil { display: none; }
 }
+/* Dipasang skrip di kepala halaman kalau menu lebar tidak muat (label panjang di sebagian bahasa). */
+.menu-ringkas .menu-besar { display: none; }
+.menu-ringkas .menu-kecil { display: block; }
 
 /* --------------------------------------------------------------------------
    PEMBUKA
@@ -348,11 +351,11 @@ h1, h2, h3 { text-wrap: balance; }
 .catatan { margin-top: 12px; color: var(--putih-lembut); font-size: 0.92rem; }
 .penutup .catatan { margin-top: 14px; }
 
-/* Dua HP di pembuka: Beranda di depan, kartu di belakang. Keduanya terpotong di tepi bawah,
-   seperti di gambar Play Store, supaya bagian pembuka tidak setinggi HP utuh. */
-.panggung { position: relative; height: 420px; overflow: hidden; }
+/* Tiga HP di pembuka: Beranda di depan, kartu dan soal menyimak di belakangnya. Semuanya terpotong di tepi
+   bawah supaya bagian pembuka tidak setinggi HP utuh. Di HP hanya yang depan yang tampil. */
+.panggung { position: relative; height: 430px; overflow: hidden; }
 .hp {
-  width: min(300px, 76vw);
+  width: min(290px, 74vw);
   margin: 0 auto;
   padding: 8px 8px 0;
   border-radius: 40px 40px 0 0;
@@ -362,28 +365,33 @@ h1, h2, h3 { text-wrap: balance; }
   box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6);
 }
 .hp img { width: 100%; border-radius: 32px 32px 0 0; }
-.hp-kedua { display: none; }
+.hp-utama { position: relative; z-index: 2; }
+.hp-kiri, .hp-kanan { display: none; }
 .panggung-sub { height: 380px; }
+.panggung-sub .layar.hp { padding: 8px 8px 0; }
+.panggung-sub .layar.hp .bingkai { padding: 0; border: 0; background: none; box-shadow: none; border-radius: 0; }
+.panggung-sub .layar.hp img { border-radius: 32px 32px 0 0; }
 
 @media (min-width: 900px) {
-  .pembuka { grid-template-columns: 1.1fr 0.9fr; align-items: center; gap: 40px; padding-top: 36px; }
+  .pembuka { grid-template-columns: minmax(0, 1fr) 340px; align-items: center; gap: 28px; padding-top: 36px; }
   .pembuka .teks { padding-bottom: 64px; }
-  .panggung { align-self: end; height: 580px; }
-  .hp { width: 320px; }
-  .hp-utama { position: relative; z-index: 2; margin-left: 40px; }
-  .hp-kedua {
-    display: block;
-    position: absolute;
-    left: 50%; top: 70px;
-    width: 250px;
-    margin-left: 50px;
-    opacity: 0.92;
-    transform: rotate(5deg);
-    transform-origin: bottom center;
-  }
-  .panggung-sub { height: 500px; }
-  .panggung-sub .hp { margin-left: auto; width: 290px; }
+  .panggung { align-self: end; height: 600px; }
+  .hp-utama { width: 300px; }
+  .panggung-sub { height: 520px; }
+  .panggung-sub .hp { margin-left: auto; margin-right: 24px; width: 300px; }
+  .pembuka-sub { grid-template-columns: 1.05fr 0.95fr; }
   .pembuka-sub .teks { padding-bottom: 40px; }
+}
+/* Tiga HP baru muat di layar lebar. Hitungannya dijaga supaya HP kiri TIDAK pernah menindih teks: kolom panggung
+   580px (setengahnya 290), HP samping 220px mulai 50px dari tengah dan berayun 48px karena miring 6 derajat, jadi
+   tepi terluarnya 318px dari tengah = 28px di luar kolom = persis selebar jarak antarkolom. */
+@media (min-width: 1100px) {
+  .pembuka:not(.pembuka-sub) { grid-template-columns: minmax(0, 1fr) 580px; }
+  .panggung:not(.panggung-sub) { overflow: visible; clip-path: inset(-40px -60px 0 -60px); }
+  .hp-kiri, .hp-kanan { display: block; position: absolute; top: 170px; width: 220px; margin: 0; }
+  .hp-kanan { left: 50%; margin-left: 50px; transform: rotate(6deg); transform-origin: bottom left; }
+  .hp-kiri { right: 50%; margin-right: 50px; transform: rotate(-6deg); transform-origin: bottom right; }
+  .pembuka:not(.pembuka-sub) h1 { font-size: var(--u-h1-lebar, var(--u-h1)); }
 }
 
 /* --------------------------------------------------------------------------
@@ -514,15 +522,30 @@ h3 { font-size: 1.2rem; line-height: var(--b-h3); letter-spacing: calc(-0.01em *
   text-underline-offset: 4px;
 }
 
-.fitur-layar { display: flex; gap: 14px; justify-content: center; align-items: flex-start; }
-.fitur-layar .layar { flex: 1 1 0; max-width: 230px; }
-.fitur-layar .layar:nth-child(2) { margin-top: 34px; }
-
+/* Baris layar: di layar lebar dua HP berdampingan (yang kedua turun sedikit); di HP jadi deret yang digeser
+   ke samping, supaya tiap layar cukup besar untuk dibaca. Kelas .geser dipakai juga di halaman fitur dan galeri. */
+.geser { display: flex; gap: 14px; align-items: flex-start; }
+.fitur-layar { justify-content: center; }
+.fitur-layar .layar { flex: 1 1 0; max-width: 250px; }
+@media (max-width: 899px) {
+  .geser {
+    justify-content: flex-start;
+    margin: 0 calc(var(--tepi) * -1);
+    padding: 4px var(--tepi) 14px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 var(--tepi);
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+  .geser > .layar { flex: none; width: min(236px, 64vw); max-width: none; scroll-snap-align: start; }
+}
 @media (min-width: 900px) {
   .fitur { grid-template-columns: 1fr 1fr; align-items: center; gap: 48px; padding: 44px 0; }
   .fitur.balik .fitur-teks { order: 2; }
   .fitur.balik .fitur-layar { order: 1; }
-  .fitur-layar .layar { max-width: 250px; }
+  .fitur-layar .layar { max-width: 262px; }
+  .fitur-layar .layar:nth-child(2) { margin-top: 36px; }
 }
 
 /* Bingkai HP untuk layar di fitur, galeri, dan halaman fitur */
@@ -547,40 +570,53 @@ h3 { font-size: 1.2rem; line-height: var(--b-h3); letter-spacing: calc(-0.01em *
 .malam .layar figcaption > span { color: var(--putih-lembut); }
 .malam .layar .bingkai { box-shadow: 0 22px 50px rgba(0, 0, 0, 0.5); }
 
-/* Tahap dan keping (tabel bahasa yang dirakit dari listingan) */
-.tahap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 6px; margin-top: 14px; }
-.tahap li { display: inline-flex; align-items: center; gap: 6px; font-size: 0.93rem; font-weight: 600; }
-.tahap li > span { padding: 5px 12px; border: 1.5px solid var(--garis); border-radius: 999px; background: var(--kertas); }
+/* Peraga di seksi kosakata: tiga tombol nilai dan empat tahap kata, teksnya dari aplikasi */
+.peraga { margin-top: 16px; padding: 14px; border: 1px solid var(--garis); border-radius: 16px; background: var(--kertas); }
+.nilai { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.nilai > span { padding: 8px 4px 9px; border: 1.5px solid; border-radius: 12px; text-align: center; line-height: calc(var(--b-kecil) - 0.1); min-width: 0; }
+.nilai b { display: block; font-size: 0.9rem; overflow-wrap: anywhere; }
+.nilai i { display: block; margin-top: 2px; font-size: 0.8rem; font-style: normal; opacity: 0.78; }
+.nilai .belum { background: #FFD9E0; border-color: #D97C90; color: #3A0512; }
+.nilai .ragu  { background: #FBE4B4; border-color: #C79A3F; color: #2B1E02; }
+.nilai .hafal { background: #B6F0D9; border-color: #57A98B; color: #04211B; }
+.tahap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 6px; margin-top: 12px; }
+.tahap li { display: inline-flex; align-items: center; gap: 6px; font-size: 0.9rem; font-weight: 600; }
+.tahap li > span { padding: 4px 11px; border: 1.5px solid var(--garis); border-radius: 999px; background: var(--washi); }
+/* Panah di BELAKANG keping: kalau barisnya patah, panah tertinggal di ujung baris atas. */
 .tahap li:not(:last-child)::after { content: '\2192'; color: var(--tinta-lembut); font-weight: 400; }
 .tahap .puncak > span { border-color: var(--kesemek); background: var(--kesemek); color: #FFFDF8; }
-.keping { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
-.keping li { padding: 4px 11px; border: 1px solid var(--garis); border-radius: 999px; background: var(--kertas); font-size: 0.9rem; line-height: calc(var(--b-kecil) + 0.05); }
-.keping .lebih { border-color: transparent; background: var(--kesemek-lembut); color: #350D02; font-weight: 600; }
 
 /* --------------------------------------------------------------------------
-   GALERI: deretan layar yang digeser ke samping di HP, sejajar di layar lebar
+   TAMPILAN & BAHASA + GALERI (bagian gelap)
    -------------------------------------------------------------------------- */
-.galeri {
-  display: flex;
-  gap: 16px;
-  margin: 0 calc(var(--tepi) * -1);
-  padding: 4px var(--tepi) 14px;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-padding: 0 var(--tepi);
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+.tampil { display: grid; gap: 22px; padding-bottom: 36px; margin-bottom: 34px; border-bottom: 1px solid rgba(255, 255, 255, 0.14); }
+.tampil h2 { margin-bottom: 10px; }
+.tampil-teks p { max-width: 34em; color: var(--putih-lembut); }
+.bahasa-keping { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 18px; }
+.bahasa-keping a {
+  display: inline-flex; align-items: center; min-height: 36px; padding: 0 13px;
+  border: 1px solid rgba(255, 255, 255, 0.28); border-radius: 999px;
+  color: #fff; font-size: 0.92rem; font-weight: 600; text-decoration: none; line-height: 1.5;
 }
-.galeri figure { flex: none; width: min(220px, 62vw); scroll-snap-align: start; }
-.catatan-galeri { margin-top: 8px; color: var(--putih-lembut); font-size: 0.88rem; }
+.bahasa-keping a:hover { background: rgba(255, 255, 255, 0.1); }
+.tampil-layar { justify-content: center; }
+.tampil-layar .layar { flex: 1 1 0; max-width: 210px; }
+@media (min-width: 900px) {
+  .tampil { grid-template-columns: 0.85fr 1.15fr; align-items: center; gap: 48px; padding-bottom: 52px; margin-bottom: 48px; }
+  .tampil-layar .layar:nth-child(2) { margin-top: 30px; }
+  .tampil-layar .layar:nth-child(3) { margin-top: 60px; }
+}
 
-@media (min-width: 1100px) {
-  /* Membungkus jadi beberapa baris; --kolom dihitung bangun.py dari banyaknya layar supaya
-     barisnya seimbang. */
-  .galeri { flex-wrap: wrap; justify-content: center; gap: 32px 20px; margin: 0; padding: 0; overflow: visible; }
-  .galeri figure { width: calc((100% - (var(--kolom, 5) - 1) * 20px) / var(--kolom, 5)); }
-  .catatan-galeri { margin-top: 20px; }
+.galeri-judul { margin-bottom: 6px; }
+.galeri-kelompok { margin-top: 22px; }
+.galeri-kelompok h3 { margin-bottom: 12px; color: var(--indigo); font-size: 0.85rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.galeri { scrollbar-color: rgba(255, 255, 255, 0.3) transparent; }
+.catatan-galeri { margin-top: 14px; color: var(--putih-lembut); font-size: 0.88rem; }
+@media (min-width: 900px) {
+  .galeri { gap: 20px; }
+  .galeri > .layar { flex: 1 1 0; min-width: 0; }
+  .galeri-kelompok { margin-top: 34px; }
+  .catatan-galeri { margin-top: 24px; }
 }
 
 /* --------------------------------------------------------------------------
@@ -683,21 +719,22 @@ h3 { font-size: 1.2rem; line-height: var(--b-h3); letter-spacing: calc(-0.01em *
    -------------------------------------------------------------------------- */
 .artikel .wadah { display: grid; gap: 22px; }
 .artikel + .artikel { padding-top: 0; }
+/* Anak grid boleh menyempit: tanpa ini tabel lebar melebarkan seluruh halaman di HP. */
+.artikel-isi, .artikel-layar { min-width: 0; }
 .artikel-isi h2 { font-size: clamp(1.4rem, 4.5vw, 1.8rem); }
 .artikel-isi p { color: var(--tinta-lembut); }
 .artikel-isi p + p, .artikel-isi ul + p, .artikel-isi .tabel-gulir + p { margin-top: 12px; }
 .artikel-isi p b { color: var(--tinta); }
 .artikel-isi i { font-style: italic; }
-.artikel-layar { display: flex; gap: 14px; justify-content: center; align-items: flex-start; }
-.artikel-layar .layar { flex: 1 1 0; max-width: 220px; }
-.artikel-layar .layar:nth-child(2) { margin-top: 30px; }
-.artikel-layar .layar:nth-child(3) { margin-top: 60px; }
+.artikel-layar { justify-content: center; }
+.artikel-layar .layar { flex: 1 1 0; max-width: 250px; }
 .artikel.tanpa-layar .artikel-layar { display: none; }
 .artikel.tanpa-layar .artikel-isi { max-width: 760px; }
 
 .tabel-gulir { overflow-x: auto; margin-top: 14px; border: 1px solid var(--garis); border-radius: 14px; background: var(--kertas); }
 table { width: 100%; font-size: 0.95rem; }
-th, td { padding: 9px 14px; text-align: left; border-bottom: 1px solid var(--garis); white-space: nowrap; }
+th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--garis); }
+td:first-child { white-space: nowrap; }
 th { background: var(--kertas-dalam); color: var(--tinta); font-weight: 700; font-size: 0.85rem; letter-spacing: 0.04em; text-transform: uppercase; }
 tr:last-child td { border-bottom: 0; }
 td:last-child, th:last-child { white-space: normal; }
@@ -706,7 +743,8 @@ td:last-child, th:last-child { white-space: normal; }
   .artikel .wadah { grid-template-columns: 1.1fr 0.9fr; align-items: center; gap: 48px; }
   .artikel.balik .artikel-isi { order: 2; }
   .artikel.balik .artikel-layar { order: 1; }
-  .artikel-layar .layar { max-width: 240px; }
+  .artikel-layar .layar { max-width: 262px; }
+  .artikel-layar .layar:nth-child(2) { margin-top: 36px; }
   .artikel.tanpa-layar .wadah { grid-template-columns: 1fr; }
 }
 
@@ -771,11 +809,11 @@ html:lang(zh-CN) {
 }
 html:lang(th), html:lang(ne), html:lang(hi), html:lang(bn) {
   --b-isi: 1.7; --b-h1: 1.34; --b-h2: 1.38; --b-h3: 1.42; --b-kecil: 1.5;
-  --u-h1: clamp(1.85rem, 7.4vw, 3.2rem); --ls: 0;
+  --u-h1: clamp(1.85rem, 7.4vw, 3.2rem); --u-h1-lebar: 2.7rem; --ls: 0;
 }
 html:lang(my), html:lang(km), html:lang(si) {
   --b-isi: 1.9; --b-h1: 1.5; --b-h2: 1.5; --b-h3: 1.55; --b-kecil: 1.65;
-  --u-h1: clamp(1.7rem, 6.8vw, 3rem); --ls: 0;
+  --u-h1: clamp(1.7rem, 6.8vw, 3rem); --u-h1-lebar: 2.45rem; --ls: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {

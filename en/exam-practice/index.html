@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/en/exam-practice/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/latihan-ujian/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/exam-practice/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/exam-practice/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/exam-practice/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/exam-practice/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/exam-practice/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/exam-practice/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/exam-practice/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/exam-practice/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="JFT-Basic and JLPT N5–N1 exam practice: 24 question sets shaped like the real exams">
 <meta property="og:description" content="Mock exams for JFT-Basic and JLPT N5, N4, N3, N2 and N1 with the official sections, question counts and time limits: picture and document questions, listening in a Japanese voice, results on the official scales, and an explanation for every question.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-en.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Free to start &middot; No account &middot; 13 interface languages &middot; Android 7.0 and up</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/soal-baca.webp" width="540" height="1200" fetchpriority="high" alt="A reading question with a drawn document and answer choices, with the remaining time"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/soal-baca.webp" width="720" height="1600" fetchpriority="high" alt="A reading question shown as a text-message conversation with a question and answer choices"></div></figure></div>
     </div>
   </div>
 </div>
@@ -150,32 +174,32 @@
 <main id="isi">
   <section class="bagian artikel">
     <div class="wadah">
-      <div class="artikel-isi"><h2>Six levels, 24 sets</h2><p>Each level card in the Practice tab opens the level page: a Start button, numbered set tiles, and history. Once every set is done, <b>Mixed practice</b> opens, putting questions you have never seen first. New sets arrive through app updates.</p><div class="tabel-gulir"><table><thead><tr><th>Exam</th><th>Sets</th><th>Questions per set</th><th>Time</th></tr></thead><tbody><tr><td><span class="rapat">JFT-Basic</span></td><td>8</td><td>48</td><td>60 min</td></tr><tr><td>JLPT N5</td><td>8</td><td>68</td><td>90 min</td></tr><tr><td>JLPT N4</td><td>2</td><td>85</td><td>115 min</td></tr><tr><td>JLPT N3</td><td>2</td><td>102</td><td>140 min</td></tr><tr><td>JLPT N2</td><td>2</td><td>107</td><td>155 min</td></tr><tr><td>JLPT N1</td><td>2</td><td>101</td><td>165 min</td></tr></tbody></table></div></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/id/latihan.webp" width="540" height="1200" loading="lazy" alt="Practice tab: six level cards from JFT-Basic 60 minutes to JLPT N1 165 minutes, with sets completed"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/id/level.webp" width="540" height="1200" loading="lazy" alt="The JFT-Basic level page: Start set button, eight set tiles, mixed practice, and history"></div></figure></div>
+      <div class="artikel-isi"><h2>Six levels, 24 sets</h2><p>Each level card in the Practice tab opens the level page: a Start button, numbered set tiles, and history. Once every set is done, <b>Mixed practice</b> opens, putting questions you have never seen first. New sets arrive through app updates.</p><div class="tabel-gulir"><table><thead><tr><th>Exam</th><th>Sets</th><th>Questions per set</th><th>Time</th></tr></thead><tbody><tr><td><span class="rapat">JFT-Basic</span></td><td>8</td><td>48</td><td>60 minutes</td></tr><tr><td>JLPT N5</td><td>8</td><td>68</td><td>90 minutes</td></tr><tr><td>JLPT N4</td><td>2</td><td>85</td><td>115 minutes</td></tr><tr><td>JLPT N3</td><td>2</td><td>102</td><td>140 minutes</td></tr><tr><td>JLPT N2</td><td>2</td><td>107</td><td>155 minutes</td></tr><tr><td>JLPT N1</td><td>2</td><td>101</td><td>165 minutes</td></tr></tbody></table></div></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/latihan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Practice tab: six level cards from JFT-Basic 60 minutes to JLPT N1 165 minutes, with sets completed"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/level.webp" width="720" height="1600" loading="lazy" decoding="async" alt="The JFT-Basic level page: start-next-set button, eight set tiles, mixed practice, and history"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
-      <div class="artikel-isi"><h2>Question forms follow the real exams</h2><p><span class="rapat">JFT-Basic</span> questions use three choices (four in grammar), situations and prompts in your language, and a picture in almost every question, like the official sample questions. JLPT questions use four choices, furigana appropriate to the level, and reading texts in varied forms: short stories, memos, notices, messages, emails and information tables. Every set is audited before release, and no official questions are copied.</p><p>Before you start, the briefing screen shows that set's structure: sections, question counts and timing. The timer runs per section; after you move on, the previous section closes, just like in the exam room. You can flag doubtful questions, leave temporarily (the clock keeps running), and resume from the Practice tab.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/persiapan.webp" width="540" height="1200" loading="lazy" alt="persiapan"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/soal-kosakata.webp" width="540" height="1200" loading="lazy" alt="soal-kosakata"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/soal-baca.webp" width="540" height="1200" loading="lazy" alt="A reading question with a drawn document and answer choices, with the remaining time"></div></figure></div>
+      <div class="artikel-isi"><h2>Question forms follow the real exams</h2><p><span class="rapat">JFT-Basic</span> questions use three choices (four in grammar), situations and prompts in the learner's language, and a picture in many questions, like the official sample questions. JLPT questions use four choices, furigana appropriate to the level, and reading texts in varied forms: short stories, memos, notices, messages, emails and information tables. Every set is audited before release, and no official questions are copied.</p><p>Before you start, the briefing screen shows that set's structure: sections, question counts and timing. Timing follows the real exams: one combined time in <span class="rapat">JFT-Basic</span>, a time per section in the JLPT. After you move on, the previous section closes, just like in the exam room. You can flag doubtful questions, leave temporarily (the clock keeps running), and resume from the Practice tab.</p></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/persiapan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Question forms follow the real exams"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/soal-kosakata.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Question forms follow the real exams"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Listening in your phone's Japanese voice</h2><p>Listening scripts are read by your phone's Japanese text-to-speech engine, with a different voice for each speaker. The answer choices are only heard, not printed, as in the real exam; <span class="rapat">JFT-Basic</span> and N5 use picture choices. The "Real exam audio rules" switch limits playback to what the real exam allows: twice in <span class="rapat">JFT-Basic</span>, once in the JLPT.</p><p>Because the voice comes from each phone, quality differs between devices; if a phone has no Japanese voice yet, the app shows how to install one and the listening part is skipped until it exists.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/soal-dengar.webp" width="540" height="1200" loading="lazy" alt="A listening question with an audio player and picture answer choices"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/soal-dengar.webp" width="720" height="1600" loading="lazy" decoding="async" alt="A listening question with an audio player and three picture answer choices"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Results on the official scales, then every question explained</h2><p><span class="rapat">JFT-Basic</span> results are drawn on the <b><span class="rapat">10–250</span></b> line with marks at 145, 175 and 200 and their band names, A1, A2.1 and <span class="rapat">A2.2</span>, plus what each band is used for in the real exam. JLPT results show each scoring section against its minimum, because in the real exam one section below the minimum means a fail. Both come with percent correct per section and per question type.</p><p>The <b>Review</b> button opens every question with your answer, the correct answer and an explanation; listening questions also show their script. Explanations are available in 12 languages. Each level's history keeps your latest runs, and the score chart lives in the Statistics tab.</p><p>These scores are an estimate for tracking progress, not a prediction of your official result.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/hasil.webp" width="540" height="1200" loading="lazy" alt="JFT-Basic practice result: the score on a 10–250 line marked with the A1, A2.1 and A2.2 bands, and percent correct per part"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/tinjau-soal.webp" width="540" height="1200" loading="lazy" alt="Question review: the chosen answer, the correct answer, and the explanation"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/hasil.webp" width="720" height="1600" loading="lazy" decoding="async" alt="JFT-Basic practice result: the score on a 10–250 line marked with the A1, A2.1 and A2.2 bands, and percent correct per part"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/tinjau-soal.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Results on the official scales, then every question explained"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar">
     <div class="wadah">
       <div class="artikel-isi"><h2>Free and Premium</h2><p>Every set is open on the free version. After you press Start, the next run at that level is locked for <b>7 days</b>; other levels stay open, and history and explanations are never locked. While locked, you can unlock one extra run by watching an ad. Premium has no pause. Ads never appear on question screens, for anyone.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -183,9 +207,9 @@
     <div class="wadah">
       <h2>Related features</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../grammar/"><b>Grammar</b><span>122 lessons that explain N5 sentence patterns one at a time, from です and the basic particles to the て form, the ない form and conversational&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../faq/"><b>FAQ</b><span>Can&#x27;t find your answer? Email the address in the&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning and…</span></a>
+        <a class="kartu kartu-tautan" href="../grammar/"><b>Grammar</b><span>122 lessons that explain N5 sentence patterns one at a time, from です and the basic particles to the て form, the ない form and conversational…</span></a>
+        <a class="kartu kartu-tautan" href="../faq/"><b>FAQ</b><span>Can&#x27;t find your answer? Email the address in the footer.</span></a>
       </div>
     </div>
   </section>

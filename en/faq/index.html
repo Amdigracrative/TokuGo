@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/en/faq/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/faq/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/faq/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/faq/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/faq/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/faq/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/faq/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/faq/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/faq/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/faq/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Frequently asked questions about TokuGo">
 <meta property="og:description" content="Answers about TokuGo: what is free and what is Premium, offline use, accounts and backups, supported languages, Japanese voices, the microphone, practice scores and data sources.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-en.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -115,7 +126,7 @@
           "name": "Which languages are supported?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The interface comes in 13 languages: Indonesian, English, Vietnamese, Nepali, Burmese, Filipino, Thai, Khmer, Mongolian, Sinhala, Bengali, Hindi and Chinese. Word meanings are complete in English and Indonesian; the other languages cover every free word (and all N5–N4 words in most of them), with the rest shown in English. Grammar lessons and exam explanations are available in 12 languages; for Chinese both are still in English. The translation language can be chosen separately from the interface language."
+            "text": "The interface comes in 13 languages: Indonesian, English, Vietnamese, Nepali, Burmese, Filipino, Thai, Khmer, Mongolian, Sinhala, Bengali, Hindi and Chinese. Word meanings are complete in English and Indonesian; the other languages cover every free word, with the rest shown in English. Grammar lessons and exam explanations are available in 12 languages; for Chinese both are still in English. The translation language can be chosen separately from the interface language."
           }
         },
         {
@@ -171,7 +182,7 @@
           "name": "Where do ads appear?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "On list screens (a banner), as a single card in some lists, and occasionally after a session ends. Never on card, quiz, kana or grammar lesson, speaking practice, kanji writing, audio player or exam question screens. Premium removes all of them."
+            "text": "On list screens, occasionally when the app opens, and after a session ends. Never on card, quiz, kana or grammar lesson, speaking practice, kanji writing, audio player or exam question screens. Premium removes all of them."
           }
         },
         {
@@ -179,7 +190,7 @@
           "name": "Which phones are supported?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Android 7.0 and up, phones and tablets, in portrait orientation. All data ships inside the app."
+            "text": "Android 7.0 and up, phones and tablets. All content ships inside the app."
           }
         },
         {
@@ -248,6 +259,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -282,15 +306,15 @@
         <details class="tanya"><summary><span>Does it work offline?</span></summary><div class="jawab"><p>All content ships inside the app. On the free version, starting a study session, quiz or practice exam needs an internet connection, while Premium works fully offline. Speaking practice uses the phone's speech recogniser, which on most phones needs internet.</p></div></details>
         <details class="tanya"><summary><span>Do I need an account?</span></summary><div class="jawab"><p>No. There is no account, sign-up or password, and the developer has no server.</p></div></details>
         <details class="tanya"><summary><span>What if I change phones or uninstall the app?</span></summary><div class="jawab"><p>Your study progress is stored on your phone only. Before switching phones or uninstalling, export a backup file from the side panel (Back up data), then import it on the new phone. Without it the progress is lost.</p></div></details>
-        <details class="tanya"><summary><span>Which languages are supported?</span></summary><div class="jawab"><p>The interface comes in 13 languages: Indonesian, English, Vietnamese, Nepali, Burmese, Filipino, Thai, Khmer, Mongolian, Sinhala, Bengali, Hindi and Chinese. Word meanings are complete in English and Indonesian; the other languages cover every free word (and all <span class="rapat"><span class="rapat">N5–N4</span></span> words in most of them), with the rest shown in English. Grammar lessons and exam explanations are available in 12 languages; for Chinese both are still in English. The translation language can be chosen separately from the interface language.</p></div></details>
+        <details class="tanya"><summary><span>Which languages are supported?</span></summary><div class="jawab"><p>The interface comes in 13 languages: Indonesian, English, Vietnamese, Nepali, Burmese, Filipino, Thai, Khmer, Mongolian, Sinhala, Bengali, Hindi and Chinese. Word meanings are complete in English and Indonesian; the other languages cover every free word, with the rest shown in English. Grammar lessons and exam explanations are available in 12 languages; for Chinese both are still in English. The translation language can be chosen separately from the interface language.</p></div></details>
         <details class="tanya"><summary><span>Where does the Japanese voice come from?</span></summary><div class="jawab"><p>From your phone's text-to-speech engine, usually Google Text-to-speech, so no audio files are downloaded. If the phone has no Japanese voice yet, the app shows how to install one. Quality and speed differ between phones, which is why listening scores cannot be compared across devices.</p></div></details>
         <details class="tanya"><summary><span>Does the app record my voice?</span></summary><div class="jawab"><p>No. Speaking practice sends your speech to your phone's speech-recognition service (usually Google's) and only receives the recognised text back. The app does not record, store or send audio to the developer. Microphone permission is only requested when you open speaking practice.</p></div></details>
         <details class="tanya"><summary><span>Are practice scores the same as official scores?</span></summary><div class="jawab"><p>No. TokuGo scores are an estimate based on the percentage of correct answers, for tracking progress. The official exams use a different scaled scoring. The app shows the official bands (A1, A2.1, <span class="rapat">A2.2</span> for <span class="rapat">JFT-Basic</span>; section minimums for the JLPT) so you know where you stand, without a pass or fail verdict.</p></div></details>
         <details class="tanya"><summary><span>What does Mastered mean?</span></summary><div class="jawab"><p>The highest stage of a word or kanji. Pressing Know it on a card only takes it to Known; Mastered is reached by answering it correctly in quizzes on three different days. Mastered words keep being reviewed when due and drop back on a mistake.</p></div></details>
         <details class="tanya"><summary><span>Why is there no separate <span class="rapat">JFT-Basic</span> word level?</span></summary><div class="jawab"><p>The Japan Foundation does not publish a <span class="rapat">JFT-Basic</span> vocabulary list. Word levels in TokuGo (N5 to N1) are an estimate from the old JLPT lists and usage frequency; <span class="rapat">JFT-Basic</span> tests the same basic vocabulary as N5 and N4 plus workplace words, which live in the Workplace group.</p></div></details>
         <details class="tanya"><summary><span>Where do the words, kanji and questions come from?</span></summary><div class="jawab"><p>Vocabulary and kanji from JMdict and KANJIDIC by the Electronic Dictionary Research and Development Group (CC BY-SA 4.0), stroke order from KanjiVG (CC BY-SA 3.0), word frequency from wordfreq. Grammar lessons and all practice questions were written for TokuGo and audited before release; no official questions are copied.</p></div></details>
-        <details class="tanya"><summary><span>Where do ads appear?</span></summary><div class="jawab"><p>On list screens (a banner), as a single card in some lists, and occasionally after a session ends. Never on card, quiz, kana or grammar lesson, speaking practice, kanji writing, audio player or exam question screens. Premium removes all of them.</p></div></details>
-        <details class="tanya"><summary><span>Which phones are supported?</span></summary><div class="jawab"><p>Android 7.0 and up, phones and tablets, in portrait orientation. All data ships inside the app.</p></div></details>
+        <details class="tanya"><summary><span>Where do ads appear?</span></summary><div class="jawab"><p>On list screens, occasionally when the app opens, and after a session ends. Never on card, quiz, kana or grammar lesson, speaking practice, kanji writing, audio player or exam question screens. Premium removes all of them.</p></div></details>
+        <details class="tanya"><summary><span>Which phones are supported?</span></summary><div class="jawab"><p>Android 7.0 and up, phones and tablets. All content ships inside the app.</p></div></details>
         <details class="tanya"><summary><span>How do I contact the developer?</span></summary><div class="jawab"><p>Email the address in the footer of this page. Reports of wrong words, meanings or questions are very welcome.</p></div></details>
       </div>
     </div>
@@ -299,9 +323,9 @@
     <div class="wadah">
       <h2>Related features</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../exam-practice/"><b>Exam practice</b><span>Six exam levels, 24 question sets. Every set follows the sections, question counts and time limits of the real test, with the same kinds of&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../listen-speak-write/"><b>Listen · speak · write</b><span>Recognising a word on screen is only half the job. Three features in the home screen&#x27;s &quot;Listen · speak · write&quot; section&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning and…</span></a>
+        <a class="kartu kartu-tautan" href="../exam-practice/"><b>Exam practice</b><span>Six exam levels, 24 question sets. Every set follows the sections, question counts and time limits of the real test, with the same kinds of…</span></a>
+        <a class="kartu kartu-tautan" href="../listen-speak-write/"><b>Listen · speak · write</b><span>Recognising a word on screen is only half the job. Three features in the home screen&#x27;s &quot;Listen · speak · write&quot; section train your ears, mouth and…</span></a>
       </div>
     </div>
   </section>

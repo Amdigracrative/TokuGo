@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/dengar-ucap-tulis/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/dengar-ucap-tulis/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/listen-speak-write/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/listen-speak-write/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/listen-speak-write/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/listen-speak-write/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/listen-speak-write/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/listen-speak-write/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/listen-speak-write/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/listen-speak-write/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Audio hafalan, latihan ucap, dan tulis kanji">
 <meta property="og:description" content="Tiga cara mengunci hafalan di TokuGo: deck audio buatan sendiri yang membacakan kata dan artinya (jalan saat layar mati), latihan mengucapkan kata ke mikrofon, dan latihan menulis kanji dengan jari yang menilai tiap goresan.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-id.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -73,7 +84,7 @@
 </head>
 
 <body>
-<a class="lompat" href="#isi">Fitur</a>
+<a class="lompat" href="#isi">Langsung ke isi</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="../" aria-label="TokuGo">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Gratis untuk mulai &middot; Tanpa akun &middot; 13 bahasa antarmuka &middot; Android 7.0 ke atas</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../aset/layar/id/audio-pemutar.webp" width="540" height="1200" fetchpriority="high" alt="Pemutar deck audio: kata yang sedang dibacakan tampil besar dengan furigana dan artinya, kendali putar, dan daftar kata"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../aset/layar/id/audio-pemutar.webp" width="720" height="1600" fetchpriority="high" alt="Pemutar deck audio: kata yang sedang dibacakan tampil besar dengan artinya, kendali putar, dan daftar kata"></div></figure></div>
     </div>
   </div>
 </div>
@@ -151,25 +175,25 @@
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Audio hafalan: deck audio buatan sendiri</h2><p>Susun deck berisi 5 sampai 100 kata: cari satu per satu, atau ambil sekaligus dari deck kosakata mana pun. Pemutarnya membacakan tiap kata dalam bahasa Jepang, disusul artinya dalam bahasa aplikasi (saklar "Bacakan artinya" bisa dimatikan supaya hanya bahasa Jepang). Kata yang sedang dibacakan tampil besar berfurigana; ketuk kata di daftar untuk melompat.</p><p>Kendalinya: acak, ulang deck, kecepatan 0,75×, 1×, atau 1,25×. Pemutar tetap berjalan saat layar HP mati atau kamu pindah aplikasi; notifikasi pemutar dan tombol headset memegang kendalinya.</p><ul class="butir"><li>Versi gratis: 3 deck. Premium: tanpa batas, dan deck bisa diunduh sebagai satu berkas audio (M4A).</li><li>Deck contoh "Common words" dibuat otomatis dari kata yang paling sering dipakai; boleh diedit atau dihapus.</li><li>Mendengarkan tidak mengubah jadwal atau tahap kata.</li></ul></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/audio.webp" width="540" height="1200" loading="lazy" alt="Daftar deck audio: nama deck, jumlah kata dan perkiraan menit, tombol putar dan edit"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/audio-pemutar.webp" width="540" height="1200" loading="lazy" alt="Pemutar deck audio: kata yang sedang dibacakan tampil besar dengan furigana dan artinya, kendali putar, dan daftar kata"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/audio.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Audio hafalan: deck audio buatan sendiri"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/audio-pemutar.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Pemutar deck audio: kata yang sedang dibacakan tampil besar dengan artinya, kendali putar, dan daftar kata"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Latihan ucap: ucapkan, lalu lanjut sendiri</h2><p>Kata yang sudah Hafal atau Dikuasai tampil di kartu; mikrofon menyala sendiri, kamu mengucapkannya, dan kalau HP mengenalinya, kata berikutnya muncul. Kalau belum cocok, layar menulis apa yang terdengar dan mendengarkan lagi; sesudah tiga kali, contoh ucapannya dibunyikan. Tombol mikrofon, tombol contoh suara, dan Lewati selalu ada. Sesi berisi 5, 10, 15, atau 20 kata.</p><p>Suaramu diproses layanan pengenal suara di <span class="rapat">HP-mu</span> (biasanya milik Google); aplikasi tidak merekam dan tidak menyimpannya. Yang dinilai hanya katanya, bukan logat. Karena pengenal suara bisa salah dengar, latihan ini <b>tidak pernah menurunkan tahap</b> kata.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/ucap.webp" width="540" height="1200" loading="lazy" alt="Layar pembuka Latihan ucap yang menjelaskan cara kerjanya dan meminta izin mikrofon"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/ucap.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kartu Latihan ucap: sebuah kata dengan artinya dan tombol mikrofon"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Tulis kanji: goresan demi goresan</h2><p>Untuk kanji yang sudah Hafal atau Dikuasai. Yang ditampilkan hanya arti dan bacaannya; kamu menulis di kotak selebar layar, dan tiap goresan dinilai saat jari diangkat: bentuk, arah, dan urutannya. Goresan yang benar dirapikan jadi goresan baku; salah urutan atau arah terbalik ditolak dengan satu kalimat; sesudah dua kali meleset, goresan berikutnya tampil samar dengan titik mulainya.</p><ul class="butir"><li><b>Dari ingatan:</b> kotak kosong. <b>Dengan bayangan:</b> bentuk kanji tampak samar, untuk pemanasan. <b>Ketuk urutan:</b> kanji tampil lengkap, ketuk goresannya menurut urutan.</li><li>Tombol <b>Animasi</b> memutar cara menulis seluruh kanji kapan saja.</li><li>Sebuah kanji dihitung <b>bisa ditulis</b> sesudah ditulis dari ingatan tanpa bantuan pada dua hari berbeda; 5, 10, atau 15 kanji per sesi.</li></ul></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/tulis-kanji-mulai.webp" width="540" height="1200" loading="lazy" alt="tulis-kanji-mulai"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/tulis-kanji.webp" width="540" height="1200" loading="lazy" alt="Layar menulis kanji: arti dan bacaan sebagai pertanyaan, kotak menulis dengan garis bantu, dan tombol Petunjuk, Animasi, Lewati"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/tulis-kanji-mulai.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Tulis kanji: goresan demi goresan"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/tulis-kanji.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Layar menulis kanji: arti dan bacaan sebagai pertanyaan, kotak menulis dengan garis bantu, dan tombol Petunjuk, Animasi, Lewati"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Pelafalan di mana-mana</h2><p>Kartu kosakata, kartu kanji, detail kata, pelajaran kana, contoh kalimat tata bahasa, dan soal menyimak semuanya dibacakan mesin pembaca bahasa Jepang di <span class="rapat">HP-mu</span>, jadi tidak ada berkas audio yang perlu diunduh. Kualitas suaranya mengikuti mesin pembaca HP masing-masing.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -177,9 +201,9 @@
     <div class="wadah">
       <h2>Fitur terkait</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../kosakata/"><b>Kosakata</b><span>38.085 kata bahasa Jepang dari N5 sampai N1, dikelompokkan ke 95 kategori supaya kamu belajar yang kamu butuhkan dulu. Setiap kata punya&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../kanji/"><b>Kanji</b><span>Kanji tiap level dibagi menjadi set berisi sekitar 25 kanji, diurutkan seperti anak sekolah di Jepang mempelajarinya. Setiap kanji punya&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../faq/"><b>Tanya jawab</b><span>Belum menemukan jawabannya? Kirim email ke alamat di kaki&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../kosakata/"><b>Kosakata</b><span>38.085 kata bahasa Jepang dari N5 sampai N1, dikelompokkan ke 95 kategori supaya kamu belajar yang kamu butuhkan dulu. Setiap kata punya cara baca,…</span></a>
+        <a class="kartu kartu-tautan" href="../kanji/"><b>Kanji</b><span>Kanji tiap level dibagi menjadi set berisi sekitar 25 kanji, diurutkan seperti anak sekolah di Jepang mempelajarinya. Setiap kanji punya arti, bacaan…</span></a>
+        <a class="kartu kartu-tautan" href="../faq/"><b>Tanya jawab</b><span>Belum menemukan jawabannya? Kirim email ke alamat di kaki halaman.</span></a>
       </div>
     </div>
   </section>

@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/en/hiragana-katakana/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/hiragana-katakana/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/hiragana-katakana/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/hiragana-katakana/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/hiragana-katakana/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/hiragana-katakana/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/hiragana-katakana/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/hiragana-katakana/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/hiragana-katakana/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/hiragana-katakana/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Learn hiragana and katakana: table, sounds, stroke order, quizzes">
 <meta property="og:description" content="Learn to read hiragana and katakana from zero: a character table that doubles as a lesson list, the sound of every character, stroke order, words you can already read, reading rules, and ten-question quizzes. Free, no ads.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-en.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Free to start &middot; No account &middot; 13 interface languages &middot; Android 7.0 and up</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/kana.webp" width="540" height="1200" fetchpriority="high" alt="Hiragana page: summary of known characters and the character table by row, filled cells for known characters"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/kana.webp" width="720" height="1600" fetchpriority="high" alt="Hiragana page: summary of known characters and the character table by row, filled cells for known characters"></div></figure></div>
     </div>
   </div>
 </div>
@@ -151,31 +175,31 @@
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>A table that doubles as a lesson list</h2><p>The Hiragana and Katakana pages open from the "Japanese basics" section of the home screen. The summary card at the top counts the characters you know; the table below is in three groups: <b>Basic</b> (46 characters), <b>Voiced</b> (dakuten and handakuten), and <b>Combinations</b> (きゃ, しゅ, ちょ and so on). A filled cell means Known, an outlined cell means in progress.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kana.webp" width="540" height="1200" loading="lazy" alt="Hiragana page: summary of known characters and the character table by row, filled cells for known characters"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kana.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Hiragana page: summary of known characters and the character table by row, filled cells for known characters"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>A lesson per row</h2><p>Each table row is one lesson: character boxes you tap to hear, romaji, a known mark, stroke order for every character, and <b>"Words you can read"</b>: real dictionary words made only of the characters learned up to that row, with the romaji behind a button so you try reading first. A "Quiz this row" button closes the lesson.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kana-pelajaran.webp" width="540" height="1200" loading="lazy" alt="The か row lesson: five tappable characters, stroke order, and words you can already read"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kana-pelajaran.webp" width="720" height="1600" loading="lazy" decoding="async" alt="The か row lesson: five tappable characters, stroke order, and words you can already read"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar">
     <div class="wadah">
       <div class="artikel-isi"><h2>Reading rules</h2><p>The last group of each table explains the rules beginners trip over: small っ and long vowels in hiragana; the long mark ー, small ッ and loanword combinations (ファ, ティ, ウィ) in katakana. Each rule has example words you can read.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Ten-question quizzes, no rescheduling</h2><p>The kana quiz uses three question types: character to romaji, romaji to character, and sound to character. A character becomes <b>Known</b> after three correct answers in a row, and drops back to Learning on a mistake. Unlike words and kanji, characters are not rescheduled: once you can read them all, the table is done. The quiz summary shows your score, newly known characters, and the ones you missed.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kana-kuis.webp" width="540" height="1200" loading="lazy" alt="kana-kuis"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kana-kuis.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Ten-question quizzes, no rescheduling"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar">
     <div class="wadah">
       <div class="artikel-isi"><h2>Start here</h2><p>When you first open the app, it asks whether you are starting from zero or can already read hiragana. Beginners get "Meet hiragana" as the first step on the home screen, followed by the first 20 words, the first grammar lesson, the first kanji, and the first practice exam.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -183,9 +207,9 @@
     <div class="wadah">
       <h2>Related features</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../grammar/"><b>Grammar</b><span>122 lessons that explain N5 sentence patterns one at a time, from です and the basic particles to the て form, the ない form and conversational&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../faq/"><b>FAQ</b><span>Can&#x27;t find your answer? Email the address in the&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../grammar/"><b>Grammar</b><span>122 lessons that explain N5 sentence patterns one at a time, from です and the basic particles to the て form, the ない form and conversational…</span></a>
+        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning and…</span></a>
+        <a class="kartu kartu-tautan" href="../faq/"><b>FAQ</b><span>Can&#x27;t find your answer? Email the address in the footer.</span></a>
       </div>
     </div>
   </section>

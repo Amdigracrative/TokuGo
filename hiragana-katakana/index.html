@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/hiragana-katakana/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/hiragana-katakana/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/hiragana-katakana/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/hiragana-katakana/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/hiragana-katakana/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/hiragana-katakana/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/hiragana-katakana/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/hiragana-katakana/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/hiragana-katakana/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/hiragana-katakana/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Belajar hiragana dan katakana: tabel, suara, urutan goresan, kuis">
 <meta property="og:description" content="Belajar membaca hiragana dan katakana dari nol: tabel aksara yang sekaligus daftar pelajaran, suara tiap aksara, urutan goresan, kata yang sudah bisa dibaca, aturan baca, dan kuis sepuluh soal. Gratis tanpa iklan.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-id.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -73,7 +84,7 @@
 </head>
 
 <body>
-<a class="lompat" href="#isi">Fitur</a>
+<a class="lompat" href="#isi">Langsung ke isi</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="../" aria-label="TokuGo">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Gratis untuk mulai &middot; Tanpa akun &middot; 13 bahasa antarmuka &middot; Android 7.0 ke atas</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../aset/layar/id/kana.webp" width="540" height="1200" fetchpriority="high" alt="Halaman Hiragana: ringkasan aksara hafal dan tabel aksara per baris, kotak terisi untuk yang sudah hafal"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../aset/layar/id/kana.webp" width="720" height="1600" fetchpriority="high" alt="Halaman Hiragana: ringkasan aksara hafal dan tabel aksara per baris, kotak terisi untuk yang sudah hafal"></div></figure></div>
     </div>
   </div>
 </div>
@@ -151,31 +175,31 @@
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Tabel aksara sekaligus daftar pelajaran</h2><p>Halaman Hiragana dan Katakana dibuka dari seksi "Dasar bahasa Jepang" di Beranda. Kartu ringkasan di atas menghitung aksara yang sudah hafal; tabel di bawahnya dibagi tiga kelompok: <b>Dasar</b> (46 aksara), <b>Bertanda</b> (dakuten dan handakuten), dan <b>Gabungan</b> (きゃ, しゅ, ちょ, dan seterusnya). Kotak terisi berarti Hafal, bergaris tepi berarti sedang dipelajari.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kana.webp" width="540" height="1200" loading="lazy" alt="Halaman Hiragana: ringkasan aksara hafal dan tabel aksara per baris, kotak terisi untuk yang sudah hafal"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kana.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Halaman Hiragana: ringkasan aksara hafal dan tabel aksara per baris, kotak terisi untuk yang sudah hafal"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Pelajaran per baris</h2><p>Tiap baris tabel adalah satu pelajaran: kotak aksara yang bisa diketuk untuk mendengar bunyinya, romaji, tanda hafal, urutan goresan tiap aksara, dan <b>"Kata yang bisa kamu baca"</b>: kata-kata sungguhan dari kamus yang seluruh aksaranya sudah kamu pelajari sampai baris itu, dengan romaji di balik tombol supaya kamu mencoba membacanya dulu. Tombol "Kuis baris ini" menutup pelajaran.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kana-pelajaran.webp" width="540" height="1200" loading="lazy" alt="Pelajaran baris か: lima aksara yang bisa diketuk untuk didengar, urutan goresan, dan kata yang bisa kamu baca"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kana-pelajaran.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Pelajaran baris か: lima aksara yang bisa diketuk untuk didengar, urutan goresan, dan kata yang bisa kamu baca"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar">
     <div class="wadah">
       <div class="artikel-isi"><h2>Aturan baca</h2><p>Kelompok terakhir tiap tabel menjelaskan aturan yang membuat pemula tersandung: っ kecil dan bunyi panjang di hiragana; tanda panjang ー, ッ kecil, dan gabungan serapan (ファ, ティ, ウィ) di katakana. Tiap aturan punya contoh kata yang bisa dibaca.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Kuis sepuluh soal, tanpa jadwal ulang</h2><p>Kuis kana memakai tiga jenis soal: aksara ke romaji, romaji ke aksara, dan suara ke aksara. Sebuah aksara menjadi <b>Hafal</b> sesudah tiga jawaban benar berturut-turut, dan kembali ke Belajar kalau salah. Berbeda dengan kata dan kanji, aksara tidak dijadwalkan ulang: begitu kamu bisa membaca semuanya, tabel selesai. Ringkasan kuis menampilkan skor, aksara yang baru hafal, dan yang terjawab salah.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kana-kuis.webp" width="540" height="1200" loading="lazy" alt="kana-kuis"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kana-kuis.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kuis sepuluh soal, tanpa jadwal ulang"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar">
     <div class="wadah">
       <div class="artikel-isi"><h2>Mulai dari sini</h2><p>Saat pertama kali membuka aplikasi, kamu ditanya mau mulai dari nol atau sudah bisa membaca hiragana. Yang mulai dari nol mendapat langkah "Kenali hiragana" sebagai langkah pertama di Beranda, lalu 20 kata pertama, pelajaran tata bahasa pertama, kanji pertama, dan latihan ujian pertama.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -183,9 +207,9 @@
     <div class="wadah">
       <h2>Fitur terkait</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../tata-bahasa/"><b>Tata bahasa</b><span>122 pelajaran yang menjelaskan pola kalimat N5 satu per satu, dari です dan partikel dasar sampai bentuk て, bentuk ない, dan ungkapan&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../kosakata/"><b>Kosakata</b><span>38.085 kata bahasa Jepang dari N5 sampai N1, dikelompokkan ke 95 kategori supaya kamu belajar yang kamu butuhkan dulu. Setiap kata punya&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../faq/"><b>Tanya jawab</b><span>Belum menemukan jawabannya? Kirim email ke alamat di kaki&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../tata-bahasa/"><b>Tata bahasa</b><span>122 pelajaran yang menjelaskan pola kalimat N5 satu per satu, dari です dan partikel dasar sampai bentuk て, bentuk ない, dan ungkapan percakapan. Tiap…</span></a>
+        <a class="kartu kartu-tautan" href="../kosakata/"><b>Kosakata</b><span>38.085 kata bahasa Jepang dari N5 sampai N1, dikelompokkan ke 95 kategori supaya kamu belajar yang kamu butuhkan dulu. Setiap kata punya cara baca,…</span></a>
+        <a class="kartu kartu-tautan" href="../faq/"><b>Tanya jawab</b><span>Belum menemukan jawabannya? Kirim email ke alamat di kaki halaman.</span></a>
       </div>
     </div>
   </section>

@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/kosakata/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/kosakata/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/vocabulary/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/vocabulary/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/vocabulary/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/vocabulary/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/vocabulary/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/vocabulary/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/vocabulary/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/vocabulary/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Flashcard kosakata Jepang per kategori: 38.085 kata dengan FSRS">
 <meta property="og:description" content="Belajar kosakata bahasa Jepang dengan flashcard yang dijadwalkan FSRS: 38.085 kata N5–N1 dalam 95 kategori (21 khusus tempat kerja), kuis per deck, kamus saku, dan arti dalam 13 bahasa.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-id.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -73,7 +84,7 @@
 </head>
 
 <body>
-<a class="lompat" href="#isi">Fitur</a>
+<a class="lompat" href="#isi">Langsung ke isi</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="../" aria-label="TokuGo">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Gratis untuk mulai &middot; Tanpa akun &middot; 13 bahasa antarmuka &middot; Android 7.0 ke atas</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../aset/layar/id/kartu.webp" width="540" height="1200" fetchpriority="high" alt="Kartu flashcard kata 介護 yang sudah dibalik: cara baca, romaji, arti, kanji penyusun, dan tombol Belum hafal, Ragu, Hafal dengan jadwal ulangnya"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../aset/layar/id/kartu.webp" width="720" height="1600" fetchpriority="high" alt="Kartu flashcard kata 介護 yang sudah dibalik: cara baca, romaji, arti, kanji penyusun, dan tombol Belum hafal, Ragu, Hafal dengan jadwal ulangnya"></div></figure></div>
     </div>
   </div>
 </div>
@@ -151,37 +175,37 @@
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Kartu yang tahu kapan kamu akan lupa</h2><p>Depan kartu menampilkan kata (dengan furigana kalau kamu mau). Ketuk untuk membalik: cara baca, romaji, arti, dan kanji penyusunnya, plus tombol pelafalan. Lalu nilai dirimu dengan salah satu dari tiga tombol.</p><p>Jadwalnya dihitung <b>FSRS</b>, algoritma pengulangan berjarak yang sama dengan yang dipakai aplikasi flashcard modern. Jadwal ulang tiap tombol tertulis di tombolnya: beberapa menit, hari, atau minggu kemudian. Makin sering kamu menjawab Hafal, makin panjang jaraknya.</p><ul class="butir"><li><b>Belum hafal</b> mengembalikan kata ke tahap Belajar dari tahap mana pun.</li><li><b>Ragu</b> memperpendek jadwalnya.</li><li><b>Hafal</b> membawa kata ke tahap Hafal dan menjauhkan jadwal berikutnya.</li></ul></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kartu-depan.webp" width="540" height="1200" loading="lazy" alt="kartu-depan"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kartu.webp" width="540" height="1200" loading="lazy" alt="Kartu flashcard kata 介護 yang sudah dibalik: cara baca, romaji, arti, kanji penyusun, dan tombol Belum hafal, Ragu, Hafal dengan jadwal ulangnya"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kartu-depan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kartu yang tahu kapan kamu akan lupa"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kartu.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kartu flashcard kata 介護 yang sudah dibalik: cara baca, romaji, arti, kanji penyusun, dan tombol Belum hafal, Ragu, Hafal dengan jadwal ulangnya"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
-      <div class="artikel-isi"><h2>Empat tahap, dan Dikuasai harus dibuktikan</h2><p>Setiap kata melewati empat tahap: <b>Baru</b>, <b>Belajar</b>, <b>Hafal</b>, <b>Dikuasai</b>. Menekan Hafal di kartu hanya membawa kata sampai tahap Hafal. Untuk naik ke Dikuasai, kata itu harus kamu jawab benar di kuis pada <b>tiga hari yang berbeda</b>. Kata Dikuasai tetap diuji ulang saat jatuh tempo, dan turun lagi kalau salah.</p><p>Kuis sebuah deck terbuka setelah 20 kata di deck itu berstatus Hafal atau Dikuasai (deck yang lebih kecil terbuka begitu semua katanya hafal). Soalnya tiga jenis: kata ke arti, arti ke kata, dan kata ke cara baca. Di akhir kuis kamu melihat kata yang baru dikuasai, yang tinggal selangkah lagi, dan yang terjawab salah.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kuis.webp" width="540" height="1200" loading="lazy" alt="Soal kuis: sebuah kata Jepang dengan empat pilihan arti"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kuis-hasil.webp" width="540" height="1200" loading="lazy" alt="Hasil kuis 20 dari 20 benar, kata yang baru dikuasai, dan kata yang tinggal satu hari kuis lagi"></div></figure></div>
+      <div class="artikel-isi"><h2>Empat tahap, dan Dikuasai harus dibuktikan</h2><p>Setiap kata melewati empat tahap: <b>Baru</b>, <b>Belajar</b>, <b>Hafal</b>, <b>Dikuasai</b>. Menekan Hafal di kartu hanya membawa kata sampai tahap Hafal. Untuk naik ke Dikuasai, kata itu harus kamu jawab benar di kuis pada <b>tiga hari yang berbeda</b>. Kata Dikuasai tetap diuji ulang saat jatuh tempo, dan turun lagi kalau salah.</p><p>Kuis sebuah deck terbuka setelah 20 kata di deck itu berstatus Hafal atau Dikuasai (deck yang lebih kecil terbuka begitu semua katanya hafal). Soalnya dua arah: kata ke arti, dan arti ke kata. Di akhir kuis kamu melihat kata yang baru dikuasai, yang tinggal selangkah lagi, dan yang terjawab salah.</p></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kuis.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Soal kuis: sebuah kata Jepang dengan empat pilihan arti"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kuis-hasil.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Empat tahap, dan Dikuasai harus dibuktikan"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
-      <div class="artikel-isi"><h2>Belajar per kategori, pantau tiap kata</h2><p>Tab Kosakata dibagi ke <b>11 rumpun</b>, dan tiap rumpun berisi deck-deck kecil. Penyaring di atasnya mempersempit semuanya ke satu level JLPT. Setiap deck punya layarnya sendiri: donat persen tuntas, daftar kata dengan status tiap kata, saringan Belajar/Hafal/Dikuasai, dan tombol Belajar dan Kuis.</p><p>Rumpun <b>Tempat Kerja</b> berisi 21 deck untuk calon pekerja: Pabrik &amp; Produksi, Konstruksi, Pertanian, Perawatan Lansia, Perhotelan, Restoran &amp; Dapur, Perkakas &amp; Alat Ukur, Keselamatan Kerja, Instruksi Atasan, Jadwal &amp; Absensi, Kantor &amp; Dokumen, Perikanan, Pengolahan Makanan, Galangan Kapal, Otomotif &amp; Perbaikan, Penerbangan &amp; Bandara, Kebersihan Gedung, Mesin Industri, Elektronik &amp; Kelistrikan, Kontrak &amp; Gaji, Logistik &amp; Pergudangan. Untuk hidup di Jepang ada deck transportasi, belanja dan uang, rumah dan perabot, serta rumpun Sosial &amp; Administrasi dan Tubuh &amp; Kesehatan.</p><div class="tabel-gulir"><table><thead><tr><th>Rumpun</th><th>Deck</th></tr></thead><tbody><tr><td>Sehari-hari</td><td>16</td></tr><tr><td>Tempat Kerja</td><td>21</td></tr><tr><td>Sosial &amp; Administrasi</td><td>8</td></tr><tr><td>Tubuh &amp; Kesehatan</td><td>8</td></tr><tr><td>Sifat &amp; Emosi</td><td>8</td></tr><tr><td>Kelas Kata</td><td>5</td></tr><tr><td>Teknologi &amp; Media</td><td>4</td></tr><tr><td>Alam &amp; Sains</td><td>10</td></tr><tr><td>Akademik</td><td>8</td></tr><tr><td>Budaya</td><td>4</td></tr><tr><td>Olahraga</td><td>3</td></tr></tbody></table></div></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kosakata.webp" width="540" height="1200" loading="lazy" alt="Tab Kosakata: deck Ditandai, Kata Sulit, Kilat 60 detik, Kuis campuran, penyaring level, dan daftar 11 rumpun"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kerja.webp" width="540" height="1200" loading="lazy" alt="Rumpun Tempat Kerja yang terbuka: Keselamatan Kerja, Instruksi Atasan, Jadwal &amp; Absensi, Kontrak &amp; Gaji, dengan bar progres tiap deck"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/deck.webp" width="540" height="1200" loading="lazy" alt="Deck Perawatan Lansia: 12% tuntas dari 95 kata, daftar kata dengan status Hafal dan Dikuasai, tombol Belajar dan Kuis"></div></figure></div>
+      <div class="artikel-isi"><h2>Belajar per kategori, pantau tiap kata</h2><p>Tab Kosakata dibagi ke <b>11 rumpun</b>, dan tiap rumpun berisi deck-deck kecil. Penyaring di atasnya mempersempit semuanya ke satu level JLPT. Setiap deck punya layarnya sendiri: donat persen tuntas, daftar kata dengan status tiap kata, saringan Belajar/Hafal/Dikuasai, dan tombol Belajar dan Kuis.</p><p>Rumpun <b>Tempat Kerja</b> berisi 21 deck untuk calon pekerja: Keselamatan Kerja, Instruksi Atasan, Jadwal &amp; Absensi, Kontrak &amp; Gaji, Perkakas &amp; Alat Ukur, Logistik &amp; Pergudangan, Kantor &amp; Dokumen, Pengolahan Makanan, Perawatan Lansia, Pabrik &amp; Produksi, Mesin Industri, Elektronik &amp; Kelistrikan, Konstruksi, Restoran &amp; Dapur, Pertanian, Galangan Kapal, Kebersihan Gedung, Perikanan, Otomotif &amp; Perbaikan, Penerbangan &amp; Bandara, Perhotelan. Untuk hidup di Jepang ada deck transportasi, belanja dan uang, rumah dan perabot, serta rumpun Sosial &amp; Administrasi dan Tubuh &amp; Kesehatan.</p><div class="tabel-gulir"><table><thead><tr><th>Rumpun</th><th>Deck</th></tr></thead><tbody><tr><td>Sehari-hari</td><td>16</td></tr><tr><td>Tempat Kerja</td><td>21</td></tr><tr><td>Sosial &amp; Administrasi</td><td>8</td></tr><tr><td>Tubuh &amp; Kesehatan</td><td>8</td></tr><tr><td>Sifat &amp; Emosi</td><td>8</td></tr><tr><td>Kelas Kata</td><td>5</td></tr><tr><td>Teknologi &amp; Media</td><td>4</td></tr><tr><td>Alam &amp; Sains</td><td>10</td></tr><tr><td>Akademik &amp; Opini</td><td>8</td></tr><tr><td>Budaya &amp; Agama</td><td>4</td></tr><tr><td>Olahraga &amp; Permainan</td><td>3</td></tr></tbody></table></div></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kosakata.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Belajar per kategori, pantau tiap kata"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/deck.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Deck Perawatan Lansia: donat kemajuan, tombol Belajar dan Kuis, dan daftar kata dengan status Belajar, Hafal, atau Dikuasai"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Deck khusus dan latihan cepat</h2><p>Di atas daftar rumpun ada tiga deck yang isinya datang dari deck mana saja: <b>Ditandai</b> (kata yang kamu beri bintang), <b>Kata Sulit</b> (terisi sendiri dari kata yang sering kamu lupakan di kartu atau salah di kuis), dan <b>Kilat 60 detik</b> (sebanyak kartu yang muat dalam satu menit). Petak keempat, <b>Kuis campuran</b>, menguji kata Hafal dan Dikuasai dari semua deck sekaligus.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/beranda.webp" width="540" height="1200" loading="lazy" alt="Beranda TokuGo: kartu sapaan dengan pepatah Jepang, cincin target harian 4 dari 10, jejak tujuh hari, dan dua pintu Belajar kosakata dan Tinjau kanji"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kosakata-gelap.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Deck khusus dan latihan cepat"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Kamus saku 38.085 kata</h2><p>Ikon cari di kepala layar menemukan kata apa pun lewat tulisan kanji, kana, romaji, atau artinya. Hasilnya diurutkan menurut kecocokan, dan romaji dicocokkan dengan toleransi ejaan: <i>shinbun</i> dan <i>shimbun</i>, <i>koohii</i> dan <i>kōhī</i>, <i>arigato</i> dan <i>arigatou</i> menemukan kata yang sama. Setiap kata punya halaman detail: tahap dan jadwal tinjauan berikutnya, arti, kanji penyusun beserta bacaannya, dan tombol pelafalan.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kamus.webp" width="540" height="1200" loading="lazy" alt="Pencarian rumah sakit di kamus: 病院, 療養所, 大学病院 dengan cara baca dan artinya"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/detail-kata.webp" width="540" height="1200" loading="lazy" alt="Detail kata 介護: tahap Hafal, jadwal tinjau berikutnya, arti, dan kanji penyusun 介 dan 護 dengan bacaannya"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kamus.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Hasil pencarian di kamus: kata 病院 dan kata lain dengan cara baca, romaji, dan artinya"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/detail-kata.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kamus saku 38.085 kata"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar balik">
     <div class="wadah">
-      <div class="artikel-isi"><h2>Level dan bahasa arti kata</h2><p>Level kata adalah perkiraan: Japan Foundation tidak menerbitkan daftar kosakata resmi, jadi pemetaannya disusun dari daftar JLPT lama dan frekuensi pemakaian. Tidak ada level kata "JFT": <span class="rapat">JFT-Basic</span> diuji pada kosakata dasar yang sama dengan N5 dan N4, ditambah kosakata tempat kerja.</p><p>Arti kata lengkap tersedia dalam bahasa Indonesia dan Inggris. Bahasa lain mencakup semua kata gratis dan, di sebagian besar bahasa, seluruh kata <span class="rapat"><span class="rapat">N5–N4</span></span>; kata yang belum diterjemahkan tampil dalam bahasa Inggris. Bahasa terjemahan bisa dipilih terpisah dari bahasa antarmuka di Pengaturan.</p><div class="tabel-gulir"><table><thead><tr><th>Level</th><th>Kata</th><th>Gratis</th></tr></thead><tbody><tr><td>N5</td><td>1.030</td><td>1.007</td></tr><tr><td>N4</td><td>2.044</td><td>1.505</td></tr><tr><td>N3</td><td>11.230</td><td>4.101</td></tr><tr><td>N2</td><td>11.309</td><td>2.291</td></tr><tr><td>N1</td><td>12.472</td><td>502</td></tr></tbody></table></div></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-isi"><h2>Level dan bahasa arti kata</h2><p>Level kata adalah perkiraan: Japan Foundation tidak menerbitkan daftar kosakata resmi, jadi pemetaannya disusun dari daftar JLPT lama dan frekuensi pemakaian. Tidak ada level kata "JFT": <span class="rapat">JFT-Basic</span> diuji pada kosakata dasar yang sama dengan N5 dan N4, ditambah kosakata tempat kerja.</p><p>Arti kata lengkap tersedia dalam bahasa Indonesia dan Inggris. Bahasa lain mencakup semua kata gratis; kata yang belum diterjemahkan tampil dalam bahasa Inggris. Bahasa terjemahan bisa dipilih terpisah dari bahasa antarmuka di Pengaturan.</p><div class="tabel-gulir"><table><thead><tr><th>Level</th><th>Kata</th><th>Gratis</th></tr></thead><tbody><tr><td>N5</td><td>1.030</td><td>1.007</td></tr><tr><td>N4</td><td>2.044</td><td>1.505</td></tr><tr><td>N3</td><td>11.230</td><td>4.101</td></tr><tr><td>N2</td><td>11.309</td><td>2.291</td></tr><tr><td>N1</td><td>12.472</td><td>502</td></tr></tbody></table></div></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -189,9 +213,9 @@
     <div class="wadah">
       <h2>Fitur terkait</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../kanji/"><b>Kanji</b><span>Kanji tiap level dibagi menjadi set berisi sekitar 25 kanji, diurutkan seperti anak sekolah di Jepang mempelajarinya. Setiap kanji punya&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../dengar-ucap-tulis/"><b>Dengar · ucap · tulis</b><span>Mengenali kata di layar baru separuh jalan. Tiga fitur di seksi &quot;Dengar · ucap · tulis&quot; Beranda melatih telinga, mulut, dan&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../faq/"><b>Tanya jawab</b><span>Belum menemukan jawabannya? Kirim email ke alamat di kaki&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../kanji/"><b>Kanji</b><span>Kanji tiap level dibagi menjadi set berisi sekitar 25 kanji, diurutkan seperti anak sekolah di Jepang mempelajarinya. Setiap kanji punya arti, bacaan…</span></a>
+        <a class="kartu kartu-tautan" href="../dengar-ucap-tulis/"><b>Dengar · ucap · tulis</b><span>Mengenali kata di layar baru separuh jalan. Tiga fitur di seksi &quot;Dengar · ucap · tulis&quot; Beranda melatih telinga, mulut, dan tangan: deck audio,…</span></a>
+        <a class="kartu kartu-tautan" href="../faq/"><b>Tanya jawab</b><span>Belum menemukan jawabannya? Kirim email ke alamat di kaki halaman.</span></a>
       </div>
     </div>
   </section>

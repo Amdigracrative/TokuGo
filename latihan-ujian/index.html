@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/latihan-ujian/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/latihan-ujian/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/exam-practice/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/exam-practice/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/exam-practice/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/exam-practice/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/exam-practice/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/exam-practice/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/exam-practice/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/exam-practice/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Latihan ujian JFT-Basic dan JLPT N5–N1: 24 paket soal seperti ujian aslinya">
 <meta property="og:description" content="Simulasi ujian JFT-Basic dan JLPT N5, N4, N3, N2, N1 dengan seksi, jumlah soal, dan batas waktu resmi: soal bergambar dan berdokumen, menyimak dengan suara Jepang, hasil pada skala resmi, dan pembahasan tiap soal.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-id.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -73,7 +84,7 @@
 </head>
 
 <body>
-<a class="lompat" href="#isi">Fitur</a>
+<a class="lompat" href="#isi">Langsung ke isi</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="../" aria-label="TokuGo">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Gratis untuk mulai &middot; Tanpa akun &middot; 13 bahasa antarmuka &middot; Android 7.0 ke atas</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../aset/layar/id/soal-baca.webp" width="540" height="1200" fetchpriority="high" alt="Soal membaca dengan dokumen tergambar dan pilihan jawaban, lengkap dengan sisa waktu"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../aset/layar/id/soal-baca.webp" width="720" height="1600" fetchpriority="high" alt="Soal membaca berupa percakapan pesan singkat dengan pertanyaan dan pilihan jawaban"></div></figure></div>
     </div>
   </div>
 </div>
@@ -151,31 +175,31 @@
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Enam level, 24 paket</h2><p>Kartu tiap level di tab Latihan membuka halaman levelnya: tombol Mulai Paket, petak paket bernomor, dan riwayat. Sesudah semua paket selesai, <b>Latihan campuran</b> terbuka dengan soal yang belum pernah kamu lihat didahulukan. Paket baru ditambahkan lewat pembaruan aplikasi.</p><div class="tabel-gulir"><table><thead><tr><th>Ujian</th><th>Paket</th><th>Soal per paket</th><th>Waktu</th></tr></thead><tbody><tr><td><span class="rapat">JFT-Basic</span></td><td>8</td><td>48</td><td>60 menit</td></tr><tr><td>JLPT N5</td><td>8</td><td>68</td><td>90 menit</td></tr><tr><td>JLPT N4</td><td>2</td><td>85</td><td>115 menit</td></tr><tr><td>JLPT N3</td><td>2</td><td>102</td><td>140 menit</td></tr><tr><td>JLPT N2</td><td>2</td><td>107</td><td>155 menit</td></tr><tr><td>JLPT N1</td><td>2</td><td>101</td><td>165 menit</td></tr></tbody></table></div></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/latihan.webp" width="540" height="1200" loading="lazy" alt="Tab Latihan: enam kartu level, JFT-Basic 60 menit sampai JLPT N1 165 menit, dengan jumlah paket selesai"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/level.webp" width="540" height="1200" loading="lazy" alt="Halaman level JFT-Basic: tombol Mulai Paket, petak delapan paket, latihan campuran, dan riwayat"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/latihan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Tab Latihan: enam kartu level dari JFT-Basic 60 menit sampai JLPT N1 165 menit, dengan jumlah paket selesai"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/level.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Halaman level JFT-Basic: tombol mulai paket berikutnya, petak delapan paket, latihan campuran, dan riwayat"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
-      <div class="artikel-isi"><h2>Bentuk soal mengikuti ujian aslinya</h2><p>Soal <span class="rapat">JFT-Basic</span> memakai tiga pilihan (empat di tata bahasa), situasi dan pertanyaan dalam bahasamu, dan gambar di hampir setiap soal, seperti contoh soal resminya. Soal JLPT memakai empat pilihan, furigana sesuai levelnya, dan teks bacaan yang bentuknya beragam: cerita pendek, memo, pengumuman, pesan, email, dan tabel informasi. Setiap paket diaudit sebelum dirilis, dan tidak ada soal resmi yang disalin.</p><p>Sebelum mulai, layar Persiapan memperlihatkan struktur paket itu: seksi, jumlah soal, dan waktunya. Timer berjalan per seksi; sesudah lanjut ke seksi berikutnya, seksi sebelumnya tertutup, sama seperti di ruang ujian. Kamu bisa menandai soal yang ragu, keluar sementara (waktu tetap berjalan), dan melanjutkan dari tab Latihan.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/persiapan.webp" width="540" height="1200" loading="lazy" alt="persiapan"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/soal-kosakata.webp" width="540" height="1200" loading="lazy" alt="soal-kosakata"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/soal-baca.webp" width="540" height="1200" loading="lazy" alt="Soal membaca dengan dokumen tergambar dan pilihan jawaban, lengkap dengan sisa waktu"></div></figure></div>
+      <div class="artikel-isi"><h2>Bentuk soal mengikuti ujian aslinya</h2><p>Soal <span class="rapat">JFT-Basic</span> memakai tiga pilihan (empat di tata bahasa), situasi dan pertanyaan dalam bahasa pengguna, dan gambar di banyak soal, seperti contoh soal resminya. Soal JLPT memakai empat pilihan, furigana sesuai levelnya, dan teks bacaan yang bentuknya beragam: cerita pendek, memo, pengumuman, pesan, email, dan tabel informasi. Setiap paket diaudit sebelum dirilis, dan tidak ada soal resmi yang disalin.</p><p>Sebelum mulai, layar Persiapan memperlihatkan struktur paket itu: seksi, jumlah soal, dan waktunya. Waktunya mengikuti ujian aslinya: satu waktu gabungan di <span class="rapat">JFT-Basic</span>, waktu per seksi di JLPT. Sesudah lanjut ke seksi berikutnya, seksi sebelumnya tertutup, sama seperti di ruang ujian. Kamu bisa menandai soal yang ragu, keluar sementara (waktu tetap berjalan), dan melanjutkan dari tab Latihan.</p></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/persiapan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Bentuk soal mengikuti ujian aslinya"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/soal-kosakata.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Bentuk soal mengikuti ujian aslinya"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Menyimak dengan suara Jepang di <span class="rapat">HP-mu</span></h2><p>Naskah soal menyimak dibacakan oleh mesin pembaca bahasa Jepang di <span class="rapat">HP-mu</span>, dengan suara yang berbeda untuk tiap pembicara. Pilihan jawabannya hanya dibacakan, tidak tercetak, seperti di ujian aslinya; soal <span class="rapat">JFT-Basic</span> dan N5 memakai pilihan bergambar. Saklar "Aturan audio ujian asli" membatasi pemutaran sebanyak ujian aslinya: dua kali di <span class="rapat">JFT-Basic</span>, satu kali di JLPT.</p><p>Karena suaranya dari HP masing-masing, kualitasnya berbeda antar perangkat; kalau HP belum punya suara bahasa Jepang, aplikasi menawarkan cara memasangnya dan bagian menyimak dilewati sampai suaranya ada.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/soal-dengar.webp" width="540" height="1200" loading="lazy" alt="Soal menyimak dengan pemutar audio dan pilihan jawaban bergambar"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/soal-dengar.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Soal menyimak dengan pemutar audio dan tiga pilihan jawaban bergambar"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Hasil pada skala resmi, lalu pembahasan tiap soal</h2><p>Hasil <span class="rapat">JFT-Basic</span> digambar pada garis <b><span class="rapat">10–250</span></b> dengan tanda 145, 175, dan 200 beserta nama rentangnya: A1, A2.1, dan <span class="rapat">A2.2</span>, dan kegunaan tiap rentang di ujian resmi. Hasil JLPT menampilkan skor per bagian penilaian dibanding ambang minimumnya, karena di ujian resmi satu bagian di bawah ambang berarti tidak lulus. Keduanya disertai persen benar per bagian dan per jenis soal.</p><p>Tombol <b>Tinjau Soal</b> membuka tiap soal dengan jawabanmu, jawaban yang benar, dan pembahasannya; soal menyimak juga menampilkan naskahnya. Pembahasan tersedia dalam 12 bahasa. Riwayat tiap level menyimpan latihan terbaru, dan grafik skornya ada di tab Statistik.</p><p>Skor ini perkiraan untuk mengukur kemajuan, bukan prediksi skor ujian resmi.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/hasil.webp" width="540" height="1200" loading="lazy" alt="Hasil latihan JFT-Basic: skor pada garis 10–250 dengan tanda rentang A1, A2.1, A2.2 dan persen benar per bagian"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/tinjau-soal.webp" width="540" height="1200" loading="lazy" alt="Tinjau soal: jawaban yang dipilih, jawaban benar, dan pembahasan"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/hasil.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Hasil latihan JFT-Basic: skor pada garis 10–250 dengan tanda rentang A1, A2.1, A2.2 dan persen benar per bagian"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/tinjau-soal.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Hasil pada skala resmi, lalu pembahasan tiap soal"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar">
     <div class="wadah">
       <div class="artikel-isi"><h2>Gratis dan Premium</h2><p>Semua paket terbuka di versi gratis. Sesudah kamu menekan Mulai, latihan berikutnya di level itu terkunci <b>7 hari</b>; level lain tidak ikut terkunci, dan riwayat serta pembahasan tetap terbuka. Selama terkunci kamu bisa membuka satu latihan tambahan dengan menonton iklan. Premium tidak punya jeda. Iklan tidak pernah tampil di layar soal, untuk siapa pun.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -183,9 +207,9 @@
     <div class="wadah">
       <h2>Fitur terkait</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../kosakata/"><b>Kosakata</b><span>38.085 kata bahasa Jepang dari N5 sampai N1, dikelompokkan ke 95 kategori supaya kamu belajar yang kamu butuhkan dulu. Setiap kata punya&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../tata-bahasa/"><b>Tata bahasa</b><span>122 pelajaran yang menjelaskan pola kalimat N5 satu per satu, dari です dan partikel dasar sampai bentuk て, bentuk ない, dan ungkapan&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../faq/"><b>Tanya jawab</b><span>Belum menemukan jawabannya? Kirim email ke alamat di kaki&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../kosakata/"><b>Kosakata</b><span>38.085 kata bahasa Jepang dari N5 sampai N1, dikelompokkan ke 95 kategori supaya kamu belajar yang kamu butuhkan dulu. Setiap kata punya cara baca,…</span></a>
+        <a class="kartu kartu-tautan" href="../tata-bahasa/"><b>Tata bahasa</b><span>122 pelajaran yang menjelaskan pola kalimat N5 satu per satu, dari です dan partikel dasar sampai bentuk て, bentuk ない, dan ungkapan percakapan. Tiap…</span></a>
+        <a class="kartu kartu-tautan" href="../faq/"><b>Tanya jawab</b><span>Belum menemukan jawabannya? Kirim email ke alamat di kaki halaman.</span></a>
       </div>
     </div>
   </section>

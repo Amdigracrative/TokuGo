@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/en/listen-speak-write/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/dengar-ucap-tulis/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/listen-speak-write/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/listen-speak-write/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/listen-speak-write/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/listen-speak-write/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/listen-speak-write/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/listen-speak-write/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/listen-speak-write/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/listen-speak-write/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Audio decks, speaking practice and kanji writing">
 <meta property="og:description" content="Three ways to lock in what you learned in TokuGo: audio decks you build yourself that read words and meanings aloud (with the screen off), speaking practice into the microphone, and finger-writing practice that checks every kanji stroke.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-en.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Free to start &middot; No account &middot; 13 interface languages &middot; Android 7.0 and up</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/id/audio-pemutar.webp" width="540" height="1200" fetchpriority="high" alt="Audio deck player: the current word shown large with furigana and meaning, playback controls, and the word list"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/audio-pemutar.webp" width="720" height="1600" fetchpriority="high" alt="Audio deck player: the current word shown large with its meaning, playback controls, and the word list"></div></figure></div>
     </div>
   </div>
 </div>
@@ -151,25 +175,25 @@
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Audio decks you build yourself</h2><p>Build a deck of 5 to 100 words: search one by one, or take them in bulk from any vocabulary deck. The player reads each word in Japanese, followed by its meaning in the app language (switch "Read meanings" off for Japanese only). The current word is shown large with furigana; tap a word in the list to jump to it.</p><p>Controls: shuffle, repeat, and speed at 0.75×, 1× or 1.25×. The player keeps going when the screen turns off or you switch apps; the player notification and headset buttons stay in control.</p><ul class="butir"><li>Free version: 3 decks. Premium: unlimited, and a deck can be downloaded as one audio file (M4A).</li><li>A sample deck, "Common words", is created automatically from the most frequent words; edit or delete it as you like.</li><li>Listening never changes a word's schedule or stage.</li></ul></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/id/audio.webp" width="540" height="1200" loading="lazy" alt="Audio deck list: deck name, word count and minutes, play and edit buttons"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/id/audio-pemutar.webp" width="540" height="1200" loading="lazy" alt="Audio deck player: the current word shown large with furigana and meaning, playback controls, and the word list"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/audio.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Audio decks you build yourself"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/audio-pemutar.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Audio deck player: the current word shown large with its meaning, playback controls, and the word list"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Speaking practice: say it, and move on</h2><p>A word you Know or have Mastered appears on a card; the microphone turns on by itself, you say the word, and if your phone recognises it, the next one appears. If not, the screen shows what it heard and listens again; after three tries it plays an example. The microphone button, the example button and Skip are always there. A session has 5, 10, 15 or 20 words.</p><p>Your voice is processed by your phone's speech-recognition service (usually Google's); the app does not record or store it. Only the word is judged, not your accent. Because speech recognition can mishear, this practice <b>never lowers</b> a word's stage.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/id/ucap.webp" width="540" height="1200" loading="lazy" alt="Speaking practice card with the microphone listening"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/ucap.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Speaking practice card: a word with its meaning and a microphone button"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Kanji writing: stroke by stroke</h2><p>For kanji you Know or have Mastered. Only the meaning and readings are shown; you write in a full-width box, and each stroke is checked when you lift your finger: shape, direction and order. A correct stroke snaps to the standard shape; a wrong order or reversed direction is rejected with one sentence; after two misses the next stroke appears faintly with its starting point.</p><ul class="butir"><li><b>From memory:</b> an empty box. <b>With outline:</b> the kanji shows faintly, for warming up. <b>Tap the order:</b> the kanji is shown in full; tap its strokes in order.</li><li>The <b>Animation</b> button plays the whole kanji being written, any time.</li><li>A kanji counts as <b>writable</b> after you write it from memory without help on two different days; 5, 10 or 15 kanji per session.</li></ul></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/id/tulis-kanji-mulai.webp" width="540" height="1200" loading="lazy" alt="tulis-kanji-mulai"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/id/tulis-kanji.webp" width="540" height="1200" loading="lazy" alt="Kanji writing screen: meaning and readings as the prompt, a writing box with guide lines, and the Hint, Animation and Skip buttons"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/tulis-kanji-mulai.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kanji writing: stroke by stroke"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/tulis-kanji.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kanji writing screen: meaning and readings as the prompt, a writing box with guide lines, and the Hint, Animation and Skip buttons"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Pronunciation everywhere</h2><p>Vocabulary cards, kanji cards, word detail, kana lessons, grammar examples and listening questions are all read by your phone's Japanese text-to-speech engine, so no audio files need to be downloaded. Voice quality follows each phone's engine.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -177,9 +201,9 @@
     <div class="wadah">
       <h2>Related features</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../kanji/"><b>Kanji</b><span>The kanji of each level are split into sets of about 25, ordered the way Japanese schoolchildren learn them. Every kanji has meanings,&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../faq/"><b>FAQ</b><span>Can&#x27;t find your answer? Email the address in the&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning and…</span></a>
+        <a class="kartu kartu-tautan" href="../kanji/"><b>Kanji</b><span>The kanji of each level are split into sets of about 25, ordered the way Japanese schoolchildren learn them. Every kanji has meanings, readings with…</span></a>
+        <a class="kartu kartu-tautan" href="../faq/"><b>FAQ</b><span>Can&#x27;t find your answer? Email the address in the footer.</span></a>
       </div>
     </div>
   </section>

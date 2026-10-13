@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/en/kanji/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/kanji/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/kanji/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/kanji/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/kanji/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/kanji/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/kanji/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/kanji/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/kanji/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/kanji/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Learn the 2,230 JLPT N5–N1 kanji with stroke order">
 <meta property="og:description" content="JLPT N5 to N1 kanji in sets of 25 in Japanese school order: meanings, On and Kun readings, stroke-order diagrams, example words, kanji cards and quizzes, and finger-writing practice.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-en.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Free to start &middot; No account &middot; 13 interface languages &middot; Android 7.0 and up</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/kanji.webp" width="540" height="1200" fetchpriority="high" alt="The flipped kanji card for 金: meaning, On and Kun readings, stroke order, and example words"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/kanji.webp" width="720" height="1600" fetchpriority="high" alt="The flipped kanji card for 金: meaning, On and Kun readings, stroke order, and example words"></div></figure></div>
     </div>
   </div>
 </div>
@@ -151,31 +175,31 @@
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Sets of 25 kanji in Japanese school order</h2><p>The Kanji tab is divided by JLPT level, then into sets of about 25 kanji. Within a level the order follows the Japanese school curriculum (grade 1 first), then stroke count from fewest up; sequences that belong together, such as numbers, weekday names and seasons, are kept in order. Each set row shows its kanji, a progress bar, known and mastered counts, and a "Quiz ready" label or the number due.</p><div class="tabel-gulir"><table><thead><tr><th>Level</th><th>Kanji</th><th>Access</th></tr></thead><tbody><tr><td>N5</td><td>103</td><td>Free</td></tr><tr><td>N4</td><td>181</td><td>Free</td></tr><tr><td>N3</td><td>370</td><td>Premium</td></tr><tr><td>N2</td><td>369</td><td>Premium</td></tr><tr><td>N1</td><td>1,207</td><td>Premium</td></tr></tbody></table></div></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji-tab.webp" width="540" height="1200" loading="lazy" alt="Kanji tab, level N5: four sets with their kanji, known and mastered counts"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji-deck.webp" width="540" height="1200" loading="lazy" alt="kanji-deck"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji-tab.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kanji tab, level N5: kanji sets with their kanji, progress bars, known and mastered counts"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji-deck.webp" width="720" height="1600" loading="lazy" decoding="async" alt="One N5 kanji set: progress ring, Study and Quiz buttons, and the kanji list with meanings, On and Kun readings and stages"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Kanji cards and quizzes</h2><p>The front of a card is the kanji alone. The back: meanings, On and Kun readings (with romaji if you want), a <b>stroke-order diagram</b> with one frame per stroke and the starting point marked, and example words that use it. The same three buttons as vocabulary cards reschedule it.</p><p>A set's quiz opens at 10 Known or Mastered kanji, with three question types: kanji to meaning, meaning to kanji, and kanji to reading. The Mastered rule is the same: correct in quizzes on three different days. <b>Kanji review</b> at the top of the tab gathers every due kanji from every set, and the mixed quiz tests across sets.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji-depan.webp" width="540" height="1200" loading="lazy" alt="kanji-depan"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji.webp" width="540" height="1200" loading="lazy" alt="The flipped kanji card for 金: meaning, On and Kun readings, stroke order, and example words"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji-kuis.webp" width="540" height="1200" loading="lazy" alt="kanji-kuis"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji.webp" width="720" height="1600" loading="lazy" decoding="async" alt="The flipped kanji card for 金: meaning, On and Kun readings, stroke order, and example words"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji-gelap.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kanji cards and quizzes"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Kanji detail and special decks</h2><p>Each kanji's detail page holds its meanings, stage and next review, readings, stroke diagram and example words; a word's detail page links to its component kanji. Like vocabulary, kanji have <b>Bookmarked</b>, <b>Difficult</b> and <b>60-second Blitz</b> decks, and a switch in the home screen's quick-practice section flips its four tiles to the kanji versions.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji-detail.webp" width="540" height="1200" loading="lazy" alt="Kanji detail for 金 with stage, readings, stroke-order diagram and example words"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/detail-kata.webp" width="540" height="1200" loading="lazy" alt="Word detail for 介護: stage Known, next review date, meaning, and the component kanji 介 and 護 with readings"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/kanji-detail.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kanji detail for 金: stage, readings, stroke-order diagram and example words"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/detail-kata.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kanji detail and special decks"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Write kanji with your finger</h2><p>Kanji you already Know or have Mastered can be practised by writing: only the meaning and readings are shown, you write stroke by stroke, and every stroke is checked for shape, direction and order, offline. Three modes: <b>From memory</b>, <b>With outline</b>, and <b>Tap the order</b>. A kanji counts as "writable" after you write it from memory without help on two different days.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/id/tulis-kanji-mulai.webp" width="540" height="1200" loading="lazy" alt="tulis-kanji-mulai"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/id/tulis-kanji.webp" width="540" height="1200" loading="lazy" alt="Kanji writing screen: meaning and readings as the prompt, a writing box with guide lines, and the Hint, Animation and Skip buttons"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/tulis-kanji-mulai.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Write kanji with your finger"></div></figure><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/tulis-kanji.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kanji writing screen: meaning and readings as the prompt, a writing box with guide lines, and the Hint, Animation and Skip buttons"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar">
     <div class="wadah">
       <div class="artikel-isi"><h2>Data sources</h2><p>Meanings and readings come from KANJIDIC (Electronic Dictionary Research and Development Group) and stroke order from KanjiVG, both under CC BY-SA licences. Kanji levels are an estimate based on the old JLPT lists; the current JLPT does not publish an official kanji list.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -183,9 +207,9 @@
     <div class="wadah">
       <h2>Related features</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../listen-speak-write/"><b>Listen · speak · write</b><span>Recognising a word on screen is only half the job. Three features in the home screen&#x27;s &quot;Listen · speak · write&quot; section&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../exam-practice/"><b>Exam practice</b><span>Six exam levels, 24 question sets. Every set follows the sections, question counts and time limits of the real test, with the same kinds of&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning and…</span></a>
+        <a class="kartu kartu-tautan" href="../listen-speak-write/"><b>Listen · speak · write</b><span>Recognising a word on screen is only half the job. Three features in the home screen&#x27;s &quot;Listen · speak · write&quot; section train your ears, mouth and…</span></a>
+        <a class="kartu kartu-tautan" href="../exam-practice/"><b>Exam practice</b><span>Six exam levels, 24 question sets. Every set follows the sections, question counts and time limits of the real test, with the same kinds of…</span></a>
       </div>
     </div>
   </section>

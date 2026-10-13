@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/faq/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/faq/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/faq/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/faq/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/faq/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/faq/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/faq/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/faq/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/faq/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/faq/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Pertanyaan yang sering diajukan tentang TokuGo">
 <meta property="og:description" content="Jawaban atas pertanyaan tentang TokuGo: apa yang gratis dan apa yang Premium, pemakaian offline, akun dan cadangan, bahasa yang didukung, suara Jepang, mikrofon, skor latihan, dan sumber data.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-id.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -115,7 +126,7 @@
           "name": "Bahasa apa saja yang didukung?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Antarmuka tersedia dalam 13 bahasa: Indonesia, Inggris, Vietnam, Nepal, Myanmar, Filipino, Thai, Khmer, Mongolia, Sinhala, Bengali, Hindi, dan Tionghoa. Arti kata lengkap dalam bahasa Indonesia dan Inggris; bahasa lain mencakup semua kata gratis (dan seluruh kata N5–N4 di sebagian besar bahasa), sisanya tampil dalam bahasa Inggris. Pelajaran tata bahasa dan pembahasan soal tersedia dalam 12 bahasa; untuk bahasa Tionghoa keduanya masih bahasa Inggris. Bahasa terjemahan bisa dipilih terpisah dari bahasa antarmuka."
+            "text": "Antarmuka tersedia dalam 13 bahasa: Indonesia, Inggris, Vietnam, Nepal, Myanmar, Filipino, Thai, Khmer, Mongolia, Sinhala, Bengali, Hindi, dan Tionghoa. Arti kata lengkap dalam bahasa Indonesia dan Inggris; bahasa lain mencakup semua kata gratis, sisanya tampil dalam bahasa Inggris. Pelajaran tata bahasa dan pembahasan soal tersedia dalam 12 bahasa; untuk bahasa Tionghoa keduanya masih bahasa Inggris. Bahasa terjemahan bisa dipilih terpisah dari bahasa antarmuka."
           }
         },
         {
@@ -171,7 +182,7 @@
           "name": "Di mana saja iklan tampil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Di halaman daftar (banner), sebagai satu kartu di beberapa daftar, dan sesekali sesudah sesi selesai. Tidak pernah di layar kartu, kuis, pelajaran kana dan tata bahasa, latihan ucap, tulis kanji, pemutar audio, maupun soal ujian. Premium menghilangkan semuanya."
+            "text": "Di halaman daftar, sesekali saat aplikasi dibuka, dan sesudah sesi selesai. Tidak pernah di layar kartu, kuis, pelajaran kana dan tata bahasa, latihan ucap, tulis kanji, pemutar audio, maupun soal ujian. Premium menghilangkan semuanya."
           }
         },
         {
@@ -179,7 +190,7 @@
           "name": "HP apa yang didukung?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Android 7.0 ke atas, HP maupun tablet, dalam orientasi tegak. Semua data ada di dalam aplikasi."
+            "text": "Android 7.0 ke atas, HP maupun tablet. Semua isi sudah ada di dalam aplikasi."
           }
         },
         {
@@ -198,7 +209,7 @@
 </head>
 
 <body>
-<a class="lompat" href="#isi">Fitur</a>
+<a class="lompat" href="#isi">Langsung ke isi</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="../" aria-label="TokuGo">
@@ -248,6 +259,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -282,15 +306,15 @@
         <details class="tanya"><summary><span>Apakah bisa dipakai tanpa internet?</span></summary><div class="jawab"><p>Semua isinya ada di dalam aplikasi. Di versi gratis, memulai sesi belajar, kuis, atau latihan ujian membutuhkan koneksi internet, sedangkan Premium bisa belajar sepenuhnya offline. Latihan ucap memakai pengenal suara HP yang di kebanyakan HP butuh internet.</p></div></details>
         <details class="tanya"><summary><span>Apakah perlu membuat akun?</span></summary><div class="jawab"><p>Tidak. Tidak ada akun, pendaftaran, atau kata sandi, dan pengembang tidak punya server.</p></div></details>
         <details class="tanya"><summary><span>Bagaimana kalau ganti HP atau aplikasinya dicopot?</span></summary><div class="jawab"><p>Progres belajar disimpan di <span class="rapat">HP-mu</span> saja. Sebelum pindah HP atau mencopot aplikasi, ekspor berkas cadangan lewat panel samping (Cadangkan data), lalu impor di HP yang baru. Tanpa itu progresnya hilang.</p></div></details>
-        <details class="tanya"><summary><span>Bahasa apa saja yang didukung?</span></summary><div class="jawab"><p>Antarmuka tersedia dalam 13 bahasa: Indonesia, Inggris, Vietnam, Nepal, Myanmar, Filipino, Thai, Khmer, Mongolia, Sinhala, Bengali, Hindi, dan Tionghoa. Arti kata lengkap dalam bahasa Indonesia dan Inggris; bahasa lain mencakup semua kata gratis (dan seluruh kata <span class="rapat"><span class="rapat">N5–N4</span></span> di sebagian besar bahasa), sisanya tampil dalam bahasa Inggris. Pelajaran tata bahasa dan pembahasan soal tersedia dalam 12 bahasa; untuk bahasa Tionghoa keduanya masih bahasa Inggris. Bahasa terjemahan bisa dipilih terpisah dari bahasa antarmuka.</p></div></details>
+        <details class="tanya"><summary><span>Bahasa apa saja yang didukung?</span></summary><div class="jawab"><p>Antarmuka tersedia dalam 13 bahasa: Indonesia, Inggris, Vietnam, Nepal, Myanmar, Filipino, Thai, Khmer, Mongolia, Sinhala, Bengali, Hindi, dan Tionghoa. Arti kata lengkap dalam bahasa Indonesia dan Inggris; bahasa lain mencakup semua kata gratis, sisanya tampil dalam bahasa Inggris. Pelajaran tata bahasa dan pembahasan soal tersedia dalam 12 bahasa; untuk bahasa Tionghoa keduanya masih bahasa Inggris. Bahasa terjemahan bisa dipilih terpisah dari bahasa antarmuka.</p></div></details>
         <details class="tanya"><summary><span>Dari mana suara bahasa Jepangnya?</span></summary><div class="jawab"><p>Dari mesin pembaca teks (text-to-speech) di <span class="rapat">HP-mu</span>, biasanya Google Text-to-speech, jadi tidak ada berkas audio yang diunduh. Kalau HP belum punya suara bahasa Jepang, aplikasi menawarkan cara memasangnya. Kualitas dan kecepatannya berbeda antar HP; karena itu skor menyimak tidak bisa dibandingkan antar perangkat.</p></div></details>
         <details class="tanya"><summary><span>Apakah aplikasi merekam suaraku?</span></summary><div class="jawab"><p>Tidak. Latihan ucap mengirim ucapanmu ke layanan pengenal suara di <span class="rapat">HP-mu</span> (biasanya milik Google) dan hanya menerima teks hasil pengenalannya. Aplikasi tidak merekam, tidak menyimpan, dan tidak mengirim suara ke pengembang. Izin mikrofon baru diminta saat kamu membuka Latihan ucap.</p></div></details>
         <details class="tanya"><summary><span>Apakah skor latihan sama dengan skor ujian resmi?</span></summary><div class="jawab"><p>Tidak. Skor di TokuGo adalah perkiraan dari persen jawaban benar untuk mengukur kemajuan. Ujian resmi memakai penilaian terskala yang berbeda. Aplikasi menampilkan rentang resminya (A1, A2.1, <span class="rapat">A2.2</span> untuk <span class="rapat">JFT-Basic</span>; ambang per bagian untuk JLPT) supaya kamu tahu posisimu, tanpa vonis lulus atau tidak.</p></div></details>
         <details class="tanya"><summary><span>Apa artinya Dikuasai?</span></summary><div class="jawab"><p>Tahap tertinggi sebuah kata atau kanji. Menekan Hafal di kartu hanya membawanya ke tahap Hafal; Dikuasai dicapai dengan menjawabnya benar di kuis pada tiga hari yang berbeda. Kata Dikuasai tetap ditinjau saat jatuh tempo dan turun lagi kalau salah.</p></div></details>
         <details class="tanya"><summary><span>Kenapa kata <span class="rapat">JFT-Basic</span> tidak punya level sendiri?</span></summary><div class="jawab"><p>Japan Foundation tidak menerbitkan daftar kosakata <span class="rapat">JFT-Basic</span>. Level kata di TokuGo (N5 sampai N1) adalah perkiraan dari daftar JLPT lama dan frekuensi pemakaian; <span class="rapat">JFT-Basic</span> diuji pada kosakata dasar yang sama dengan N5 dan N4 ditambah kosakata tempat kerja, yang ada di rumpun Tempat Kerja.</p></div></details>
         <details class="tanya"><summary><span>Dari mana kosakata, kanji, dan soalnya?</span></summary><div class="jawab"><p>Kosakata dan kanji dari JMdict dan KANJIDIC milik Electronic Dictionary Research and Development Group (CC BY-SA 4.0), urutan goresan dari KanjiVG (CC BY-SA 3.0), frekuensi kata dari wordfreq. Pelajaran tata bahasa dan semua soal latihan ditulis khusus untuk TokuGo dan diaudit sebelum dirilis; tidak ada soal resmi yang disalin.</p></div></details>
-        <details class="tanya"><summary><span>Di mana saja iklan tampil?</span></summary><div class="jawab"><p>Di halaman daftar (banner), sebagai satu kartu di beberapa daftar, dan sesekali sesudah sesi selesai. Tidak pernah di layar kartu, kuis, pelajaran kana dan tata bahasa, latihan ucap, tulis kanji, pemutar audio, maupun soal ujian. Premium menghilangkan semuanya.</p></div></details>
-        <details class="tanya"><summary><span>HP apa yang didukung?</span></summary><div class="jawab"><p>Android 7.0 ke atas, HP maupun tablet, dalam orientasi tegak. Semua data ada di dalam aplikasi.</p></div></details>
+        <details class="tanya"><summary><span>Di mana saja iklan tampil?</span></summary><div class="jawab"><p>Di halaman daftar, sesekali saat aplikasi dibuka, dan sesudah sesi selesai. Tidak pernah di layar kartu, kuis, pelajaran kana dan tata bahasa, latihan ucap, tulis kanji, pemutar audio, maupun soal ujian. Premium menghilangkan semuanya.</p></div></details>
+        <details class="tanya"><summary><span>HP apa yang didukung?</span></summary><div class="jawab"><p>Android 7.0 ke atas, HP maupun tablet. Semua isi sudah ada di dalam aplikasi.</p></div></details>
         <details class="tanya"><summary><span>Bagaimana menghubungi pengembang?</span></summary><div class="jawab"><p>Email ke alamat di kaki halaman ini. Laporan kesalahan kata, arti, atau soal sangat membantu.</p></div></details>
       </div>
     </div>
@@ -299,9 +323,9 @@
     <div class="wadah">
       <h2>Fitur terkait</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../kosakata/"><b>Kosakata</b><span>38.085 kata bahasa Jepang dari N5 sampai N1, dikelompokkan ke 95 kategori supaya kamu belajar yang kamu butuhkan dulu. Setiap kata punya&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../latihan-ujian/"><b>Latihan ujian</b><span>Enam level ujian, 24 paket soal. Setiap paket disusun mengikuti seksi, jumlah soal, dan batas waktu ujian sungguhan, dengan bentuk soal&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../dengar-ucap-tulis/"><b>Dengar · ucap · tulis</b><span>Mengenali kata di layar baru separuh jalan. Tiga fitur di seksi &quot;Dengar · ucap · tulis&quot; Beranda melatih telinga, mulut, dan&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../kosakata/"><b>Kosakata</b><span>38.085 kata bahasa Jepang dari N5 sampai N1, dikelompokkan ke 95 kategori supaya kamu belajar yang kamu butuhkan dulu. Setiap kata punya cara baca,…</span></a>
+        <a class="kartu kartu-tautan" href="../latihan-ujian/"><b>Latihan ujian</b><span>Enam level ujian, 24 paket soal. Setiap paket disusun mengikuti seksi, jumlah soal, dan batas waktu ujian sungguhan, dengan bentuk soal yang sama:…</span></a>
+        <a class="kartu kartu-tautan" href="../dengar-ucap-tulis/"><b>Dengar · ucap · tulis</b><span>Mengenali kata di layar baru separuh jalan. Tiga fitur di seksi &quot;Dengar · ucap · tulis&quot; Beranda melatih telinga, mulut, dan tangan: deck audio,…</span></a>
       </div>
     </div>
   </section>

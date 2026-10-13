@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/kanji/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/kanji/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/kanji/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/kanji/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/kanji/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/kanji/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/kanji/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/kanji/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/kanji/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/kanji/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="Belajar 2.230 kanji JLPT N5–N1 dengan urutan goresan">
 <meta property="og:description" content="Kanji JLPT N5 sampai N1 dalam set 25 kanji urut kelas sekolah Jepang: arti, bacaan On dan Kun, diagram urutan goresan, contoh kata, kartu dan kuis kanji, serta latihan menulis kanji dengan jari.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-id.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -73,7 +84,7 @@
 </head>
 
 <body>
-<a class="lompat" href="#isi">Fitur</a>
+<a class="lompat" href="#isi">Langsung ke isi</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="../" aria-label="TokuGo">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Gratis untuk mulai &middot; Tanpa akun &middot; 13 bahasa antarmuka &middot; Android 7.0 ke atas</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../aset/layar/id/kanji.webp" width="540" height="1200" fetchpriority="high" alt="Kartu kanji 金 yang dibalik: arti, bacaan On dan Kun, urutan goresan, dan contoh kata"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../aset/layar/id/kanji.webp" width="720" height="1600" fetchpriority="high" alt="Kartu kanji 金 yang dibalik: arti, bacaan On dan Kun, urutan goresan, dan contoh kata"></div></figure></div>
     </div>
   </div>
 </div>
@@ -151,31 +175,31 @@
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Set 25 kanji, urut kelas sekolah Jepang</h2><p>Tab Kanji dibagi per level JLPT, lalu jadi set berisi sekitar 25 kanji. Urutan di dalam level mengikuti urutan belajar di sekolah Jepang (kelas 1 SD dulu), lalu jumlah goresan dari yang paling sedikit; deret yang wajar dipelajari bersama, seperti angka, nama hari, dan musim, dijaga tetap berurutan. Tiap baris set memperlihatkan deretan kanjinya, bar kemajuan, jumlah hafal dan dikuasai, dan label "Kuis siap" atau jumlah yang jatuh tempo.</p><div class="tabel-gulir"><table><thead><tr><th>Level</th><th>Kanji</th><th>Akses</th></tr></thead><tbody><tr><td>N5</td><td>103</td><td>Gratis</td></tr><tr><td>N4</td><td>181</td><td>Gratis</td></tr><tr><td>N3</td><td>370</td><td>Premium</td></tr><tr><td>N2</td><td>369</td><td>Premium</td></tr><tr><td>N1</td><td>1.207</td><td>Premium</td></tr></tbody></table></div></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji-tab.webp" width="540" height="1200" loading="lazy" alt="Tab Kanji level N5: empat set kanji dengan deretan kanjinya, jumlah hafal dan dikuasai"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji-deck.webp" width="540" height="1200" loading="lazy" alt="kanji-deck"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji-tab.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Tab Kanji level N5: set kanji dengan deretan kanjinya, bar kemajuan, jumlah hafal dan dikuasai"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji-deck.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Layar satu set kanji N5: donat kemajuan, tombol Belajar dan Kuis, daftar kanji dengan arti, bacaan On dan Kun, dan tahapnya"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Kartu dan kuis kanji</h2><p>Depan kartu hanya kanjinya. Baliknya: arti, bacaan On dan Kun (dengan romaji kalau kamu mau), <b>diagram urutan goresan</b> satu kotak per goresan dengan titik awal yang ditandai, dan contoh kata yang memakainya. Tiga tombol yang sama dengan kartu kosakata menjadwalkannya ulang.</p><p>Kuis set terbuka pada 10 kanji Hafal atau Dikuasai, dengan tiga jenis soal: kanji ke arti, arti ke kanji, dan kanji ke bacaan. Aturan Dikuasai sama: benar di kuis pada tiga hari berbeda. <b>Tinjau kanji</b> di puncak tab mengumpulkan semua kanji yang jatuh tempo dari semua set, dan Kuis campuran menguji lintas set.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji-depan.webp" width="540" height="1200" loading="lazy" alt="kanji-depan"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji.webp" width="540" height="1200" loading="lazy" alt="Kartu kanji 金 yang dibalik: arti, bacaan On dan Kun, urutan goresan, dan contoh kata"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji-kuis.webp" width="540" height="1200" loading="lazy" alt="kanji-kuis"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kartu kanji 金 yang dibalik: arti, bacaan On dan Kun, urutan goresan, dan contoh kata"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji-gelap.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Kartu dan kuis kanji"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Detail kanji dan deck khusus</h2><p>Halaman detail tiap kanji memuat arti, tahap dan jadwal tinjauan berikutnya, bacaan, diagram goresan, dan contoh kata; halaman detail kata menautkan ke kanji penyusunnya. Seperti kosakata, kanji punya deck <b>Ditandai</b>, <b>Kanji sulit</b>, dan <b>Kilat 60 detik</b>, dan saklar di seksi Latihan cepat Beranda mengganti keempat petaknya ke versi kanji.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji-detail.webp" width="540" height="1200" loading="lazy" alt="Detail kanji 金 dengan tahap, bacaan, diagram urutan goresan, dan contoh kata"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/detail-kata.webp" width="540" height="1200" loading="lazy" alt="Detail kata 介護: tahap Hafal, jadwal tinjau berikutnya, arti, dan kanji penyusun 介 dan 護 dengan bacaannya"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/kanji-detail.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Detail kanji 金: tahap, bacaan, diagram urutan goresan, dan contoh kata"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/detail-kata.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Detail kanji dan deck khusus"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>Tulis kanji dengan jari</h2><p>Kanji yang sudah Hafal atau Dikuasai bisa dilatih menulisnya: yang ditampilkan hanya arti dan bacaannya, kamu menulis goresan demi goresan, dan tiap goresan langsung dinilai bentuk, arah, dan urutannya, tanpa internet. Tiga cara berlatih: <b>Dari ingatan</b>, <b>Dengan bayangan</b>, dan <b>Ketuk urutan</b>. Sebuah kanji dihitung "bisa ditulis" sesudah ditulis dari ingatan tanpa bantuan pada dua hari berbeda.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/tulis-kanji-mulai.webp" width="540" height="1200" loading="lazy" alt="tulis-kanji-mulai"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/tulis-kanji.webp" width="540" height="1200" loading="lazy" alt="Layar menulis kanji: arti dan bacaan sebagai pertanyaan, kotak menulis dengan garis bantu, dan tombol Petunjuk, Animasi, Lewati"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/tulis-kanji-mulai.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Tulis kanji dengan jari"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/id/tulis-kanji.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Layar menulis kanji: arti dan bacaan sebagai pertanyaan, kotak menulis dengan garis bantu, dan tombol Petunjuk, Animasi, Lewati"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar">
     <div class="wadah">
       <div class="artikel-isi"><h2>Sumber data</h2><p>Arti dan bacaan dari KANJIDIC (Electronic Dictionary Research and Development Group), urutan goresan dari KanjiVG, keduanya berlisensi CC BY-SA. Level kanji adalah perkiraan berdasarkan daftar JLPT lama; JLPT sekarang tidak menerbitkan daftar kanji resmi.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -183,9 +207,9 @@
     <div class="wadah">
       <h2>Fitur terkait</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../kosakata/"><b>Kosakata</b><span>38.085 kata bahasa Jepang dari N5 sampai N1, dikelompokkan ke 95 kategori supaya kamu belajar yang kamu butuhkan dulu. Setiap kata punya&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../dengar-ucap-tulis/"><b>Dengar · ucap · tulis</b><span>Mengenali kata di layar baru separuh jalan. Tiga fitur di seksi &quot;Dengar · ucap · tulis&quot; Beranda melatih telinga, mulut, dan&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../latihan-ujian/"><b>Latihan ujian</b><span>Enam level ujian, 24 paket soal. Setiap paket disusun mengikuti seksi, jumlah soal, dan batas waktu ujian sungguhan, dengan bentuk soal&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../kosakata/"><b>Kosakata</b><span>38.085 kata bahasa Jepang dari N5 sampai N1, dikelompokkan ke 95 kategori supaya kamu belajar yang kamu butuhkan dulu. Setiap kata punya cara baca,…</span></a>
+        <a class="kartu kartu-tautan" href="../dengar-ucap-tulis/"><b>Dengar · ucap · tulis</b><span>Mengenali kata di layar baru separuh jalan. Tiga fitur di seksi &quot;Dengar · ucap · tulis&quot; Beranda melatih telinga, mulut, dan tangan: deck audio,…</span></a>
+        <a class="kartu kartu-tautan" href="../latihan-ujian/"><b>Latihan ujian</b><span>Enam level ujian, 24 paket soal. Setiap paket disusun mengikuti seksi, jumlah soal, dan batas waktu ujian sungguhan, dengan bentuk soal yang sama:…</span></a>
       </div>
     </div>
   </section>

@@ -13,6 +13,17 @@
 <link rel="canonical" href="https://tokugo.my.id/en/grammar/">
 <link rel="alternate" hreflang="id" href="https://tokugo.my.id/tata-bahasa/">
 <link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/grammar/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/grammar/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/grammar/">
+<link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/grammar/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/grammar/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/grammar/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/grammar/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/grammar/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="TokuGo">
@@ -21,8 +32,8 @@
 <meta property="og:title" content="N5 Japanese grammar: 122 lessons with examples and practice">
 <meta property="og:description" content="122 N5 Japanese grammar lessons in 12 chapters: sentence patterns, how to form them, notes, examples with furigana and audio, and practice with explanations. Available in 12 languages, free, no ads.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-en.jpg">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="theme-color" content="#25214A">
@@ -123,6 +134,19 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
 
 <div class="malam pembuka-latar">
   <div class="wadah">
@@ -142,7 +166,7 @@
         </div>
         <p class="catatan">Free to start &middot; No account &middot; 13 interface languages &middot; Android 7.0 and up</p>
       </div>
-      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/pelajaran.webp" width="540" height="1200" fetchpriority="high" alt="A grammar lesson page: the sentence pattern, how to form it, notes, and examples with furigana and a listen button"></div></figure></div>
+      <div class="panggung panggung-sub"><figure class="layar hp"><div class="bingkai"><img src="../../aset/layar/en/pelajaran.webp" width="720" height="1600" fetchpriority="high" alt="A grammar lesson page: the sentence pattern, how to form it with examples, and notes"></div></figure></div>
     </div>
   </div>
 </div>
@@ -150,26 +174,26 @@
 <main id="isi">
   <section class="bagian artikel">
     <div class="wadah">
-      <div class="artikel-isi"><h2>12 chapters, 122 lessons</h2><p>The Grammar page opens from the "Japanese basics" section of the home screen. Chapters expand in place, one at a time, and each lesson is marked not opened, read, or practice passed. The syllabus was built so that every pattern that appears in the N5 practice exam sets has a lesson.</p><div class="tabel-gulir"><table><thead><tr><th>Chapter</th><th>Contents</th></tr></thead><tbody><tr><td>0</td><td>Introduction: the three scripts, sentence order</td></tr><tr><td>1</td><td>Noun sentences</td></tr><tr><td>2</td><td>The ます form of verbs and its particles</td></tr><tr><td>3</td><td>Question words</td></tr><tr><td>4</td><td>Existence, location and quantity</td></tr><tr><td>5</td><td>Adjectives, likes and wants</td></tr><tr><td>6</td><td>Comparison</td></tr><tr><td>7</td><td>Inviting, offering, choosing</td></tr><tr><td>8</td><td>The て form</td></tr><tr><td>9</td><td>The ない form, dictionary form and た form</td></tr><tr><td>10</td><td>Joining sentences</td></tr><tr><td>11</td><td>Conversational expressions</td></tr></tbody></table></div></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/id/tata-bahasa.webp" width="540" height="1200" loading="lazy" alt="Grammar page: lessons-passed summary and the chapter list with the status of every lesson"></div></figure></div>
+      <div class="artikel-isi"><h2>12 chapters, 122 lessons</h2><p>The Grammar page opens from the "Japanese basics" section of the home screen. Chapters expand in place, one at a time, and each lesson is marked not opened, read, or practice passed. The syllabus was built so that every pattern that appears in the N5 practice exam sets has a lesson.</p><div class="tabel-gulir"><table><thead><tr><th>Chapter</th><th>Contents</th></tr></thead><tbody><tr><td>0</td><td>Introduction</td></tr><tr><td>1</td><td>Noun sentences</td></tr><tr><td>2</td><td>ます verbs and their particles</td></tr><tr><td>3</td><td>Question words</td></tr><tr><td>4</td><td>Existence, location, and counting</td></tr><tr><td>5</td><td>Adjectives, likes, and wants</td></tr><tr><td>6</td><td>Comparison</td></tr><tr><td>7</td><td>Inviting, offering, choosing</td></tr><tr><td>8</td><td>The て form</td></tr><tr><td>9</td><td>The ない, dictionary, and た forms</td></tr><tr><td>10</td><td>Joining sentences</td></tr><tr><td>11</td><td>Conversational expressions</td></tr></tbody></table></div></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/tata-bahasa.webp" width="720" height="1600" loading="lazy" decoding="async" alt="Grammar page: lessons-passed summary and the chapter list with the status of every lesson"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel balik">
     <div class="wadah">
       <div class="artikel-isi"><h2>The shape of a lesson</h2><p>Every lesson follows the same layout: <b>the pattern and its meaning</b>, <b>How to form it</b> (the formula, with example words), <b>Notes</b>, <b>Examples</b> with furigana you can listen to, and <b>Don't confuse with</b> for similar patterns. Japanese sentences only wrap between phrases so they stay readable on small phones.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/pelajaran.webp" width="540" height="1200" loading="lazy" alt="A grammar lesson page: the sentence pattern, how to form it, notes, and examples with furigana and a listen button"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/pelajaran.webp" width="720" height="1600" loading="lazy" decoding="async" alt="A grammar lesson page: the sentence pattern, how to form it with examples, and notes"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel">
     <div class="wadah">
       <div class="artikel-isi"><h2>Practice with explanations</h2><p>The button at the bottom of a lesson opens a practice of three to five questions. Each answer comes with an explanation; a lesson counts as passed with at most one wrong answer, and unpassed ones can be repeated. Results are recorded on the Grammar page and in the Statistics tab.</p></div>
-      <div class="artikel-layar"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/pelajaran-latihan.webp" width="540" height="1200" loading="lazy" alt="pelajaran-latihan"></div></figure></div>
+      <div class="artikel-layar geser"><figure class="layar"><div class="bingkai"><img src="../../aset/layar/en/pelajaran-latihan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="A grammar lesson practice question: a sentence with a blank and four answer choices"></div></figure></div>
     </div>
   </section>
   <section class="bagian artikel tanpa-layar balik">
     <div class="wadah">
-      <div class="artikel-isi"><h2>In your language</h2><p>Notes, example meanings, answer choices and explanations are available in 12 languages: English, Indonesian, Vietnamese, Burmese, Nepali, Thai, Sinhala, Filipino, Hindi, Bengali, Mongolian and Khmer. The Japanese sentences, formulas and answer keys are the same in every language. Lessons were written for TokuGo and then audited; open sources were used only for cross-checking. N4 grammar is coming.</p></div>
-      <div class="artikel-layar"></div>
+      <div class="artikel-isi"><h2>In your language</h2><p>Notes, example meanings, answer choices and explanations are available in 12 languages: English, Indonesian, Vietnamese, Burmese, Nepali, Thai, Sinhala, Filipino, Hindi, Bengali, Mongolian and Khmer. The Japanese sentences, formulas and answer keys are the same in every language. Lessons were written for TokuGo and then audited; open sources were used only for cross-checking.</p></div>
+      <div class="artikel-layar geser"></div>
     </div>
   </section>
 
@@ -177,9 +201,9 @@
     <div class="wadah">
       <h2>Related features</h2>
       <div class="terkait">
-        <a class="kartu kartu-tautan" href="../hiragana-katakana/"><b>Hiragana &amp; katakana</b><span>TokuGo&#x27;s kana tables double as lesson lists. Open a row, tap the characters to hear them, see their stroke order, read the words you&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../exam-practice/"><b>Exam practice</b><span>Six exam levels, 24 question sets. Every set follows the sections, question counts and time limits of the real test, with the same kinds of&hellip;</span></a>
-        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning&hellip;</span></a>
+        <a class="kartu kartu-tautan" href="../hiragana-katakana/"><b>Hiragana &amp; katakana</b><span>TokuGo&#x27;s kana tables double as lesson lists. Open a row, tap the characters to hear them, see their stroke order, read the words you can already…</span></a>
+        <a class="kartu kartu-tautan" href="../exam-practice/"><b>Exam practice</b><span>Six exam levels, 24 question sets. Every set follows the sections, question counts and time limits of the real test, with the same kinds of…</span></a>
+        <a class="kartu kartu-tautan" href="../vocabulary/"><b>Vocabulary</b><span>38,085 Japanese words from N5 to N1, grouped into 95 topics so you learn what you need first. Every word has its reading, romaji, meaning and…</span></a>
       </div>
     </div>
   </section>
