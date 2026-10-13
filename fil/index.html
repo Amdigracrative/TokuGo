@@ -7,8 +7,8 @@
 <meta name="description" content="Japanese flashcards para sa SSW: salita, kanji, at mock exam ng JFT at JLPT.">
 
 <!--
-  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html dan
-  docs/situs/sumber/teks/fil.json. Jangan disunting di sini: perubahan akan tertimpa.
+  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html (+ kepala.html,
+  kaki.html) dan docs/situs/sumber/teks/fil.json. Jangan disunting di sini: perubahan akan tertimpa.
 -->
 
 <link rel="canonical" href="https://tokugo.my.id/fil/">
@@ -26,7 +26,7 @@
 <link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/">
 <link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
-
+<meta name="google-site-verification" content="P4mkrZ3cr1jIFx7Ld-NwLesI2c5FRTXcSXjfv0PfLzw">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="TokuGo">
 <meta property="og:locale" content="fil_PH">
@@ -48,33 +48,84 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "TokuGo",
-  "operatingSystem": "Android 7.0+",
-  "applicationCategory": "EducationalApplication",
-  "inLanguage": "fil",
-  "description": "Japanese flashcards para sa SSW: salita, kanji, at mock exam ng JFT at JLPT.",
-  "url": "https://tokugo.my.id/fil/",
-  "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://tokugo.my.id/#aplikasi",
+      "name": "TokuGo",
+      "alternateName": "TokuGo: Japanese JLPT at JFT",
+      "operatingSystem": "Android 7.0+",
+      "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Language learning",
+      "inLanguage": "fil",
+      "description": "Japanese flashcards para sa SSW: salita, kanji, at mock exam ng JFT at JLPT.",
+      "url": "https://tokugo.my.id/fil/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "image": "https://tokugo.my.id/aset/sampul-fil.jpg",
+      "screenshot": [
+        "https://tokugo.my.id/aset/layar/fil/kartu.webp",
+        "https://tokugo.my.id/aset/layar/fil/kerja.webp",
+        "https://tokugo.my.id/aset/layar/fil/deck.webp",
+        "https://tokugo.my.id/aset/layar/fil/kuis.webp",
+        "https://tokugo.my.id/aset/layar/fil/kanji.webp",
+        "https://tokugo.my.id/aset/layar/fil/ujian.webp",
+        "https://tokugo.my.id/aset/layar/fil/ujian-hasil.webp",
+        "https://tokugo.my.id/aset/layar/fil/beranda.webp",
+        "https://tokugo.my.id/aset/layar/fil/statistik.webp",
+        "https://tokugo.my.id/aset/layar/fil/kamus.webp",
+        "https://tokugo.my.id/aset/layar/fil/bahasa.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tokugo.my.id/#situs",
+      "url": "https://tokugo.my.id/",
+      "name": "TokuGo",
+      "inLanguage": "fil",
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://tokugo.my.id/#penerbit",
+      "name": "TokuGo",
+      "url": "https://tokugo.my.id/",
+      "logo": "https://tokugo.my.id/aset/ikon-192.png",
+      "email": "amdigracrative@gmail.com"
+    }
+  ]
 }
 </script>
 </head>
 
 <body>
-
+<a class="lompat" href="#isi">TokuGo</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="./" aria-label="TokuGo">
       <img src="../aset/ikon-96.png" width="32" height="32" alt="">
       TokuGo
     </a>
-    <nav class="menu">
-      <a href="../privacy/?lang=en">Privacy</a>
+    <nav class="navigasi" aria-label="TokuGo">
+      <ul class="menu-besar">
+
+      </ul>
+      <details class="menu-kecil">
+        <summary aria-label="Menu"><span class="garis-tiga" aria-hidden="true"></span>Menu</summary>
+        <ul>
+
+        </ul>
+      </details>
       <details class="bahasa">
         <summary aria-label="Pumili ng Wika"><span class="bendera" aria-hidden="true">🇵🇭</span><span class="kode">FIL</span></summary>
         <ul>
@@ -97,11 +148,11 @@
   </div>
 </header>
 
-<div class="malam">
+<div class="malam pembuka-latar">
   <div class="wadah">
     <div class="pembuka">
       <div class="teks">
-        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span></span>
+        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span> &middot; Android</span>
         <h1>Japanese na salita at kanji<br>para sa <b>trabaho at JLPT</b></h1>
         <div class="garis-koral"></div>
         <p class="pengantar">Ang TokuGo ay Japanese flashcard app para sa bokabularyo at kanji, para sa mga naghahanda sa <span class="rapat">JFT-Basic</span> para makapagtrabaho sa Japan bilang Specified Skilled Worker (SSW / Tokutei Ginou), at para sa mga nag-aaral ng JLPT mula N5 hanggang N1.</p>
@@ -110,77 +161,55 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
             I-download sa Google Play
           </a>
-
+          <a class="tautan-fitur" href="#fitur">Bokabularyong talagang tumatatak</a>
         </div>
         <p class="catatan">Libreng simulan &middot; Walang kailangang account &middot; Android 7.0+</p>
       </div>
 
       <div class="panggung">
-        <div class="hp">
-          <img src="../aset/layar/fil/kartu.webp" width="540" height="1200" fetchpriority="high" alt="TokuGo: Japanese JLPT at JFT">
+        <div class="hp hp-kedua">
+          <img src="../aset/layar/fil/beranda.webp" width="540" height="1200" alt="" loading="lazy">
+        </div>
+        <div class="hp hp-utama">
+          <img src="../aset/layar/fil/kartu.webp" width="540" height="1200" fetchpriority="high" alt="Bokabularyong talagang tumatatak">
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<main>
+<main id="isi">
 
   <div class="wadah">
     <ul class="angka">
-      <li><b>36,385</b><span>salitang Japanese na may pagbasa at romaji</span></li>
+      <li><b>38,085</b><span>salitang Japanese na may pagbasa at romaji</span></li>
       <li><b>2,230</b><span>JLPT kanji na may stroke order</span></li>
-      <li><b>107</b><span>paksa sa 11 grupo, 21 dito ay para sa trabaho</span></li>
+      <li><b>95</b><span>paksa sa 11 grupo, 21 dito ay para sa trabaho</span></li>
       <li><b>6</b><span>Mock exam para sa <span class="rapat">JFT-Basic</span> at JLPT <span class="rapat">N5–N1</span></span></li>
     </ul>
   </div>
 
+
+
   <section class="bagian" id="fitur">
     <div class="wadah">
       <h2>Bokabularyong talagang tumatatak</h2>
-      <div class="inti">
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">覚</span>
-            <h3>Flashcard na alam kung kailan ka makakalimot</h3>
-          </div>
-          <p>Bawat card ay naka-iskedyul gamit ang FSRS, isang modernong spaced repetition algorithm. I-rate mo ang sarili mo — Hindi alam, Hindi sigurado, o Alam ko — at kakalkulahin ng app kung kailan babalik ang salita: sa loob ng ilang minuto, araw, o linggo. Nakasulat ang pagitan sa bawat button.</p>
-          <div class="peraga">
-            <div class="nilai">
-              <span class="belum"><b>Hindi alam</b><i>5 na minuto</i></span>
-              <span class="ragu"><b>Hindi sigurado</b><i>9 na araw</i></span>
-              <span class="hafal"><b>Alam ko</b><i>17 na araw</i></span>
-            </div>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">証</span>
-            <h3>Ang Nabisado ay pinatutunayan</h3>
-          </div>
-          <p>Dumadaan ang bawat salita sa apat na yugto: Bago, Natututo, Alam na, Nabisado. Para maging Nabisado, kailangan mo itong masagot nang tama sa quiz sa 3 magkaibang araw. Sinusubok pa rin ang mga nabisadong salita kapag due na, at bumababa ang mga ito kapag nagkamali.</p>
-          <div class="peraga">
-            <ol class="tahap">
-              <li><span>Bago</span></li>
-              <li><span>Natututo</span></li>
-              <li><span>Alam na</span></li>
-              <li class="puncak"><span>Nabisado</span></li>
-            </ol>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">働</span>
-            <h3>Mga salita para sa trabaho sa Japan</h3>
-          </div>
-          <p>21 paksa tungkol sa trabaho: kaligtasan sa trabaho, utos ng supervisor, kontrata at sahod, pabrika, construction, agrikultura, pangingisda, caregiving, hospitality, restawran, food manufacturing, at iba pa. Mayroon ding mga paksa sa pag-upa ng bahay, imigrasyon, bangko, ospital, pamimili, at transportasyon.</p>
-
-        </article>
-
-      </div>
+      <article class="fitur" id="f-kosakata">
+        <div class="fitur-teks"><h3>Flashcard na alam kung kailan ka makakalimot</h3><p>Bawat card ay naka-iskedyul gamit ang FSRS, isang modernong spaced repetition algorithm. I-rate mo ang sarili mo — Hindi alam, Hindi sigurado, o Alam ko — at kakalkulahin ng app kung kailan babalik ang salita: sa loob ng ilang minuto, araw, o linggo. Nakasulat ang pagitan sa bawat button.</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/kartu.webp" width="540" height="1200" loading="lazy" alt="Bokabularyong talagang tumatatak"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/kuis.webp" width="540" height="1200" loading="lazy" alt="Ang Nabisado ay pinatutunayan"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-tahap">
+        <div class="fitur-teks"><h3>Ang Nabisado ay pinatutunayan</h3><p>Dumadaan ang bawat salita sa apat na yugto: Bago, Natututo, Alam na, Nabisado. Para maging Nabisado, kailangan mo itong masagot nang tama sa quiz sa 3 magkaibang araw. Sinusubok pa rin ang mga nabisadong salita kapag due na, at bumababa ang mga ito kapag nagkamali.</p><ol class="tahap"><li><span>Bago</span></li><li><span>Natututo</span></li><li><span>Alam na</span></li><li class="puncak"><span>Nabisado</span></li></ol></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/deck.webp" width="540" height="1200" loading="lazy" alt="Mag-aral ayon sa paksa, subaybayan ang bawat salita"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/en/kuis-hasil.webp" width="540" height="1200" loading="lazy" alt="kuis-hasil"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-kerja">
+        <div class="fitur-teks"><h3>Mga salita para sa trabaho sa Japan</h3><p>21 paksa tungkol sa trabaho: kaligtasan sa trabaho, utos ng supervisor, kontrata at sahod, pabrika, construction, agrikultura, pangingisda, caregiving, hospitality, restawran, food manufacturing, at iba pa. Mayroon ding mga paksa sa pag-upa ng bahay, imigrasyon, bangko, ospital, pamimili, at transportasyon.</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/kerja.webp" width="540" height="1200" loading="lazy" alt="Mga salita para sa trabaho mo sa Japan"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/deck.webp" width="540" height="1200" loading="lazy" alt="Mag-aral ayon sa paksa, subaybayan ang bawat salita"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-lain">
+        <div class="fitur-teks"><h3>Iba pa</h3><ul class="butir"><li>60-segundong blitz, mahihirap na salita, at naka-bookmark</li><li>Araw-araw na paalala at notification kapag due na ang mga card</li><li>Pagbigkas gamit ang Japanese voice ng iyong phone</li><li>Istatistika: sunod-sunod na araw, activity map, progreso</li><li>I-back up ang progreso sa file at i-restore sa ibang phone</li><li>Nasa Filipino at 12 pang wika ang interface ng app. Sa ngayon, nasa English ang kahulugan ng mga salita, kahulugan ng kanji, at pangalan ng mga paksa; unti-unti itong isasalin sa Filipino.</li></ul></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/beranda.webp" width="540" height="1200" loading="lazy" alt="Alam mo araw-araw kung ano ang aaralin"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/statistik.webp" width="540" height="1200" loading="lazy" alt="Istatistika"></div></figure></div>
+      </article>
     </div>
   </section>
 
@@ -188,84 +217,47 @@
     <div class="wadah">
       <h2>Ano ang laman</h2>
       <div class="galeri" style="--kolom: 6">
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/kartu.webp" width="540" height="1200" loading="lazy" alt="Bokabularyong talagang tumatatak"></div>
-          <figcaption><b>Bokabularyong<br>talagang tumatatak</b><span>Awtomatikong nakaiskedyul ang bawat salita</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/kerja.webp" width="540" height="1200" loading="lazy" alt="Mga salita para sa trabaho mo sa Japan"></div>
-          <figcaption><b>Mga salita para sa<br>trabaho mo sa Japan</b><span>21 paksa, mula construction hanggang caregiving</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/deck.webp" width="540" height="1200" loading="lazy" alt="Mag-aral ayon sa paksa, subaybayan ang bawat salita"></div>
-          <figcaption><b>Mag-aral ayon sa paksa,<br>subaybayan ang bawat salita</b><span>Tingnan kung alin ang alam mo na at alin ang hindi pa</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/kuis.webp" width="540" height="1200" loading="lazy" alt="Ang Nabisado ay pinatutunayan"></div>
-          <figcaption><b>Ang Nabisado ay<br>pinatutunayan</b><span>Tamang sagot sa quiz sa 3 magkaibang araw</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/kanji.webp" width="540" height="1200" loading="lazy" alt="2,230 kanji, stroke by stroke"></div>
-          <figcaption><b>2,230 kanji,<br>stroke by stroke</b><span>Pagbasa, halimbawang salita, kanji card at quiz</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/ujian.webp" width="540" height="1200" loading="lazy" alt="Mock exam para sa JFT-Basic &amp; JLPT"></div>
-          <figcaption><b>Mock exam para sa<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>Opisyal na oras, ikinukumpara sa passing score</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="Resulta ng Pagsasanay na JFT-Basic"></div>
-          <figcaption><b>Resulta ng Pagsasanay na <span class="rapat">JFT-Basic</span></b><span>Kabuuang Iskor · Katumpakan bawat uri ng tanong</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/beranda.webp" width="540" height="1200" loading="lazy" alt="Alam mo araw-araw kung ano ang aaralin"></div>
-          <figcaption><b>Alam mo araw-araw<br>kung ano ang aaralin</b><span>Mga card na due, bagong salita, 60-segundong blitz</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/statistik.webp" width="540" height="1200" loading="lazy" alt="Istatistika"></div>
-          <figcaption><b>Istatistika</b><span>Sunod-sunod na araw, activity map, progreso</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/kamus.webp" width="540" height="1200" loading="lazy" alt="Pocket dictionary ng 36,385 salita"></div>
-          <figcaption><b>Pocket dictionary ng<br>36,385 salita</b><span>Maghanap gamit ang kanji, kana, romaji o English</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/fil/bahasa.webp" width="540" height="1200" loading="lazy" alt="Gamitin ang app sa Filipino"></div>
-          <figcaption><b>Gamitin ang app sa<br>Filipino</b><span>13 wika ng interface, kahulugan sa English</span></figcaption>
-        </figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/kartu.webp" width="540" height="1200" loading="lazy" alt="Bokabularyong talagang tumatatak"></div><figcaption><b>Bokabularyong<br>talagang tumatatak</b><span>Awtomatikong nakaiskedyul ang bawat salita</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/kerja.webp" width="540" height="1200" loading="lazy" alt="Mga salita para sa trabaho mo sa Japan"></div><figcaption><b>Mga salita para sa<br>trabaho mo sa Japan</b><span>21 paksa, mula construction hanggang caregiving</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/deck.webp" width="540" height="1200" loading="lazy" alt="Mag-aral ayon sa paksa, subaybayan ang bawat salita"></div><figcaption><b>Mag-aral ayon sa paksa,<br>subaybayan ang bawat salita</b><span>Tingnan kung alin ang alam mo na at alin ang hindi pa</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/kuis.webp" width="540" height="1200" loading="lazy" alt="Ang Nabisado ay pinatutunayan"></div><figcaption><b>Ang Nabisado ay<br>pinatutunayan</b><span>Tamang sagot sa quiz sa 3 magkaibang araw</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/kanji.webp" width="540" height="1200" loading="lazy" alt="2,230 kanji, stroke by stroke"></div><figcaption><b>2,230 kanji,<br>stroke by stroke</b><span>Pagbasa, halimbawang salita, kanji card at quiz</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/ujian.webp" width="540" height="1200" loading="lazy" alt="Mock exam para sa JFT-Basic &amp; JLPT"></div><figcaption><b>Mock exam para sa<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>Opisyal na oras, ikinukumpara sa passing score</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="Resulta ng Pagsasanay na JFT-Basic"></div><figcaption><b>Resulta ng Pagsasanay na <span class="rapat">JFT-Basic</span></b><span>Kabuuang Iskor · Katumpakan bawat uri ng tanong</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/beranda.webp" width="540" height="1200" loading="lazy" alt="Alam mo araw-araw kung ano ang aaralin"></div><figcaption><b>Alam mo araw-araw<br>kung ano ang aaralin</b><span>Mga card na due, bagong salita, 60-segundong blitz</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/statistik.webp" width="540" height="1200" loading="lazy" alt="Istatistika"></div><figcaption><b>Istatistika</b><span>Sunod-sunod na araw, activity map, progreso</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/kamus.webp" width="540" height="1200" loading="lazy" alt="Pocket dictionary ng 38,085 salita"></div><figcaption><b>Pocket dictionary ng<br>38,085 salita</b><span>Maghanap gamit ang kanji, kana, romaji o English</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/fil/bahasa.webp" width="540" height="1200" loading="lazy" alt="Gamitin ang app sa Filipino"></div><figcaption><b>Gamitin ang app sa<br>Filipino</b><span>13 wika ng interface, kahulugan sa English</span></figcaption></figure>
       </div>
       <p class="catatan-galeri">Tantiya lang ang score para masubaybayan ang iyong progreso.</p>
     </div>
   </section>
 
-  <section class="bagian">
-    <div class="wadah">
-      <h2>Iba pa</h2>
-      <ul class="daftar">
-        <li>60-segundong blitz, mahihirap na salita, at naka-bookmark</li>
-        <li>Araw-araw na paalala at notification kapag due na ang mga card</li>
-        <li>Pagbigkas gamit ang Japanese voice ng iyong phone</li>
-        <li>Istatistika: sunod-sunod na araw, activity map, progreso</li>
-        <li>I-back up ang progreso sa file at i-restore sa ibang phone</li>
-        <li>Nasa Filipino at 12 pang wika ang interface ng app. Sa ngayon, nasa English ang kahulugan ng mga salita, kahulugan ng kanji, at pangalan ng mga paksa; unti-unti itong isasalin sa Filipino.</li>
-      </ul>
+  <section class="bagian" id="gratis">
+    <div class="wadah dua">
+      <article class="kartu gratis">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v4H4z"/><path d="M6 11v9h12v-9"/><path d="M12 7v13"/><path d="M12 7c-2-3-5-3-5-1s3 1 5 1c2 0 5-1 5-3s-3-1-5 1"/></svg></span><h3>Libreng simulan</h3></div>
+        <p>Binubuksan ng Premium ang lahat ng salita at <span class="rapat">N3–N1</span> kanji, inaalis ang ads, at puwedeng mag-aral nang offline. Kailangan ng internet sa libreng bersyon para magsimula ng session o exam.</p>
+      </article>
+
     </div>
   </section>
 
   <section class="bagian">
-    <div class="wadah dua">
-      <article class="kartu">
-        <h3>Libreng simulan</h3>
-        <p>May 9,626 salita ang libreng bersyon — ang unang 100 ng bawat paksa, sakop ang 97% ng bokabularyo ng <span class="rapat">JFT-Basic</span> at 91% ng JLPT N5 — pati lahat ng 284 na N5 at N4 kanji, may ads. Libre ang lahat ng mock exam at ang dictionary.</p>
-        <p class="kecil">Binubuksan ng Premium ang lahat ng salita at <span class="rapat">N3–N1</span> kanji, inaalis ang ads, at puwedeng mag-aral nang offline. Kailangan ng internet sa libreng bersyon para magsimula ng session o exam.</p>
-      </article>
-      <article class="kartu">
-        <h3>Privacy</h3>
+    <div class="wadah">
+      <article class="kartu privasi-kartu">
+        <div class="kartu-kepala">
+          <span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+          <h3>Privacy</h3>
+        </div>
         <p><b>Walang kailangang account</b><br>Walang server ang developer: nasa phone mo ang iyong study records at hindi kailanman ipinapadala sa developer.</p>
 
         <a class="tautan" href="../privacy/?lang=en">Patakaran sa Privacy &rarr;</a>
       </article>
     </div>
   </section>
+
+
 
 </main>
 
@@ -280,13 +272,45 @@
           I-download sa Google Play
         </a>
       </div>
+      <p class="catatan">Libreng simulan &middot; Walang kailangang account &middot; Android 7.0+</p>
+    </div>
+    <div class="kaki-kolom">
+      <div>
+        <h3></h3>
+        <ul>
+
+        </ul>
+      </div>
+      <div>
+        <h3>Pumili ng Wika</h3>
+        <ul class="kaki-bahasa">
+          <li><a href="../" lang="id" hreflang="id" data-bahasa="id">Bahasa Indonesia</a></li>
+          <li><a href="../en/" lang="en" hreflang="en" data-bahasa="en">English</a></li>
+          <li><a href="../vi/" lang="vi" hreflang="vi" data-bahasa="vi">Tiếng Việt</a></li>
+          <li><a href="../ne/" lang="ne" hreflang="ne" data-bahasa="ne">नेपाली</a></li>
+          <li><a href="../my/" lang="my" hreflang="my" data-bahasa="my">မြန်မာဘာသာ</a></li>
+          <li><a href="../fil/" lang="fil" hreflang="fil" data-bahasa="fil">Filipino</a></li>
+          <li><a href="../th/" lang="th" hreflang="th" data-bahasa="th">ไทย</a></li>
+          <li><a href="../km/" lang="km" hreflang="km" data-bahasa="km">ខ្មែរ</a></li>
+          <li><a href="../mn/" lang="mn" hreflang="mn" data-bahasa="mn">Монгол</a></li>
+          <li><a href="../si/" lang="si" hreflang="si" data-bahasa="si">සිංහල</a></li>
+          <li><a href="../bn/" lang="bn" hreflang="bn" data-bahasa="bn">বাংলা</a></li>
+          <li><a href="../hi/" lang="hi" hreflang="hi" data-bahasa="hi">हिन्दी</a></li>
+          <li><a href="../zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh">简体中文</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3></h3>
+        <ul>
+          <li><a href="../privacy/?lang=en">Patakaran sa Privacy</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">Google Play</a></li>
+          <li><a href="mailto:amdigracrative@gmail.com">Makipag-ugnayan</a></li>
+        </ul>
+      </div>
     </div>
     <div class="kaki">
       <span>&copy; 2026 TokuGo</span>
-      <nav>
-        <a href="../privacy/?lang=en">Patakaran sa Privacy</a>
-        <a href="mailto:amdigracrative@gmail.com">Makipag-ugnayan</a>
-      </nav>
+      <span class="sumber">JMdict/KANJIDIC &copy; EDRDG (CC BY-SA 4.0). KanjiVG (CC BY-SA 3.0).</span>
     </div>
   </div>
 </footer>
@@ -296,16 +320,18 @@
   // Bahasa yang dipilih sendiri diingat, supaya halaman akar tidak mengantar pengunjung
   // kembali ke bahasa HP-nya setiap kali dibuka.
   var pemilih = document.querySelector('.bahasa');
+  var menu = document.querySelector('.menu-kecil');
   pemilih.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-bahasa]') : null;
     if (a) { try { localStorage.setItem('bahasa', a.getAttribute('data-bahasa')); } catch (x) {} }
   });
-  // Daftar bahasa menutup sendiri saat mengetuk di luarnya atau menekan Esc.
+  // Daftar bahasa dan menu menutup sendiri saat mengetuk di luarnya atau menekan Esc.
   document.addEventListener('click', function (e) {
     if (pemilih.open && !pemilih.contains(e.target)) pemilih.open = false;
+    if (menu && menu.open && !menu.contains(e.target)) menu.open = false;
   });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') pemilih.open = false;
+    if (e.key === 'Escape') { pemilih.open = false; if (menu) menu.open = false; }
   });
   // Windows tidak punya gambar bendera di font emojinya dan menampilkan dua huruf kode
   // negara. Kalau begitu benderanya disembunyikan; kode bahasa di sebelahnya sudah cukup.
@@ -324,6 +350,5 @@
   } catch (x) {}
 })();
 </script>
-
 </body>
 </html>

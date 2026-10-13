@@ -7,8 +7,8 @@
 <meta name="description" content="កាតវាក្យសព្ទ និងកានជីជប៉ុន ព្រមទាំងការប្រឡងសាកល្បង JFT-Basic និង JLPT">
 
 <!--
-  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html dan
-  docs/situs/sumber/teks/km.json. Jangan disunting di sini: perubahan akan tertimpa.
+  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html (+ kepala.html,
+  kaki.html) dan docs/situs/sumber/teks/km.json. Jangan disunting di sini: perubahan akan tertimpa.
 -->
 
 <link rel="canonical" href="https://tokugo.my.id/km/">
@@ -26,7 +26,7 @@
 <link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/">
 <link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
-
+<meta name="google-site-verification" content="P4mkrZ3cr1jIFx7Ld-NwLesI2c5FRTXcSXjfv0PfLzw">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="TokuGo">
 <meta property="og:locale" content="km_KH">
@@ -48,33 +48,84 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "TokuGo",
-  "operatingSystem": "Android 7.0+",
-  "applicationCategory": "EducationalApplication",
-  "inLanguage": "km",
-  "description": "កាតវាក្យសព្ទ និងកានជីជប៉ុន ព្រមទាំងការប្រឡងសាកល្បង JFT-Basic និង JLPT",
-  "url": "https://tokugo.my.id/km/",
-  "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://tokugo.my.id/#aplikasi",
+      "name": "TokuGo",
+      "alternateName": "TokuGo: រៀនភាសាជប៉ុន JLPT",
+      "operatingSystem": "Android 7.0+",
+      "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Language learning",
+      "inLanguage": "km",
+      "description": "កាតវាក្យសព្ទ និងកានជីជប៉ុន ព្រមទាំងការប្រឡងសាកល្បង JFT-Basic និង JLPT",
+      "url": "https://tokugo.my.id/km/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "image": "https://tokugo.my.id/aset/sampul-km.jpg",
+      "screenshot": [
+        "https://tokugo.my.id/aset/layar/km/kartu.webp",
+        "https://tokugo.my.id/aset/layar/km/kerja.webp",
+        "https://tokugo.my.id/aset/layar/km/deck.webp",
+        "https://tokugo.my.id/aset/layar/km/kuis.webp",
+        "https://tokugo.my.id/aset/layar/km/kanji.webp",
+        "https://tokugo.my.id/aset/layar/km/ujian.webp",
+        "https://tokugo.my.id/aset/layar/km/ujian-hasil.webp",
+        "https://tokugo.my.id/aset/layar/km/beranda.webp",
+        "https://tokugo.my.id/aset/layar/km/statistik.webp",
+        "https://tokugo.my.id/aset/layar/km/kamus.webp",
+        "https://tokugo.my.id/aset/layar/km/bahasa.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tokugo.my.id/#situs",
+      "url": "https://tokugo.my.id/",
+      "name": "TokuGo",
+      "inLanguage": "km",
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://tokugo.my.id/#penerbit",
+      "name": "TokuGo",
+      "url": "https://tokugo.my.id/",
+      "logo": "https://tokugo.my.id/aset/ikon-192.png",
+      "email": "amdigracrative@gmail.com"
+    }
+  ]
 }
 </script>
 </head>
 
 <body>
-
+<a class="lompat" href="#isi">TokuGo</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="./" aria-label="TokuGo">
       <img src="../aset/ikon-96.png" width="32" height="32" alt="">
       TokuGo
     </a>
-    <nav class="menu">
-      <a href="../privacy/?lang=en">ឯកជនភាព</a>
+    <nav class="navigasi" aria-label="TokuGo">
+      <ul class="menu-besar">
+
+      </ul>
+      <details class="menu-kecil">
+        <summary aria-label="Menu"><span class="garis-tiga" aria-hidden="true"></span>Menu</summary>
+        <ul>
+
+        </ul>
+      </details>
       <details class="bahasa">
         <summary aria-label="ជ្រើសរើសភាសា"><span class="bendera" aria-hidden="true">🇰🇭</span><span class="kode">KM</span></summary>
         <ul>
@@ -97,11 +148,11 @@
   </div>
 </header>
 
-<div class="malam">
+<div class="malam pembuka-latar">
   <div class="wadah">
     <div class="pembuka">
       <div class="teks">
-        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span></span>
+        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span> &middot; Android</span>
         <h1>វាក្យសព្ទ និងកានជីជប៉ុន<br>សម្រាប់<b>ការងារ និង JLPT</b></h1>
         <div class="garis-koral"></div>
         <p class="pengantar">TokuGo គឺជាកម្មវិធីកាតចងចាំ (flashcard) វាក្យសព្ទ និងកានជីភាសាជប៉ុន សម្រាប់អ្នកត្រៀមប្រឡង <span class="rapat">JFT-Basic</span> ដើម្បីទៅធ្វើការនៅជប៉ុនជាកម្មករជំនាញពិសេស (SSW / Tokutei Ginou) និងអ្នករៀន JLPT ពី N5 ដល់ N1។</p>
@@ -110,77 +161,55 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
             ទាញយកពី Google Play
           </a>
-
+          <a class="tautan-fitur" href="#fitur">វាក្យសព្ទដែលចាំបានពិតៗ</a>
         </div>
         <p class="catatan">ចាប់ផ្ដើមដោយឥតគិតថ្លៃ &middot; មិនចាំបាច់មានគណនី &middot; Android 7.0+</p>
       </div>
 
       <div class="panggung">
-        <div class="hp">
-          <img src="../aset/layar/km/kartu.webp" width="540" height="1200" fetchpriority="high" alt="TokuGo: រៀនភាសាជប៉ុន JLPT">
+        <div class="hp hp-kedua">
+          <img src="../aset/layar/km/beranda.webp" width="540" height="1200" alt="" loading="lazy">
+        </div>
+        <div class="hp hp-utama">
+          <img src="../aset/layar/km/kartu.webp" width="540" height="1200" fetchpriority="high" alt="វាក្យសព្ទដែល ចាំបានពិតៗ">
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<main>
+<main id="isi">
 
   <div class="wadah">
     <ul class="angka">
-      <li><b>36,385</b><span>ពាក្យជប៉ុន មានការអាន និងរ៉ូម៉ាជី</span></li>
+      <li><b>38,085</b><span>ពាក្យជប៉ុន មានការអាន និងរ៉ូម៉ាជី</span></li>
       <li><b>2,230</b><span>កានជី JLPT មានលំដាប់ឆូត</span></li>
-      <li><b>107</b><span>ប្រធានបទ ក្នុង 11 ក្រុម ក្នុងនោះ 21 សម្រាប់កន្លែងធ្វើការ</span></li>
+      <li><b>95</b><span>ប្រធានបទ ក្នុង 11 ក្រុម ក្នុងនោះ 21 សម្រាប់កន្លែងធ្វើការ</span></li>
       <li><b>6</b><span>ការប្រឡងសាកល្បង <span class="rapat">JFT-Basic</span> និង JLPT <span class="rapat">N5–N1</span></span></li>
     </ul>
   </div>
 
+
+
   <section class="bagian" id="fitur">
     <div class="wadah">
       <h2>វាក្យសព្ទដែលចាំបានពិតៗ</h2>
-      <div class="inti">
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">覚</span>
-            <h3>កាតដែលដឹងថាពេលណាអ្នកនឹងភ្លេច</h3>
-          </div>
-          <p>កាតនីមួយៗត្រូវបានកំណត់ពេលដោយ FSRS ជាក្បួនរំលឹកឡើងវិញតាមចន្លោះពេលទំនើប។ អ្នកវាយតម្លៃខ្លួនឯង — មិនទាន់ចាំ មិនប្រាកដ ឬចាំបាន — ហើយកម្មវិធីគណនាពេលដែលពាក្យនោះនឹងត្រឡប់មកវិញ៖ ប៉ុន្មាននាទី ប៉ុន្មានថ្ងៃ ឬប៉ុន្មានសប្ដាហ៍ក្រោយ។ ចន្លោះពេលត្រូវបានបង្ហាញលើប៊ូតុងនីមួយៗ។</p>
-          <div class="peraga">
-            <div class="nilai">
-              <span class="belum"><b>មិនទាន់ចាំ</b><i>5 នាទី</i></span>
-              <span class="ragu"><b>មិនប្រាកដ</b><i>9 ថ្ងៃ</i></span>
-              <span class="hafal"><b>ចាំបាន</b><i>17 ថ្ងៃ</i></span>
-            </div>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">証</span>
-            <h3>ស្ទាត់ជំនាញត្រូវតែបញ្ជាក់</h3>
-          </div>
-          <p>ពាក្យនីមួយៗឆ្លងកាត់បួនដំណាក់កាល៖ ថ្មី កំពុងរៀន ចាំបានហើយ និងស្ទាត់ជំនាញ។ ដើម្បីបាន «ស្ទាត់ជំនាញ» អ្នកត្រូវឆ្លើយត្រូវក្នុងសំណួរនៅ 3 ថ្ងៃផ្សេងគ្នា។ ពាក្យដែលស្ទាត់ហើយនៅតែត្រូវសាកល្បងឡើងវិញពេលដល់ពេល ហើយធ្លាក់ដំណាក់កាលវិញប្រសិនបើឆ្លើយខុស។</p>
-          <div class="peraga">
-            <ol class="tahap">
-              <li><span>ថ្មី</span></li>
-              <li><span>កំពុងរៀន</span></li>
-              <li><span>ចាំបានហើយ</span></li>
-              <li class="puncak"><span>ស្ទាត់ជំនាញ</span></li>
-            </ol>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">働</span>
-            <h3>វាក្យសព្ទសម្រាប់ការងារនៅជប៉ុន</h3>
-          </div>
-          <p>ប្រធានបទកន្លែងធ្វើការ 21៖ សុវត្ថិភាពការងារ ការណែនាំពីថ្នាក់លើ កិច្ចសន្យា និងប្រាក់ឈ្នួល រោងចក្រ សំណង់ កសិកម្ម នេសាទ ការថែទាំមនុស្សចាស់ សណ្ឋាគារ ភោជនីយដ្ឋាន កែច្នៃអាហារ និងច្រើនទៀត។ ក៏មានប្រធានបទជួលផ្ទះ អន្តោប្រវេសន៍ ធនាគារ មន្ទីរពេទ្យ ការទិញទំនិញ និងការធ្វើដំណើរផងដែរ។</p>
-
-        </article>
-
-      </div>
+      <article class="fitur" id="f-kosakata">
+        <div class="fitur-teks"><h3>កាតដែលដឹងថាពេលណាអ្នកនឹងភ្លេច</h3><p>កាតនីមួយៗត្រូវបានកំណត់ពេលដោយ FSRS ជាក្បួនរំលឹកឡើងវិញតាមចន្លោះពេលទំនើប។ អ្នកវាយតម្លៃខ្លួនឯង — មិនទាន់ចាំ មិនប្រាកដ ឬចាំបាន — ហើយកម្មវិធីគណនាពេលដែលពាក្យនោះនឹងត្រឡប់មកវិញ៖ ប៉ុន្មាននាទី ប៉ុន្មានថ្ងៃ ឬប៉ុន្មានសប្ដាហ៍ក្រោយ។ ចន្លោះពេលត្រូវបានបង្ហាញលើប៊ូតុងនីមួយៗ។</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/km/kartu.webp" width="540" height="1200" loading="lazy" alt="វាក្យសព្ទដែល ចាំបានពិតៗ"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/km/kuis.webp" width="540" height="1200" loading="lazy" alt="ស្ទាត់ជំនាញ ត្រូវតែបញ្ជាក់"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-tahap">
+        <div class="fitur-teks"><h3>ស្ទាត់ជំនាញត្រូវតែបញ្ជាក់</h3><p>ពាក្យនីមួយៗឆ្លងកាត់បួនដំណាក់កាល៖ ថ្មី កំពុងរៀន ចាំបានហើយ និងស្ទាត់ជំនាញ។ ដើម្បីបាន «ស្ទាត់ជំនាញ» អ្នកត្រូវឆ្លើយត្រូវក្នុងសំណួរនៅ 3 ថ្ងៃផ្សេងគ្នា។ ពាក្យដែលស្ទាត់ហើយនៅតែត្រូវសាកល្បងឡើងវិញពេលដល់ពេល ហើយធ្លាក់ដំណាក់កាលវិញប្រសិនបើឆ្លើយខុស។</p><ol class="tahap"><li><span>ថ្មី</span></li><li><span>កំពុងរៀន</span></li><li><span>ចាំបានហើយ</span></li><li class="puncak"><span>ស្ទាត់ជំនាញ</span></li></ol></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/km/deck.webp" width="540" height="1200" loading="lazy" alt="រៀនតាមប្រធានបទ តាមដានគ្រប់ពាក្យ"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/en/kuis-hasil.webp" width="540" height="1200" loading="lazy" alt="kuis-hasil"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-kerja">
+        <div class="fitur-teks"><h3>វាក្យសព្ទសម្រាប់ការងារនៅជប៉ុន</h3><p>ប្រធានបទកន្លែងធ្វើការ 21៖ សុវត្ថិភាពការងារ ការណែនាំពីថ្នាក់លើ កិច្ចសន្យា និងប្រាក់ឈ្នួល រោងចក្រ សំណង់ កសិកម្ម នេសាទ ការថែទាំមនុស្សចាស់ សណ្ឋាគារ ភោជនីយដ្ឋាន កែច្នៃអាហារ និងច្រើនទៀត។ ក៏មានប្រធានបទជួលផ្ទះ អន្តោប្រវេសន៍ ធនាគារ មន្ទីរពេទ្យ ការទិញទំនិញ និងការធ្វើដំណើរផងដែរ។</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/km/kerja.webp" width="540" height="1200" loading="lazy" alt="វាក្យសព្ទតាម ការងាររបស់អ្នក"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/km/deck.webp" width="540" height="1200" loading="lazy" alt="រៀនតាមប្រធានបទ តាមដានគ្រប់ពាក្យ"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-lain">
+        <div class="fitur-teks"><h3>បន្ថែមទៀត</h3><ul class="butir"><li>ប្រកួតរហ័ស 60 វិនាទី ពាក្យពិបាក និងពាក្យបានចំណាំ</li><li>ការរំលឹកប្រចាំថ្ងៃ និងការជូនដំណឹងពេលកាតដល់ពេល</li><li>ការបញ្ចេញសំឡេងដោយសំឡេងជប៉ុនក្នុងទូរស័ព្ទ</li><li>ស្ថិតិ៖ ថ្ងៃរៀនជាប់គ្នា ផែនទីសកម្មភាព វឌ្ឍនភាព</li><li>បម្រុងទុកវឌ្ឍនភាពជាឯកសារ ហើយស្ដារនៅលើទូរស័ព្ទផ្សេង</li><li>ចំណុចប្រទាក់មានភាសាខ្មែរ និង 12 ភាសាផ្សេងទៀត។ បច្ចុប្បន្ន អត្ថន័យពាក្យ អត្ថន័យកានជី និងឈ្មោះប្រធានបទបង្ហាញជាភាសាអង់គ្លេស ហើយការបកប្រែជាភាសាខ្មែរនឹងបន្ថែមជាបណ្ដើរៗ។</li></ul></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/km/beranda.webp" width="540" height="1200" loading="lazy" alt="ដឹងរាល់ថ្ងៃថា ត្រូវរៀនអ្វី"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/km/statistik.webp" width="540" height="1200" loading="lazy" alt="ស្ថិតិ"></div></figure></div>
+      </article>
     </div>
   </section>
 
@@ -188,84 +217,47 @@
     <div class="wadah">
       <h2>មាតិកា</h2>
       <div class="galeri" style="--kolom: 6">
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/kartu.webp" width="540" height="1200" loading="lazy" alt="វាក្យសព្ទដែល ចាំបានពិតៗ"></div>
-          <figcaption><b>វាក្យសព្ទដែល<br>ចាំបានពិតៗ</b><span>ពាក្យនីមួយៗត្រូវបានកំណត់ពេលរំលឹកដោយស្វ័យប្រវត្តិ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/kerja.webp" width="540" height="1200" loading="lazy" alt="វាក្យសព្ទតាម ការងាររបស់អ្នក"></div>
-          <figcaption><b>វាក្យសព្ទតាម<br>ការងាររបស់អ្នក</b><span>ប្រធានបទ 21 ពីសំណង់ ដល់ការថែទាំមនុស្សចាស់</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/deck.webp" width="540" height="1200" loading="lazy" alt="រៀនតាមប្រធានបទ តាមដានគ្រប់ពាក្យ"></div>
-          <figcaption><b>រៀនតាមប្រធានបទ<br>តាមដានគ្រប់ពាក្យ</b><span>មើលថាពាក្យណាចាំបានហើយ ពាក្យណាមិនទាន់ចាំ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/kuis.webp" width="540" height="1200" loading="lazy" alt="ស្ទាត់ជំនាញ ត្រូវតែបញ្ជាក់"></div>
-          <figcaption><b>ស្ទាត់ជំនាញ<br>ត្រូវតែបញ្ជាក់</b><span>ឆ្លើយត្រូវក្នុងសំណួរ 3 ថ្ងៃផ្សេងគ្នា</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/kanji.webp" width="540" height="1200" loading="lazy" alt="កានជី 2,230 មួយឆូតម្ដងៗ"></div>
-          <figcaption><b>កានជី 2,230<br>មួយឆូតម្ដងៗ</b><span>ការអាន ពាក្យឧទាហរណ៍ កាត និងសំណួរកានជី</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/ujian.webp" width="540" height="1200" loading="lazy" alt="ការប្រឡងសាកល្បង JFT-Basic &amp; JLPT"></div>
-          <figcaption><b>ការប្រឡងសាកល្បង<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>ពេលវេលាដូចការប្រឡងពិត ប្រៀបនឹងពិន្ទុជាប់</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="លទ្ធផលអនុវត្ត JFT-Basic"></div>
-          <figcaption><b>លទ្ធផលអនុវត្ត <span class="rapat">JFT-Basic</span></b><span>ពិន្ទុសរុប · ភាពត្រឹមត្រូវតាមប្រភេទសំណួរ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/beranda.webp" width="540" height="1200" loading="lazy" alt="ដឹងរាល់ថ្ងៃថា ត្រូវរៀនអ្វី"></div>
-          <figcaption><b>ដឹងរាល់ថ្ងៃថា<br>ត្រូវរៀនអ្វី</b><span>កាតដល់ពេល ពាក្យថ្មី ប្រកួតរហ័ស 60 វិនាទី</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/statistik.webp" width="540" height="1200" loading="lazy" alt="ស្ថិតិ"></div>
-          <figcaption><b>ស្ថិតិ</b><span>ថ្ងៃរៀនជាប់គ្នា ផែនទីសកម្មភាព វឌ្ឍនភាព</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/kamus.webp" width="540" height="1200" loading="lazy" alt="វចនានុក្រមហោប៉ៅ 36,385 ពាក្យ"></div>
-          <figcaption><b>វចនានុក្រមហោប៉ៅ<br>36,385 ពាក្យ</b><span>ស្វែងរកតាមកានជី កាណា រ៉ូម៉ាជី ឬអត្ថន័យអង់គ្លេស</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/km/bahasa.webp" width="540" height="1200" loading="lazy" alt="ប្រើជា ភាសាខ្មែរ"></div>
-          <figcaption><b>ប្រើជា<br>ភាសាខ្មែរ</b><span>ចំណុចប្រទាក់ 13 ភាសា អត្ថន័យជាភាសាអង់គ្លេស</span></figcaption>
-        </figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/kartu.webp" width="540" height="1200" loading="lazy" alt="វាក្យសព្ទដែល ចាំបានពិតៗ"></div><figcaption><b>វាក្យសព្ទដែល<br>ចាំបានពិតៗ</b><span>ពាក្យនីមួយៗត្រូវបានកំណត់ពេលរំលឹកដោយស្វ័យប្រវត្តិ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/kerja.webp" width="540" height="1200" loading="lazy" alt="វាក្យសព្ទតាម ការងាររបស់អ្នក"></div><figcaption><b>វាក្យសព្ទតាម<br>ការងាររបស់អ្នក</b><span>ប្រធានបទ 21 ពីសំណង់ ដល់ការថែទាំមនុស្សចាស់</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/deck.webp" width="540" height="1200" loading="lazy" alt="រៀនតាមប្រធានបទ តាមដានគ្រប់ពាក្យ"></div><figcaption><b>រៀនតាមប្រធានបទ<br>តាមដានគ្រប់ពាក្យ</b><span>មើលថាពាក្យណាចាំបានហើយ ពាក្យណាមិនទាន់ចាំ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/kuis.webp" width="540" height="1200" loading="lazy" alt="ស្ទាត់ជំនាញ ត្រូវតែបញ្ជាក់"></div><figcaption><b>ស្ទាត់ជំនាញ<br>ត្រូវតែបញ្ជាក់</b><span>ឆ្លើយត្រូវក្នុងសំណួរ 3 ថ្ងៃផ្សេងគ្នា</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/kanji.webp" width="540" height="1200" loading="lazy" alt="កានជី 2,230 មួយឆូតម្ដងៗ"></div><figcaption><b>កានជី 2,230<br>មួយឆូតម្ដងៗ</b><span>ការអាន ពាក្យឧទាហរណ៍ កាត និងសំណួរកានជី</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/ujian.webp" width="540" height="1200" loading="lazy" alt="ការប្រឡងសាកល្បង JFT-Basic &amp; JLPT"></div><figcaption><b>ការប្រឡងសាកល្បង<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>ពេលវេលាដូចការប្រឡងពិត ប្រៀបនឹងពិន្ទុជាប់</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="លទ្ធផលអនុវត្ត JFT-Basic"></div><figcaption><b>លទ្ធផលអនុវត្ត <span class="rapat">JFT-Basic</span></b><span>ពិន្ទុសរុប · ភាពត្រឹមត្រូវតាមប្រភេទសំណួរ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/beranda.webp" width="540" height="1200" loading="lazy" alt="ដឹងរាល់ថ្ងៃថា ត្រូវរៀនអ្វី"></div><figcaption><b>ដឹងរាល់ថ្ងៃថា<br>ត្រូវរៀនអ្វី</b><span>កាតដល់ពេល ពាក្យថ្មី ប្រកួតរហ័ស 60 វិនាទី</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/statistik.webp" width="540" height="1200" loading="lazy" alt="ស្ថិតិ"></div><figcaption><b>ស្ថិតិ</b><span>ថ្ងៃរៀនជាប់គ្នា ផែនទីសកម្មភាព វឌ្ឍនភាព</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/kamus.webp" width="540" height="1200" loading="lazy" alt="វចនានុក្រមហោប៉ៅ 38,085 ពាក្យ"></div><figcaption><b>វចនានុក្រមហោប៉ៅ<br>38,085 ពាក្យ</b><span>ស្វែងរកតាមកានជី កាណា រ៉ូម៉ាជី ឬអត្ថន័យអង់គ្លេស</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/km/bahasa.webp" width="540" height="1200" loading="lazy" alt="ប្រើជា ភាសាខ្មែរ"></div><figcaption><b>ប្រើជា<br>ភាសាខ្មែរ</b><span>ចំណុចប្រទាក់ 13 ភាសា អត្ថន័យជាភាសាអង់គ្លេស</span></figcaption></figure>
       </div>
       <p class="catatan-galeri">ពិន្ទុគ្រាន់តែជាការប៉ាន់ស្មានដើម្បីតាមដានការរីកចម្រើន។</p>
     </div>
   </section>
 
-  <section class="bagian">
-    <div class="wadah">
-      <h2>បន្ថែមទៀត</h2>
-      <ul class="daftar">
-        <li>ប្រកួតរហ័ស 60 វិនាទី ពាក្យពិបាក និងពាក្យបានចំណាំ</li>
-        <li>ការរំលឹកប្រចាំថ្ងៃ និងការជូនដំណឹងពេលកាតដល់ពេល</li>
-        <li>ការបញ្ចេញសំឡេងដោយសំឡេងជប៉ុនក្នុងទូរស័ព្ទ</li>
-        <li>ស្ថិតិ៖ ថ្ងៃរៀនជាប់គ្នា ផែនទីសកម្មភាព វឌ្ឍនភាព</li>
-        <li>បម្រុងទុកវឌ្ឍនភាពជាឯកសារ ហើយស្ដារនៅលើទូរស័ព្ទផ្សេង</li>
-        <li>ចំណុចប្រទាក់មានភាសាខ្មែរ និង 12 ភាសាផ្សេងទៀត។ បច្ចុប្បន្ន អត្ថន័យពាក្យ អត្ថន័យកានជី និងឈ្មោះប្រធានបទបង្ហាញជាភាសាអង់គ្លេស ហើយការបកប្រែជាភាសាខ្មែរនឹងបន្ថែមជាបណ្ដើរៗ។</li>
-      </ul>
+  <section class="bagian" id="gratis">
+    <div class="wadah dua">
+      <article class="kartu gratis">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v4H4z"/><path d="M6 11v9h12v-9"/><path d="M12 7v13"/><path d="M12 7c-2-3-5-3-5-1s3 1 5 1c2 0 5-1 5-3s-3-1-5 1"/></svg></span><h3>ចាប់ផ្ដើមដោយឥតគិតថ្លៃ</h3></div>
+        <p>Premium បើកពាក្យទាំងអស់ និងកានជី <span class="rapat">N3–N1</span> គ្មានពាណិជ្ជកម្ម ហើយអាចរៀនដោយគ្មានអ៊ីនធឺណិត។ កំណែឥតគិតថ្លៃត្រូវការអ៊ីនធឺណិតដើម្បីចាប់ផ្ដើមមេរៀន ឬការប្រឡង។</p>
+      </article>
+
     </div>
   </section>
 
   <section class="bagian">
-    <div class="wadah dua">
-      <article class="kartu">
-        <h3>ចាប់ផ្ដើមដោយឥតគិតថ្លៃ</h3>
-        <p>កំណែឥតគិតថ្លៃមាន 9,626 ពាក្យ — 100 ពាក្យដំបូងនៃប្រធានបទនីមួយៗ គ្របដណ្ដប់វាក្យសព្ទ <span class="rapat">JFT-Basic</span> 97% និង JLPT N5 91% — និងកានជី N5 និង N4 ទាំង 284 តួ មានពាណិជ្ជកម្ម។ ការប្រឡងសាកល្បង និងវចនានុក្រមទាំងអស់ឥតគិតថ្លៃ។</p>
-        <p class="kecil">Premium បើកពាក្យទាំងអស់ និងកានជី <span class="rapat">N3–N1</span> គ្មានពាណិជ្ជកម្ម ហើយអាចរៀនដោយគ្មានអ៊ីនធឺណិត។ កំណែឥតគិតថ្លៃត្រូវការអ៊ីនធឺណិតដើម្បីចាប់ផ្ដើមមេរៀន ឬការប្រឡង។</p>
-      </article>
-      <article class="kartu">
-        <h3>ឯកជនភាព</h3>
+    <div class="wadah">
+      <article class="kartu privasi-kartu">
+        <div class="kartu-kepala">
+          <span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+          <h3>ឯកជនភាព</h3>
+        </div>
         <p><b>មិនចាំបាច់មានគណនី</b><br>អ្នកអភិវឌ្ឍន៍គ្មានម៉ាស៊ីនមេទេ៖ កំណត់ត្រាការរៀនរបស់អ្នកនៅលើទូរស័ព្ទរបស់អ្នក ហើយមិនដែលផ្ញើទៅអ្នកអភិវឌ្ឍន៍ឡើយ។</p>
 
         <a class="tautan" href="../privacy/?lang=en">គោលការណ៍ឯកជនភាព &rarr;</a>
       </article>
     </div>
   </section>
+
+
 
 </main>
 
@@ -280,13 +272,45 @@
           ទាញយកពី Google Play
         </a>
       </div>
+      <p class="catatan">ចាប់ផ្ដើមដោយឥតគិតថ្លៃ &middot; មិនចាំបាច់មានគណនី &middot; Android 7.0+</p>
+    </div>
+    <div class="kaki-kolom">
+      <div>
+        <h3></h3>
+        <ul>
+
+        </ul>
+      </div>
+      <div>
+        <h3>ជ្រើសរើសភាសា</h3>
+        <ul class="kaki-bahasa">
+          <li><a href="../" lang="id" hreflang="id" data-bahasa="id">Bahasa Indonesia</a></li>
+          <li><a href="../en/" lang="en" hreflang="en" data-bahasa="en">English</a></li>
+          <li><a href="../vi/" lang="vi" hreflang="vi" data-bahasa="vi">Tiếng Việt</a></li>
+          <li><a href="../ne/" lang="ne" hreflang="ne" data-bahasa="ne">नेपाली</a></li>
+          <li><a href="../my/" lang="my" hreflang="my" data-bahasa="my">မြန်မာဘာသာ</a></li>
+          <li><a href="../fil/" lang="fil" hreflang="fil" data-bahasa="fil">Filipino</a></li>
+          <li><a href="../th/" lang="th" hreflang="th" data-bahasa="th">ไทย</a></li>
+          <li><a href="../km/" lang="km" hreflang="km" data-bahasa="km">ខ្មែរ</a></li>
+          <li><a href="../mn/" lang="mn" hreflang="mn" data-bahasa="mn">Монгол</a></li>
+          <li><a href="../si/" lang="si" hreflang="si" data-bahasa="si">සිංහල</a></li>
+          <li><a href="../bn/" lang="bn" hreflang="bn" data-bahasa="bn">বাংলা</a></li>
+          <li><a href="../hi/" lang="hi" hreflang="hi" data-bahasa="hi">हिन्दी</a></li>
+          <li><a href="../zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh">简体中文</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3></h3>
+        <ul>
+          <li><a href="../privacy/?lang=en">គោលការណ៍ឯកជនភាព</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">Google Play</a></li>
+          <li><a href="mailto:amdigracrative@gmail.com">ទំនាក់ទំនង</a></li>
+        </ul>
+      </div>
     </div>
     <div class="kaki">
       <span>&copy; 2026 TokuGo</span>
-      <nav>
-        <a href="../privacy/?lang=en">គោលការណ៍ឯកជនភាព</a>
-        <a href="mailto:amdigracrative@gmail.com">ទំនាក់ទំនង</a>
-      </nav>
+      <span class="sumber">JMdict/KANJIDIC &copy; EDRDG (CC BY-SA 4.0). KanjiVG (CC BY-SA 3.0).</span>
     </div>
   </div>
 </footer>
@@ -296,16 +320,18 @@
   // Bahasa yang dipilih sendiri diingat, supaya halaman akar tidak mengantar pengunjung
   // kembali ke bahasa HP-nya setiap kali dibuka.
   var pemilih = document.querySelector('.bahasa');
+  var menu = document.querySelector('.menu-kecil');
   pemilih.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-bahasa]') : null;
     if (a) { try { localStorage.setItem('bahasa', a.getAttribute('data-bahasa')); } catch (x) {} }
   });
-  // Daftar bahasa menutup sendiri saat mengetuk di luarnya atau menekan Esc.
+  // Daftar bahasa dan menu menutup sendiri saat mengetuk di luarnya atau menekan Esc.
   document.addEventListener('click', function (e) {
     if (pemilih.open && !pemilih.contains(e.target)) pemilih.open = false;
+    if (menu && menu.open && !menu.contains(e.target)) menu.open = false;
   });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') pemilih.open = false;
+    if (e.key === 'Escape') { pemilih.open = false; if (menu) menu.open = false; }
   });
   // Windows tidak punya gambar bendera di font emojinya dan menampilkan dua huruf kode
   // negara. Kalau begitu benderanya disembunyikan; kode bahasa di sebelahnya sudah cukup.
@@ -324,6 +350,5 @@
   } catch (x) {}
 })();
 </script>
-
 </body>
 </html>

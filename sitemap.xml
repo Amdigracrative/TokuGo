@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tokugo.my.id/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/kosakata/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/kosakata/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/kanji/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/latihan-ujian/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/latihan-ujian/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/hiragana-katakana/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/tata-bahasa/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/tata-bahasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/dengar-ucap-tulis/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/dengar-ucap-tulis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/faq/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/en/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/en/vocabulary/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/kosakata/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/en/kanji/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/en/exam-practice/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/latihan-ujian/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/en/hiragana-katakana/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/en/grammar/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/tata-bahasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/en/listen-speak-write/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/dengar-ucap-tulis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/en/faq/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/vi/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ne/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/my/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/fil/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/th/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/km/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/mn/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/si/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/bn/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/hi/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/privacy/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.3</priority>
+  </url>
+</urlset>

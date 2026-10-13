@@ -7,8 +7,8 @@
 <meta name="description" content="日语单词与汉字记忆卡，附 JFT-Basic 与 JLPT N5-N1 模拟考试。">
 
 <!--
-  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html dan
-  docs/situs/sumber/teks/zh.json. Jangan disunting di sini: perubahan akan tertimpa.
+  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html (+ kepala.html,
+  kaki.html) dan docs/situs/sumber/teks/zh.json. Jangan disunting di sini: perubahan akan tertimpa.
 -->
 
 <link rel="canonical" href="https://tokugo.my.id/zh/">
@@ -26,7 +26,7 @@
 <link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/">
 <link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
-
+<meta name="google-site-verification" content="P4mkrZ3cr1jIFx7Ld-NwLesI2c5FRTXcSXjfv0PfLzw">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="TokuGo">
 <meta property="og:locale" content="zh_CN">
@@ -48,33 +48,84 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "TokuGo",
-  "operatingSystem": "Android 7.0+",
-  "applicationCategory": "EducationalApplication",
-  "inLanguage": "zh-CN",
-  "description": "日语单词与汉字记忆卡，附 JFT-Basic 与 JLPT N5-N1 模拟考试。",
-  "url": "https://tokugo.my.id/zh/",
-  "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://tokugo.my.id/#aplikasi",
+      "name": "TokuGo",
+      "alternateName": "TokuGo：日语单词与汉字 JLPT",
+      "operatingSystem": "Android 7.0+",
+      "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Language learning",
+      "inLanguage": "zh-CN",
+      "description": "日语单词与汉字记忆卡，附 JFT-Basic 与 JLPT N5-N1 模拟考试。",
+      "url": "https://tokugo.my.id/zh/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "image": "https://tokugo.my.id/aset/sampul-zh.jpg",
+      "screenshot": [
+        "https://tokugo.my.id/aset/layar/zh/kartu.webp",
+        "https://tokugo.my.id/aset/layar/zh/kerja.webp",
+        "https://tokugo.my.id/aset/layar/zh/deck.webp",
+        "https://tokugo.my.id/aset/layar/zh/kuis.webp",
+        "https://tokugo.my.id/aset/layar/zh/kanji.webp",
+        "https://tokugo.my.id/aset/layar/zh/ujian.webp",
+        "https://tokugo.my.id/aset/layar/zh/ujian-hasil.webp",
+        "https://tokugo.my.id/aset/layar/zh/beranda.webp",
+        "https://tokugo.my.id/aset/layar/zh/statistik.webp",
+        "https://tokugo.my.id/aset/layar/zh/kamus.webp",
+        "https://tokugo.my.id/aset/layar/zh/bahasa.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tokugo.my.id/#situs",
+      "url": "https://tokugo.my.id/",
+      "name": "TokuGo",
+      "inLanguage": "zh-CN",
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://tokugo.my.id/#penerbit",
+      "name": "TokuGo",
+      "url": "https://tokugo.my.id/",
+      "logo": "https://tokugo.my.id/aset/ikon-192.png",
+      "email": "amdigracrative@gmail.com"
+    }
+  ]
 }
 </script>
 </head>
 
 <body>
-
+<a class="lompat" href="#isi">TokuGo</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="./" aria-label="TokuGo">
       <img src="../aset/ikon-96.png" width="32" height="32" alt="">
       TokuGo
     </a>
-    <nav class="menu">
-      <a href="../privacy/?lang=en">隐私</a>
+    <nav class="navigasi" aria-label="TokuGo">
+      <ul class="menu-besar">
+
+      </ul>
+      <details class="menu-kecil">
+        <summary aria-label="Menu"><span class="garis-tiga" aria-hidden="true"></span>Menu</summary>
+        <ul>
+
+        </ul>
+      </details>
       <details class="bahasa">
         <summary aria-label="选择语言"><span class="bendera" aria-hidden="true">🇨🇳</span><span class="kode">ZH</span></summary>
         <ul>
@@ -97,11 +148,11 @@
   </div>
 </header>
 
-<div class="malam">
+<div class="malam pembuka-latar">
   <div class="wadah">
     <div class="pembuka">
       <div class="teks">
-        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span></span>
+        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span> &middot; Android</span>
         <h1>日语单词与汉字<br>助你<b>赴日工作、考 JLPT</b></h1>
         <div class="garis-koral"></div>
         <p class="pengantar">TokuGo 是一款日语单词与汉字记忆卡（flashcard）应用，适合准备 <span class="rapat">JFT-Basic</span>、以特定技能（SSW / Tokutei Ginou）身份赴日工作的人，以及备考 JLPT N5 至 N1 的学习者。</p>
@@ -110,77 +161,55 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
             在 Google Play 下载
           </a>
-
+          <a class="tautan-fitur" href="#fitur">日语单词真正记得住</a>
         </div>
         <p class="catatan">免费开始 &middot; 无需注册账号 &middot; Android 7.0+</p>
       </div>
 
       <div class="panggung">
-        <div class="hp">
-          <img src="../aset/layar/zh/kartu.webp" width="540" height="1200" fetchpriority="high" alt="TokuGo：日语单词与汉字 JLPT">
+        <div class="hp hp-kedua">
+          <img src="../aset/layar/zh/beranda.webp" width="540" height="1200" alt="" loading="lazy">
+        </div>
+        <div class="hp hp-utama">
+          <img src="../aset/layar/zh/kartu.webp" width="540" height="1200" fetchpriority="high" alt="日语单词 真正记得住">
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<main>
+<main id="isi">
 
   <div class="wadah">
     <ul class="angka">
-      <li><b>36,385</b><span>日语单词，附读音和罗马字</span></li>
+      <li><b>38,085</b><span>日语单词，附读音和罗马字</span></li>
       <li><b>2,230</b><span>JLPT 汉字，附笔顺</span></li>
-      <li><b>107</b><span>个主题，分为 11 个大类，其中 21 个与工作场所相关</span></li>
+      <li><b>95</b><span>个主题，分为 11 个大类，其中 21 个与工作场所相关</span></li>
       <li><b>6</b><span><span class="rapat">JFT-Basic</span> 与 JLPT <span class="rapat">N5–N1</span> 模拟考试</span></li>
     </ul>
   </div>
 
+
+
   <section class="bagian" id="fitur">
     <div class="wadah">
       <h2>日语单词真正记得住</h2>
-      <div class="inti">
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">覚</span>
-            <h3>知道你何时会忘记的记忆卡</h3>
-          </div>
-          <p>每张卡片都由现代间隔重复算法 FSRS 安排复习。你只需自评——没记住、不确定或记住了——应用就会算出这个单词何时再出现：几分钟、几天或几周后。间隔时间直接显示在每个按钮上。</p>
-          <div class="peraga">
-            <div class="nilai">
-              <span class="belum"><b>没记住</b><i>5 分钟</i></span>
-              <span class="ragu"><b>不确定</b><i>9 天</i></span>
-              <span class="hafal"><b>记住了</b><i>17 天</i></span>
-            </div>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">証</span>
-            <h3>“已掌握”要靠实力证明</h3>
-          </div>
-          <p>每个单词都经过四个阶段：新、学习中、已记住、已掌握。要达到“已掌握”，必须在 3 个不同的日子里答对测验。已掌握的单词到期后仍会再次测试，答错就会降级。</p>
-          <div class="peraga">
-            <ol class="tahap">
-              <li><span>新</span></li>
-              <li><span>学习中</span></li>
-              <li><span>已记住</span></li>
-              <li class="puncak"><span>已掌握</span></li>
-            </ol>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">働</span>
-            <h3>为在日本工作准备的单词</h3>
-          </div>
-          <p>21 个工作场所主题，包括作业安全、上司指示、合同与工资、工厂、建筑、农业、渔业、护理、酒店、餐厅、食品加工等；另有租房、出入境、银行、医院、购物和交通等生活主题。</p>
-
-        </article>
-
-      </div>
+      <article class="fitur" id="f-kosakata">
+        <div class="fitur-teks"><h3>知道你何时会忘记的记忆卡</h3><p>每张卡片都由现代间隔重复算法 FSRS 安排复习。你只需自评——没记住、不确定或记住了——应用就会算出这个单词何时再出现：几分钟、几天或几周后。间隔时间直接显示在每个按钮上。</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/kartu.webp" width="540" height="1200" loading="lazy" alt="日语单词 真正记得住"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/kuis.webp" width="540" height="1200" loading="lazy" alt="“已掌握” 要靠实力证明"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-tahap">
+        <div class="fitur-teks"><h3>“已掌握”要靠实力证明</h3><p>每个单词都经过四个阶段：新、学习中、已记住、已掌握。要达到“已掌握”，必须在 3 个不同的日子里答对测验。已掌握的单词到期后仍会再次测试，答错就会降级。</p><ol class="tahap"><li><span>新</span></li><li><span>学习中</span></li><li><span>已记住</span></li><li class="puncak"><span>已掌握</span></li></ol></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/deck.webp" width="540" height="1200" loading="lazy" alt="按主题学习 跟踪每个单词"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/en/kuis-hasil.webp" width="540" height="1200" loading="lazy" alt="kuis-hasil"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-kerja">
+        <div class="fitur-teks"><h3>为在日本工作准备的单词</h3><p>21 个工作场所主题，包括作业安全、上司指示、合同与工资、工厂、建筑、农业、渔业、护理、酒店、餐厅、食品加工等；另有租房、出入境、银行、医院、购物和交通等生活主题。</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/kerja.webp" width="540" height="1200" loading="lazy" alt="单词按 工作领域分类"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/deck.webp" width="540" height="1200" loading="lazy" alt="按主题学习 跟踪每个单词"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-lain">
+        <div class="fitur-teks"><h3>更多功能</h3><ul class="butir"><li>60 秒闪练、难词列表和收藏</li><li>每日提醒，卡片到期时通知</li><li>使用手机自带日语语音发音</li><li>统计：连续学习天数、活动图、学习进度</li><li>将进度备份为文件，在其他手机上恢复</li><li>界面支持简体中文等 13 种语言。目前单词释义、汉字释义和主题名称为英文，中文翻译将陆续加入。</li></ul></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/beranda.webp" width="540" height="1200" loading="lazy" alt="每天都知道 该学什么"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/statistik.webp" width="540" height="1200" loading="lazy" alt="每天都看到 自己的进步"></div></figure></div>
+      </article>
     </div>
   </section>
 
@@ -188,84 +217,47 @@
     <div class="wadah">
       <h2>内容</h2>
       <div class="galeri" style="--kolom: 6">
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/kartu.webp" width="540" height="1200" loading="lazy" alt="日语单词 真正记得住"></div>
-          <figcaption><b>日语单词<br>真正记得住</b><span>每个单词自动安排复习时间</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/kerja.webp" width="540" height="1200" loading="lazy" alt="单词按 工作领域分类"></div>
-          <figcaption><b>单词按<br>工作领域分类</b><span>21 个主题，从建筑到护理</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/deck.webp" width="540" height="1200" loading="lazy" alt="按主题学习 跟踪每个单词"></div>
-          <figcaption><b>按主题学习<br>跟踪每个单词</b><span>哪些已记住、哪些还没有，一目了然</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/kuis.webp" width="540" height="1200" loading="lazy" alt="“已掌握” 要靠实力证明"></div>
-          <figcaption><b>“已掌握”<br>要靠实力证明</b><span>在 3 个不同的日子测验答对</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/kanji.webp" width="540" height="1200" loading="lazy" alt="2,230 个汉字 一笔一画"></div>
-          <figcaption><b>2,230 个汉字<br>一笔一画</b><span>读音、例词、汉字卡片与测验</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/ujian.webp" width="540" height="1200" loading="lazy" alt="模拟考试 JFT-Basic 与 JLPT"></div>
-          <figcaption><b>模拟考试<br><span class="rapat">JFT-Basic</span> 与 JLPT</b><span>官方考试时长，对照及格线计分</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="JFT-Basic 练习结果"></div>
-          <figcaption><b><span class="rapat">JFT-Basic</span> 练习结果</b><span>总分 · 各题型正确率</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/beranda.webp" width="540" height="1200" loading="lazy" alt="每天都知道 该学什么"></div>
-          <figcaption><b>每天都知道<br>该学什么</b><span>到期卡片、新单词、60 秒闪练</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/statistik.webp" width="540" height="1200" loading="lazy" alt="每天都看到 自己的进步"></div>
-          <figcaption><b>每天都看到<br>自己的进步</b><span>连续学习天数、活动图、每个单词的阶段</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/kamus.webp" width="540" height="1200" loading="lazy" alt="口袋词典 36,385 个单词"></div>
-          <figcaption><b>口袋词典<br>36,385 个单词</b><span>可按汉字、假名、罗马字或英文释义搜索</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/zh/bahasa.webp" width="540" height="1200" loading="lazy" alt="界面支持 简体中文"></div>
-          <figcaption><b>界面支持<br>简体中文</b><span>13 种界面语言，单词释义为英文</span></figcaption>
-        </figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/kartu.webp" width="540" height="1200" loading="lazy" alt="日语单词 真正记得住"></div><figcaption><b>日语单词<br>真正记得住</b><span>每个单词自动安排复习时间</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/kerja.webp" width="540" height="1200" loading="lazy" alt="单词按 工作领域分类"></div><figcaption><b>单词按<br>工作领域分类</b><span>21 个主题，从建筑到护理</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/deck.webp" width="540" height="1200" loading="lazy" alt="按主题学习 跟踪每个单词"></div><figcaption><b>按主题学习<br>跟踪每个单词</b><span>哪些已记住、哪些还没有，一目了然</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/kuis.webp" width="540" height="1200" loading="lazy" alt="“已掌握” 要靠实力证明"></div><figcaption><b>“已掌握”<br>要靠实力证明</b><span>在 3 个不同的日子测验答对</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/kanji.webp" width="540" height="1200" loading="lazy" alt="2,230 个汉字 一笔一画"></div><figcaption><b>2,230 个汉字<br>一笔一画</b><span>读音、例词、汉字卡片与测验</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/ujian.webp" width="540" height="1200" loading="lazy" alt="模拟考试 JFT-Basic 与 JLPT"></div><figcaption><b>模拟考试<br><span class="rapat">JFT-Basic</span> 与 JLPT</b><span>官方考试时长，对照及格线计分</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="JFT-Basic 练习结果"></div><figcaption><b><span class="rapat">JFT-Basic</span> 练习结果</b><span>总分 · 各题型正确率</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/beranda.webp" width="540" height="1200" loading="lazy" alt="每天都知道 该学什么"></div><figcaption><b>每天都知道<br>该学什么</b><span>到期卡片、新单词、60 秒闪练</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/statistik.webp" width="540" height="1200" loading="lazy" alt="每天都看到 自己的进步"></div><figcaption><b>每天都看到<br>自己的进步</b><span>连续学习天数、活动图、每个单词的阶段</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/kamus.webp" width="540" height="1200" loading="lazy" alt="口袋词典 38,085 个单词"></div><figcaption><b>口袋词典<br>38,085 个单词</b><span>可按汉字、假名、罗马字或英文释义搜索</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/zh/bahasa.webp" width="540" height="1200" loading="lazy" alt="界面支持 简体中文"></div><figcaption><b>界面支持<br>简体中文</b><span>13 种界面语言，单词释义为英文</span></figcaption></figure>
       </div>
       <p class="catatan-galeri">分数仅为估算，用于跟踪进步，并非正式考试成绩的预测。</p>
     </div>
   </section>
 
-  <section class="bagian">
-    <div class="wadah">
-      <h2>更多功能</h2>
-      <ul class="daftar">
-        <li>60 秒闪练、难词列表和收藏</li>
-        <li>每日提醒，卡片到期时通知</li>
-        <li>使用手机自带日语语音发音</li>
-        <li>统计：连续学习天数、活动图、学习进度</li>
-        <li>将进度备份为文件，在其他手机上恢复</li>
-        <li>界面支持简体中文等 13 种语言。目前单词释义、汉字释义和主题名称为英文，中文翻译将陆续加入。</li>
-      </ul>
+  <section class="bagian" id="gratis">
+    <div class="wadah dua">
+      <article class="kartu gratis">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v4H4z"/><path d="M6 11v9h12v-9"/><path d="M12 7v13"/><path d="M12 7c-2-3-5-3-5-1s3 1 5 1c2 0 5-1 5-3s-3-1-5 1"/></svg></span><h3>免费开始</h3></div>
+        <p>Premium 解锁全部单词和 <span class="rapat">N3–N1</span> 汉字，去除广告，并可离线学习。免费版开始学习或考试时需要联网。</p>
+      </article>
+
     </div>
   </section>
 
   <section class="bagian">
-    <div class="wadah dua">
-      <article class="kartu">
-        <h3>免费开始</h3>
-        <p>免费版提供 9,626 个单词——每个主题的前 100 个，覆盖 97% 的 <span class="rapat">JFT-Basic</span> 词汇和 91% 的 JLPT N5 词汇——以及全部 284 个 N5、N4 汉字，含广告。所有模拟考试和词典均免费。</p>
-        <p class="kecil">Premium 解锁全部单词和 <span class="rapat">N3–N1</span> 汉字，去除广告，并可离线学习。免费版开始学习或考试时需要联网。</p>
-      </article>
-      <article class="kartu">
-        <h3>隐私</h3>
+    <div class="wadah">
+      <article class="kartu privasi-kartu">
+        <div class="kartu-kepala">
+          <span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+          <h3>隐私</h3>
+        </div>
         <p><b>无需注册账号</b><br>开发者没有服务器：你的学习记录保存在手机上，不会发送给开发者。</p>
 
         <a class="tautan" href="../privacy/?lang=en">隐私政策 &rarr;</a>
       </article>
     </div>
   </section>
+
+
 
 </main>
 
@@ -280,13 +272,45 @@
           在 Google Play 下载
         </a>
       </div>
+      <p class="catatan">免费开始 &middot; 无需注册账号 &middot; Android 7.0+</p>
+    </div>
+    <div class="kaki-kolom">
+      <div>
+        <h3></h3>
+        <ul>
+
+        </ul>
+      </div>
+      <div>
+        <h3>选择语言</h3>
+        <ul class="kaki-bahasa">
+          <li><a href="../" lang="id" hreflang="id" data-bahasa="id">Bahasa Indonesia</a></li>
+          <li><a href="../en/" lang="en" hreflang="en" data-bahasa="en">English</a></li>
+          <li><a href="../vi/" lang="vi" hreflang="vi" data-bahasa="vi">Tiếng Việt</a></li>
+          <li><a href="../ne/" lang="ne" hreflang="ne" data-bahasa="ne">नेपाली</a></li>
+          <li><a href="../my/" lang="my" hreflang="my" data-bahasa="my">မြန်မာဘာသာ</a></li>
+          <li><a href="../fil/" lang="fil" hreflang="fil" data-bahasa="fil">Filipino</a></li>
+          <li><a href="../th/" lang="th" hreflang="th" data-bahasa="th">ไทย</a></li>
+          <li><a href="../km/" lang="km" hreflang="km" data-bahasa="km">ខ្មែរ</a></li>
+          <li><a href="../mn/" lang="mn" hreflang="mn" data-bahasa="mn">Монгол</a></li>
+          <li><a href="../si/" lang="si" hreflang="si" data-bahasa="si">සිංහල</a></li>
+          <li><a href="../bn/" lang="bn" hreflang="bn" data-bahasa="bn">বাংলা</a></li>
+          <li><a href="../hi/" lang="hi" hreflang="hi" data-bahasa="hi">हिन्दी</a></li>
+          <li><a href="../zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh">简体中文</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3></h3>
+        <ul>
+          <li><a href="../privacy/?lang=en">隐私政策</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">Google Play</a></li>
+          <li><a href="mailto:amdigracrative@gmail.com">联系我们</a></li>
+        </ul>
+      </div>
     </div>
     <div class="kaki">
       <span>&copy; 2026 TokuGo</span>
-      <nav>
-        <a href="../privacy/?lang=en">隐私政策</a>
-        <a href="mailto:amdigracrative@gmail.com">联系我们</a>
-      </nav>
+      <span class="sumber">JMdict/KANJIDIC &copy; EDRDG (CC BY-SA 4.0). KanjiVG (CC BY-SA 3.0).</span>
     </div>
   </div>
 </footer>
@@ -296,16 +320,18 @@
   // Bahasa yang dipilih sendiri diingat, supaya halaman akar tidak mengantar pengunjung
   // kembali ke bahasa HP-nya setiap kali dibuka.
   var pemilih = document.querySelector('.bahasa');
+  var menu = document.querySelector('.menu-kecil');
   pemilih.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-bahasa]') : null;
     if (a) { try { localStorage.setItem('bahasa', a.getAttribute('data-bahasa')); } catch (x) {} }
   });
-  // Daftar bahasa menutup sendiri saat mengetuk di luarnya atau menekan Esc.
+  // Daftar bahasa dan menu menutup sendiri saat mengetuk di luarnya atau menekan Esc.
   document.addEventListener('click', function (e) {
     if (pemilih.open && !pemilih.contains(e.target)) pemilih.open = false;
+    if (menu && menu.open && !menu.contains(e.target)) menu.open = false;
   });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') pemilih.open = false;
+    if (e.key === 'Escape') { pemilih.open = false; if (menu) menu.open = false; }
   });
   // Windows tidak punya gambar bendera di font emojinya dan menampilkan dua huruf kode
   // negara. Kalau begitu benderanya disembunyikan; kode bahasa di sebelahnya sudah cukup.
@@ -324,6 +350,5 @@
   } catch (x) {}
 })();
 </script>
-
 </body>
 </html>

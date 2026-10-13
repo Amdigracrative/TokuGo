@@ -7,8 +7,8 @@
 <meta name="description" content="জাপানি শব্দ ও কাঞ্জির ফ্ল্যাশকার্ড, JFT-Basic ও JLPT N5-N1 মক পরীক্ষা।">
 
 <!--
-  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html dan
-  docs/situs/sumber/teks/bn.json. Jangan disunting di sini: perubahan akan tertimpa.
+  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html (+ kepala.html,
+  kaki.html) dan docs/situs/sumber/teks/bn.json. Jangan disunting di sini: perubahan akan tertimpa.
 -->
 
 <link rel="canonical" href="https://tokugo.my.id/bn/">
@@ -26,7 +26,7 @@
 <link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/">
 <link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
-
+<meta name="google-site-verification" content="P4mkrZ3cr1jIFx7Ld-NwLesI2c5FRTXcSXjfv0PfLzw">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="TokuGo">
 <meta property="og:locale" content="bn_BD">
@@ -48,33 +48,84 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "TokuGo",
-  "operatingSystem": "Android 7.0+",
-  "applicationCategory": "EducationalApplication",
-  "inLanguage": "bn",
-  "description": "জাপানি শব্দ ও কাঞ্জির ফ্ল্যাশকার্ড, JFT-Basic ও JLPT N5-N1 মক পরীক্ষা।",
-  "url": "https://tokugo.my.id/bn/",
-  "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://tokugo.my.id/#aplikasi",
+      "name": "TokuGo",
+      "alternateName": "TokuGo: জাপানি ভাষা JLPT",
+      "operatingSystem": "Android 7.0+",
+      "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Language learning",
+      "inLanguage": "bn",
+      "description": "জাপানি শব্দ ও কাঞ্জির ফ্ল্যাশকার্ড, JFT-Basic ও JLPT N5-N1 মক পরীক্ষা।",
+      "url": "https://tokugo.my.id/bn/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "image": "https://tokugo.my.id/aset/sampul-bn.jpg",
+      "screenshot": [
+        "https://tokugo.my.id/aset/layar/bn/kartu.webp",
+        "https://tokugo.my.id/aset/layar/bn/kerja.webp",
+        "https://tokugo.my.id/aset/layar/bn/deck.webp",
+        "https://tokugo.my.id/aset/layar/bn/kuis.webp",
+        "https://tokugo.my.id/aset/layar/bn/kanji.webp",
+        "https://tokugo.my.id/aset/layar/bn/ujian.webp",
+        "https://tokugo.my.id/aset/layar/bn/ujian-hasil.webp",
+        "https://tokugo.my.id/aset/layar/bn/beranda.webp",
+        "https://tokugo.my.id/aset/layar/bn/statistik.webp",
+        "https://tokugo.my.id/aset/layar/bn/kamus.webp",
+        "https://tokugo.my.id/aset/layar/bn/bahasa.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tokugo.my.id/#situs",
+      "url": "https://tokugo.my.id/",
+      "name": "TokuGo",
+      "inLanguage": "bn",
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://tokugo.my.id/#penerbit",
+      "name": "TokuGo",
+      "url": "https://tokugo.my.id/",
+      "logo": "https://tokugo.my.id/aset/ikon-192.png",
+      "email": "amdigracrative@gmail.com"
+    }
+  ]
 }
 </script>
 </head>
 
 <body>
-
+<a class="lompat" href="#isi">TokuGo</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="./" aria-label="TokuGo">
       <img src="../aset/ikon-96.png" width="32" height="32" alt="">
       TokuGo
     </a>
-    <nav class="menu">
-      <a class="panjang" href="../privacy/?lang=en">গোপনীয়তা</a>
+    <nav class="navigasi" aria-label="TokuGo">
+      <ul class="menu-besar">
+
+      </ul>
+      <details class="menu-kecil">
+        <summary aria-label="Menu"><span class="garis-tiga" aria-hidden="true"></span>Menu</summary>
+        <ul>
+
+        </ul>
+      </details>
       <details class="bahasa">
         <summary aria-label="ভাষা বেছে নিন"><span class="bendera" aria-hidden="true">🇧🇩</span><span class="kode">BN</span></summary>
         <ul>
@@ -97,11 +148,11 @@
   </div>
 </header>
 
-<div class="malam">
+<div class="malam pembuka-latar">
   <div class="wadah">
     <div class="pembuka">
       <div class="teks">
-        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span></span>
+        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span> &middot; Android</span>
         <h1>জাপানি শব্দ ও কাঞ্জি<br><b>কাজ ও JLPT</b>-এর জন্য</h1>
         <div class="garis-koral"></div>
         <p class="pengantar">TokuGo হলো জাপানি শব্দভান্ডার ও কাঞ্জির ফ্ল্যাশকার্ড অ্যাপ। যাঁরা স্পেসিফায়েড স্কিলড ওয়ার্কার (SSW / Tokutei Ginou) হিসেবে জাপানে যেতে <span class="rapat">JFT-Basic</span>-এর প্রস্তুতি নিচ্ছেন এবং যাঁরা N5 থেকে N1 পর্যন্ত JLPT শিখছেন, তাঁদের জন্য।</p>
@@ -110,77 +161,55 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
             Google Play থেকে ডাউনলোড করুন
           </a>
-
+          <a class="tautan-fitur" href="#fitur">শব্দভান্ডার যা সত্যিই মনে থাকে</a>
         </div>
         <p class="catatan">বিনামূল্যে শুরু করুন &middot; কোনো অ্যাকাউন্ট লাগে না &middot; Android 7.0+</p>
       </div>
 
       <div class="panggung">
-        <div class="hp">
-          <img src="../aset/layar/bn/kartu.webp" width="540" height="1200" fetchpriority="high" alt="TokuGo: জাপানি ভাষা JLPT">
+        <div class="hp hp-kedua">
+          <img src="../aset/layar/bn/beranda.webp" width="540" height="1200" alt="" loading="lazy">
+        </div>
+        <div class="hp hp-utama">
+          <img src="../aset/layar/bn/kartu.webp" width="540" height="1200" fetchpriority="high" alt="শব্দভান্ডার যা সত্যিই মনে থাকে">
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<main>
+<main id="isi">
 
   <div class="wadah">
     <ul class="angka">
-      <li><b>36,385</b><span>পঠন ও রোমাজিসহ জাপানি শব্দ</span></li>
+      <li><b>38,085</b><span>পঠন ও রোমাজিসহ জাপানি শব্দ</span></li>
       <li><b>2,230</b><span>স্ট্রোক ক্রমসহ JLPT কাঞ্জি</span></li>
-      <li><b>107</b><span>11টি গ্রুপে বিষয়, যার 21টি কর্মক্ষেত্রের</span></li>
+      <li><b>95</b><span>11টি গ্রুপে বিষয়, যার 21টি কর্মক্ষেত্রের</span></li>
       <li><b>6</b><span><span class="rapat">JFT-Basic</span> ও JLPT <span class="rapat">N5–N1</span> মক পরীক্ষা</span></li>
     </ul>
   </div>
 
+
+
   <section class="bagian" id="fitur">
     <div class="wadah">
       <h2>শব্দভান্ডার যা সত্যিই মনে থাকে</h2>
-      <div class="inti">
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">覚</span>
-            <h3>কখন ভুলে যাবেন, তা জানে এমন কার্ড</h3>
-          </div>
-          <p>প্রতিটি কার্ডের সময়সূচি ঠিক করে আধুনিক spaced repetition অ্যালগরিদম FSRS। আপনি নিজেকে মূল্যায়ন করুন — জানি না, নিশ্চিত নই বা জানি — আর অ্যাপ হিসাব করবে শব্দটি কখন আবার আসবে: কয়েক মিনিট, কয়েক দিন বা কয়েক সপ্তাহ পরে। বিরতিটি প্রতিটি বোতামে লেখা থাকে।</p>
-          <div class="peraga">
-            <div class="nilai">
-              <span class="belum"><b>জানি না</b><i>5 মিনিট</i></span>
-              <span class="ragu"><b>নিশ্চিত নই</b><i>9 দিন</i></span>
-              <span class="hafal"><b>জানি</b><i>17 দিন</i></span>
-            </div>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">証</span>
-            <h3>আয়ত্ত মানে প্রমাণ করা</h3>
-          </div>
-          <p>প্রতিটি শব্দ চারটি ধাপ পার হয়: নতুন, শিখছি, জানা হয়েছে, আয়ত্ত। আয়ত্ত হতে হলে 3টি ভিন্ন দিনে কুইজে সঠিক উত্তর দিতে হবে। আয়ত্ত করা শব্দও সময় হলে আবার পরীক্ষা করা হয়, আর ভুল হলে নিচে নেমে যায়।</p>
-          <div class="peraga">
-            <ol class="tahap">
-              <li><span>নতুন</span></li>
-              <li><span>শিখছি</span></li>
-              <li><span>জানা হয়েছে</span></li>
-              <li class="puncak"><span>আয়ত্ত</span></li>
-            </ol>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">働</span>
-            <h3>জাপানে কাজের জন্য শব্দ</h3>
-          </div>
-          <p>কর্মক্ষেত্রের 21টি বিষয়: কর্মক্ষেত্রের নিরাপত্তা, সুপারভাইজারের নির্দেশ, চুক্তি ও বেতন, কারখানা, নির্মাণ, কৃষি, মৎস্য, বয়স্ক সেবা, হোটেল, রেস্তোরাঁ, খাদ্য প্রক্রিয়াকরণ এবং আরও অনেক। বাসা ভাড়া, অভিবাসন, ব্যাংক, হাসপাতাল, কেনাকাটা ও যাতায়াতের বিষয়ও আছে।</p>
-
-        </article>
-
-      </div>
+      <article class="fitur" id="f-kosakata">
+        <div class="fitur-teks"><h3>কখন ভুলে যাবেন, তা জানে এমন কার্ড</h3><p>প্রতিটি কার্ডের সময়সূচি ঠিক করে আধুনিক spaced repetition অ্যালগরিদম FSRS। আপনি নিজেকে মূল্যায়ন করুন — জানি না, নিশ্চিত নই বা জানি — আর অ্যাপ হিসাব করবে শব্দটি কখন আবার আসবে: কয়েক মিনিট, কয়েক দিন বা কয়েক সপ্তাহ পরে। বিরতিটি প্রতিটি বোতামে লেখা থাকে।</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/kartu.webp" width="540" height="1200" loading="lazy" alt="শব্দভান্ডার যা সত্যিই মনে থাকে"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/kuis.webp" width="540" height="1200" loading="lazy" alt="আয়ত্ত মানে প্রমাণ করা"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-tahap">
+        <div class="fitur-teks"><h3>আয়ত্ত মানে প্রমাণ করা</h3><p>প্রতিটি শব্দ চারটি ধাপ পার হয়: নতুন, শিখছি, জানা হয়েছে, আয়ত্ত। আয়ত্ত হতে হলে 3টি ভিন্ন দিনে কুইজে সঠিক উত্তর দিতে হবে। আয়ত্ত করা শব্দও সময় হলে আবার পরীক্ষা করা হয়, আর ভুল হলে নিচে নেমে যায়।</p><ol class="tahap"><li><span>নতুন</span></li><li><span>শিখছি</span></li><li><span>জানা হয়েছে</span></li><li class="puncak"><span>আয়ত্ত</span></li></ol></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/deck.webp" width="540" height="1200" loading="lazy" alt="বিষয় ধরে পড়ুন, প্রতিটি শব্দের অগ্রগতি দেখুন"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/en/kuis-hasil.webp" width="540" height="1200" loading="lazy" alt="kuis-hasil"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-kerja">
+        <div class="fitur-teks"><h3>জাপানে কাজের জন্য শব্দ</h3><p>কর্মক্ষেত্রের 21টি বিষয়: কর্মক্ষেত্রের নিরাপত্তা, সুপারভাইজারের নির্দেশ, চুক্তি ও বেতন, কারখানা, নির্মাণ, কৃষি, মৎস্য, বয়স্ক সেবা, হোটেল, রেস্তোরাঁ, খাদ্য প্রক্রিয়াকরণ এবং আরও অনেক। বাসা ভাড়া, অভিবাসন, ব্যাংক, হাসপাতাল, কেনাকাটা ও যাতায়াতের বিষয়ও আছে।</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/kerja.webp" width="540" height="1200" loading="lazy" alt="শব্দ শিখুন আপনার কাজ অনুযায়ী"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/deck.webp" width="540" height="1200" loading="lazy" alt="বিষয় ধরে পড়ুন, প্রতিটি শব্দের অগ্রগতি দেখুন"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-lain">
+        <div class="fitur-teks"><h3>আরও যা আছে</h3><ul class="butir"><li>60 সেকেন্ডের দ্রুত অনুশীলন, কঠিন শব্দ ও বুকমার্ক</li><li>দৈনিক রিমাইন্ডার এবং কার্ডের সময় হলে নোটিফিকেশন</li><li>ফোনের জাপানি কণ্ঠে উচ্চারণ</li><li>পরিসংখ্যান: টানা দিন, কার্যকলাপ মানচিত্র, অগ্রগতি</li><li>অগ্রগতি ফাইলে ব্যাকআপ করে অন্য ফোনে ফিরিয়ে আনুন</li><li>অ্যাপের ইন্টারফেস বাংলাসহ 13টি ভাষায়। আপাতত শব্দের অর্থ, কাঞ্জির অর্থ ও বিষয়ের নাম ইংরেজিতে দেখানো হয়; বাংলা অনুবাদ ধাপে ধাপে যোগ হবে।</li></ul></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/beranda.webp" width="540" height="1200" loading="lazy" alt="প্রতিদিন জানুন কী পড়তে হবে"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/statistik.webp" width="540" height="1200" loading="lazy" alt="পরিসংখ্যান"></div></figure></div>
+      </article>
     </div>
   </section>
 
@@ -188,84 +217,47 @@
     <div class="wadah">
       <h2>যা আছে</h2>
       <div class="galeri" style="--kolom: 6">
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/kartu.webp" width="540" height="1200" loading="lazy" alt="শব্দভান্ডার যা সত্যিই মনে থাকে"></div>
-          <figcaption><b>শব্দভান্ডার যা<br>সত্যিই মনে থাকে</b><span>প্রতিটি শব্দের রিভিউ স্বয়ংক্রিয়ভাবে নির্ধারিত হয়</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/kerja.webp" width="540" height="1200" loading="lazy" alt="শব্দ শিখুন আপনার কাজ অনুযায়ী"></div>
-          <figcaption><b>শব্দ শিখুন<br>আপনার কাজ অনুযায়ী</b><span>নির্মাণ থেকে বয়স্ক সেবা পর্যন্ত 21টি বিষয়</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/deck.webp" width="540" height="1200" loading="lazy" alt="বিষয় ধরে পড়ুন, প্রতিটি শব্দের অগ্রগতি দেখুন"></div>
-          <figcaption><b>বিষয় ধরে পড়ুন,<br>প্রতিটি শব্দের অগ্রগতি দেখুন</b><span>কোন শব্দ জানা হয়েছে আর কোনটি বাকি, দেখুন</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/kuis.webp" width="540" height="1200" loading="lazy" alt="আয়ত্ত মানে প্রমাণ করা"></div>
-          <figcaption><b>আয়ত্ত মানে<br>প্রমাণ করা</b><span>3টি ভিন্ন দিনে কুইজে সঠিক উত্তর</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/kanji.webp" width="540" height="1200" loading="lazy" alt="2,230 কাঞ্জি, প্রতিটি স্ট্রোক"></div>
-          <figcaption><b>2,230 কাঞ্জি,<br>প্রতিটি স্ট্রোক</b><span>উচ্চারণ, উদাহরণ শব্দ, কাঞ্জি কার্ড ও কুইজ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/ujian.webp" width="540" height="1200" loading="lazy" alt="মক পরীক্ষা JFT-Basic &amp; JLPT"></div>
-          <figcaption><b>মক পরীক্ষা<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>আসল সময়সীমা, পাস নম্বরের সাথে তুলনা</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="JFT-Basic অনুশীলনের ফলাফল"></div>
-          <figcaption><b><span class="rapat">JFT-Basic</span> অনুশীলনের ফলাফল</b><span>সম্মিলিত স্কোর · প্রশ্নের ধরন অনুযায়ী নির্ভুলতা</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/beranda.webp" width="540" height="1200" loading="lazy" alt="প্রতিদিন জানুন কী পড়তে হবে"></div>
-          <figcaption><b>প্রতিদিন জানুন<br>কী পড়তে হবে</b><span>রিভিউয়ের কার্ড, নতুন শব্দ, 60 সেকেন্ডের অনুশীলন</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/statistik.webp" width="540" height="1200" loading="lazy" alt="পরিসংখ্যান"></div>
-          <figcaption><b>পরিসংখ্যান</b><span>টানা দিন, কার্যকলাপ মানচিত্র, অগ্রগতি</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/kamus.webp" width="540" height="1200" loading="lazy" alt="পকেট অভিধান 36,385 শব্দ"></div>
-          <figcaption><b>পকেট অভিধান<br>36,385 শব্দ</b><span>কাঞ্জি, কানা, রোমাজি বা ইংরেজি অর্থে খুঁজুন</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/bn/bahasa.webp" width="540" height="1200" loading="lazy" alt="অ্যাপটি ব্যবহার করুন বাংলায়"></div>
-          <figcaption><b>অ্যাপটি ব্যবহার করুন<br>বাংলায়</b><span>13টি ইন্টারফেস ভাষা, শব্দের অর্থ ইংরেজিতে</span></figcaption>
-        </figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/kartu.webp" width="540" height="1200" loading="lazy" alt="শব্দভান্ডার যা সত্যিই মনে থাকে"></div><figcaption><b>শব্দভান্ডার যা<br>সত্যিই মনে থাকে</b><span>প্রতিটি শব্দের রিভিউ স্বয়ংক্রিয়ভাবে নির্ধারিত হয়</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/kerja.webp" width="540" height="1200" loading="lazy" alt="শব্দ শিখুন আপনার কাজ অনুযায়ী"></div><figcaption><b>শব্দ শিখুন<br>আপনার কাজ অনুযায়ী</b><span>নির্মাণ থেকে বয়স্ক সেবা পর্যন্ত 21টি বিষয়</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/deck.webp" width="540" height="1200" loading="lazy" alt="বিষয় ধরে পড়ুন, প্রতিটি শব্দের অগ্রগতি দেখুন"></div><figcaption><b>বিষয় ধরে পড়ুন,<br>প্রতিটি শব্দের অগ্রগতি দেখুন</b><span>কোন শব্দ জানা হয়েছে আর কোনটি বাকি, দেখুন</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/kuis.webp" width="540" height="1200" loading="lazy" alt="আয়ত্ত মানে প্রমাণ করা"></div><figcaption><b>আয়ত্ত মানে<br>প্রমাণ করা</b><span>3টি ভিন্ন দিনে কুইজে সঠিক উত্তর</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/kanji.webp" width="540" height="1200" loading="lazy" alt="2,230 কাঞ্জি, প্রতিটি স্ট্রোক"></div><figcaption><b>2,230 কাঞ্জি,<br>প্রতিটি স্ট্রোক</b><span>উচ্চারণ, উদাহরণ শব্দ, কাঞ্জি কার্ড ও কুইজ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/ujian.webp" width="540" height="1200" loading="lazy" alt="মক পরীক্ষা JFT-Basic &amp; JLPT"></div><figcaption><b>মক পরীক্ষা<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>আসল সময়সীমা, পাস নম্বরের সাথে তুলনা</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="JFT-Basic অনুশীলনের ফলাফল"></div><figcaption><b><span class="rapat">JFT-Basic</span> অনুশীলনের ফলাফল</b><span>সম্মিলিত স্কোর · প্রশ্নের ধরন অনুযায়ী নির্ভুলতা</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/beranda.webp" width="540" height="1200" loading="lazy" alt="প্রতিদিন জানুন কী পড়তে হবে"></div><figcaption><b>প্রতিদিন জানুন<br>কী পড়তে হবে</b><span>রিভিউয়ের কার্ড, নতুন শব্দ, 60 সেকেন্ডের অনুশীলন</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/statistik.webp" width="540" height="1200" loading="lazy" alt="পরিসংখ্যান"></div><figcaption><b>পরিসংখ্যান</b><span>টানা দিন, কার্যকলাপ মানচিত্র, অগ্রগতি</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/kamus.webp" width="540" height="1200" loading="lazy" alt="পকেট অভিধান 38,085 শব্দ"></div><figcaption><b>পকেট অভিধান<br>38,085 শব্দ</b><span>কাঞ্জি, কানা, রোমাজি বা ইংরেজি অর্থে খুঁজুন</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/bn/bahasa.webp" width="540" height="1200" loading="lazy" alt="অ্যাপটি ব্যবহার করুন বাংলায়"></div><figcaption><b>অ্যাপটি ব্যবহার করুন<br>বাংলায়</b><span>13টি ইন্টারফেস ভাষা, শব্দের অর্থ ইংরেজিতে</span></figcaption></figure>
       </div>
       <p class="catatan-galeri">স্কোর শুধু অগ্রগতি বোঝার জন্য একটি অনুমান।</p>
     </div>
   </section>
 
-  <section class="bagian">
-    <div class="wadah">
-      <h2>আরও যা আছে</h2>
-      <ul class="daftar">
-        <li>60 সেকেন্ডের দ্রুত অনুশীলন, কঠিন শব্দ ও বুকমার্ক</li>
-        <li>দৈনিক রিমাইন্ডার এবং কার্ডের সময় হলে নোটিফিকেশন</li>
-        <li>ফোনের জাপানি কণ্ঠে উচ্চারণ</li>
-        <li>পরিসংখ্যান: টানা দিন, কার্যকলাপ মানচিত্র, অগ্রগতি</li>
-        <li>অগ্রগতি ফাইলে ব্যাকআপ করে অন্য ফোনে ফিরিয়ে আনুন</li>
-        <li>অ্যাপের ইন্টারফেস বাংলাসহ 13টি ভাষায়। আপাতত শব্দের অর্থ, কাঞ্জির অর্থ ও বিষয়ের নাম ইংরেজিতে দেখানো হয়; বাংলা অনুবাদ ধাপে ধাপে যোগ হবে।</li>
-      </ul>
+  <section class="bagian" id="gratis">
+    <div class="wadah dua">
+      <article class="kartu gratis">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v4H4z"/><path d="M6 11v9h12v-9"/><path d="M12 7v13"/><path d="M12 7c-2-3-5-3-5-1s3 1 5 1c2 0 5-1 5-3s-3-1-5 1"/></svg></span><h3>বিনামূল্যে শুরু করুন</h3></div>
+        <p>Premium সব শব্দ ও <span class="rapat">N3–N1</span> কাঞ্জি খুলে দেয়, বিজ্ঞাপন সরায় এবং ইন্টারনেট ছাড়া শেখার সুযোগ দেয়। বিনামূল্যের সংস্করণে সেশন বা পরীক্ষা শুরু করতে ইন্টারনেট লাগে।</p>
+      </article>
+
     </div>
   </section>
 
   <section class="bagian">
-    <div class="wadah dua">
-      <article class="kartu">
-        <h3>বিনামূল্যে শুরু করুন</h3>
-        <p>বিনামূল্যের সংস্করণে 9,626টি শব্দ — প্রতিটি বিষয়ের প্রথম 100টি, যা <span class="rapat">JFT-Basic</span> শব্দভান্ডারের 97% এবং JLPT N5-এর 91% জুড়ে — এবং সব 284টি N5 ও N4 কাঞ্জি, বিজ্ঞাপনসহ। সব মক পরীক্ষা ও অভিধান বিনামূল্যে।</p>
-        <p class="kecil">Premium সব শব্দ ও <span class="rapat">N3–N1</span> কাঞ্জি খুলে দেয়, বিজ্ঞাপন সরায় এবং ইন্টারনেট ছাড়া শেখার সুযোগ দেয়। বিনামূল্যের সংস্করণে সেশন বা পরীক্ষা শুরু করতে ইন্টারনেট লাগে।</p>
-      </article>
-      <article class="kartu">
-        <h3>গোপনীয়তা</h3>
+    <div class="wadah">
+      <article class="kartu privasi-kartu">
+        <div class="kartu-kepala">
+          <span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+          <h3>গোপনীয়তা</h3>
+        </div>
         <p><b>কোনো অ্যাকাউন্ট লাগে না</b><br>ডেভেলপারের কোনো সার্ভার নেই: আপনার শেখার রেকর্ড আপনার ফোনেই থাকে এবং কখনো ডেভেলপারকে পাঠানো হয় না।</p>
 
         <a class="tautan" href="../privacy/?lang=en">গোপনীয়তা নীতি &rarr;</a>
       </article>
     </div>
   </section>
+
+
 
 </main>
 
@@ -280,13 +272,45 @@
           Google Play থেকে ডাউনলোড করুন
         </a>
       </div>
+      <p class="catatan">বিনামূল্যে শুরু করুন &middot; কোনো অ্যাকাউন্ট লাগে না &middot; Android 7.0+</p>
+    </div>
+    <div class="kaki-kolom">
+      <div>
+        <h3></h3>
+        <ul>
+
+        </ul>
+      </div>
+      <div>
+        <h3>ভাষা বেছে নিন</h3>
+        <ul class="kaki-bahasa">
+          <li><a href="../" lang="id" hreflang="id" data-bahasa="id">Bahasa Indonesia</a></li>
+          <li><a href="../en/" lang="en" hreflang="en" data-bahasa="en">English</a></li>
+          <li><a href="../vi/" lang="vi" hreflang="vi" data-bahasa="vi">Tiếng Việt</a></li>
+          <li><a href="../ne/" lang="ne" hreflang="ne" data-bahasa="ne">नेपाली</a></li>
+          <li><a href="../my/" lang="my" hreflang="my" data-bahasa="my">မြန်မာဘာသာ</a></li>
+          <li><a href="../fil/" lang="fil" hreflang="fil" data-bahasa="fil">Filipino</a></li>
+          <li><a href="../th/" lang="th" hreflang="th" data-bahasa="th">ไทย</a></li>
+          <li><a href="../km/" lang="km" hreflang="km" data-bahasa="km">ខ្មែរ</a></li>
+          <li><a href="../mn/" lang="mn" hreflang="mn" data-bahasa="mn">Монгол</a></li>
+          <li><a href="../si/" lang="si" hreflang="si" data-bahasa="si">සිංහල</a></li>
+          <li><a href="../bn/" lang="bn" hreflang="bn" data-bahasa="bn">বাংলা</a></li>
+          <li><a href="../hi/" lang="hi" hreflang="hi" data-bahasa="hi">हिन्दी</a></li>
+          <li><a href="../zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh">简体中文</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3></h3>
+        <ul>
+          <li><a href="../privacy/?lang=en">গোপনীয়তা নীতি</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">Google Play</a></li>
+          <li><a href="mailto:amdigracrative@gmail.com">যোগাযোগ</a></li>
+        </ul>
+      </div>
     </div>
     <div class="kaki">
       <span>&copy; 2026 TokuGo</span>
-      <nav>
-        <a href="../privacy/?lang=en">গোপনীয়তা নীতি</a>
-        <a href="mailto:amdigracrative@gmail.com">যোগাযোগ</a>
-      </nav>
+      <span class="sumber">JMdict/KANJIDIC &copy; EDRDG (CC BY-SA 4.0). KanjiVG (CC BY-SA 3.0).</span>
     </div>
   </div>
 </footer>
@@ -296,16 +320,18 @@
   // Bahasa yang dipilih sendiri diingat, supaya halaman akar tidak mengantar pengunjung
   // kembali ke bahasa HP-nya setiap kali dibuka.
   var pemilih = document.querySelector('.bahasa');
+  var menu = document.querySelector('.menu-kecil');
   pemilih.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-bahasa]') : null;
     if (a) { try { localStorage.setItem('bahasa', a.getAttribute('data-bahasa')); } catch (x) {} }
   });
-  // Daftar bahasa menutup sendiri saat mengetuk di luarnya atau menekan Esc.
+  // Daftar bahasa dan menu menutup sendiri saat mengetuk di luarnya atau menekan Esc.
   document.addEventListener('click', function (e) {
     if (pemilih.open && !pemilih.contains(e.target)) pemilih.open = false;
+    if (menu && menu.open && !menu.contains(e.target)) menu.open = false;
   });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') pemilih.open = false;
+    if (e.key === 'Escape') { pemilih.open = false; if (menu) menu.open = false; }
   });
   // Windows tidak punya gambar bendera di font emojinya dan menampilkan dua huruf kode
   // negara. Kalau begitu benderanya disembunyikan; kode bahasa di sebelahnya sudah cukup.
@@ -324,6 +350,5 @@
   } catch (x) {}
 })();
 </script>
-
 </body>
 </html>

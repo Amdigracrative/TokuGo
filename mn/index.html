@@ -7,8 +7,8 @@
 <meta name="description" content="Япон үг, канжи цээжлэх карт, JFT-Basic ба JLPT N5-N1 сорил шалгалт.">
 
 <!--
-  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html dan
-  docs/situs/sumber/teks/mn.json. Jangan disunting di sini: perubahan akan tertimpa.
+  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html (+ kepala.html,
+  kaki.html) dan docs/situs/sumber/teks/mn.json. Jangan disunting di sini: perubahan akan tertimpa.
 -->
 
 <link rel="canonical" href="https://tokugo.my.id/mn/">
@@ -26,7 +26,7 @@
 <link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/">
 <link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
-
+<meta name="google-site-verification" content="P4mkrZ3cr1jIFx7Ld-NwLesI2c5FRTXcSXjfv0PfLzw">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="TokuGo">
 <meta property="og:locale" content="mn_MN">
@@ -48,33 +48,84 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "TokuGo",
-  "operatingSystem": "Android 7.0+",
-  "applicationCategory": "EducationalApplication",
-  "inLanguage": "mn",
-  "description": "Япон үг, канжи цээжлэх карт, JFT-Basic ба JLPT N5-N1 сорил шалгалт.",
-  "url": "https://tokugo.my.id/mn/",
-  "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://tokugo.my.id/#aplikasi",
+      "name": "TokuGo",
+      "alternateName": "TokuGo: Япон хэл JLPT, JFT",
+      "operatingSystem": "Android 7.0+",
+      "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Language learning",
+      "inLanguage": "mn",
+      "description": "Япон үг, канжи цээжлэх карт, JFT-Basic ба JLPT N5-N1 сорил шалгалт.",
+      "url": "https://tokugo.my.id/mn/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "image": "https://tokugo.my.id/aset/sampul-mn.jpg",
+      "screenshot": [
+        "https://tokugo.my.id/aset/layar/mn/kartu.webp",
+        "https://tokugo.my.id/aset/layar/mn/kerja.webp",
+        "https://tokugo.my.id/aset/layar/mn/deck.webp",
+        "https://tokugo.my.id/aset/layar/mn/kuis.webp",
+        "https://tokugo.my.id/aset/layar/mn/kanji.webp",
+        "https://tokugo.my.id/aset/layar/mn/ujian.webp",
+        "https://tokugo.my.id/aset/layar/mn/ujian-hasil.webp",
+        "https://tokugo.my.id/aset/layar/mn/beranda.webp",
+        "https://tokugo.my.id/aset/layar/mn/statistik.webp",
+        "https://tokugo.my.id/aset/layar/mn/kamus.webp",
+        "https://tokugo.my.id/aset/layar/mn/bahasa.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tokugo.my.id/#situs",
+      "url": "https://tokugo.my.id/",
+      "name": "TokuGo",
+      "inLanguage": "mn",
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://tokugo.my.id/#penerbit",
+      "name": "TokuGo",
+      "url": "https://tokugo.my.id/",
+      "logo": "https://tokugo.my.id/aset/ikon-192.png",
+      "email": "amdigracrative@gmail.com"
+    }
+  ]
 }
 </script>
 </head>
 
 <body>
-
+<a class="lompat" href="#isi">TokuGo</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="./" aria-label="TokuGo">
       <img src="../aset/ikon-96.png" width="32" height="32" alt="">
       TokuGo
     </a>
-    <nav class="menu">
-      <a href="../privacy/?lang=en">Нууцлал</a>
+    <nav class="navigasi" aria-label="TokuGo">
+      <ul class="menu-besar">
+
+      </ul>
+      <details class="menu-kecil">
+        <summary aria-label="Menu"><span class="garis-tiga" aria-hidden="true"></span>Menu</summary>
+        <ul>
+
+        </ul>
+      </details>
       <details class="bahasa">
         <summary aria-label="Хэл сонгох"><span class="bendera" aria-hidden="true">🇲🇳</span><span class="kode">MN</span></summary>
         <ul>
@@ -97,11 +148,11 @@
   </div>
 </header>
 
-<div class="malam">
+<div class="malam pembuka-latar">
   <div class="wadah">
     <div class="pembuka">
       <div class="teks">
-        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span></span>
+        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span> &middot; Android</span>
         <h1>Япон үг ба канжи<br><b>ажил ба JLPT</b>-д зориулсан</h1>
         <div class="garis-koral"></div>
         <p class="pengantar">TokuGo бол япон үгсийн сан ба канжийг карт (flashcard)-аар сурах апп юм. Тусгай ур чадвартай ажилтан (SSW / Tokutei Ginou)-аар Японд ажиллахаар <span class="rapat">JFT-Basic</span>-д бэлдэж буй хүмүүс болон N5-аас N1 хүртэл JLPT сурч буй хүмүүст зориулсан.</p>
@@ -110,77 +161,55 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
             Google Play-ээс татах
           </a>
-
+          <a class="tautan-fitur" href="#fitur">Цээжинд үлдэх үгсийн сан</a>
         </div>
         <p class="catatan">Үнэгүй эхлээрэй &middot; Бүртгэл шаардлагагүй &middot; Android 7.0+</p>
       </div>
 
       <div class="panggung">
-        <div class="hp">
-          <img src="../aset/layar/mn/kartu.webp" width="540" height="1200" fetchpriority="high" alt="TokuGo: Япон хэл JLPT, JFT">
+        <div class="hp hp-kedua">
+          <img src="../aset/layar/mn/beranda.webp" width="540" height="1200" alt="" loading="lazy">
+        </div>
+        <div class="hp hp-utama">
+          <img src="../aset/layar/mn/kartu.webp" width="540" height="1200" fetchpriority="high" alt="Цээжинд үлдэх үгсийн сан">
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<main>
+<main id="isi">
 
   <div class="wadah">
     <ul class="angka">
-      <li><b>36,385</b><span>Дуудлага, ромажитай япон үг</span></li>
+      <li><b>38,085</b><span>Дуудлага, ромажитай япон үг</span></li>
       <li><b>2,230</b><span>Зурах дараалалтай JLPT канжи</span></li>
-      <li><b>107</b><span>11 бүлэгт сэдэв, үүнээс 21 нь ажлын байрных</span></li>
+      <li><b>95</b><span>11 бүлэгт сэдэв, үүнээс 21 нь ажлын байрных</span></li>
       <li><b>6</b><span><span class="rapat">JFT-Basic</span> ба JLPT <span class="rapat">N5–N1</span> сорил шалгалт</span></li>
     </ul>
   </div>
 
+
+
   <section class="bagian" id="fitur">
     <div class="wadah">
       <h2>Цээжинд үлдэх үгсийн сан</h2>
-      <div class="inti">
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">覚</span>
-            <h3>Таныг хэзээ мартахыг мэддэг карт</h3>
-          </div>
-          <p>Карт бүрийг орчин үеийн давталтын алгоритм FSRS товлодог. Та өөрийгөө үнэлнэ — Мэдэхгүй, Эргэлзэж байна эсвэл Мэднэ — апп тухайн үг хэзээ дахин гарахыг тооцоолно: хэдэн минут, хэдэн өдөр эсвэл хэдэн долоо хоногийн дараа. Хугацаа нь товч бүр дээр харагдана.</p>
-          <div class="peraga">
-            <div class="nilai">
-              <span class="belum"><b>Мэдэхгүй</b><i>5 минут</i></span>
-              <span class="ragu"><b>Эргэлзэж байна</b><i>9 хоног</i></span>
-              <span class="hafal"><b>Мэднэ</b><i>17 хоног</i></span>
-            </div>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">証</span>
-            <h3>Эзэмшсэн гэдгээ батлах ёстой</h3>
-          </div>
-          <p>Үг бүр дөрвөн шатыг дамжина: Шинэ, Сурч байгаа, Мэддэг болсон, Эзэмшсэн. Эзэмшсэн болохын тулд өөр 3 өдөр шалгалтад зөв хариулах ёстой. Эзэмшсэн үгсийг ч хугацаа нь болоход дахин шалгах бөгөөд буруу хариулбал доош буурна.</p>
-          <div class="peraga">
-            <ol class="tahap">
-              <li><span>Шинэ</span></li>
-              <li><span>Сурч байгаа</span></li>
-              <li><span>Мэддэг болсон</span></li>
-              <li class="puncak"><span>Эзэмшсэн</span></li>
-            </ol>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">働</span>
-            <h3>Японд ажиллахад хэрэгтэй үгс</h3>
-          </div>
-          <p>Ажлын байрны 21 сэдэв: хөдөлмөрийн аюулгүй байдал, удирдлагын заавар, гэрээ ба цалин, үйлдвэр, барилга, хөдөө аж ахуй, загас агнуур, ахмад настны асрамж, зочид буудал, ресторан, хүнсний үйлдвэрлэл гэх мэт. Мөн байр түрээслэх, цагаачлал, банк, эмнэлэг, дэлгүүр, тээврийн сэдвүүд бий.</p>
-
-        </article>
-
-      </div>
+      <article class="fitur" id="f-kosakata">
+        <div class="fitur-teks"><h3>Таныг хэзээ мартахыг мэддэг карт</h3><p>Карт бүрийг орчин үеийн давталтын алгоритм FSRS товлодог. Та өөрийгөө үнэлнэ — Мэдэхгүй, Эргэлзэж байна эсвэл Мэднэ — апп тухайн үг хэзээ дахин гарахыг тооцоолно: хэдэн минут, хэдэн өдөр эсвэл хэдэн долоо хоногийн дараа. Хугацаа нь товч бүр дээр харагдана.</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/kartu.webp" width="540" height="1200" loading="lazy" alt="Цээжинд үлдэх үгсийн сан"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/kuis.webp" width="540" height="1200" loading="lazy" alt="Эзэмшсэн гэдгээ батлах ёстой"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-tahap">
+        <div class="fitur-teks"><h3>Эзэмшсэн гэдгээ батлах ёстой</h3><p>Үг бүр дөрвөн шатыг дамжина: Шинэ, Сурч байгаа, Мэддэг болсон, Эзэмшсэн. Эзэмшсэн болохын тулд өөр 3 өдөр шалгалтад зөв хариулах ёстой. Эзэмшсэн үгсийг ч хугацаа нь болоход дахин шалгах бөгөөд буруу хариулбал доош буурна.</p><ol class="tahap"><li><span>Шинэ</span></li><li><span>Сурч байгаа</span></li><li><span>Мэддэг болсон</span></li><li class="puncak"><span>Эзэмшсэн</span></li></ol></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/deck.webp" width="540" height="1200" loading="lazy" alt="Сэдвээр нь судалж, үг бүрийн ахицыг хянаарай"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/en/kuis-hasil.webp" width="540" height="1200" loading="lazy" alt="kuis-hasil"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-kerja">
+        <div class="fitur-teks"><h3>Японд ажиллахад хэрэгтэй үгс</h3><p>Ажлын байрны 21 сэдэв: хөдөлмөрийн аюулгүй байдал, удирдлагын заавар, гэрээ ба цалин, үйлдвэр, барилга, хөдөө аж ахуй, загас агнуур, ахмад настны асрамж, зочид буудал, ресторан, хүнсний үйлдвэрлэл гэх мэт. Мөн байр түрээслэх, цагаачлал, банк, эмнэлэг, дэлгүүр, тээврийн сэдвүүд бий.</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/kerja.webp" width="540" height="1200" loading="lazy" alt="Таны ажилд хэрэгтэй үгс"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/deck.webp" width="540" height="1200" loading="lazy" alt="Сэдвээр нь судалж, үг бүрийн ахицыг хянаарай"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-lain">
+        <div class="fitur-teks"><h3>Бусад</h3><ul class="butir"><li>60 секундын шуурхай дасгал, хэцүү үгс, тэмдэглэсэн үгс</li><li>Өдөр тутмын сануулга, карт давтах цагийн мэдэгдэл</li><li>Утасны япон дуу хоолойгоор дуудлага</li><li>Статистик: тасралтгүй өдөр, идэвхийн зураг, ахиц</li><li>Ахицаа файлд нөөцөлж, өөр утсанд сэргээх</li><li>Аппын интерфейс монгол хэл болон өөр 12 хэлээр бий. Одоогоор үгийн утга, канжийн утга, сэдвийн нэр англиар харагдана; монгол орчуулгыг аажмаар нэмнэ.</li></ul></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/beranda.webp" width="540" height="1200" loading="lazy" alt="Өдөр бүр юу сурахаа мэднэ"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/statistik.webp" width="540" height="1200" loading="lazy" alt="Статистик"></div></figure></div>
+      </article>
     </div>
   </section>
 
@@ -188,84 +217,47 @@
     <div class="wadah">
       <h2>Агуулга</h2>
       <div class="galeri" style="--kolom: 6">
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/kartu.webp" width="540" height="1200" loading="lazy" alt="Цээжинд үлдэх үгсийн сан"></div>
-          <figcaption><b>Цээжинд<br>үлдэх үгсийн сан</b><span>Үг бүрийн давталтыг автоматаар товлоно</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/kerja.webp" width="540" height="1200" loading="lazy" alt="Таны ажилд хэрэгтэй үгс"></div>
-          <figcaption><b>Таны<br>ажилд хэрэгтэй үгс</b><span>Барилгаас ахмад настны асрамж хүртэл 21 сэдэв</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/deck.webp" width="540" height="1200" loading="lazy" alt="Сэдвээр нь судалж, үг бүрийн ахицыг хянаарай"></div>
-          <figcaption><b>Сэдвээр нь судалж,<br>үг бүрийн ахицыг хянаарай</b><span>Мэддэг болсон ба сураагүй үгсээ хараарай</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/kuis.webp" width="540" height="1200" loading="lazy" alt="Эзэмшсэн гэдгээ батлах ёстой"></div>
-          <figcaption><b>Эзэмшсэн гэдгээ<br>батлах ёстой</b><span>Өөр 3 өдөр шалгалтад зөв хариулах</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/kanji.webp" width="540" height="1200" loading="lazy" alt="2,230 канжи, зураас бүрээр"></div>
-          <figcaption><b>2,230 канжи,<br>зураас бүрээр</b><span>Дуудлага, жишээ үг, канжи карт ба шалгалт</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/ujian.webp" width="540" height="1200" loading="lazy" alt="Сорил шалгалт JFT-Basic &amp; JLPT"></div>
-          <figcaption><b>Сорил шалгалт<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>Албан ёсны хугацаа, тэнцэх оноотой харьцуулна</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="JFT-Basic дасгалын үр дүн"></div>
-          <figcaption><b><span class="rapat">JFT-Basic</span> дасгалын үр дүн</b><span>Нийт оноо · Асуултын төрөл тус бүрийн нарийвчлал</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/beranda.webp" width="540" height="1200" loading="lazy" alt="Өдөр бүр юу сурахаа мэднэ"></div>
-          <figcaption><b>Өдөр бүр<br>юу сурахаа мэднэ</b><span>Давтах карт, шинэ үг, 60 секундын дасгал</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/statistik.webp" width="540" height="1200" loading="lazy" alt="Статистик"></div>
-          <figcaption><b>Статистик</b><span>Тасралтгүй өдөр, идэвхийн зураг, ахиц</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/kamus.webp" width="540" height="1200" loading="lazy" alt="Халаасны толь 36,385 үг"></div>
-          <figcaption><b>Халаасны толь<br>36,385 үг</b><span>Канжи, кана, ромажи эсвэл англи утгаар хайна</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/mn/bahasa.webp" width="540" height="1200" loading="lazy" alt="Монгол хэлээр ашиглаарай"></div>
-          <figcaption><b>Монгол хэлээр<br>ашиглаарай</b><span>13 хэлний интерфейс, үгийн утга англиар</span></figcaption>
-        </figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/kartu.webp" width="540" height="1200" loading="lazy" alt="Цээжинд үлдэх үгсийн сан"></div><figcaption><b>Цээжинд<br>үлдэх үгсийн сан</b><span>Үг бүрийн давталтыг автоматаар товлоно</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/kerja.webp" width="540" height="1200" loading="lazy" alt="Таны ажилд хэрэгтэй үгс"></div><figcaption><b>Таны<br>ажилд хэрэгтэй үгс</b><span>Барилгаас ахмад настны асрамж хүртэл 21 сэдэв</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/deck.webp" width="540" height="1200" loading="lazy" alt="Сэдвээр нь судалж, үг бүрийн ахицыг хянаарай"></div><figcaption><b>Сэдвээр нь судалж,<br>үг бүрийн ахицыг хянаарай</b><span>Мэддэг болсон ба сураагүй үгсээ хараарай</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/kuis.webp" width="540" height="1200" loading="lazy" alt="Эзэмшсэн гэдгээ батлах ёстой"></div><figcaption><b>Эзэмшсэн гэдгээ<br>батлах ёстой</b><span>Өөр 3 өдөр шалгалтад зөв хариулах</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/kanji.webp" width="540" height="1200" loading="lazy" alt="2,230 канжи, зураас бүрээр"></div><figcaption><b>2,230 канжи,<br>зураас бүрээр</b><span>Дуудлага, жишээ үг, канжи карт ба шалгалт</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/ujian.webp" width="540" height="1200" loading="lazy" alt="Сорил шалгалт JFT-Basic &amp; JLPT"></div><figcaption><b>Сорил шалгалт<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>Албан ёсны хугацаа, тэнцэх оноотой харьцуулна</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="JFT-Basic дасгалын үр дүн"></div><figcaption><b><span class="rapat">JFT-Basic</span> дасгалын үр дүн</b><span>Нийт оноо · Асуултын төрөл тус бүрийн нарийвчлал</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/beranda.webp" width="540" height="1200" loading="lazy" alt="Өдөр бүр юу сурахаа мэднэ"></div><figcaption><b>Өдөр бүр<br>юу сурахаа мэднэ</b><span>Давтах карт, шинэ үг, 60 секундын дасгал</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/statistik.webp" width="540" height="1200" loading="lazy" alt="Статистик"></div><figcaption><b>Статистик</b><span>Тасралтгүй өдөр, идэвхийн зураг, ахиц</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/kamus.webp" width="540" height="1200" loading="lazy" alt="Халаасны толь 38,085 үг"></div><figcaption><b>Халаасны толь<br>38,085 үг</b><span>Канжи, кана, ромажи эсвэл англи утгаар хайна</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/mn/bahasa.webp" width="540" height="1200" loading="lazy" alt="Монгол хэлээр ашиглаарай"></div><figcaption><b>Монгол хэлээр<br>ашиглаарай</b><span>13 хэлний интерфейс, үгийн утга англиар</span></figcaption></figure>
       </div>
       <p class="catatan-galeri">Оноо нь ахиц дэвшлээ хянах тооцоо төдий.</p>
     </div>
   </section>
 
-  <section class="bagian">
-    <div class="wadah">
-      <h2>Бусад</h2>
-      <ul class="daftar">
-        <li>60 секундын шуурхай дасгал, хэцүү үгс, тэмдэглэсэн үгс</li>
-        <li>Өдөр тутмын сануулга, карт давтах цагийн мэдэгдэл</li>
-        <li>Утасны япон дуу хоолойгоор дуудлага</li>
-        <li>Статистик: тасралтгүй өдөр, идэвхийн зураг, ахиц</li>
-        <li>Ахицаа файлд нөөцөлж, өөр утсанд сэргээх</li>
-        <li>Аппын интерфейс монгол хэл болон өөр 12 хэлээр бий. Одоогоор үгийн утга, канжийн утга, сэдвийн нэр англиар харагдана; монгол орчуулгыг аажмаар нэмнэ.</li>
-      </ul>
+  <section class="bagian" id="gratis">
+    <div class="wadah dua">
+      <article class="kartu gratis">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v4H4z"/><path d="M6 11v9h12v-9"/><path d="M12 7v13"/><path d="M12 7c-2-3-5-3-5-1s3 1 5 1c2 0 5-1 5-3s-3-1-5 1"/></svg></span><h3>Үнэгүй эхлээрэй</h3></div>
+        <p>Premium нь бүх үг болон <span class="rapat">N3–N1</span> канжийг нээж, зар сурталчилгааг арилгаж, интернэтгүй сурах боломж олгоно. Үнэгүй хувилбарт хичээл эсвэл шалгалт эхлүүлэхэд интернэт шаардлагатай.</p>
+      </article>
+
     </div>
   </section>
 
   <section class="bagian">
-    <div class="wadah dua">
-      <article class="kartu">
-        <h3>Үнэгүй эхлээрэй</h3>
-        <p>Үнэгүй хувилбарт 9,626 үг бий — сэдэв бүрийн эхний 100, <span class="rapat">JFT-Basic</span> үгсийн сангийн 97%, JLPT N5-ийн 91%-ийг хамарна — мөн N5, N4-ийн бүх 284 канжи, зар сурталчилгаатай. Бүх сорил шалгалт, толь үнэгүй.</p>
-        <p class="kecil">Premium нь бүх үг болон <span class="rapat">N3–N1</span> канжийг нээж, зар сурталчилгааг арилгаж, интернэтгүй сурах боломж олгоно. Үнэгүй хувилбарт хичээл эсвэл шалгалт эхлүүлэхэд интернэт шаардлагатай.</p>
-      </article>
-      <article class="kartu">
-        <h3>Нууцлал</h3>
+    <div class="wadah">
+      <article class="kartu privasi-kartu">
+        <div class="kartu-kepala">
+          <span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+          <h3>Нууцлал</h3>
+        </div>
         <p><b>Бүртгэл шаардлагагүй</b><br>Хөгжүүлэгчийн сервер байхгүй: таны сурсан түүх таны утсанд хадгалагдах бөгөөд хөгжүүлэгч рүү хэзээ ч илгээгдэхгүй.</p>
 
         <a class="tautan" href="../privacy/?lang=en">Нууцлалын бодлого &rarr;</a>
       </article>
     </div>
   </section>
+
+
 
 </main>
 
@@ -280,13 +272,45 @@
           Google Play-ээс татах
         </a>
       </div>
+      <p class="catatan">Үнэгүй эхлээрэй &middot; Бүртгэл шаардлагагүй &middot; Android 7.0+</p>
+    </div>
+    <div class="kaki-kolom">
+      <div>
+        <h3></h3>
+        <ul>
+
+        </ul>
+      </div>
+      <div>
+        <h3>Хэл сонгох</h3>
+        <ul class="kaki-bahasa">
+          <li><a href="../" lang="id" hreflang="id" data-bahasa="id">Bahasa Indonesia</a></li>
+          <li><a href="../en/" lang="en" hreflang="en" data-bahasa="en">English</a></li>
+          <li><a href="../vi/" lang="vi" hreflang="vi" data-bahasa="vi">Tiếng Việt</a></li>
+          <li><a href="../ne/" lang="ne" hreflang="ne" data-bahasa="ne">नेपाली</a></li>
+          <li><a href="../my/" lang="my" hreflang="my" data-bahasa="my">မြန်မာဘာသာ</a></li>
+          <li><a href="../fil/" lang="fil" hreflang="fil" data-bahasa="fil">Filipino</a></li>
+          <li><a href="../th/" lang="th" hreflang="th" data-bahasa="th">ไทย</a></li>
+          <li><a href="../km/" lang="km" hreflang="km" data-bahasa="km">ខ្មែរ</a></li>
+          <li><a href="../mn/" lang="mn" hreflang="mn" data-bahasa="mn">Монгол</a></li>
+          <li><a href="../si/" lang="si" hreflang="si" data-bahasa="si">සිංහල</a></li>
+          <li><a href="../bn/" lang="bn" hreflang="bn" data-bahasa="bn">বাংলা</a></li>
+          <li><a href="../hi/" lang="hi" hreflang="hi" data-bahasa="hi">हिन्दी</a></li>
+          <li><a href="../zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh">简体中文</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3></h3>
+        <ul>
+          <li><a href="../privacy/?lang=en">Нууцлалын бодлого</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">Google Play</a></li>
+          <li><a href="mailto:amdigracrative@gmail.com">Холбоо барих</a></li>
+        </ul>
+      </div>
     </div>
     <div class="kaki">
       <span>&copy; 2026 TokuGo</span>
-      <nav>
-        <a href="../privacy/?lang=en">Нууцлалын бодлого</a>
-        <a href="mailto:amdigracrative@gmail.com">Холбоо барих</a>
-      </nav>
+      <span class="sumber">JMdict/KANJIDIC &copy; EDRDG (CC BY-SA 4.0). KanjiVG (CC BY-SA 3.0).</span>
     </div>
   </div>
 </footer>
@@ -296,16 +320,18 @@
   // Bahasa yang dipilih sendiri diingat, supaya halaman akar tidak mengantar pengunjung
   // kembali ke bahasa HP-nya setiap kali dibuka.
   var pemilih = document.querySelector('.bahasa');
+  var menu = document.querySelector('.menu-kecil');
   pemilih.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-bahasa]') : null;
     if (a) { try { localStorage.setItem('bahasa', a.getAttribute('data-bahasa')); } catch (x) {} }
   });
-  // Daftar bahasa menutup sendiri saat mengetuk di luarnya atau menekan Esc.
+  // Daftar bahasa dan menu menutup sendiri saat mengetuk di luarnya atau menekan Esc.
   document.addEventListener('click', function (e) {
     if (pemilih.open && !pemilih.contains(e.target)) pemilih.open = false;
+    if (menu && menu.open && !menu.contains(e.target)) menu.open = false;
   });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') pemilih.open = false;
+    if (e.key === 'Escape') { pemilih.open = false; if (menu) menu.open = false; }
   });
   // Windows tidak punya gambar bendera di font emojinya dan menampilkan dua huruf kode
   // negara. Kalau begitu benderanya disembunyikan; kode bahasa di sebelahnya sudah cukup.
@@ -324,6 +350,5 @@
   } catch (x) {}
 })();
 </script>
-
 </body>
 </html>

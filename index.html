@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TokuGo: flashcard kosakata &amp; kanji Jepang untuk JFT-Basic dan JLPT</title>
-<meta name="description" content="Aplikasi flashcard kosakata dan kanji bahasa Jepang untuk calon pekerja SSW (Tokutei Ginou) dan peserta JLPT N5–N1: 36.385 kata, 2.230 kanji, kuis, dan simulasi ujian JFT-Basic dan JLPT.">
+<title>TokuGo: Belajar Bahasa Jepang untuk JFT-Basic &amp; JLPT</title>
+<meta name="description" content="Aplikasi Android belajar bahasa Jepang dari nol sampai ujian: hiragana, katakana, 38.085 kosakata flashcard, 2.230 kanji, 122 pelajaran tata bahasa N5, dan 24 paket latihan ujian JFT-Basic &amp; JLPT N5–N1. Gratis untuk mulai, tanpa akun.">
 
 <!--
-  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html dan
-  docs/situs/sumber/teks/id.json. Jangan disunting di sini: perubahan akan tertimpa.
+  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html (+ kepala.html,
+  kaki.html) dan docs/situs/sumber/teks/id.json. Jangan disunting di sini: perubahan akan tertimpa.
 -->
 <script>
 (function () {
@@ -47,13 +47,13 @@
 <link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/">
 <link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
-
+<meta name="google-site-verification" content="P4mkrZ3cr1jIFx7Ld-NwLesI2c5FRTXcSXjfv0PfLzw">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="TokuGo">
 <meta property="og:locale" content="id_ID">
 <meta property="og:url" content="https://tokugo.my.id/">
-<meta property="og:title" content="TokuGo: flashcard kosakata &amp; kanji Jepang untuk JFT-Basic dan JLPT">
-<meta property="og:description" content="Aplikasi flashcard kosakata dan kanji bahasa Jepang untuk calon pekerja SSW (Tokutei Ginou) dan peserta JLPT N5–N1: 36.385 kata, 2.230 kanji, kuis, dan simulasi ujian JFT-Basic dan JLPT.">
+<meta property="og:title" content="TokuGo: Belajar Bahasa Jepang untuk JFT-Basic &amp; JLPT">
+<meta property="og:description" content="Aplikasi Android belajar bahasa Jepang dari nol sampai ujian: hiragana, katakana, 38.085 kosakata flashcard, 2.230 kanji, 122 pelajaran tata bahasa N5, dan 24 paket latihan ujian JFT-Basic &amp; JLPT N5–N1. Gratis untuk mulai, tanpa akun.">
 <meta property="og:image" content="https://tokugo.my.id/aset/sampul-id.jpg">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="500">
@@ -69,33 +69,175 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "TokuGo",
-  "operatingSystem": "Android 7.0+",
-  "applicationCategory": "EducationalApplication",
-  "inLanguage": "id",
-  "description": "Aplikasi flashcard kosakata dan kanji bahasa Jepang untuk calon pekerja SSW (Tokutei Ginou) dan peserta JLPT N5–N1: 36.385 kata, 2.230 kanji, kuis, dan simulasi ujian JFT-Basic dan JLPT.",
-  "url": "https://tokugo.my.id/",
-  "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://tokugo.my.id/#aplikasi",
+      "name": "TokuGo",
+      "alternateName": "TokuGo: Belajar Bahasa Jepang untuk JFT-Basic & JLPT",
+      "operatingSystem": "Android 7.0+",
+      "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Language learning",
+      "inLanguage": "id",
+      "description": "Aplikasi Android belajar bahasa Jepang dari nol sampai ujian: hiragana, katakana, 38.085 kosakata flashcard, 2.230 kanji, 122 pelajaran tata bahasa N5, dan 24 paket latihan ujian JFT-Basic & JLPT N5–N1. Gratis untuk mulai, tanpa akun.",
+      "url": "https://tokugo.my.id/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "image": "https://tokugo.my.id/aset/sampul-id.jpg",
+      "screenshot": [
+        "https://tokugo.my.id/aset/layar/id/beranda.webp",
+        "https://tokugo.my.id/aset/layar/id/kartu.webp",
+        "https://tokugo.my.id/aset/layar/id/kosakata.webp",
+        "https://tokugo.my.id/aset/layar/id/kerja.webp",
+        "https://tokugo.my.id/aset/layar/id/deck.webp",
+        "https://tokugo.my.id/aset/layar/id/kuis.webp",
+        "https://tokugo.my.id/aset/layar/id/kuis-hasil.webp",
+        "https://tokugo.my.id/aset/layar/id/kamus.webp",
+        "https://tokugo.my.id/aset/layar/id/detail-kata.webp",
+        "https://tokugo.my.id/aset/layar/id/kanji-tab.webp",
+        "https://tokugo.my.id/aset/layar/id/kanji.webp",
+        "https://tokugo.my.id/aset/layar/id/kanji-detail.webp",
+        "https://tokugo.my.id/aset/layar/id/kana.webp",
+        "https://tokugo.my.id/aset/layar/id/kana-pelajaran.webp",
+        "https://tokugo.my.id/aset/layar/id/tata-bahasa.webp",
+        "https://tokugo.my.id/aset/layar/id/pelajaran.webp",
+        "https://tokugo.my.id/aset/layar/id/latihan.webp",
+        "https://tokugo.my.id/aset/layar/id/level.webp",
+        "https://tokugo.my.id/aset/layar/id/soal-baca.webp",
+        "https://tokugo.my.id/aset/layar/id/soal-dengar.webp",
+        "https://tokugo.my.id/aset/layar/id/hasil.webp",
+        "https://tokugo.my.id/aset/layar/id/tinjau-soal.webp",
+        "https://tokugo.my.id/aset/layar/id/audio.webp",
+        "https://tokugo.my.id/aset/layar/id/audio-pemutar.webp",
+        "https://tokugo.my.id/aset/layar/id/ucap.webp",
+        "https://tokugo.my.id/aset/layar/id/tulis-kanji.webp",
+        "https://tokugo.my.id/aset/layar/id/statistik.webp",
+        "https://tokugo.my.id/aset/layar/id/pengaturan.webp",
+        "https://tokugo.my.id/aset/layar/id/beranda-gelap.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tokugo.my.id/#situs",
+      "url": "https://tokugo.my.id/",
+      "name": "TokuGo",
+      "inLanguage": "id",
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://tokugo.my.id/#penerbit",
+      "name": "TokuGo",
+      "url": "https://tokugo.my.id/",
+      "logo": "https://tokugo.my.id/aset/ikon-192.png",
+      "email": "amdigracrative@gmail.com"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Apakah TokuGo gratis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ya. Versi gratis memberi 9.406 kata (100 teratas tiap kategori), seluruh kanji N5 dan N4, hiragana, katakana, 122 pelajaran tata bahasa N5, semua paket latihan ujian dengan jeda 7 hari per level, kamus, dan tiga deck audio, dengan iklan. Premium membuka seluruh kata dan kanji, menghilangkan iklan, membuka belajar offline dan latihan ujian tanpa jeda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah bisa dipakai tanpa internet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Semua isinya ada di dalam aplikasi, tidak ada yang diunduh saat belajar. Di versi gratis, memulai sesi belajar atau latihan ujian membutuhkan koneksi internet; Premium bisa belajar sepenuhnya offline. Suara bahasa Jepang berasal dari mesin pembaca HP-mu, jadi data suaranya perlu terpasang sekali."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah perlu membuat akun?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tidak. Tidak ada akun, pendaftaran, atau kata sandi. Catatan belajar disimpan di HP-mu; untuk pindah HP, ekspor berkas cadangan dari panel samping lalu impor di HP baru."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bahasa apa saja yang didukung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antarmuka tersedia dalam 13 bahasa: Indonesia, Inggris, Vietnam, Nepal, Myanmar, Filipino, Thai, Khmer, Mongolia, Sinhala, Bengali, Hindi, dan Tionghoa. Arti kata lengkap dalam bahasa Indonesia dan Inggris; bahasa lain sudah mencakup semua kata gratis (dan kata N5–N4 di sebagian besar bahasa), sisanya tampil dalam bahasa Inggris. Pelajaran tata bahasa dan pembahasan soal tersedia dalam 12 bahasa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah skor latihan sama dengan skor ujian resmi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tidak. Skor di TokuGo adalah perkiraan dari persen jawaban benar untuk mengukur kemajuan. Ujian resmi memakai penilaian terskala yang berbeda, dan suara menyimak dari mesin pembaca HP berbeda antar perangkat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dari mana kosakata, kanji, dan soalnya?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kosakata dan kanji dari JMdict dan KANJIDIC (Electronic Dictionary Research and Development Group), urutan goresan dari KanjiVG, frekuensi kata dari wordfreq. Pelajaran tata bahasa dan semua soal latihan ditulis khusus untuk TokuGo dan diperiksa berlapis sebelum dirilis; tidak ada soal resmi yang disalin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "HP apa yang didukung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Android 7.0 ke atas. Untuk pelafalan dan soal menyimak, HP perlu punya suara bahasa Jepang (biasanya dari Google Text-to-speech); kalau belum ada, aplikasi menawarkan cara memasangnya."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 </head>
 
 <body>
-
+<a class="lompat" href="#isi">Fitur</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="./" aria-label="TokuGo">
       <img src="aset/ikon-96.png" width="32" height="32" alt="">
       TokuGo
     </a>
-    <nav class="menu">
-      <a href="privacy/">Privasi</a>
+    <nav class="navigasi" aria-label="Fitur">
+      <ul class="menu-besar">
+          <li><a href="./kosakata/">Kosakata</a></li>
+          <li><a href="./kanji/">Kanji</a></li>
+          <li><a href="./latihan-ujian/">Latihan ujian</a></li>
+          <li><a href="./hiragana-katakana/">Hiragana &amp; katakana</a></li>
+          <li><a href="./tata-bahasa/">Tata bahasa</a></li>
+          <li><a href="./dengar-ucap-tulis/">Dengar · ucap · tulis</a></li>
+          <li><a href="./faq/">Tanya jawab</a></li>
+      </ul>
+      <details class="menu-kecil">
+        <summary aria-label="Menu"><span class="garis-tiga" aria-hidden="true"></span>Menu</summary>
+        <ul>
+          <li><a href="./kosakata/">Kosakata</a></li>
+          <li><a href="./kanji/">Kanji</a></li>
+          <li><a href="./latihan-ujian/">Latihan ujian</a></li>
+          <li><a href="./hiragana-katakana/">Hiragana &amp; katakana</a></li>
+          <li><a href="./tata-bahasa/">Tata bahasa</a></li>
+          <li><a href="./dengar-ucap-tulis/">Dengar · ucap · tulis</a></li>
+          <li><a href="./faq/">Tanya jawab</a></li>
+        </ul>
+      </details>
       <details class="bahasa">
         <summary aria-label="Pilih bahasa"><span class="bendera" aria-hidden="true">🇮🇩</span><span class="kode">ID</span></summary>
         <ul>
@@ -118,171 +260,176 @@
   </div>
 </header>
 
-<div class="malam">
+<div class="malam pembuka-latar">
   <div class="wadah">
     <div class="pembuka">
       <div class="teks">
-        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span></span>
-        <h1>Kosakata &amp; kanji Jepang untuk <b class="rapat">kerja dan JLPT</b></h1>
+        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span> &middot; Android</span>
+        <h1>Belajar bahasa Jepang dari nol sampai <b>lulus <span class="rapat">JFT-Basic</span> dan JLPT</b></h1>
         <div class="garis-koral"></div>
-        <p class="pengantar">TokuGo adalah aplikasi flashcard (kartu hafalan) kosakata dan kanji bahasa Jepang untuk calon pekerja Tokutei Ginou (SSW) yang harus lulus <span class="rapat">JFT-Basic</span>, dan untuk peserta JLPT N5 sampai N1.</p>
+        <p class="pengantar">TokuGo adalah aplikasi Android untuk calon pekerja Tokutei Ginou (SSW) yang harus lulus <span class="rapat">JFT-Basic</span>, dan untuk peserta JLPT N5 sampai N1: hiragana dan katakana, flashcard kosakata dan kanji dengan pengulangan berjarak, pelajaran tata bahasa, lalu paket latihan ujian yang bentuknya meniru ujian aslinya.</p>
         <div class="aksi">
           <a class="tombol" href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
             Unduh di Google Play
           </a>
-          <a class="tautan-fitur" href="#fitur">Lihat fiturnya</a>
+          <a class="tautan-fitur" href="#fitur">Lihat semua fitur</a>
         </div>
-        <p class="catatan">Gratis untuk mulai &middot; Tanpa akun &middot; Android 7.0 ke atas</p>
+        <p class="catatan">Gratis untuk mulai &middot; Tanpa akun &middot; 13 bahasa antarmuka &middot; Android 7.0 ke atas</p>
       </div>
 
       <div class="panggung">
-        <div class="hp">
-          <img src="aset/layar/id/kartu.webp" width="540" height="1200" fetchpriority="high" alt="TokuGo: flashcard kosakata &amp; kanji Jepang untuk JFT-Basic dan JLPT">
+        <div class="hp hp-kedua">
+          <img src="aset/layar/id/kartu.webp" width="540" height="1200" alt="" loading="lazy">
+        </div>
+        <div class="hp hp-utama">
+          <img src="aset/layar/id/beranda.webp" width="540" height="1200" fetchpriority="high" alt="Beranda TokuGo: kartu sapaan dengan pepatah Jepang, cincin target harian 4 dari 10, jejak tujuh hari, dan dua pintu Belajar kosakata dan Tinjau kanji">
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<main>
+<main id="isi">
 
   <div class="wadah">
     <ul class="angka">
-      <li><b>36.385</b><span>kata dengan cara baca, romaji, dan arti</span></li>
+      <li><b>38.085</b><span>kata dengan cara baca, romaji, dan arti</span></li>
       <li><b>2.230</b><span>kanji JLPT dengan urutan goresan</span></li>
-      <li><b>107</b><span>kategori kosakata, 21 khusus tempat kerja</span></li>
-      <li><b>6</b><span>level simulasi ujian: <span class="rapat">JFT-Basic</span> dan JLPT <span class="rapat">N5–N1</span></span></li>
+      <li><b>95</b><span>kategori kosakata, 21 khusus tempat kerja</span></li>
+      <li><b>24</b><span>paket latihan ujian <span class="rapat">JFT-Basic</span> dan JLPT <span class="rapat">N5–N1</span></span></li>
+      <li><b>122</b><span>pelajaran tata bahasa N5 dengan latihan</span></li>
+      <li><b>13</b><span>bahasa antarmuka</span></li>
     </ul>
   </div>
 
+  <section class="bagian" id="jalur">
+    <div class="wadah">
+      <span class="label-kecil">Jalur belajar</span>
+      <h2>Mulai dari mana saja. Ini urutan yang kami sarankan.</h2>
+      <p class="pengantar-bagian">Semua bahan terbuka sejak awal. Beranda aplikasi menandai langkah berikutnya untukmu.</p>
+      <ol class="jalur">
+        <li><span class="nomor" aria-hidden="true">1</span><b><a href="./hiragana-katakana/">Aksara</a></b><span>Hiragana dan katakana: tabel, suara, goresan, kuis</span></li>
+        <li><span class="nomor" aria-hidden="true">2</span><b><a href="./kosakata/">Kata</a></b><span>Flashcard kosakata per kategori, dijadwalkan FSRS</span></li>
+        <li><span class="nomor" aria-hidden="true">3</span><b><a href="./tata-bahasa/">Tata bahasa</a></b><span>122 pelajaran N5 dengan contoh dan latihan</span></li>
+        <li><span class="nomor" aria-hidden="true">4</span><b><a href="./kanji/">Kanji</a></b><span>Set 25 kanji, urut kelas sekolah Jepang</span></li>
+        <li><span class="nomor" aria-hidden="true">5</span><b><a href="./latihan-ujian/">Ujian</a></b><span>Paket soal dengan seksi dan waktu resmi</span></li>
+      </ol>
+    </div>
+  </section>
+
   <section class="bagian" id="fitur">
     <div class="wadah">
-      <h2>Kosakata yang <span class="rapat">benar-benar</span> nempel</h2>
-      <div class="inti">
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">覚</span>
-            <h3>Kartu yang tahu kapan kamu akan lupa</h3>
-          </div>
-          <p>Setiap kartu dijadwalkan dengan FSRS, algoritma pengulangan berjarak modern. Kamu cukup menilai diri sendiri, lalu aplikasi menghitung kapan kata itu muncul lagi: beberapa menit, hari, atau minggu kemudian. Jadwalnya tertulis di setiap tombol.</p>
-          <div class="peraga">
-            <div class="nilai">
-              <span class="belum"><b>Belum hafal</b><i>5 menit</i></span>
-              <span class="ragu"><b>Ragu</b><i>6 hari</i></span>
-              <span class="hafal"><b>Hafal</b><i>14 hari</i></span>
-            </div>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">証</span>
-            <h3>Dikuasai harus dibuktikan</h3>
-          </div>
-          <p>Setiap kata melewati empat tahap. Tombol Hafal membawa kata ke tahap Hafal; untuk naik ke Dikuasai, kamu harus menjawabnya benar di kuis pada <b>3 hari berbeda</b>. Kata Dikuasai tetap diuji ulang saat jatuh tempo, dan turun lagi kalau salah.</p>
-          <div class="peraga">
-            <ol class="tahap">
-              <li><span>Baru</span></li>
-              <li><span>Belajar</span></li>
-              <li><span>Hafal</span></li>
-              <li class="puncak"><span>Dikuasai</span></li>
-            </ol>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">働</span>
-            <h3>Kosakata tempat kerja, bukan cuma ruang kelas</h3>
-          </div>
-          <p>Rumpun Tempat Kerja berisi <b>21 kategori</b>. Untuk hidup di Jepang ada kategori sewa rumah, imigrasi, bank dan kantor pos, rumah sakit, belanja, dan transportasi. Setiap kategori bisa dipelajari per level dan punya kuisnya sendiri.</p>
-          <div class="peraga"><ul class="keping"><li>Keselamatan kerja</li><li>Pabrik</li><li>Konstruksi</li><li>Pertanian</li><li>Perikanan</li><li>Perawatan lansia</li><li>Perhotelan</li><li>Restoran</li><li class="lebih">+13 lainnya</li></ul></div>
-        </article>
-
-      </div>
+      <h2>Apa saja yang ada di TokuGo</h2>
+      <article class="fitur" id="f-kosakata">
+        <div class="fitur-teks"><span class="label-kecil">Kosakata</span><h3>Kosakata yang <span class="rapat">benar-benar</span> nempel</h3><p>Setiap kartu dijadwalkan dengan FSRS, algoritma pengulangan berjarak modern. Kamu cukup menilai diri sendiri, dan aplikasi menghitung kapan kata itu muncul lagi: jadwalnya tertulis di setiap tombol. Kata naik dari Baru, Belajar, Hafal, sampai Dikuasai, dan tahap terakhir itu hanya bisa dicapai lewat kuis.</p><ul class="butir"><li><b>95 kategori dalam 11 rumpun.</b> Rumpun Tempat Kerja berisi 21 kategori: perawatan lansia, konstruksi, pertanian, perikanan, pabrik, perhotelan, restoran, keselamatan kerja, instruksi atasan, kontrak dan gaji.</li><li><b>Satu layar per deck.</b> Persen tuntas, status tiap kata, tombol Belajar dan Kuis.</li><li><b>Kamus saku 38.085 kata.</b> Cari lewat kanji, kana, romaji, atau arti.</li></ul><p class="tautan-baris"><a class="tautan" href="./kosakata/">Selengkapnya tentang kosakata &rarr;</a></p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="aset/layar/id/kartu.webp" width="540" height="1200" loading="lazy" alt="Kartu flashcard kata 介護 yang sudah dibalik: cara baca, romaji, arti, kanji penyusun, dan tombol Belum hafal, Ragu, Hafal dengan jadwal ulangnya"></div></figure><figure class="layar"><div class="bingkai"><img src="aset/layar/id/deck.webp" width="540" height="1200" loading="lazy" alt="Deck Perawatan Lansia: 12% tuntas dari 95 kata, daftar kata dengan status Hafal dan Dikuasai, tombol Belajar dan Kuis"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-kanji">
+        <div class="fitur-teks"><span class="label-kecil">Kanji</span><h3>2.230 kanji, set demi set, goresan demi goresan</h3><p>Kanji tiap level JLPT dibagi menjadi set berisi sekitar 25 kanji, diurutkan seperti anak sekolah di Jepang mempelajarinya: dari goresan paling sedikit. Setiap kanji punya arti, bacaan On dan Kun beromaji, diagram urutan goresan, dan contoh kata.</p><ul class="butir"><li><b>Kartu dan kuis kanji</b> dengan tahap yang sama seperti kosakata.</li><li><b>Tinjau kanji</b> mengumpulkan semua kanji yang jatuh tempo dari semua set.</li><li><b>Tulis kanji dengan jari:</b> tiap goresan dinilai bentuk, arah, dan urutannya.</li></ul><p class="tautan-baris"><a class="tautan" href="./kanji/">Selengkapnya tentang kanji &rarr;</a></p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="aset/layar/id/kanji-tab.webp" width="540" height="1200" loading="lazy" alt="Tab Kanji level N5: empat set kanji dengan deretan kanjinya, jumlah hafal dan dikuasai"></div></figure><figure class="layar"><div class="bingkai"><img src="aset/layar/id/kanji.webp" width="540" height="1200" loading="lazy" alt="Kartu kanji 金 yang dibalik: arti, bacaan On dan Kun, urutan goresan, dan contoh kata"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-ujian">
+        <div class="fitur-teks"><span class="label-kecil">Latihan ujian</span><h3>Paket soal yang bentuknya seperti ujian aslinya</h3><p>24 paket soal untuk <span class="rapat">JFT-Basic</span> dan JLPT N5 sampai N1, masing-masing dengan susunan seksi, jumlah soal, dan batas waktu seperti ujian sungguhan. Soalnya bergambar, berdokumen, dan berpengumuman; bagian menyimak dibacakan suara bahasa Jepang di <span class="rapat">HP-mu</span>.</p><ul class="butir"><li><b>Hasil seperti laporan resmi:</b> <span class="rapat">JFT-Basic</span> pada skala <span class="rapat">10–250</span> dengan rentang A1, A2.1, <span class="rapat">A2.2</span>; JLPT dengan skor per bagian dan ambang minimumnya.</li><li><b>Pembahasan tiap soal</b> sesudah latihan, termasuk naskah soal menyimak.</li><li><b>Semua paket terbuka di versi gratis,</b> dengan jeda 7 hari per level.</li></ul><p class="tautan-baris"><a class="tautan" href="./latihan-ujian/">Selengkapnya tentang latihan ujian &rarr;</a></p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="aset/layar/id/soal-baca.webp" width="540" height="1200" loading="lazy" alt="Soal membaca dengan dokumen tergambar dan pilihan jawaban, lengkap dengan sisa waktu"></div></figure><figure class="layar"><div class="bingkai"><img src="aset/layar/id/hasil.webp" width="540" height="1200" loading="lazy" alt="Hasil latihan JFT-Basic: skor pada garis 10–250 dengan tanda rentang A1, A2.1, A2.2 dan persen benar per bagian"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-dasar">
+        <div class="fitur-teks"><span class="label-kecil">Dasar bahasa Jepang</span><h3>Dari nol: hiragana, katakana, dan tata bahasa N5</h3><p>Belum bisa membaca aksara Jepang? Tabel hiragana dan katakana di TokuGo sekaligus daftar pelajarannya: ketuk aksara untuk mendengar bunyinya, lihat urutan goresannya, lalu kerjakan kuis barisnya. Sesudah itu 122 pelajaran tata bahasa N5 menjelaskan pola kalimat satu per satu.</p><ul class="butir"><li><b>Kata yang bisa kamu baca</b> di tiap pelajaran: kata sungguhan dari aksara yang sudah dipelajari.</li><li><b>Tiap pelajaran tata bahasa:</b> pola, cara membentuk, contoh berfurigana yang bisa didengar, lalu latihan singkat.</li><li><b>Gratis penuh dan tanpa iklan</b> di halaman pelajaran dan kuisnya.</li></ul><p class="tautan-baris"><a class="tautan" href="./hiragana-katakana/">Selengkapnya tentang hiragana dan katakana &rarr;</a> <a class="tautan" href="./tata-bahasa/">Selengkapnya tentang tata bahasa &rarr;</a></p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="aset/layar/id/kana.webp" width="540" height="1200" loading="lazy" alt="Halaman Hiragana: ringkasan aksara hafal dan tabel aksara per baris, kotak terisi untuk yang sudah hafal"></div></figure><figure class="layar"><div class="bingkai"><img src="aset/layar/id/pelajaran.webp" width="540" height="1200" loading="lazy" alt="Halaman satu pelajaran tata bahasa: pola kalimat, cara membentuk, penjelasan, dan contoh berfurigana dengan tombol suara"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-dengar">
+        <div class="fitur-teks"><span class="label-kecil">Dengar · ucap · tulis</span><h3>Dengarkan, ucapkan, tuliskan</h3><p>Hafalan tidak berhenti di layar kartu. Susun deck audio dari kata-kata pilihanmu dan dengarkan sambil bekerja, ucapkan kata yang sudah hafal ke mikrofon, dan tuliskan kanji yang sudah hafal dengan jari.</p><ul class="butir"><li><b>Audio hafalan:</b> tiap kata dibacakan dalam bahasa Jepang lalu artinya; pemutar tetap berjalan saat layar mati.</li><li><b>Latihan ucap:</b> kalau HP mengenali ucapanmu, kata berikutnya muncul sendiri.</li><li><b>Tulis kanji:</b> dari ingatan, dengan bayangan, atau ketuk urutan goresannya.</li></ul><p class="tautan-baris"><a class="tautan" href="./dengar-ucap-tulis/">Selengkapnya tentang audio, ucap, dan tulis &rarr;</a></p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="aset/layar/id/audio-pemutar.webp" width="540" height="1200" loading="lazy" alt="Pemutar deck audio: kata yang sedang dibacakan tampil besar dengan furigana dan artinya, kendali putar, dan daftar kata"></div></figure><figure class="layar"><div class="bingkai"><img src="aset/layar/id/tulis-kanji.webp" width="540" height="1200" loading="lazy" alt="Layar menulis kanji: arti dan bacaan sebagai pertanyaan, kotak menulis dengan garis bantu, dan tombol Petunjuk, Animasi, Lewati"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-beranda">
+        <div class="fitur-teks"><span class="label-kecil">Beranda &amp; kebiasaan</span><h3>Tiap hari tahu harus belajar apa</h3><p>Beranda menyapamu dengan satu pepatah Jepang yang berganti tiap hari, cincin target harian, dan jejak tujuh hari terakhir. Di bawahnya: kartu yang jatuh tempo, deck yang terakhir dipelajari, dan latihan cepat.</p><ul class="butir"><li><b>Target harian</b> menghitung kata dan kanji yang <span class="rapat">benar-benar</span> dihafal hari itu, bukan kartu yang dilihat.</li><li><b>Pengingat</b> saat kartu jatuh tempo, dan pengingat harian sampai target tercapai.</li><li><b>Statistik</b> rentetan hari, jadwal tinjauan, hafalan per level, grafik skor latihan, peta aktivitas.</li></ul><p class="tautan-baris"><a class="tautan" href="./faq/">Pertanyaan yang sering diajukan &rarr;</a></p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="aset/layar/id/beranda.webp" width="540" height="1200" loading="lazy" alt="Beranda TokuGo: kartu sapaan dengan pepatah Jepang, cincin target harian 4 dari 10, jejak tujuh hari, dan dua pintu Belajar kosakata dan Tinjau kanji"></div></figure><figure class="layar"><div class="bingkai"><img src="aset/layar/id/statistik.webp" width="540" height="1200" loading="lazy" alt="Tab Statistik: rentetan 24 hari, bar 7 hari, jadwal tinjauan, dan hafalan kosakata dan kanji per level"></div></figure></div>
+      </article>
     </div>
   </section>
 
   <section class="bagian malam" id="layar">
     <div class="wadah">
-      <h2>Dari kartu pertama sampai <b>simulasi ujian</b></h2>
-      <div class="galeri" style="--kolom: 5">
-        <figure>
-          <div class="bingkai"><img src="aset/layar/id/kartu.webp" width="540" height="1200" loading="lazy" alt="Kartu flashcard kata 介護 yang sudah dibalik: cara baca, arti, dan tombol Belum hafal, Ragu, Hafal dengan jadwal ulangnya"></div>
-          <figcaption><b>Kosakata yang <span class="rapat">benar-benar</span> nempel</b><span>Tiap kata dijadwalkan ulang secara otomatis</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="aset/layar/id/kerja.webp" width="540" height="1200" loading="lazy" alt="Daftar kategori Tempat Kerja: konstruksi, pertanian, perikanan, perawatan lansia, perhotelan, restoran"></div>
-          <figcaption><b>Kosakata sesuai bidang kerjamu</b><span>21 kategori, dari konstruksi sampai perawatan lansia</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="aset/layar/id/deck.webp" width="540" height="1200" loading="lazy" alt="Layar kategori Makanan &amp; Minuman: 55% tuntas, daftar kata dengan status Dikuasai, Hafal, dan Belajar, tombol Belajar dan Kuis"></div>
-          <figcaption><b>Belajar per kategori, pantau tiap kata</b><span>Lihat mana yang sudah hafal dan mana yang belum</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="aset/layar/id/kuis.webp" width="540" height="1200" loading="lazy" alt="Layar kuis: sebuah kata Jepang dengan empat pilihan arti"></div>
-          <figcaption><b>Kuis di setiap kategori</b><span>Benar di kuis pada 3 hari berbeda untuk mencapai Dikuasai</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="aset/layar/id/kanji.webp" width="540" height="1200" loading="lazy" alt="Kartu kanji 金 dengan onyomi, kunyomi, urutan goresan, dan contoh kata"></div>
-          <figcaption><b>2.230 kanji, goresan demi goresan</b><span>Cara baca, contoh kata, kartu dan kuis kanji</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="aset/layar/id/ujian.webp" width="540" height="1200" loading="lazy" alt="Soal membaca pada latihan ujian, dengan penghitung waktu"></div>
-          <figcaption><b>Latihan ujian <span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>Seksi dan batas waktu seperti ujian aslinya</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="aset/layar/id/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="Hasil latihan JFT-Basic: 88% benar, skor gabungan 220 dari 250, ambang minimum resmi 200"></div>
-          <figcaption><b>Skor dibanding ambang lulus</b><span>Benar dan salah, skor gabungan, akurasi per jenis soal</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="aset/layar/id/beranda.webp" width="540" height="1200" loading="lazy" alt="Beranda: target harian, kartu jatuh tempo, kategori yang sedang dipelajari, latihan cepat"></div>
-          <figcaption><b>Tiap hari tahu harus belajar apa</b><span>Kartu jatuh tempo, kata baru, latihan kilat</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="aset/layar/id/statistik.webp" width="540" height="1200" loading="lazy" alt="Statistik: rentetan 24 hari, kartu per hari, peta aktivitas, jumlah kata Dikuasai, Hafal, dan Belajar"></div>
-          <figcaption><b>Lihat kemajuanmu setiap hari</b><span>Rentetan hari, peta aktivitas, tahap tiap kata</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="aset/layar/id/kamus.webp" width="540" height="1200" loading="lazy" alt="Kamus: hasil pencarian rumah sakit"></div>
-          <figcaption><b>Kamus saku 36.385 kata</b><span>Cari lewat kanji, kana, romaji, atau arti</span></figcaption>
-        </figure>
+      <h2>Jelajahi layarnya</h2>
+      <div class="galeri" style="--kolom: 6">
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/beranda.webp" width="540" height="1200" loading="lazy" alt="Beranda TokuGo: kartu sapaan dengan pepatah Jepang, cincin target harian 4 dari 10, jejak tujuh hari, dan dua pintu Belajar kosakata dan Tinjau kanji"></div><figcaption><b>Beranda</b><span>Sapaan harian, target, jejak 7 hari</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kartu.webp" width="540" height="1200" loading="lazy" alt="Kartu flashcard kata 介護 yang sudah dibalik: cara baca, romaji, arti, kanji penyusun, dan tombol Belum hafal, Ragu, Hafal dengan jadwal ulangnya"></div><figcaption><b>Kartu kosakata</b><span>Tiga tombol dengan jadwal ulangnya</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kosakata.webp" width="540" height="1200" loading="lazy" alt="Tab Kosakata: deck Ditandai, Kata Sulit, Kilat 60 detik, Kuis campuran, penyaring level, dan daftar 11 rumpun"></div><figcaption><b>Tab Kosakata</b><span>11 rumpun, deck khusus, penyaring level</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kerja.webp" width="540" height="1200" loading="lazy" alt="Rumpun Tempat Kerja yang terbuka: Keselamatan Kerja, Instruksi Atasan, Jadwal &amp; Absensi, Kontrak &amp; Gaji, dengan bar progres tiap deck"></div><figcaption><b>Rumpun Tempat Kerja</b><span>21 deck, dari keselamatan kerja sampai logistik</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/deck.webp" width="540" height="1200" loading="lazy" alt="Deck Perawatan Lansia: 12% tuntas dari 95 kata, daftar kata dengan status Hafal dan Dikuasai, tombol Belajar dan Kuis"></div><figcaption><b>Layar deck</b><span>Persen tuntas dan status tiap kata</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kuis.webp" width="540" height="1200" loading="lazy" alt="Soal kuis: sebuah kata Jepang dengan empat pilihan arti"></div><figcaption><b>Kuis deck</b><span>Jalan satu-satunya menuju Dikuasai</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kuis-hasil.webp" width="540" height="1200" loading="lazy" alt="Hasil kuis 20 dari 20 benar, kata yang baru dikuasai, dan kata yang tinggal satu hari kuis lagi"></div><figcaption><b>Hasil kuis</b><span>Baru dikuasai, menuju Dikuasai</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kamus.webp" width="540" height="1200" loading="lazy" alt="Pencarian rumah sakit di kamus: 病院, 療養所, 大学病院 dengan cara baca dan artinya"></div><figcaption><b>Kamus saku</b><span>Cari lewat kanji, kana, romaji, atau arti</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/detail-kata.webp" width="540" height="1200" loading="lazy" alt="Detail kata 介護: tahap Hafal, jadwal tinjau berikutnya, arti, dan kanji penyusun 介 dan 護 dengan bacaannya"></div><figcaption><b>Detail kata</b><span>Tahap, jadwal tinjauan, kanji penyusun</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kanji-tab.webp" width="540" height="1200" loading="lazy" alt="Tab Kanji level N5: empat set kanji dengan deretan kanjinya, jumlah hafal dan dikuasai"></div><figcaption><b>Tab Kanji</b><span>Set 25 kanji urut kelas sekolah</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kanji.webp" width="540" height="1200" loading="lazy" alt="Kartu kanji 金 yang dibalik: arti, bacaan On dan Kun, urutan goresan, dan contoh kata"></div><figcaption><b>Kartu kanji</b><span>Arti, bacaan, goresan, contoh kata</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kanji-detail.webp" width="540" height="1200" loading="lazy" alt="Detail kanji 金 dengan tahap, bacaan, diagram urutan goresan, dan contoh kata"></div><figcaption><b>Detail kanji</b><span>Diagram goresan satu kotak per goresan</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kana.webp" width="540" height="1200" loading="lazy" alt="Halaman Hiragana: ringkasan aksara hafal dan tabel aksara per baris, kotak terisi untuk yang sudah hafal"></div><figcaption><b>Hiragana</b><span>Tabel aksara sekaligus daftar pelajaran</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/kana-pelajaran.webp" width="540" height="1200" loading="lazy" alt="Pelajaran baris か: lima aksara yang bisa diketuk untuk didengar, urutan goresan, dan kata yang bisa kamu baca"></div><figcaption><b>Pelajaran baris</b><span>Suara, goresan, kata yang bisa dibaca</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/tata-bahasa.webp" width="540" height="1200" loading="lazy" alt="Halaman Tata Bahasa: ringkasan pelajaran lulus dan daftar bab dengan status tiap pelajaran"></div><figcaption><b>Tata bahasa N5</b><span>122 pelajaran dalam 12 bab</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/pelajaran.webp" width="540" height="1200" loading="lazy" alt="Halaman satu pelajaran tata bahasa: pola kalimat, cara membentuk, penjelasan, dan contoh berfurigana dengan tombol suara"></div><figcaption><b>Pelajaran tata bahasa</b><span>Pola, cara membentuk, contoh, latihan</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/latihan.webp" width="540" height="1200" loading="lazy" alt="Tab Latihan: enam kartu level, JFT-Basic 60 menit sampai JLPT N1 165 menit, dengan jumlah paket selesai"></div><figcaption><b>Tab Latihan</b><span><span class="rapat">JFT-Basic</span> dan JLPT <span class="rapat">N5–N1</span></span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/level.webp" width="540" height="1200" loading="lazy" alt="Halaman level JFT-Basic: tombol Mulai Paket, petak delapan paket, latihan campuran, dan riwayat"></div><figcaption><b>Halaman level</b><span>Paket bernomor dan riwayat</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/soal-baca.webp" width="540" height="1200" loading="lazy" alt="Soal membaca dengan dokumen tergambar dan pilihan jawaban, lengkap dengan sisa waktu"></div><figcaption><b>Soal membaca</b><span>Dokumen seperti di ujian aslinya</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/soal-dengar.webp" width="540" height="1200" loading="lazy" alt="Soal menyimak dengan pemutar audio dan pilihan jawaban bergambar"></div><figcaption><b>Soal menyimak</b><span>Dibacakan suara Jepang HP, pilihan bergambar</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/hasil.webp" width="540" height="1200" loading="lazy" alt="Hasil latihan JFT-Basic: skor pada garis 10–250 dengan tanda rentang A1, A2.1, A2.2 dan persen benar per bagian"></div><figcaption><b>Hasil latihan</b><span>Skala <span class="rapat">10–250</span> dan rentang A1, A2.1, <span class="rapat">A2.2</span></span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/tinjau-soal.webp" width="540" height="1200" loading="lazy" alt="Tinjau soal: jawaban yang dipilih, jawaban benar, dan pembahasan"></div><figcaption><b>Tinjau soal</b><span>Jawabanmu, kunci, dan pembahasannya</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/audio.webp" width="540" height="1200" loading="lazy" alt="Daftar deck audio: nama deck, jumlah kata dan perkiraan menit, tombol putar dan edit"></div><figcaption><b>Audio hafalan</b><span>Deck audio buatan sendiri</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/audio-pemutar.webp" width="540" height="1200" loading="lazy" alt="Pemutar deck audio: kata yang sedang dibacakan tampil besar dengan furigana dan artinya, kendali putar, dan daftar kata"></div><figcaption><b>Pemutar deck audio</b><span>Acak, ulang, kecepatan, bacakan arti</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/ucap.webp" width="540" height="1200" loading="lazy" alt="Layar pembuka Latihan ucap yang menjelaskan cara kerjanya dan meminta izin mikrofon"></div><figcaption><b>Latihan ucap</b><span>Ucapkan kata yang sudah hafal</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/tulis-kanji.webp" width="540" height="1200" loading="lazy" alt="Layar menulis kanji: arti dan bacaan sebagai pertanyaan, kotak menulis dengan garis bantu, dan tombol Petunjuk, Animasi, Lewati"></div><figcaption><b>Tulis kanji</b><span>Goresan demi goresan, dinilai langsung</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/statistik.webp" width="540" height="1200" loading="lazy" alt="Tab Statistik: rentetan 24 hari, bar 7 hari, jadwal tinjauan, dan hafalan kosakata dan kanji per level"></div><figcaption><b>Statistik</b><span>Rentetan, jadwal tinjauan, hafalan per level</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/pengaturan.webp" width="540" height="1200" loading="lazy" alt="Layar Pengaturan: bahasa aplikasi, bahasa terjemahan, tampilan, target harian, dua pengingat, pelafalan"></div><figcaption><b>Pengaturan</b><span>Bahasa, tema, target, pengingat, pelafalan</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="aset/layar/id/beranda-gelap.webp" width="540" height="1200" loading="lazy" alt="Beranda dalam tema gelap"></div><figcaption><b>Tema gelap</b><span>Malam indigo untuk belajar malam</span></figcaption></figure>
       </div>
-      <p class="catatan-galeri">Skor latihan adalah perkiraan untuk mengukur kemajuan, bukan prediksi skor ujian resmi.</p>
+      <p class="catatan-galeri">Layar dari aplikasi versi 1.3 dalam bahasa Indonesia. Skor latihan adalah perkiraan untuk mengukur kemajuan, bukan prediksi skor ujian resmi.</p>
+    </div>
+  </section>
+
+  <section class="bagian" id="gratis">
+    <div class="wadah dua">
+      <article class="kartu gratis">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v4H4z"/><path d="M6 11v9h12v-9"/><path d="M12 7v13"/><path d="M12 7c-2-3-5-3-5-1s3 1 5 1c2 0 5-1 5-3s-3-1-5 1"/></svg></span><h3>Gratis untuk mulai</h3></div>
+        <p>Versi gratis bukan versi coba-coba. Isinya cukup untuk belajar dari nol sampai mencoba semua jenis ujian, dengan iklan.</p>
+        <ul class="daftar"><li><b>9.406 kata:</b> 100 kata teratas di setiap kategori, termasuk hampir seluruh kosakata N5.</li><li><b>Seluruh 284 kanji N5 dan N4.</b></li><li><b>Hiragana, katakana, dan 122 pelajaran tata bahasa N5</b> tanpa iklan di halaman pelajarannya.</li><li><b>Semua paket latihan ujian:</b> satu latihan per level setiap 7 hari, plus satu lagi dengan menonton iklan.</li><li><b>Kamus, 3 deck audio, latihan ucap, dan tulis kanji.</b></li></ul>
+        <p class="kecil">Di versi gratis, memulai sesi belajar atau latihan ujian membutuhkan koneksi internet.</p>
+      </article>
+      <article class="kartu premium">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.6 5.6 6.1.7-4.5 4.2 1.2 6.1L12 16.6l-5.4 3 1.2-6.1-4.5-4.2 6.1-.7z"/></svg></span><h3>Premium</h3></div>
+        <p>Untuk yang mau semuanya terbuka. Dibeli di dalam aplikasi lewat Google Play; pilihan paket dan harganya tertera di sana.</p>
+        <ul class="daftar"><li>Seluruh 38.085 kata dan kanji <span class="rapat">N3–N1</span></li><li>Tanpa iklan</li><li>Belajar tanpa internet</li><li>Latihan ujian tanpa jeda 7 hari</li><li>Deck audio tanpa batas, bisa diunduh sebagai berkas audio</li></ul>
+        <p class="kecil">Kata yang sudah pernah kamu pelajari tetap bisa ditinjau walau langganan berhenti.</p>
+      </article>
     </div>
   </section>
 
   <section class="bagian">
     <div class="wadah">
-      <h2>Fitur lain</h2>
-      <ul class="daftar">
-        <li><b>Tiap hari tahu harus belajar apa.</b> Kartu jatuh tempo, kata baru, dan latihan Kilat 60 detik.</li>
-        <li><b>Kata sulit dan Ditandai.</b> Daftar kata sulit dibuat otomatis; tandai sendiri kata yang ingin kamu ulang.</li>
-        <li><b>Pengingat.</b> Pengingat harian, plus pemberitahuan saat kartu jatuh tempo.</li>
-        <li><b>Pelafalan.</b> Dibacakan suara bahasa Jepang bawaan <span class="rapat">HP-mu</span>.</li>
-        <li><b>Statistik.</b> Rentetan hari, target harian, peta aktivitas, progres per rumpun dan level.</li>
-        <li><b>Cadangan.</b> Simpan progres ke berkas, lalu pulihkan di HP lain.</li>
-        <li><b>Tema terang dan gelap,</b> plus tutorial di dalam aplikasi.</li>
-        <li><b>13 bahasa antarmuka.</b> Arti kata dalam bahasa Indonesia dan Inggris; bahasa lain diterjemahkan bertahap.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="bagian">
-    <div class="wadah dua">
-      <article class="kartu">
-        <h3>Gratis untuk mulai</h3>
-        <p>Versi gratis langsung memberi <b>9.626 kata</b>: 100 kata teratas di setiap kategori, mencakup 97% kosakata <span class="rapat">JFT-Basic</span> dan 91% JLPT N5, plus seluruh <b>284 kanji N5 dan N4</b>, dengan iklan. Semua simulasi ujian dan seluruh kamus terbuka untuk semua.</p>
-        <p class="kecil">Premium membuka seluruh kata dan kanji <span class="rapat">N3–N1</span>, menghilangkan iklan, dan memungkinkan belajar tanpa internet. Di versi gratis, memulai sesi belajar atau ujian membutuhkan koneksi internet.</p>
-      </article>
-      <article class="kartu">
-        <h3>Catatan belajarmu tetap di <span class="rapat">HP-mu</span></h3>
-        <p>Tanpa akun, tanpa pendaftaran, tanpa kata sandi. Pengembang tidak punya server: catatan belajarmu disimpan di <span class="rapat">HP-mu</span> dan tidak pernah dikirim ke pengembang.</p>
+      <article class="kartu privasi-kartu">
+        <div class="kartu-kepala">
+          <span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+          <h3>Catatan belajarmu tetap di <span class="rapat">HP-mu</span></h3>
+        </div>
+        <p>Tanpa akun, tanpa pendaftaran, tanpa kata sandi. Pengembang tidak punya server: catatan belajarmu disimpan di <span class="rapat">HP-mu</span> dan tidak pernah dikirim ke pengembang. Latihan ucap memakai layanan pengenal suara di <span class="rapat">HP-mu</span>; aplikasi tidak merekam dan tidak menyimpan suaramu.</p>
         <p class="kecil">Iklan, pengukuran pemakaian, dan laporan kerusakan memakai layanan Google. Rinciannya ada di kebijakan privasi.</p>
         <a class="tautan" href="privacy/">Kebijakan Privasi &rarr;</a>
       </article>
+    </div>
+  </section>
+
+  <section class="bagian" id="faq">
+    <div class="wadah sempit">
+      <h2>Pertanyaan yang sering diajukan</h2>
+      <div class="faq">
+        <details class="tanya"><summary><span>Apakah TokuGo gratis?</span></summary><div class="jawab"><p>Ya. Versi gratis memberi 9.406 kata (100 teratas tiap kategori), seluruh kanji N5 dan N4, hiragana, katakana, 122 pelajaran tata bahasa N5, semua paket latihan ujian dengan jeda 7 hari per level, kamus, dan tiga deck audio, dengan iklan. Premium membuka seluruh kata dan kanji, menghilangkan iklan, membuka belajar offline dan latihan ujian tanpa jeda.</p></div></details>
+        <details class="tanya"><summary><span>Apakah bisa dipakai tanpa internet?</span></summary><div class="jawab"><p>Semua isinya ada di dalam aplikasi, tidak ada yang diunduh saat belajar. Di versi gratis, memulai sesi belajar atau latihan ujian membutuhkan koneksi internet; Premium bisa belajar sepenuhnya offline. Suara bahasa Jepang berasal dari mesin pembaca <span class="rapat">HP-mu</span>, jadi data suaranya perlu terpasang sekali.</p></div></details>
+        <details class="tanya"><summary><span>Apakah perlu membuat akun?</span></summary><div class="jawab"><p>Tidak. Tidak ada akun, pendaftaran, atau kata sandi. Catatan belajar disimpan di <span class="rapat">HP-mu</span>; untuk pindah HP, ekspor berkas cadangan dari panel samping lalu impor di HP baru.</p></div></details>
+        <details class="tanya"><summary><span>Bahasa apa saja yang didukung?</span></summary><div class="jawab"><p>Antarmuka tersedia dalam 13 bahasa: Indonesia, Inggris, Vietnam, Nepal, Myanmar, Filipino, Thai, Khmer, Mongolia, Sinhala, Bengali, Hindi, dan Tionghoa. Arti kata lengkap dalam bahasa Indonesia dan Inggris; bahasa lain sudah mencakup semua kata gratis (dan kata <span class="rapat"><span class="rapat">N5–N4</span></span> di sebagian besar bahasa), sisanya tampil dalam bahasa Inggris. Pelajaran tata bahasa dan pembahasan soal tersedia dalam 12 bahasa.</p></div></details>
+        <details class="tanya"><summary><span>Apakah skor latihan sama dengan skor ujian resmi?</span></summary><div class="jawab"><p>Tidak. Skor di TokuGo adalah perkiraan dari persen jawaban benar untuk mengukur kemajuan. Ujian resmi memakai penilaian terskala yang berbeda, dan suara menyimak dari mesin pembaca HP berbeda antar perangkat.</p></div></details>
+        <details class="tanya"><summary><span>Dari mana kosakata, kanji, dan soalnya?</span></summary><div class="jawab"><p>Kosakata dan kanji dari JMdict dan KANJIDIC (Electronic Dictionary Research and Development Group), urutan goresan dari KanjiVG, frekuensi kata dari wordfreq. Pelajaran tata bahasa dan semua soal latihan ditulis khusus untuk TokuGo dan diperiksa berlapis sebelum dirilis; tidak ada soal resmi yang disalin.</p></div></details>
+        <details class="tanya"><summary><span>HP apa yang didukung?</span></summary><div class="jawab"><p>Android 7.0 ke atas. Untuk pelafalan dan soal menyimak, HP perlu punya suara bahasa Jepang (biasanya dari Google Text-to-speech); kalau belum ada, aplikasi menawarkan cara memasangnya.</p></div></details>
+      </div>
+      <p class="tautan-baris"><a class="tautan" href="./faq/">Semua pertanyaan dan jawaban &rarr;</a></p>
     </div>
   </section>
 
@@ -292,20 +439,58 @@
   <div class="wadah">
     <div class="penutup">
       <h2>Mau kerja di Jepang, atau mau <b>lulus JLPT</b>?</h2>
-      <p>Kuncinya sama: kosakata yang <span class="rapat">benar-benar</span> nempel di kepala.</p>
+      <p>Kuncinya sama: kosakata yang <span class="rapat">benar-benar</span> nempel di kepala, dan latihan yang bentuknya seperti ujian sungguhan.</p>
       <div class="aksi">
         <a class="tombol" href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
           Unduh di Google Play
         </a>
       </div>
+      <p class="catatan">Gratis untuk mulai, tanpa akun.</p>
+    </div>
+    <div class="kaki-kolom">
+      <div>
+        <h3>Fitur</h3>
+        <ul>
+          <li><a href="./kosakata/">Kosakata</a></li>
+          <li><a href="./kanji/">Kanji</a></li>
+          <li><a href="./latihan-ujian/">Latihan ujian</a></li>
+          <li><a href="./hiragana-katakana/">Hiragana &amp; katakana</a></li>
+          <li><a href="./tata-bahasa/">Tata bahasa</a></li>
+          <li><a href="./dengar-ucap-tulis/">Dengar · ucap · tulis</a></li>
+          <li><a href="./faq/">Tanya jawab</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Bahasa</h3>
+        <ul class="kaki-bahasa">
+          <li><a href="./" lang="id" hreflang="id" data-bahasa="id">Bahasa Indonesia</a></li>
+          <li><a href="en/" lang="en" hreflang="en" data-bahasa="en">English</a></li>
+          <li><a href="vi/" lang="vi" hreflang="vi" data-bahasa="vi">Tiếng Việt</a></li>
+          <li><a href="ne/" lang="ne" hreflang="ne" data-bahasa="ne">नेपाली</a></li>
+          <li><a href="my/" lang="my" hreflang="my" data-bahasa="my">မြန်မာဘာသာ</a></li>
+          <li><a href="fil/" lang="fil" hreflang="fil" data-bahasa="fil">Filipino</a></li>
+          <li><a href="th/" lang="th" hreflang="th" data-bahasa="th">ไทย</a></li>
+          <li><a href="km/" lang="km" hreflang="km" data-bahasa="km">ខ្មែរ</a></li>
+          <li><a href="mn/" lang="mn" hreflang="mn" data-bahasa="mn">Монгол</a></li>
+          <li><a href="si/" lang="si" hreflang="si" data-bahasa="si">සිංහල</a></li>
+          <li><a href="bn/" lang="bn" hreflang="bn" data-bahasa="bn">বাংলা</a></li>
+          <li><a href="hi/" lang="hi" hreflang="hi" data-bahasa="hi">हिन्दी</a></li>
+          <li><a href="zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh">简体中文</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Lainnya</h3>
+        <ul>
+          <li><a href="privacy/">Kebijakan Privasi</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">Google Play</a></li>
+          <li><a href="mailto:amdigracrative@gmail.com">Kontak</a></li>
+        </ul>
+      </div>
     </div>
     <div class="kaki">
       <span>&copy; 2026 TokuGo</span>
-      <nav>
-        <a href="privacy/">Kebijakan Privasi</a>
-        <a href="mailto:amdigracrative@gmail.com">Kontak</a>
-      </nav>
+      <span class="sumber">Kosakata dan kanji: JMdict/KANJIDIC &copy; EDRDG (CC BY-SA 4.0). Urutan goresan: KanjiVG (CC BY-SA 3.0). Google Play adalah merek dagang Google LLC.</span>
     </div>
   </div>
 </footer>
@@ -315,16 +500,18 @@
   // Bahasa yang dipilih sendiri diingat, supaya halaman akar tidak mengantar pengunjung
   // kembali ke bahasa HP-nya setiap kali dibuka.
   var pemilih = document.querySelector('.bahasa');
+  var menu = document.querySelector('.menu-kecil');
   pemilih.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-bahasa]') : null;
     if (a) { try { localStorage.setItem('bahasa', a.getAttribute('data-bahasa')); } catch (x) {} }
   });
-  // Daftar bahasa menutup sendiri saat mengetuk di luarnya atau menekan Esc.
+  // Daftar bahasa dan menu menutup sendiri saat mengetuk di luarnya atau menekan Esc.
   document.addEventListener('click', function (e) {
     if (pemilih.open && !pemilih.contains(e.target)) pemilih.open = false;
+    if (menu && menu.open && !menu.contains(e.target)) menu.open = false;
   });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') pemilih.open = false;
+    if (e.key === 'Escape') { pemilih.open = false; if (menu) menu.open = false; }
   });
   // Windows tidak punya gambar bendera di font emojinya dan menampilkan dua huruf kode
   // negara. Kalau begitu benderanya disembunyikan; kode bahasa di sebelahnya sudah cukup.
@@ -343,6 +530,5 @@
   } catch (x) {}
 })();
 </script>
-
 </body>
 </html>

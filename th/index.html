@@ -7,8 +7,8 @@
 <meta name="description" content="แฟลชการ์ดคำศัพท์และคันจิญี่ปุ่น พร้อมข้อสอบจำลอง JFT-Basic และ JLPT N5-N1">
 
 <!--
-  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html dan
-  docs/situs/sumber/teks/th.json. Jangan disunting di sini: perubahan akan tertimpa.
+  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html (+ kepala.html,
+  kaki.html) dan docs/situs/sumber/teks/th.json. Jangan disunting di sini: perubahan akan tertimpa.
 -->
 
 <link rel="canonical" href="https://tokugo.my.id/th/">
@@ -26,7 +26,7 @@
 <link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/">
 <link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
-
+<meta name="google-site-verification" content="P4mkrZ3cr1jIFx7Ld-NwLesI2c5FRTXcSXjfv0PfLzw">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="TokuGo">
 <meta property="og:locale" content="th_TH">
@@ -48,33 +48,84 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "TokuGo",
-  "operatingSystem": "Android 7.0+",
-  "applicationCategory": "EducationalApplication",
-  "inLanguage": "th",
-  "description": "แฟลชการ์ดคำศัพท์และคันจิญี่ปุ่น พร้อมข้อสอบจำลอง JFT-Basic และ JLPT N5-N1",
-  "url": "https://tokugo.my.id/th/",
-  "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://tokugo.my.id/#aplikasi",
+      "name": "TokuGo",
+      "alternateName": "TokuGo: เรียนญี่ปุ่น JLPT JFT",
+      "operatingSystem": "Android 7.0+",
+      "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Language learning",
+      "inLanguage": "th",
+      "description": "แฟลชการ์ดคำศัพท์และคันจิญี่ปุ่น พร้อมข้อสอบจำลอง JFT-Basic และ JLPT N5-N1",
+      "url": "https://tokugo.my.id/th/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "image": "https://tokugo.my.id/aset/sampul-th.jpg",
+      "screenshot": [
+        "https://tokugo.my.id/aset/layar/th/kartu.webp",
+        "https://tokugo.my.id/aset/layar/th/kerja.webp",
+        "https://tokugo.my.id/aset/layar/th/deck.webp",
+        "https://tokugo.my.id/aset/layar/th/kuis.webp",
+        "https://tokugo.my.id/aset/layar/th/kanji.webp",
+        "https://tokugo.my.id/aset/layar/th/ujian.webp",
+        "https://tokugo.my.id/aset/layar/th/ujian-hasil.webp",
+        "https://tokugo.my.id/aset/layar/th/beranda.webp",
+        "https://tokugo.my.id/aset/layar/th/statistik.webp",
+        "https://tokugo.my.id/aset/layar/th/kamus.webp",
+        "https://tokugo.my.id/aset/layar/th/bahasa.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tokugo.my.id/#situs",
+      "url": "https://tokugo.my.id/",
+      "name": "TokuGo",
+      "inLanguage": "th",
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://tokugo.my.id/#penerbit",
+      "name": "TokuGo",
+      "url": "https://tokugo.my.id/",
+      "logo": "https://tokugo.my.id/aset/ikon-192.png",
+      "email": "amdigracrative@gmail.com"
+    }
+  ]
 }
 </script>
 </head>
 
 <body>
-
+<a class="lompat" href="#isi">TokuGo</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="./" aria-label="TokuGo">
       <img src="../aset/ikon-96.png" width="32" height="32" alt="">
       TokuGo
     </a>
-    <nav class="menu">
-      <a class="panjang" href="../privacy/?lang=en">ความเป็นส่วนตัว</a>
+    <nav class="navigasi" aria-label="TokuGo">
+      <ul class="menu-besar">
+
+      </ul>
+      <details class="menu-kecil">
+        <summary aria-label="Menu"><span class="garis-tiga" aria-hidden="true"></span>Menu</summary>
+        <ul>
+
+        </ul>
+      </details>
       <details class="bahasa">
         <summary aria-label="เลือกภาษา"><span class="bendera" aria-hidden="true">🇹🇭</span><span class="kode">TH</span></summary>
         <ul>
@@ -97,11 +148,11 @@
   </div>
 </header>
 
-<div class="malam">
+<div class="malam pembuka-latar">
   <div class="wadah">
     <div class="pembuka">
       <div class="teks">
-        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span></span>
+        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span> &middot; Android</span>
         <h1>คำศัพท์และคันจิญี่ปุ่น<br>เพื่อ<b>การทำงานและ JLPT</b></h1>
         <div class="garis-koral"></div>
         <p class="pengantar">TokuGo คือแอปแฟลชการ์ดคำศัพท์และคันจิภาษาญี่ปุ่น สำหรับผู้เตรียมสอบ <span class="rapat">JFT-Basic</span> เพื่อไปทำงานที่ญี่ปุ่นด้วยวีซ่าทักษะเฉพาะทาง (SSW / Tokutei Ginou) และผู้เรียน JLPT ระดับ N5 ถึง N1</p>
@@ -110,77 +161,55 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
             ดาวน์โหลดได้ที่ Google Play
           </a>
-
+          <a class="tautan-fitur" href="#fitur">คำศัพท์ที่จำได้จริง</a>
         </div>
         <p class="catatan">เริ่มต้นใช้ฟรี &middot; ไม่ต้องมีบัญชี &middot; Android 7.0+</p>
       </div>
 
       <div class="panggung">
-        <div class="hp">
-          <img src="../aset/layar/th/kartu.webp" width="540" height="1200" fetchpriority="high" alt="TokuGo: เรียนญี่ปุ่น JLPT JFT">
+        <div class="hp hp-kedua">
+          <img src="../aset/layar/th/beranda.webp" width="540" height="1200" alt="" loading="lazy">
+        </div>
+        <div class="hp hp-utama">
+          <img src="../aset/layar/th/kartu.webp" width="540" height="1200" fetchpriority="high" alt="คำศัพท์ที่ จำได้จริง">
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<main>
+<main id="isi">
 
   <div class="wadah">
     <ul class="angka">
-      <li><b>36,385</b><span>คำศัพท์ภาษาญี่ปุ่น พร้อมคำอ่านและโรมาจิ</span></li>
+      <li><b>38,085</b><span>คำศัพท์ภาษาญี่ปุ่น พร้อมคำอ่านและโรมาจิ</span></li>
       <li><b>2,230</b><span>คันจิ JLPT พร้อมลำดับขีด</span></li>
-      <li><b>107</b><span>หัวข้อใน 11 กลุ่ม มี 21 หัวข้อเกี่ยวกับที่ทำงาน</span></li>
+      <li><b>95</b><span>หัวข้อใน 11 กลุ่ม มี 21 หัวข้อเกี่ยวกับที่ทำงาน</span></li>
       <li><b>6</b><span>ข้อสอบจำลอง <span class="rapat">JFT-Basic</span> และ JLPT <span class="rapat">N5–N1</span></span></li>
     </ul>
   </div>
 
+
+
   <section class="bagian" id="fitur">
     <div class="wadah">
       <h2>คำศัพท์ที่จำได้จริง</h2>
-      <div class="inti">
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">覚</span>
-            <h3>แฟลชการ์ดที่รู้ว่าคุณกำลังจะลืม</h3>
-          </div>
-          <p>ทุกการ์ดจัดตารางด้วย FSRS อัลกอริทึมทบทวนแบบเว้นระยะรุ่นใหม่ คุณประเมินตัวเอง — ยังจำไม่ได้ ไม่แน่ใจ หรือจำได้ — แล้วแอปจะคำนวณว่าคำนั้นควรกลับมาเมื่อไร: อีกไม่กี่นาที ไม่กี่วัน หรือไม่กี่สัปดาห์ ระยะเวลาแสดงอยู่บนทุกปุ่ม</p>
-          <div class="peraga">
-            <div class="nilai">
-              <span class="belum"><b>ยังจำไม่ได้</b><i>5 นาที</i></span>
-              <span class="ragu"><b>ไม่แน่ใจ</b><i>9 วัน</i></span>
-              <span class="hafal"><b>จำได้</b><i>17 วัน</i></span>
-            </div>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">証</span>
-            <h3>เชี่ยวชาญต้องพิสูจน์ได้</h3>
-          </div>
-          <p>ทุกคำผ่านสี่ขั้น: ใหม่ กำลังเรียน จำได้แล้ว และเชี่ยวชาญ การจะเป็น "เชี่ยวชาญ" ต้องตอบถูกในแบบทดสอบใน 3 วันที่ต่างกัน คำที่เชี่ยวชาญแล้วยังถูกทดสอบซ้ำเมื่อถึงกำหนด และจะลดขั้นถ้าตอบผิด</p>
-          <div class="peraga">
-            <ol class="tahap">
-              <li><span>ใหม่</span></li>
-              <li><span>กำลังเรียน</span></li>
-              <li><span>จำได้แล้ว</span></li>
-              <li class="puncak"><span>เชี่ยวชาญ</span></li>
-            </ol>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">働</span>
-            <h3>คำศัพท์สำหรับการทำงานในญี่ปุ่น</h3>
-          </div>
-          <p>21 หัวข้อเกี่ยวกับที่ทำงาน เช่น ความปลอดภัยในการทำงาน คำสั่งจากหัวหน้า สัญญาและค่าจ้าง โรงงาน งานก่อสร้าง เกษตรกรรม ประมง ดูแลผู้สูงอายุ โรงแรม ร้านอาหาร และแปรรูปอาหาร รวมถึงหัวข้อชีวิตประจำวัน เช่น เช่าที่พัก ตรวจคนเข้าเมือง ธนาคาร โรงพยาบาล การซื้อของ และการเดินทาง</p>
-
-        </article>
-
-      </div>
+      <article class="fitur" id="f-kosakata">
+        <div class="fitur-teks"><h3>แฟลชการ์ดที่รู้ว่าคุณกำลังจะลืม</h3><p>ทุกการ์ดจัดตารางด้วย FSRS อัลกอริทึมทบทวนแบบเว้นระยะรุ่นใหม่ คุณประเมินตัวเอง — ยังจำไม่ได้ ไม่แน่ใจ หรือจำได้ — แล้วแอปจะคำนวณว่าคำนั้นควรกลับมาเมื่อไร: อีกไม่กี่นาที ไม่กี่วัน หรือไม่กี่สัปดาห์ ระยะเวลาแสดงอยู่บนทุกปุ่ม</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/th/kartu.webp" width="540" height="1200" loading="lazy" alt="คำศัพท์ที่ จำได้จริง"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/th/kuis.webp" width="540" height="1200" loading="lazy" alt="เชี่ยวชาญ ต้องพิสูจน์ได้"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-tahap">
+        <div class="fitur-teks"><h3>เชี่ยวชาญต้องพิสูจน์ได้</h3><p>ทุกคำผ่านสี่ขั้น: ใหม่ กำลังเรียน จำได้แล้ว และเชี่ยวชาญ การจะเป็น "เชี่ยวชาญ" ต้องตอบถูกในแบบทดสอบใน 3 วันที่ต่างกัน คำที่เชี่ยวชาญแล้วยังถูกทดสอบซ้ำเมื่อถึงกำหนด และจะลดขั้นถ้าตอบผิด</p><ol class="tahap"><li><span>ใหม่</span></li><li><span>กำลังเรียน</span></li><li><span>จำได้แล้ว</span></li><li class="puncak"><span>เชี่ยวชาญ</span></li></ol></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/th/deck.webp" width="540" height="1200" loading="lazy" alt="เรียนตามหัวข้อ ติดตามทุกคำ"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/en/kuis-hasil.webp" width="540" height="1200" loading="lazy" alt="kuis-hasil"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-kerja">
+        <div class="fitur-teks"><h3>คำศัพท์สำหรับการทำงานในญี่ปุ่น</h3><p>21 หัวข้อเกี่ยวกับที่ทำงาน เช่น ความปลอดภัยในการทำงาน คำสั่งจากหัวหน้า สัญญาและค่าจ้าง โรงงาน งานก่อสร้าง เกษตรกรรม ประมง ดูแลผู้สูงอายุ โรงแรม ร้านอาหาร และแปรรูปอาหาร รวมถึงหัวข้อชีวิตประจำวัน เช่น เช่าที่พัก ตรวจคนเข้าเมือง ธนาคาร โรงพยาบาล การซื้อของ และการเดินทาง</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/th/kerja.webp" width="540" height="1200" loading="lazy" alt="คำศัพท์ตาม งานของคุณ"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/th/deck.webp" width="540" height="1200" loading="lazy" alt="เรียนตามหัวข้อ ติดตามทุกคำ"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-lain">
+        <div class="fitur-teks"><h3>เพิ่มเติม</h3><ul class="butir"><li>ประลอง 60 วินาที คำที่ยาก และคำที่บันทึกไว้</li><li>เตือนให้เรียนทุกวัน และแจ้งเตือนเมื่อการ์ดถึงกำหนด</li><li>การออกเสียงด้วยเสียงภาษาญี่ปุ่นในโทรศัพท์</li><li>สถิติ: วันเรียนต่อเนื่อง แผนที่กิจกรรม ความคืบหน้า</li><li>สำรองความคืบหน้าเป็นไฟล์ แล้วกู้คืนในโทรศัพท์เครื่องอื่น</li><li>หน้าจอแอปเป็นภาษาไทยและอีก 12 ภาษา ความหมายของคำฟรี 9,406 คำ คันจิ JLPT ทั้งหมด และชื่อหัวข้อเป็นภาษาไทยแล้ว คำที่เหลือแสดงเป็นภาษาอังกฤษและกำลังทยอยแปล</li></ul></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/th/beranda.webp" width="540" height="1200" loading="lazy" alt="รู้ทุกวันว่า ต้องเรียนอะไร"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/th/statistik.webp" width="540" height="1200" loading="lazy" alt="สถิติ"></div></figure></div>
+      </article>
     </div>
   </section>
 
@@ -188,84 +217,47 @@
     <div class="wadah">
       <h2>มีอะไรบ้าง</h2>
       <div class="galeri" style="--kolom: 6">
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/kartu.webp" width="540" height="1200" loading="lazy" alt="คำศัพท์ที่ จำได้จริง"></div>
-          <figcaption><b>คำศัพท์ที่<br>จำได้จริง</b><span>ทุกคำถูกจัดตารางทบทวนให้อัตโนมัติ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/kerja.webp" width="540" height="1200" loading="lazy" alt="คำศัพท์ตาม งานของคุณ"></div>
-          <figcaption><b>คำศัพท์ตาม<br>งานของคุณ</b><span>21 หมวด ตั้งแต่งานก่อสร้างถึงดูแลผู้สูงอายุ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/deck.webp" width="540" height="1200" loading="lazy" alt="เรียนตามหัวข้อ ติดตามทุกคำ"></div>
-          <figcaption><b>เรียนตามหัวข้อ<br>ติดตามทุกคำ</b><span>ดูว่าคำไหนจำได้แล้ว คำไหนยังจำไม่ได้</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/kuis.webp" width="540" height="1200" loading="lazy" alt="เชี่ยวชาญ ต้องพิสูจน์ได้"></div>
-          <figcaption><b>เชี่ยวชาญ<br>ต้องพิสูจน์ได้</b><span>ตอบถูกในแบบทดสอบ 3 วันที่ต่างกัน</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/kanji.webp" width="540" height="1200" loading="lazy" alt="คันจิ 2,230 ตัว ทีละขีด"></div>
-          <figcaption><b>คันจิ 2,230 ตัว<br>ทีละขีด</b><span>คำอ่าน คำตัวอย่าง การ์ดและแบบทดสอบคันจิ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/ujian.webp" width="540" height="1200" loading="lazy" alt="ข้อสอบจำลอง JFT-Basic &amp; JLPT"></div>
-          <figcaption><b>ข้อสอบจำลอง<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>จับเวลาเหมือนสอบจริง เทียบกับเกณฑ์ผ่าน</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="ผลการฝึก JFT-Basic"></div>
-          <figcaption><b>ผลการฝึก <span class="rapat">JFT-Basic</span></b><span>คะแนนรวม · ความแม่นยำแยกตามประเภทข้อ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/beranda.webp" width="540" height="1200" loading="lazy" alt="รู้ทุกวันว่า ต้องเรียนอะไร"></div>
-          <figcaption><b>รู้ทุกวันว่า<br>ต้องเรียนอะไร</b><span>การ์ดถึงกำหนด คำใหม่ ประลอง 60 วินาที</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/statistik.webp" width="540" height="1200" loading="lazy" alt="สถิติ"></div>
-          <figcaption><b>สถิติ</b><span>วันเรียนต่อเนื่อง แผนที่กิจกรรม ความคืบหน้า</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/kamus.webp" width="540" height="1200" loading="lazy" alt="พจนานุกรมพกพา 36,385 คำ"></div>
-          <figcaption><b>พจนานุกรมพกพา<br>36,385 คำ</b><span>ค้นด้วยคันจิ คานะ โรมาจิ หรือความหมายของคำ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/th/bahasa.webp" width="540" height="1200" loading="lazy" alt="ใช้งานเป็น ภาษาไทย"></div>
-          <figcaption><b>ใช้งานเป็น<br>ภาษาไทย</b><span>หน้าจอและความหมายคำฟรีเป็นภาษาไทย</span></figcaption>
-        </figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/kartu.webp" width="540" height="1200" loading="lazy" alt="คำศัพท์ที่ จำได้จริง"></div><figcaption><b>คำศัพท์ที่<br>จำได้จริง</b><span>ทุกคำถูกจัดตารางทบทวนให้อัตโนมัติ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/kerja.webp" width="540" height="1200" loading="lazy" alt="คำศัพท์ตาม งานของคุณ"></div><figcaption><b>คำศัพท์ตาม<br>งานของคุณ</b><span>21 หมวด ตั้งแต่งานก่อสร้างถึงดูแลผู้สูงอายุ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/deck.webp" width="540" height="1200" loading="lazy" alt="เรียนตามหัวข้อ ติดตามทุกคำ"></div><figcaption><b>เรียนตามหัวข้อ<br>ติดตามทุกคำ</b><span>ดูว่าคำไหนจำได้แล้ว คำไหนยังจำไม่ได้</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/kuis.webp" width="540" height="1200" loading="lazy" alt="เชี่ยวชาญ ต้องพิสูจน์ได้"></div><figcaption><b>เชี่ยวชาญ<br>ต้องพิสูจน์ได้</b><span>ตอบถูกในแบบทดสอบ 3 วันที่ต่างกัน</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/kanji.webp" width="540" height="1200" loading="lazy" alt="คันจิ 2,230 ตัว ทีละขีด"></div><figcaption><b>คันจิ 2,230 ตัว<br>ทีละขีด</b><span>คำอ่าน คำตัวอย่าง การ์ดและแบบทดสอบคันจิ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/ujian.webp" width="540" height="1200" loading="lazy" alt="ข้อสอบจำลอง JFT-Basic &amp; JLPT"></div><figcaption><b>ข้อสอบจำลอง<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>จับเวลาเหมือนสอบจริง เทียบกับเกณฑ์ผ่าน</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="ผลการฝึก JFT-Basic"></div><figcaption><b>ผลการฝึก <span class="rapat">JFT-Basic</span></b><span>คะแนนรวม · ความแม่นยำแยกตามประเภทข้อ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/beranda.webp" width="540" height="1200" loading="lazy" alt="รู้ทุกวันว่า ต้องเรียนอะไร"></div><figcaption><b>รู้ทุกวันว่า<br>ต้องเรียนอะไร</b><span>การ์ดถึงกำหนด คำใหม่ ประลอง 60 วินาที</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/statistik.webp" width="540" height="1200" loading="lazy" alt="สถิติ"></div><figcaption><b>สถิติ</b><span>วันเรียนต่อเนื่อง แผนที่กิจกรรม ความคืบหน้า</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/kamus.webp" width="540" height="1200" loading="lazy" alt="พจนานุกรมพกพา 38,085 คำ"></div><figcaption><b>พจนานุกรมพกพา<br>38,085 คำ</b><span>ค้นด้วยคันจิ คานะ โรมาจิ หรือความหมายของคำ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/th/bahasa.webp" width="540" height="1200" loading="lazy" alt="ใช้งานเป็น ภาษาไทย"></div><figcaption><b>ใช้งานเป็น<br>ภาษาไทย</b><span>หน้าจอและความหมายคำฟรีเป็นภาษาไทย</span></figcaption></figure>
       </div>
       <p class="catatan-galeri">คะแนนเป็นค่าประมาณเพื่อติดตามพัฒนาการ ไม่ใช่การทำนายผลสอบจริง</p>
     </div>
   </section>
 
-  <section class="bagian">
-    <div class="wadah">
-      <h2>เพิ่มเติม</h2>
-      <ul class="daftar">
-        <li>ประลอง 60 วินาที คำที่ยาก และคำที่บันทึกไว้</li>
-        <li>เตือนให้เรียนทุกวัน และแจ้งเตือนเมื่อการ์ดถึงกำหนด</li>
-        <li>การออกเสียงด้วยเสียงภาษาญี่ปุ่นในโทรศัพท์</li>
-        <li>สถิติ: วันเรียนต่อเนื่อง แผนที่กิจกรรม ความคืบหน้า</li>
-        <li>สำรองความคืบหน้าเป็นไฟล์ แล้วกู้คืนในโทรศัพท์เครื่องอื่น</li>
-        <li>หน้าจอแอปเป็นภาษาไทยและอีก 12 ภาษา ความหมายของคำฟรี 9,626 คำ คันจิ JLPT ทั้งหมด และชื่อหัวข้อเป็นภาษาไทยแล้ว คำที่เหลือแสดงเป็นภาษาอังกฤษและกำลังทยอยแปล</li>
-      </ul>
+  <section class="bagian" id="gratis">
+    <div class="wadah dua">
+      <article class="kartu gratis">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v4H4z"/><path d="M6 11v9h12v-9"/><path d="M12 7v13"/><path d="M12 7c-2-3-5-3-5-1s3 1 5 1c2 0 5-1 5-3s-3-1-5 1"/></svg></span><h3>เริ่มต้นใช้ฟรี</h3></div>
+        <p>Premium ปลดล็อกทุกคำและคันจิ <span class="rapat">N3–N1</span> ไม่มีโฆษณา และเรียนได้โดยไม่ต้องใช้อินเทอร์เน็ต เวอร์ชันฟรีต้องเชื่อมต่ออินเทอร์เน็ตเพื่อเริ่มบทเรียนหรือข้อสอบ</p>
+      </article>
+
     </div>
   </section>
 
   <section class="bagian">
-    <div class="wadah dua">
-      <article class="kartu">
-        <h3>เริ่มต้นใช้ฟรี</h3>
-        <p>เวอร์ชันฟรีมี 9,626 คำ — 100 คำแรกของทุกหัวข้อ ครอบคลุมคำศัพท์ <span class="rapat">JFT-Basic</span> 97% และ JLPT N5 91% — พร้อมคันจิ N5 และ N4 ทั้งหมด 284 ตัว มีโฆษณา ข้อสอบจำลองและพจนานุกรมใช้ได้ฟรีทั้งหมด</p>
-        <p class="kecil">Premium ปลดล็อกทุกคำและคันจิ <span class="rapat">N3–N1</span> ไม่มีโฆษณา และเรียนได้โดยไม่ต้องใช้อินเทอร์เน็ต เวอร์ชันฟรีต้องเชื่อมต่ออินเทอร์เน็ตเพื่อเริ่มบทเรียนหรือข้อสอบ</p>
-      </article>
-      <article class="kartu">
-        <h3>ความเป็นส่วนตัว</h3>
+    <div class="wadah">
+      <article class="kartu privasi-kartu">
+        <div class="kartu-kepala">
+          <span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+          <h3>ความเป็นส่วนตัว</h3>
+        </div>
         <p><b>ไม่ต้องมีบัญชี</b><br>ผู้พัฒนาไม่มีเซิร์ฟเวอร์ ข้อมูลการเรียนอยู่ในโทรศัพท์ของคุณและไม่ถูกส่งให้ผู้พัฒนา</p>
 
         <a class="tautan" href="../privacy/?lang=en">นโยบายความเป็นส่วนตัว &rarr;</a>
       </article>
     </div>
   </section>
+
+
 
 </main>
 
@@ -280,13 +272,45 @@
           ดาวน์โหลดได้ที่ Google Play
         </a>
       </div>
+      <p class="catatan">เริ่มต้นใช้ฟรี &middot; ไม่ต้องมีบัญชี &middot; Android 7.0+</p>
+    </div>
+    <div class="kaki-kolom">
+      <div>
+        <h3></h3>
+        <ul>
+
+        </ul>
+      </div>
+      <div>
+        <h3>เลือกภาษา</h3>
+        <ul class="kaki-bahasa">
+          <li><a href="../" lang="id" hreflang="id" data-bahasa="id">Bahasa Indonesia</a></li>
+          <li><a href="../en/" lang="en" hreflang="en" data-bahasa="en">English</a></li>
+          <li><a href="../vi/" lang="vi" hreflang="vi" data-bahasa="vi">Tiếng Việt</a></li>
+          <li><a href="../ne/" lang="ne" hreflang="ne" data-bahasa="ne">नेपाली</a></li>
+          <li><a href="../my/" lang="my" hreflang="my" data-bahasa="my">မြန်မာဘာသာ</a></li>
+          <li><a href="../fil/" lang="fil" hreflang="fil" data-bahasa="fil">Filipino</a></li>
+          <li><a href="../th/" lang="th" hreflang="th" data-bahasa="th">ไทย</a></li>
+          <li><a href="../km/" lang="km" hreflang="km" data-bahasa="km">ខ្មែរ</a></li>
+          <li><a href="../mn/" lang="mn" hreflang="mn" data-bahasa="mn">Монгол</a></li>
+          <li><a href="../si/" lang="si" hreflang="si" data-bahasa="si">සිංහල</a></li>
+          <li><a href="../bn/" lang="bn" hreflang="bn" data-bahasa="bn">বাংলা</a></li>
+          <li><a href="../hi/" lang="hi" hreflang="hi" data-bahasa="hi">हिन्दी</a></li>
+          <li><a href="../zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh">简体中文</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3></h3>
+        <ul>
+          <li><a href="../privacy/?lang=en">นโยบายความเป็นส่วนตัว</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">Google Play</a></li>
+          <li><a href="mailto:amdigracrative@gmail.com">ติดต่อเรา</a></li>
+        </ul>
+      </div>
     </div>
     <div class="kaki">
       <span>&copy; 2026 TokuGo</span>
-      <nav>
-        <a href="../privacy/?lang=en">นโยบายความเป็นส่วนตัว</a>
-        <a href="mailto:amdigracrative@gmail.com">ติดต่อเรา</a>
-      </nav>
+      <span class="sumber">JMdict/KANJIDIC &copy; EDRDG (CC BY-SA 4.0). KanjiVG (CC BY-SA 3.0).</span>
     </div>
   </div>
 </footer>
@@ -296,16 +320,18 @@
   // Bahasa yang dipilih sendiri diingat, supaya halaman akar tidak mengantar pengunjung
   // kembali ke bahasa HP-nya setiap kali dibuka.
   var pemilih = document.querySelector('.bahasa');
+  var menu = document.querySelector('.menu-kecil');
   pemilih.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-bahasa]') : null;
     if (a) { try { localStorage.setItem('bahasa', a.getAttribute('data-bahasa')); } catch (x) {} }
   });
-  // Daftar bahasa menutup sendiri saat mengetuk di luarnya atau menekan Esc.
+  // Daftar bahasa dan menu menutup sendiri saat mengetuk di luarnya atau menekan Esc.
   document.addEventListener('click', function (e) {
     if (pemilih.open && !pemilih.contains(e.target)) pemilih.open = false;
+    if (menu && menu.open && !menu.contains(e.target)) menu.open = false;
   });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') pemilih.open = false;
+    if (e.key === 'Escape') { pemilih.open = false; if (menu) menu.open = false; }
   });
   // Windows tidak punya gambar bendera di font emojinya dan menampilkan dua huruf kode
   // negara. Kalau begitu benderanya disembunyikan; kode bahasa di sebelahnya sudah cukup.
@@ -324,6 +350,5 @@
   } catch (x) {}
 })();
 </script>
-
 </body>
 </html>

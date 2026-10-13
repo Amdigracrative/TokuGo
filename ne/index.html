@@ -7,8 +7,8 @@
 <meta name="description" content="जापानी शब्द र कान्जी फ्ल्यासकार्ड, JFT-Basic र JLPT N5-N1 नमुना परीक्षा।">
 
 <!--
-  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html dan
-  docs/situs/sumber/teks/ne.json. Jangan disunting di sini: perubahan akan tertimpa.
+  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html (+ kepala.html,
+  kaki.html) dan docs/situs/sumber/teks/ne.json. Jangan disunting di sini: perubahan akan tertimpa.
 -->
 
 <link rel="canonical" href="https://tokugo.my.id/ne/">
@@ -26,7 +26,7 @@
 <link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/">
 <link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/">
 <link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
-
+<meta name="google-site-verification" content="P4mkrZ3cr1jIFx7Ld-NwLesI2c5FRTXcSXjfv0PfLzw">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="TokuGo">
 <meta property="og:locale" content="ne_NP">
@@ -48,33 +48,84 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "TokuGo",
-  "operatingSystem": "Android 7.0+",
-  "applicationCategory": "EducationalApplication",
-  "inLanguage": "ne",
-  "description": "जापानी शब्द र कान्जी फ्ल्यासकार्ड, JFT-Basic र JLPT N5-N1 नमुना परीक्षा।",
-  "url": "https://tokugo.my.id/ne/",
-  "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://tokugo.my.id/#aplikasi",
+      "name": "TokuGo",
+      "alternateName": "TokuGo: जापानी भाषा JLPT",
+      "operatingSystem": "Android 7.0+",
+      "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Language learning",
+      "inLanguage": "ne",
+      "description": "जापानी शब्द र कान्जी फ्ल्यासकार्ड, JFT-Basic र JLPT N5-N1 नमुना परीक्षा।",
+      "url": "https://tokugo.my.id/ne/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "image": "https://tokugo.my.id/aset/sampul-ne.jpg",
+      "screenshot": [
+        "https://tokugo.my.id/aset/layar/ne/kartu.webp",
+        "https://tokugo.my.id/aset/layar/ne/kerja.webp",
+        "https://tokugo.my.id/aset/layar/ne/deck.webp",
+        "https://tokugo.my.id/aset/layar/ne/kuis.webp",
+        "https://tokugo.my.id/aset/layar/ne/kanji.webp",
+        "https://tokugo.my.id/aset/layar/ne/ujian.webp",
+        "https://tokugo.my.id/aset/layar/ne/ujian-hasil.webp",
+        "https://tokugo.my.id/aset/layar/ne/beranda.webp",
+        "https://tokugo.my.id/aset/layar/ne/statistik.webp",
+        "https://tokugo.my.id/aset/layar/ne/kamus.webp",
+        "https://tokugo.my.id/aset/layar/ne/bahasa.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tokugo.my.id/#situs",
+      "url": "https://tokugo.my.id/",
+      "name": "TokuGo",
+      "inLanguage": "ne",
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://tokugo.my.id/#penerbit",
+      "name": "TokuGo",
+      "url": "https://tokugo.my.id/",
+      "logo": "https://tokugo.my.id/aset/ikon-192.png",
+      "email": "amdigracrative@gmail.com"
+    }
+  ]
 }
 </script>
 </head>
 
 <body>
-
+<a class="lompat" href="#isi">TokuGo</a>
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="./" aria-label="TokuGo">
       <img src="../aset/ikon-96.png" width="32" height="32" alt="">
       TokuGo
     </a>
-    <nav class="menu">
-      <a href="../privacy/?lang=en">गोपनीयता</a>
+    <nav class="navigasi" aria-label="TokuGo">
+      <ul class="menu-besar">
+
+      </ul>
+      <details class="menu-kecil">
+        <summary aria-label="Menu"><span class="garis-tiga" aria-hidden="true"></span>Menu</summary>
+        <ul>
+
+        </ul>
+      </details>
       <details class="bahasa">
         <summary aria-label="भाषा छान्नुहोस्"><span class="bendera" aria-hidden="true">🇳🇵</span><span class="kode">NE</span></summary>
         <ul>
@@ -97,11 +148,11 @@
   </div>
 </header>
 
-<div class="malam">
+<div class="malam pembuka-latar">
   <div class="wadah">
     <div class="pembuka">
       <div class="teks">
-        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span></span>
+        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span> &middot; Android</span>
         <h1>जापानी शब्द र कान्जी<br><b>काम र JLPT</b> का लागि</h1>
         <div class="garis-koral"></div>
         <p class="pengantar">TokuGo जापानी शब्दावली र कान्जीको फ्ल्यासकार्ड एप हो। यो विशिष्ट सीपयुक्त कामदार (SSW / Tokutei Ginou) भएर जापान जान <span class="rapat">JFT-Basic</span> तयारी गर्नेहरू र N5 देखि N1 सम्म JLPT पढ्नेहरूका लागि बनाइएको हो।</p>
@@ -110,77 +161,55 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
             Google Play बाट डाउनलोड गर्नुहोस्
           </a>
-
+          <a class="tautan-fitur" href="#fitur">साँच्चै याद रहने शब्दावली</a>
         </div>
         <p class="catatan">निःशुल्क सुरु गर्नुहोस् &middot; खाता चाहिँदैन &middot; Android 7.0+</p>
       </div>
 
       <div class="panggung">
-        <div class="hp">
-          <img src="../aset/layar/ne/kartu.webp" width="540" height="1200" fetchpriority="high" alt="TokuGo: जापानी भाषा JLPT">
+        <div class="hp hp-kedua">
+          <img src="../aset/layar/ne/beranda.webp" width="540" height="1200" alt="" loading="lazy">
+        </div>
+        <div class="hp hp-utama">
+          <img src="../aset/layar/ne/kartu.webp" width="540" height="1200" fetchpriority="high" alt="साँच्चै याद रहने शब्दावली">
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<main>
+<main id="isi">
 
   <div class="wadah">
     <ul class="angka">
-      <li><b>36,385</b><span>पठन र रोमाजीसहित जापानी शब्द</span></li>
+      <li><b>38,085</b><span>पठन र रोमाजीसहित जापानी शब्द</span></li>
       <li><b>2,230</b><span>स्ट्रोक क्रमसहित JLPT कान्जी</span></li>
-      <li><b>107</b><span>11 समूहमा विषय, जसमध्ये 21 कार्यस्थलका</span></li>
+      <li><b>95</b><span>11 समूहमा विषय, जसमध्ये 21 कार्यस्थलका</span></li>
       <li><b>6</b><span><span class="rapat">JFT-Basic</span> र JLPT <span class="rapat">N5–N1</span> नमुना परीक्षा</span></li>
     </ul>
   </div>
 
+
+
   <section class="bagian" id="fitur">
     <div class="wadah">
       <h2>साँच्चै याद रहने शब्दावली</h2>
-      <div class="inti">
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">覚</span>
-            <h3>तपाईं कहिले बिर्सनुहुन्छ भन्ने थाहा पाउने कार्ड</h3>
-          </div>
-          <p>हरेक कार्ड आधुनिक spaced repetition एल्गोरिदम FSRS ले तालिकामा राख्छ। तपाईं आफैं मूल्याङ्कन गर्नुहोस् — थाहा भएन, अनिश्चित वा थाहा छ — अनि एपले त्यो शब्द कहिले फेरि आउने भनेर हिसाब गर्छ: केही मिनेट, केही दिन वा केही हप्तापछि। समय हरेक बटनमा देखिन्छ।</p>
-          <div class="peraga">
-            <div class="nilai">
-              <span class="belum"><b>थाहा भएन</b><i>5 मिनेट</i></span>
-              <span class="ragu"><b>अनिश्चित</b><i>9 दिन</i></span>
-              <span class="hafal"><b>थाहा छ</b><i>17 दिन</i></span>
-            </div>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">証</span>
-            <h3>निपुण भएको प्रमाणित गर्नुपर्छ</h3>
-          </div>
-          <p>हरेक शब्द चार चरण पार गर्छ: नयाँ, सिक्दै, थाहा भयो, निपुण। निपुण बन्न 3 फरक दिन प्रश्नोत्तरमा सही जवाफ दिनुपर्छ। निपुण शब्दहरू पनि समय आएपछि फेरि जाँचिन्छन्, र गलत भए तल झर्छन्।</p>
-          <div class="peraga">
-            <ol class="tahap">
-              <li><span>नयाँ</span></li>
-              <li><span>सिक्दै</span></li>
-              <li><span>थाहा भयो</span></li>
-              <li class="puncak"><span>निपुण</span></li>
-            </ol>
-          </div>
-        </article>
-
-        <article class="kartu">
-          <div class="kartu-kepala">
-            <span class="ubin" lang="ja" aria-hidden="true">働</span>
-            <h3>जापानमा कामका लागि शब्द</h3>
-          </div>
-          <p>कार्यस्थलका 21 विषय: कार्यस्थल सुरक्षा, सुपरभाइजरका निर्देशन, सम्झौता र तलब, कारखाना, निर्माण, कृषि, माछापालन, वृद्ध हेरचाह, होटल, रेस्टुरेन्ट, खाद्य प्रशोधन र अन्य। घर भाडा, अध्यागमन, बैंक, अस्पताल, किनमेल र यातायातका विषय पनि छन्।</p>
-
-        </article>
-
-      </div>
+      <article class="fitur" id="f-kosakata">
+        <div class="fitur-teks"><h3>तपाईं कहिले बिर्सनुहुन्छ भन्ने थाहा पाउने कार्ड</h3><p>हरेक कार्ड आधुनिक spaced repetition एल्गोरिदम FSRS ले तालिकामा राख्छ। तपाईं आफैं मूल्याङ्कन गर्नुहोस् — थाहा भएन, अनिश्चित वा थाहा छ — अनि एपले त्यो शब्द कहिले फेरि आउने भनेर हिसाब गर्छ: केही मिनेट, केही दिन वा केही हप्तापछि। समय हरेक बटनमा देखिन्छ।</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/kartu.webp" width="540" height="1200" loading="lazy" alt="साँच्चै याद रहने शब्दावली"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/kuis.webp" width="540" height="1200" loading="lazy" alt="निपुण भएको प्रमाणित गर्नुपर्छ"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-tahap">
+        <div class="fitur-teks"><h3>निपुण भएको प्रमाणित गर्नुपर्छ</h3><p>हरेक शब्द चार चरण पार गर्छ: नयाँ, सिक्दै, थाहा भयो, निपुण। निपुण बन्न 3 फरक दिन प्रश्नोत्तरमा सही जवाफ दिनुपर्छ। निपुण शब्दहरू पनि समय आएपछि फेरि जाँचिन्छन्, र गलत भए तल झर्छन्।</p><ol class="tahap"><li><span>नयाँ</span></li><li><span>सिक्दै</span></li><li><span>थाहा भयो</span></li><li class="puncak"><span>निपुण</span></li></ol></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/deck.webp" width="540" height="1200" loading="lazy" alt="विषयअनुसार पढ्नुहोस्, हरेक शब्दको प्रगति हेर्नुहोस्"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/en/kuis-hasil.webp" width="540" height="1200" loading="lazy" alt="kuis-hasil"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-kerja">
+        <div class="fitur-teks"><h3>जापानमा कामका लागि शब्द</h3><p>कार्यस्थलका 21 विषय: कार्यस्थल सुरक्षा, सुपरभाइजरका निर्देशन, सम्झौता र तलब, कारखाना, निर्माण, कृषि, माछापालन, वृद्ध हेरचाह, होटल, रेस्टुरेन्ट, खाद्य प्रशोधन र अन्य। घर भाडा, अध्यागमन, बैंक, अस्पताल, किनमेल र यातायातका विषय पनि छन्।</p></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/kerja.webp" width="540" height="1200" loading="lazy" alt="तपाईंको कामअनुसार शब्द"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/deck.webp" width="540" height="1200" loading="lazy" alt="विषयअनुसार पढ्नुहोस्, हरेक शब्दको प्रगति हेर्नुहोस्"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-lain">
+        <div class="fitur-teks"><h3>थप सुविधा</h3><ul class="butir"><li>60 सेकेन्डको द्रुत अभ्यास, कठिन शब्द र बुकमार्क</li><li>दैनिक रिमाइन्डर र कार्ड दोहोर्याउने समयको सूचना</li><li>फोनको जापानी आवाजमा उच्चारण</li><li>तथ्याङ्क: लगातार दिन, गतिविधि नक्सा, प्रगति</li><li>प्रगति फाइलमा ब्याकअप गरी अर्को फोनमा फर्काउन सकिन्छ</li><li>एपको इन्टरफेस नेपाली र अरू 12 भाषामा छ। 9,406 निःशुल्क शब्द, सबै JLPT कान्जी र विषयका नामको अर्थ नेपालीमा छ; बाँकी शब्द अङ्ग्रेजीमा देखिन्छन् र क्रमशः अनुवाद हुँदै छन्।</li></ul></div>
+        <div class="fitur-layar"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/beranda.webp" width="540" height="1200" loading="lazy" alt="हरेक दिन थाहा हुन्छ के पढ्ने"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/statistik.webp" width="540" height="1200" loading="lazy" alt="तथ्याङ्क"></div></figure></div>
+      </article>
     </div>
   </section>
 
@@ -188,84 +217,47 @@
     <div class="wadah">
       <h2>के छ</h2>
       <div class="galeri" style="--kolom: 6">
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/kartu.webp" width="540" height="1200" loading="lazy" alt="साँच्चै याद रहने शब्दावली"></div>
-          <figcaption><b>साँच्चै<br>याद रहने शब्दावली</b><span>हरेक शब्द दोहोर्याउने समय आफैँ तय हुन्छ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/kerja.webp" width="540" height="1200" loading="lazy" alt="तपाईंको कामअनुसार शब्द"></div>
-          <figcaption><b>तपाईंको<br>कामअनुसार शब्द</b><span>निर्माणदेखि वृद्ध हेरचाहसम्म 21 विषय</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/deck.webp" width="540" height="1200" loading="lazy" alt="विषयअनुसार पढ्नुहोस्, हरेक शब्दको प्रगति हेर्नुहोस्"></div>
-          <figcaption><b>विषयअनुसार पढ्नुहोस्,<br>हरेक शब्दको प्रगति हेर्नुहोस्</b><span>कुन शब्द थाहा भयो र कुन बाँकी छ, हेर्नुहोस्</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/kuis.webp" width="540" height="1200" loading="lazy" alt="निपुण भएको प्रमाणित गर्नुपर्छ"></div>
-          <figcaption><b>निपुण भएको<br>प्रमाणित गर्नुपर्छ</b><span>3 फरक दिन प्रश्नोत्तरमा सही जवाफ</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/kanji.webp" width="540" height="1200" loading="lazy" alt="2,230 कान्जी, एक-एक स्ट्रोक"></div>
-          <figcaption><b>2,230 कान्जी,<br>एक-एक स्ट्रोक</b><span>उच्चारण, उदाहरण शब्द, कान्जी कार्ड र प्रश्नोत्तर</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/ujian.webp" width="540" height="1200" loading="lazy" alt="नमुना परीक्षा JFT-Basic &amp; JLPT"></div>
-          <figcaption><b>नमुना परीक्षा<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>आधिकारिक समय, उत्तीर्ण अङ्कसँग तुलना</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="JFT-Basic अभ्यासको नतिजा"></div>
-          <figcaption><b><span class="rapat">JFT-Basic</span> अभ्यासको नतिजा</b><span>कुल अंक · प्रश्न प्रकारअनुसार शुद्धता</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/beranda.webp" width="540" height="1200" loading="lazy" alt="हरेक दिन थाहा हुन्छ के पढ्ने"></div>
-          <figcaption><b>हरेक दिन थाहा हुन्छ<br>के पढ्ने</b><span>दोहोर्याउनुपर्ने कार्ड, नयाँ शब्द, 60 सेकेन्डको अभ्यास</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/statistik.webp" width="540" height="1200" loading="lazy" alt="तथ्याङ्क"></div>
-          <figcaption><b>तथ्याङ्क</b><span>लगातार दिन, गतिविधि नक्सा, प्रगति</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/kamus.webp" width="540" height="1200" loading="lazy" alt="पकेट शब्दकोश 36,385 शब्द"></div>
-          <figcaption><b>पकेट शब्दकोश<br>36,385 शब्द</b><span>कान्जी, काना, रोमाजी वा अर्थबाट खोज्नुहोस्</span></figcaption>
-        </figure>
-        <figure>
-          <div class="bingkai"><img src="../aset/layar/ne/bahasa.webp" width="540" height="1200" loading="lazy" alt="नेपालीमा प्रयोग गर्नुहोस्"></div>
-          <figcaption><b>नेपालीमा<br>प्रयोग गर्नुहोस्</b><span>इन्टरफेस र निःशुल्क शब्दका अर्थ नेपालीमा</span></figcaption>
-        </figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/kartu.webp" width="540" height="1200" loading="lazy" alt="साँच्चै याद रहने शब्दावली"></div><figcaption><b>साँच्चै<br>याद रहने शब्दावली</b><span>हरेक शब्द दोहोर्याउने समय आफैँ तय हुन्छ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/kerja.webp" width="540" height="1200" loading="lazy" alt="तपाईंको कामअनुसार शब्द"></div><figcaption><b>तपाईंको<br>कामअनुसार शब्द</b><span>निर्माणदेखि वृद्ध हेरचाहसम्म 21 विषय</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/deck.webp" width="540" height="1200" loading="lazy" alt="विषयअनुसार पढ्नुहोस्, हरेक शब्दको प्रगति हेर्नुहोस्"></div><figcaption><b>विषयअनुसार पढ्नुहोस्,<br>हरेक शब्दको प्रगति हेर्नुहोस्</b><span>कुन शब्द थाहा भयो र कुन बाँकी छ, हेर्नुहोस्</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/kuis.webp" width="540" height="1200" loading="lazy" alt="निपुण भएको प्रमाणित गर्नुपर्छ"></div><figcaption><b>निपुण भएको<br>प्रमाणित गर्नुपर्छ</b><span>3 फरक दिन प्रश्नोत्तरमा सही जवाफ</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/kanji.webp" width="540" height="1200" loading="lazy" alt="2,230 कान्जी, एक-एक स्ट्रोक"></div><figcaption><b>2,230 कान्जी,<br>एक-एक स्ट्रोक</b><span>उच्चारण, उदाहरण शब्द, कान्जी कार्ड र प्रश्नोत्तर</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/ujian.webp" width="540" height="1200" loading="lazy" alt="नमुना परीक्षा JFT-Basic &amp; JLPT"></div><figcaption><b>नमुना परीक्षा<br><span class="rapat">JFT-Basic</span> &amp; JLPT</b><span>आधिकारिक समय, उत्तीर्ण अङ्कसँग तुलना</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/ujian-hasil.webp" width="540" height="1200" loading="lazy" alt="JFT-Basic अभ्यासको नतिजा"></div><figcaption><b><span class="rapat">JFT-Basic</span> अभ्यासको नतिजा</b><span>कुल अंक · प्रश्न प्रकारअनुसार शुद्धता</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/beranda.webp" width="540" height="1200" loading="lazy" alt="हरेक दिन थाहा हुन्छ के पढ्ने"></div><figcaption><b>हरेक दिन थाहा हुन्छ<br>के पढ्ने</b><span>दोहोर्याउनुपर्ने कार्ड, नयाँ शब्द, 60 सेकेन्डको अभ्यास</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/statistik.webp" width="540" height="1200" loading="lazy" alt="तथ्याङ्क"></div><figcaption><b>तथ्याङ्क</b><span>लगातार दिन, गतिविधि नक्सा, प्रगति</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/kamus.webp" width="540" height="1200" loading="lazy" alt="पकेट शब्दकोश 38,085 शब्द"></div><figcaption><b>पकेट शब्दकोश<br>38,085 शब्द</b><span>कान्जी, काना, रोमाजी वा अर्थबाट खोज्नुहोस्</span></figcaption></figure>
+        <figure class="layar"><div class="bingkai"><img src="../aset/layar/ne/bahasa.webp" width="540" height="1200" loading="lazy" alt="नेपालीमा प्रयोग गर्नुहोस्"></div><figcaption><b>नेपालीमा<br>प्रयोग गर्नुहोस्</b><span>इन्टरफेस र निःशुल्क शब्दका अर्थ नेपालीमा</span></figcaption></figure>
       </div>
       <p class="catatan-galeri">अङ्क प्रगति हेर्ने अनुमान मात्र हो।</p>
     </div>
   </section>
 
-  <section class="bagian">
-    <div class="wadah">
-      <h2>थप सुविधा</h2>
-      <ul class="daftar">
-        <li>60 सेकेन्डको द्रुत अभ्यास, कठिन शब्द र बुकमार्क</li>
-        <li>दैनिक रिमाइन्डर र कार्ड दोहोर्याउने समयको सूचना</li>
-        <li>फोनको जापानी आवाजमा उच्चारण</li>
-        <li>तथ्याङ्क: लगातार दिन, गतिविधि नक्सा, प्रगति</li>
-        <li>प्रगति फाइलमा ब्याकअप गरी अर्को फोनमा फर्काउन सकिन्छ</li>
-        <li>एपको इन्टरफेस नेपाली र अरू 12 भाषामा छ। 9,626 निःशुल्क शब्द, सबै JLPT कान्जी र विषयका नामको अर्थ नेपालीमा छ; बाँकी शब्द अङ्ग्रेजीमा देखिन्छन् र क्रमशः अनुवाद हुँदै छन्।</li>
-      </ul>
+  <section class="bagian" id="gratis">
+    <div class="wadah dua">
+      <article class="kartu gratis">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v4H4z"/><path d="M6 11v9h12v-9"/><path d="M12 7v13"/><path d="M12 7c-2-3-5-3-5-1s3 1 5 1c2 0 5-1 5-3s-3-1-5 1"/></svg></span><h3>निःशुल्क सुरु गर्नुहोस्</h3></div>
+        <p>Premium ले सबै शब्द र <span class="rapat">N3–N1</span> कान्जी खोल्छ, विज्ञापन हटाउँछ, र इन्टरनेटबिना पढ्न दिन्छ। निःशुल्क संस्करणमा पाठ वा परीक्षा सुरु गर्न इन्टरनेट चाहिन्छ।</p>
+      </article>
+
     </div>
   </section>
 
   <section class="bagian">
-    <div class="wadah dua">
-      <article class="kartu">
-        <h3>निःशुल्क सुरु गर्नुहोस्</h3>
-        <p>निःशुल्क संस्करणमा 9,626 शब्द छन् — हरेक विषयका पहिला 100, जसले <span class="rapat">JFT-Basic</span> शब्दावलीको 97% र JLPT N5 को 91% समेट्छ — साथै सबै 284 N5 र N4 कान्जी, विज्ञापनसहित। सबै नमुना परीक्षा र शब्दकोश निःशुल्क छन्।</p>
-        <p class="kecil">Premium ले सबै शब्द र <span class="rapat">N3–N1</span> कान्जी खोल्छ, विज्ञापन हटाउँछ, र इन्टरनेटबिना पढ्न दिन्छ। निःशुल्क संस्करणमा पाठ वा परीक्षा सुरु गर्न इन्टरनेट चाहिन्छ।</p>
-      </article>
-      <article class="kartu">
-        <h3>गोपनीयता</h3>
+    <div class="wadah">
+      <article class="kartu privasi-kartu">
+        <div class="kartu-kepala">
+          <span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+          <h3>गोपनीयता</h3>
+        </div>
         <p><b>खाता चाहिँदैन</b><br>विकासकर्ताको सर्भर छैन: तपाईंको अध्ययन रेकर्ड तपाईंकै फोनमा रहन्छ र कहिल्यै विकासकर्तालाई पठाइँदैन।</p>
 
         <a class="tautan" href="../privacy/?lang=en">गोपनीयता नीति &rarr;</a>
       </article>
     </div>
   </section>
+
+
 
 </main>
 
@@ -280,13 +272,45 @@
           Google Play बाट डाउनलोड गर्नुहोस्
         </a>
       </div>
+      <p class="catatan">निःशुल्क सुरु गर्नुहोस् &middot; खाता चाहिँदैन &middot; Android 7.0+</p>
+    </div>
+    <div class="kaki-kolom">
+      <div>
+        <h3></h3>
+        <ul>
+
+        </ul>
+      </div>
+      <div>
+        <h3>भाषा छान्नुहोस्</h3>
+        <ul class="kaki-bahasa">
+          <li><a href="../" lang="id" hreflang="id" data-bahasa="id">Bahasa Indonesia</a></li>
+          <li><a href="../en/" lang="en" hreflang="en" data-bahasa="en">English</a></li>
+          <li><a href="../vi/" lang="vi" hreflang="vi" data-bahasa="vi">Tiếng Việt</a></li>
+          <li><a href="../ne/" lang="ne" hreflang="ne" data-bahasa="ne">नेपाली</a></li>
+          <li><a href="../my/" lang="my" hreflang="my" data-bahasa="my">မြန်မာဘာသာ</a></li>
+          <li><a href="../fil/" lang="fil" hreflang="fil" data-bahasa="fil">Filipino</a></li>
+          <li><a href="../th/" lang="th" hreflang="th" data-bahasa="th">ไทย</a></li>
+          <li><a href="../km/" lang="km" hreflang="km" data-bahasa="km">ខ្មែរ</a></li>
+          <li><a href="../mn/" lang="mn" hreflang="mn" data-bahasa="mn">Монгол</a></li>
+          <li><a href="../si/" lang="si" hreflang="si" data-bahasa="si">සිංහල</a></li>
+          <li><a href="../bn/" lang="bn" hreflang="bn" data-bahasa="bn">বাংলা</a></li>
+          <li><a href="../hi/" lang="hi" hreflang="hi" data-bahasa="hi">हिन्दी</a></li>
+          <li><a href="../zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh">简体中文</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3></h3>
+        <ul>
+          <li><a href="../privacy/?lang=en">गोपनीयता नीति</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">Google Play</a></li>
+          <li><a href="mailto:amdigracrative@gmail.com">सम्पर्क</a></li>
+        </ul>
+      </div>
     </div>
     <div class="kaki">
       <span>&copy; 2026 TokuGo</span>
-      <nav>
-        <a href="../privacy/?lang=en">गोपनीयता नीति</a>
-        <a href="mailto:amdigracrative@gmail.com">सम्पर्क</a>
-      </nav>
+      <span class="sumber">JMdict/KANJIDIC &copy; EDRDG (CC BY-SA 4.0). KanjiVG (CC BY-SA 3.0).</span>
     </div>
   </div>
 </footer>
@@ -296,16 +320,18 @@
   // Bahasa yang dipilih sendiri diingat, supaya halaman akar tidak mengantar pengunjung
   // kembali ke bahasa HP-nya setiap kali dibuka.
   var pemilih = document.querySelector('.bahasa');
+  var menu = document.querySelector('.menu-kecil');
   pemilih.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-bahasa]') : null;
     if (a) { try { localStorage.setItem('bahasa', a.getAttribute('data-bahasa')); } catch (x) {} }
   });
-  // Daftar bahasa menutup sendiri saat mengetuk di luarnya atau menekan Esc.
+  // Daftar bahasa dan menu menutup sendiri saat mengetuk di luarnya atau menekan Esc.
   document.addEventListener('click', function (e) {
     if (pemilih.open && !pemilih.contains(e.target)) pemilih.open = false;
+    if (menu && menu.open && !menu.contains(e.target)) menu.open = false;
   });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') pemilih.open = false;
+    if (e.key === 'Escape') { pemilih.open = false; if (menu) menu.open = false; }
   });
   // Windows tidak punya gambar bendera di font emojinya dan menampilkan dua huruf kode
   // negara. Kalau begitu benderanya disembunyikan; kode bahasa di sebelahnya sudah cukup.
@@ -324,6 +350,5 @@
   } catch (x) {}
 })();
 </script>
-
 </body>
 </html>
