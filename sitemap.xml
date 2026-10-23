@@ -17,6 +17,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -36,6 +40,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -55,6 +63,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -74,6 +86,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -93,6 +109,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -112,6 +132,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -131,6 +155,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -150,6 +178,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -169,6 +201,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -188,6 +224,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -207,6 +247,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -226,6 +270,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -245,6 +293,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -264,6 +316,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -283,6 +339,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -302,6 +362,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -321,6 +385,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -340,6 +408,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -359,6 +431,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -378,6 +454,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -397,6 +477,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -416,6 +500,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -435,6 +523,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -454,6 +546,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -473,6 +569,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -492,6 +592,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -511,6 +615,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -530,6 +638,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -549,6 +661,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -568,6 +684,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -587,6 +707,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -606,6 +730,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -625,6 +753,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -644,6 +776,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -663,6 +799,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -682,6 +822,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -701,6 +845,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -720,6 +868,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -739,6 +891,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -758,6 +914,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -777,6 +937,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -796,6 +960,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -815,6 +983,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -834,6 +1006,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -853,6 +1029,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -872,6 +1052,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -891,6 +1075,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -910,6 +1098,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -929,6 +1121,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -948,6 +1144,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -967,6 +1167,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -986,6 +1190,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -1005,6 +1213,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -1024,6 +1236,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -1043,6 +1259,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -1062,6 +1282,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -1081,6 +1305,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -1100,6 +1328,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -1119,6 +1351,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -1138,6 +1374,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -1157,6 +1397,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -1176,6 +1420,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -1195,6 +1443,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -1214,6 +1466,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -1233,6 +1489,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -1252,6 +1512,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -1271,6 +1535,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -1290,6 +1558,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -1309,6 +1581,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -1328,6 +1604,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -1347,6 +1627,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -1366,6 +1650,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -1385,6 +1673,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -1404,6 +1696,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -1423,6 +1719,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -1442,6 +1742,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -1461,6 +1765,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -1480,6 +1788,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -1499,6 +1811,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -1518,6 +1834,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -1537,6 +1857,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -1556,6 +1880,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -1575,6 +1903,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -1594,6 +1926,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -1613,6 +1949,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -1632,6 +1972,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -1651,6 +1995,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -1670,6 +2018,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -1689,6 +2041,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -1708,6 +2064,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -1727,6 +2087,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -1746,6 +2110,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -1765,6 +2133,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -1784,6 +2156,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -1803,6 +2179,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -1822,6 +2202,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
@@ -1841,6 +2225,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
   </url>
   <url>
@@ -1860,6 +2248,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
   </url>
   <url>
@@ -1879,6 +2271,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
   </url>
   <url>
@@ -1898,6 +2294,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
   </url>
   <url>
@@ -1917,6 +2317,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
   </url>
   <url>
@@ -1936,6 +2340,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
   </url>
   <url>
@@ -1955,6 +2363,10 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
   </url>
   <url>
@@ -1974,6 +2386,746 @@
     <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
     <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-tw/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-tw/vocabulary/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-tw/kanji/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-tw/exam-practice/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-tw/hiragana-katakana/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-tw/grammar/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-tw/listen-speak-write/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-tw/faq/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/faq/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/faq/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/faq/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/faq/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/faq/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/faq/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/faq/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-hk/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-hk/vocabulary/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-hk/kanji/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-hk/exam-practice/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-hk/hiragana-katakana/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-hk/grammar/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-hk/listen-speak-write/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/zh-hk/faq/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/faq/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/faq/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/faq/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/faq/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/faq/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/faq/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/faq/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ko/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ko/vocabulary/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ko/kanji/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ko/exam-practice/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ko/hiragana-katakana/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ko/grammar/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ko/listen-speak-write/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ko/faq/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/faq/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/faq/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/faq/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/faq/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/faq/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/faq/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/faq/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ja/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ja/vocabulary/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/vocabulary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/vocabulary/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ja/kanji/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/kanji/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/kanji/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ja/exam-practice/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/exam-practice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/exam-practice/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ja/hiragana-katakana/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/hiragana-katakana/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/hiragana-katakana/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ja/grammar/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/grammar/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ja/listen-speak-write/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/listen-speak-write/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/listen-speak-write/"/>
+  </url>
+  <url>
+    <loc>https://tokugo.my.id/ja/faq/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/faq/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/faq/"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/faq/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/faq/"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/faq/"/>
+    <xhtml:link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/faq/"/>
+    <xhtml:link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/faq/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/faq/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/faq/"/>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/faq/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>

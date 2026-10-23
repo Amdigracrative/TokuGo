@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TokuGo：JFT-Basic と JLPT のための日本語学習</title>
+<meta name="description" content="日本語をゼロから試験当日まで学べる Android アプリ：ひらがな、カタカナ、単語フラッシュカード 38,085 語、漢字 2,230 字、N5〜N1 の文法レッスン 268、日常会話 48、JFT-Basic・JLPT N5–N1 の模擬試験 24 セット。無料で始められ、アカウントは不要です。">
+
+<!--
+  DIHASILKAN MESIN oleh docs/situs/bangun.py dari docs/situs/sumber/halaman.html (+ kepala.html,
+  kaki.html) dan docs/situs/sumber/teks/ja.json. Jangan disunting di sini: perubahan akan tertimpa.
+-->
+
+<link rel="canonical" href="https://tokugo.my.id/ja/">
+<link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/">
+<link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/">
+<link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/">
+<link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/">
+<link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/">
+<link rel="alternate" hreflang="tl" href="https://tokugo.my.id/fil/">
+<link rel="alternate" hreflang="th" href="https://tokugo.my.id/th/">
+<link rel="alternate" hreflang="km" href="https://tokugo.my.id/km/">
+<link rel="alternate" hreflang="mn" href="https://tokugo.my.id/mn/">
+<link rel="alternate" hreflang="si" href="https://tokugo.my.id/si/">
+<link rel="alternate" hreflang="bn" href="https://tokugo.my.id/bn/">
+<link rel="alternate" hreflang="hi" href="https://tokugo.my.id/hi/">
+<link rel="alternate" hreflang="zh-CN" href="https://tokugo.my.id/zh/">
+<link rel="alternate" hreflang="zh-TW" href="https://tokugo.my.id/zh-tw/">
+<link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/">
+<link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/">
+<link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/">
+<link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/">
+<meta name="google-site-verification" content="P4mkrZ3cr1jIFx7Ld-NwLesI2c5FRTXcSXjfv0PfLzw">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TokuGo">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:url" content="https://tokugo.my.id/ja/">
+<meta property="og:title" content="TokuGo：JFT-Basic と JLPT のための日本語学習">
+<meta property="og:description" content="日本語をゼロから試験当日まで学べる Android アプリ：ひらがな、カタカナ、単語フラッシュカード 38,085 語、漢字 2,230 字、N5〜N1 の文法レッスン 268、日常会話 48、JFT-Basic・JLPT N5–N1 の模擬試験 24 セット。無料で始められ、アカウントは不要です。">
+<meta property="og:image" content="https://tokugo.my.id/aset/sampul-ja.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="theme-color" content="#25214A">
+<link rel="icon" type="image/png" sizes="32x32" href="../aset/ikon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../aset/ikon-192.png">
+<link rel="apple-touch-icon" href="../aset/ikon-192.png">
+<link rel="preload" href="../aset/font/sourcesans3-latin.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="../aset/situs.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://tokugo.my.id/#aplikasi",
+      "name": "TokuGo",
+      "alternateName": "TokuGo：JFT-Basic と JLPT のための日本語学習",
+      "operatingSystem": "Android 7.0+",
+      "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Language learning",
+      "inLanguage": "ja",
+      "description": "日本語をゼロから試験当日まで学べる Android アプリ：ひらがな、カタカナ、単語フラッシュカード 38,085 語、漢字 2,230 字、N5〜N1 の文法レッスン 268、日常会話 48、JFT-Basic・JLPT N5–N1 の模擬試験 24 セット。無料で始められ、アカウントは不要です。",
+      "url": "https://tokugo.my.id/ja/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.tokugo.app",
+      "image": "https://tokugo.my.id/aset/sampul-ja.jpg",
+      "screenshot": [
+        "https://tokugo.my.id/aset/layar/ja/beranda.webp",
+        "https://tokugo.my.id/aset/layar/ja/kartu.webp",
+        "https://tokugo.my.id/aset/layar/ja/deck.webp",
+        "https://tokugo.my.id/aset/layar/ja/kuis.webp",
+        "https://tokugo.my.id/aset/layar/ja/kamus.webp",
+        "https://tokugo.my.id/aset/layar/ja/kanji-tab.webp",
+        "https://tokugo.my.id/aset/layar/ja/kanji-deck.webp",
+        "https://tokugo.my.id/aset/layar/ja/kanji.webp",
+        "https://tokugo.my.id/aset/layar/ja/kanji-detail.webp",
+        "https://tokugo.my.id/aset/layar/ja/tulis-kanji.webp"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tokugo.my.id/#situs",
+      "url": "https://tokugo.my.id/",
+      "name": "TokuGo",
+      "inLanguage": "ja",
+      "publisher": {
+        "@id": "https://tokugo.my.id/#penerbit"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://tokugo.my.id/#penerbit",
+      "name": "TokuGo",
+      "url": "https://tokugo.my.id/",
+      "logo": "https://tokugo.my.id/aset/ikon-192.png",
+      "email": "amdigracrative@gmail.com"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "TokuGo は無料ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。広告つきの無料版で、9,406 語（各トピックの上位 100 語）、N5・N4 の漢字すべて、ひらがな、カタカナ、漢字入門、N5・N4 文法、最初の 3 つの会話場面、全模擬試験セット（レベルごとに 7 日間の間隔あり）、辞書、音声デッキ 3 つを使えます。プレミアムでは、すべての単語と漢字、N3〜N1 文法とすべての会話が使えるようになり、広告がなくなり、オフライン学習と間隔なしの模擬試験が加わります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "オフラインで使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "コンテンツはすべてアプリに入っていて、学習中に何かをダウンロードすることはありません。無料版では、学習や模擬試験を始めるときにインターネット接続が必要です。プレミアムは完全にオフラインで使えます。日本語の音声はスマホの音声読み上げ（TTS）エンジンを使うため、音声データを一度インストールする必要があります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "アカウントは必要ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。アカウント、登録、パスワードはありません。学習記録はスマホに保存されます。新しいスマホに移るときは、サイドパネルからバックアップファイルを書き出し、新しいスマホで読み込んでください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どの言語に対応していますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "表示言語は 17 です：インドネシア語、英語、ベトナム語、ネパール語、ミャンマー語、フィリピン語、タイ語、クメール語、モンゴル語、シンハラ語、ベンガル語、ヒンディー語、中国語（簡体字）、中国語（繁体字、台湾・香港）、韓国語、日本語。単語と漢字の意味は日本語以外のすべての言語でそろっていて、日本語の画面では英語の意味が表示されます。文法レッスン、会話、模擬試験の解説は 14 言語で用意しており、中国語（簡体字）と日本語の画面では英語で表示されます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "模擬試験のスコアは公式のスコアと同じですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。TokuGo のスコアは正答率にもとづく目安で、上達を確かめるためのものです。公式の試験は別の尺度得点を使っており、スマホの音声読み上げによる聴解の声も機種によって異なります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "単語、漢字、問題はどこから来ていますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "単語と漢字は JMdict と KANJIDIC（Electronic Dictionary Research and Development Group）、筆順は KanjiVG、単語の頻度は wordfreq によるものです。文法レッスンと模擬試験の問題はすべて TokuGo のために書き下ろし、公開前に何度も見直しています。公式の問題は一切コピーしていません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どのスマホで使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Android 7.0 以上。発音と聴解問題には、スマホに日本語の音声（ふつうは Google の音声認識・合成）が必要です。ない場合は、アプリがインストール方法を案内します。"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+<a class="lompat" href="#isi">本文へスキップ</a>
+<header class="kepala">
+  <div class="wadah">
+    <a class="merek" href="./" aria-label="TokuGo">
+      <img src="../aset/ikon-96.png" width="32" height="32" alt="">
+      TokuGo
+    </a>
+    <nav class="navigasi" aria-label="機能">
+      <ul class="menu-besar">
+          <li><a href="./vocabulary/">単語</a></li>
+          <li><a href="./kanji/">漢字</a></li>
+          <li><a href="./exam-practice/">模擬試験</a></li>
+          <li><a href="./hiragana-katakana/">ひらがな・カタカナ</a></li>
+          <li><a href="./grammar/">文法</a></li>
+          <li><a href="./listen-speak-write/">聞く・話す・書く</a></li>
+          <li><a href="./faq/">よくある質問</a></li>
+      </ul>
+      <details class="menu-kecil">
+        <summary aria-label="メニュー"><span class="garis-tiga" aria-hidden="true"></span>メニュー</summary>
+        <ul>
+          <li><a href="./vocabulary/">単語</a></li>
+          <li><a href="./kanji/">漢字</a></li>
+          <li><a href="./exam-practice/">模擬試験</a></li>
+          <li><a href="./hiragana-katakana/">ひらがな・カタカナ</a></li>
+          <li><a href="./grammar/">文法</a></li>
+          <li><a href="./listen-speak-write/">聞く・話す・書く</a></li>
+          <li><a href="./faq/">よくある質問</a></li>
+        </ul>
+      </details>
+      <details class="bahasa">
+        <summary aria-label="言語を選択"><span class="bendera" aria-hidden="true">🇯🇵</span><span class="kode">JA</span></summary>
+        <ul>
+          <li><a href="../id/" lang="id" hreflang="id" data-bahasa="id"><span class="bendera" aria-hidden="true">🇮🇩</span>Bahasa Indonesia</a></li>
+          <li><a href="../en/" lang="en" hreflang="en" data-bahasa="en"><span class="bendera" aria-hidden="true">🇬🇧</span>English</a></li>
+          <li><a href="../vi/" lang="vi" hreflang="vi" data-bahasa="vi"><span class="bendera" aria-hidden="true">🇻🇳</span>Tiếng Việt</a></li>
+          <li><a href="../ne/" lang="ne" hreflang="ne" data-bahasa="ne"><span class="bendera" aria-hidden="true">🇳🇵</span>नेपाली</a></li>
+          <li><a href="../my/" lang="my" hreflang="my" data-bahasa="my"><span class="bendera" aria-hidden="true">🇲🇲</span>မြန်မာဘာသာ</a></li>
+          <li><a href="../fil/" lang="fil" hreflang="tl" data-bahasa="fil"><span class="bendera" aria-hidden="true">🇵🇭</span>Filipino</a></li>
+          <li><a href="../th/" lang="th" hreflang="th" data-bahasa="th"><span class="bendera" aria-hidden="true">🇹🇭</span>ไทย</a></li>
+          <li><a href="../km/" lang="km" hreflang="km" data-bahasa="km"><span class="bendera" aria-hidden="true">🇰🇭</span>ខ្មែរ</a></li>
+          <li><a href="../mn/" lang="mn" hreflang="mn" data-bahasa="mn"><span class="bendera" aria-hidden="true">🇲🇳</span>Монгол</a></li>
+          <li><a href="../si/" lang="si" hreflang="si" data-bahasa="si"><span class="bendera" aria-hidden="true">🇱🇰</span>සිංහල</a></li>
+          <li><a href="../bn/" lang="bn" hreflang="bn" data-bahasa="bn"><span class="bendera" aria-hidden="true">🇧🇩</span>বাংলা</a></li>
+          <li><a href="../hi/" lang="hi" hreflang="hi" data-bahasa="hi"><span class="bendera" aria-hidden="true">🇮🇳</span>हिन्दी</a></li>
+          <li><a href="../zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh"><span class="bendera" aria-hidden="true">🇨🇳</span>简体中文</a></li>
+          <li><a href="../zh-tw/" lang="zh-TW" hreflang="zh-TW" data-bahasa="zh-tw"><span class="bendera" aria-hidden="true">🇹🇼</span>繁體中文（台灣）</a></li>
+          <li><a href="../zh-hk/" lang="zh-HK" hreflang="zh-HK" data-bahasa="zh-hk"><span class="bendera" aria-hidden="true">🇭🇰</span>繁體中文（香港）</a></li>
+          <li><a href="../ko/" lang="ko" hreflang="ko" data-bahasa="ko"><span class="bendera" aria-hidden="true">🇰🇷</span>한국어</a></li>
+          <li><a href="../ja/" lang="ja" hreflang="ja" data-bahasa="ja" aria-current="true"><span class="bendera" aria-hidden="true">🇯🇵</span>日本語</a></li>
+        </ul>
+      </details>
+    </nav>
+  </div>
+</header>
+<script>
+/* Menu lebar yang tidak muat (bahasa berlabel panjang) diganti menu ringkas, di lebar layar berapa pun. */
+(function () {
+  var akar = document.documentElement, nav = document.querySelector('.navigasi');
+  function ukur() {
+    akar.classList.remove('menu-ringkas');
+    if (nav.scrollWidth > nav.clientWidth + 1) akar.classList.add('menu-ringkas');
+  }
+  ukur();
+  window.addEventListener('resize', ukur);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ukur);
+})();
+</script>
+
+<div class="malam pembuka-latar">
+  <div class="wadah">
+    <div class="pembuka">
+      <div class="teks">
+        <span class="label"><span class="rapat">JFT-Basic</span> &middot; JLPT <span class="rapat">N5–N1</span> &middot; Android</span>
+        <h1>日本語をゼロから、<b><span class="rapat">JFT-Basic</span> と JLPT の合格まで</b></h1>
+        <div class="garis-koral"></div>
+        <p class="pengantar">TokuGo は、<span class="rapat">JFT-Basic</span> に合格する必要がある特定技能（SSW / Tokutei Ginou）の受験者と、JLPT N5〜N1 を目指す学習者のための Android アプリです。ひらがな・カタカナ、間隔反復で覚える単語と漢字のフラッシュカード、文法レッスン、本番の試験と同じ形式の模擬試験セットを収録しています。</p>
+        <div class="aksi">
+          <a class="tombol" href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
+            Google Play で手に入れよう
+          </a>
+          <a class="tautan-fitur" href="#fitur">すべての機能を見る</a>
+        </div>
+        <p class="catatan">無料で始められます &middot; アカウント不要 &middot; 表示言語 17 &middot; Android 7.0 以上</p>
+      </div>
+
+      <div class="panggung">
+        <div class="hp hp-kiri"><img src="../aset/layar/ja/soal-dengar.webp" width="720" height="1600" alt="" loading="lazy"></div>
+        <div class="hp hp-kanan"><img src="../aset/layar/ja/kartu.webp" width="720" height="1600" alt="" loading="lazy"></div>
+        <div class="hp hp-utama"><img src="../aset/layar/ja/beranda.webp" width="720" height="1600" fetchpriority="high" alt="TokuGo のホーム画面：日本のことわざのあいさつカード、1 日の目標のリング、7 日間の記録、「単語を学習」と「漢字を復習」の入口、「続きから」の一覧"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main id="isi">
+
+  <div class="wadah">
+    <ul class="angka">
+      <li><b>38,085</b><span>語（読み・ローマ字・意味つき）</span></li>
+      <li><b>2,230</b><span>字の JLPT 漢字（筆順つき）</span></li>
+      <li><b>95</b><span>の単語トピック（うち職場 21）</span></li>
+      <li><b>24</b><span>セットの模擬試験（<span class="rapat">JFT-Basic</span>・JLPT <span class="rapat">N5–N1</span>）</span></li>
+      <li><b>268</b><span>の文法レッスン（<span class="rapat">N5–N1</span>、練習つき）</span></li>
+      <li><b>17</b><span>の表示言語</span></li>
+    </ul>
+  </div>
+
+  <section class="bagian" id="jalur">
+    <div class="wadah">
+      <span class="label-kecil">学習の道すじ</span>
+      <h2>どこから始めても大丈夫。おすすめの順番はこちらです。</h2>
+      <p class="pengantar-bagian">初日からすべての機能が使えます。ホーム画面は始める場所を一つ提案するだけで、こなすべきチェックリストはありません。</p>
+      <ol class="jalur">
+        <li><span class="nomor" aria-hidden="true">1</span><b><a href="./hiragana-katakana/">かな</a></b><span>ひらがなとカタカナ：表、音、筆順、クイズ</span></li>
+        <li><span class="nomor" aria-hidden="true">2</span><b><a href="./vocabulary/">単語</a></b><span>トピック別の単語フラッシュカード、FSRS で復習を管理</span></li>
+        <li><span class="nomor" aria-hidden="true">3</span><b><a href="./grammar/">文法</a></b><span>例文と練習つきの <span class="rapat">N5–N1</span> レッスン 268</span></li>
+        <li><span class="nomor" aria-hidden="true">4</span><b><a href="./kanji/">漢字</a></b><span>日本の学校の順番で 25 字ずつのセット</span></li>
+        <li><span class="nomor" aria-hidden="true">5</span><b><a href="./exam-practice/">試験</a></b><span>公式の科目と時間に合わせた問題セット</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="bagian" id="fitur">
+    <div class="wadah">
+      <h2>TokuGo でできること</h2>
+      <article class="fitur" id="f-kosakata">
+        <div class="fitur-teks"><span class="label-kecil">単語</span><h3>しっかり身につく単語学習</h3><p>どのカードも、最新の間隔反復アルゴリズム FSRS で復習の時期が決まります。自分で評価すると、アプリがその単語を次にいつ出すかを計算し、次の間隔は各ボタンに表示されます。単語は未学習から学習中、覚えたを経て習得済みへと進み、最後の段階にはクイズでしか上がれません。</p><div class="peraga" aria-hidden="true"><div class="nilai"><span class="belum"><b>わからない</b><i>5分</i></span><span class="ragu"><b>自信なし</b><i>6日</i></span><span class="hafal"><b>わかる</b><i>14日</i></span></div><ol class="tahap"><li><span>未学習</span></li><li><span>学習中</span></li><li><span>覚えた</span></li><li class="puncak"><span>習得済み</span></li></ol></div><ul class="butir"><li><b>11 分野・95 トピック。</b>職場分野には、上司の指示、職場の安全、勤務シフトや契約から、工場、建設、農業、飲食店、宿泊、介護まで 21 のトピックがあります。</li><li><b>デッキごとに 1 画面。</b>達成率、全単語の学習状況、「学習」と「クイズ」のボタン。</li><li><b>38,085 語のポケット辞書。</b>漢字、かな、ローマ字、意味で検索できます。</li></ul><p class="tautan-baris"><a class="tautan" href="./vocabulary/">単語の機能をくわしく &rarr;</a></p></div>
+        <div class="fitur-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kartu.webp" width="720" height="1600" loading="lazy" decoding="async" alt="裏返した 確認 のカード：読み、ローマ字、意味、構成する漢字、そして間隔つきの「わからない」「自信なし」「わかる」のボタン"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/deck.webp" width="720" height="1600" loading="lazy" decoding="async" alt="「Instructions from Supervisors」（上司の指示）デッキ：進み具合のリング、「学習」と「クイズ」のボタン、学習中・覚えた・習得済みが表示された単語一覧"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-kanji">
+        <div class="fitur-teks"><span class="label-kecil">漢字</span><h3>2,230 字の漢字を、セットごとに一画ずつ</h3><p>JLPT の各レベルの漢字を約 25 字ずつのセットに分け、日本の小学生が習う順番、つまり画数の少ないものから並べています。どの漢字にも、意味、ローマ字つきの音読み・訓読み、筆順の図、例語があります。</p><ul class="butir"><li><b>漢字カードとクイズ</b>は、単語と同じ段階で進みます。</li><li><b>漢字の復習</b>では、全セットから復習時期の漢字をまとめて出題します。</li><li><b>指で漢字を書く：</b>一画ごとに形、向き、書き順をチェックします。</li></ul><p class="tautan-baris"><a class="tautan" href="./kanji/">漢字の機能をくわしく &rarr;</a></p></div>
+        <div class="fitur-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kanji-tab.webp" width="720" height="1600" loading="lazy" decoding="async" alt="漢字タブの N5 レベル：漢字のセットごとの漢字、進み具合のバー、覚えた数と習得済みの数"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kanji.webp" width="720" height="1600" loading="lazy" decoding="async" alt="裏返した 金 の漢字カード：意味、音読みと訓読み、筆順、例語"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-ujian">
+        <div class="fitur-teks"><span class="label-kecil">模擬試験</span><h3>本番と同じ形式の問題セット</h3><p><span class="rapat">JFT-Basic</span> と JLPT N5〜N1 の問題セットが 24。どのセットも本番の科目、問題数、制限時間に合わせています。問題には絵、文書、アナウンスが出てきて、聴解はスマホの日本語音声が読み上げます。</p><ul class="butir"><li><b>公式の成績表と同じ形の結果：</b><span class="rapat">JFT-Basic</span> は <span class="rapat">10–250</span> のスコアと A1・A2.1・<span class="rapat">A2.2</span> の区分で、JLPT は科目別の得点と基準点で表示します。</li><li><b>全問に解説つき。</b>解き終わったあと、聴解のスクリプトも確認できます。</li><li><b>無料版でも全セットを利用できます。</b>レベルごとに 7 日間の間隔があります。</li></ul><p class="tautan-baris"><a class="tautan" href="./exam-practice/">模擬試験の機能をくわしく &rarr;</a></p></div>
+        <div class="fitur-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/soal-dengar.webp" width="720" height="1600" loading="lazy" decoding="async" alt="オーディオプレーヤーと三つの絵の選択肢がある聴解問題"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/hasil.webp" width="720" height="1600" loading="lazy" decoding="async" alt="JFT-Basic の模擬試験の結果：A1、A2.1、A2.2 の区分が記された 10–250 の線上のスコアと、パートごとの正答率"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-dasar">
+        <div class="fitur-teks"><span class="label-kecil">日本語の基礎</span><h3>ゼロから：文字、漢字入門、文法、会話</h3><p>まだ日本語の文字が読めませんか？ TokuGo のひらがな表・カタカナ表は、そのままレッスン一覧になっています。文字をタップして音を聞き、筆順を見て、行ごとのクイズに挑戦しましょう。漢字入門では漢字のしくみを、N5〜N1 の文法レッスン 268 では文型を一つずつ説明し、短い会話 48 で日常の場面に使ってみます。</p><ul class="butir"><li><b>もう読める言葉</b>がどのレッスンにも出てきます。それまでに習った文字だけでできた、実際の単語です。</li><li><b>文法レッスンはどれも</b>、文型、作り方、聞けるふりがなつき例文、最後に短い練習という構成です。</li><li><b>レッスンとクイズの画面に広告はありません。</b>ひらがな、カタカナ、漢字入門、N5・N4 文法、最初の 3 つの会話場面は無料です。</li></ul><p class="tautan-baris"><a class="tautan" href="./hiragana-katakana/">ひらがな・カタカナをくわしく &rarr;</a> <a class="tautan" href="./grammar/">文法をくわしく &rarr;</a></p></div>
+        <div class="fitur-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kana.webp" width="720" height="1600" loading="lazy" decoding="async" alt="ひらがなのページ：覚えた文字のまとめと行ごとの文字表、覚えた文字はマスが塗られている"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/percakapan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="職場の場面の会話：ふりがな、ローマ字、意味、再生ボタンのついたせりふ"></div></figure></div>
+      </article>
+      <article class="fitur" id="f-dengar">
+        <div class="fitur-teks"><span class="label-kecil">聞く・話す・書く</span><h3>聞く、話す、書く</h3><p>覚えるのはカード画面だけではありません。選んだ単語で音声デッキを作って仕事をしながら聞き、もう覚えた単語をマイクに向かって言い、覚えた漢字を指で書いてみましょう。</p><ul class="butir"><li><b>音声デッキ：</b>単語を日本語で読み上げ、続けて意味を読み上げます。画面を消しても再生が続きます。</li><li><b>話す練習：</b>スマホが単語を聞き取ると、次の単語が自動で表示されます。</li><li><b>漢字を書く：</b>何も見ずに書く、うすい手本をなぞる、画を順番にタップする、の 3 通りです。</li></ul><p class="tautan-baris"><a class="tautan" href="./listen-speak-write/">音声・話す・書くをくわしく &rarr;</a></p></div>
+        <div class="fitur-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/audio-pemutar.webp" width="720" height="1600" loading="lazy" decoding="async" alt="音声デッキのプレーヤー：意味とともに大きく表示された今の単語、再生ボタン、単語一覧"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/tulis-kanji.webp" width="720" height="1600" loading="lazy" decoding="async" alt="漢字を書く画面：問題として示される意味と読み、補助線のある書き込み枠、「ヒント」「アニメーション」「スキップ」のボタン"></div></figure></div>
+      </article>
+      <article class="fitur balik" id="f-beranda">
+        <div class="fitur-teks"><span class="label-kecil">ホーム・学習習慣</span><h3>今日やることがすぐわかる</h3><p>ホーム画面では、毎日変わる日本のことわざ、1 日の目標のリング、7 日間の記録が迎えてくれます。その下には、復習待ちのカード、最後に学習したデッキ、クイック練習があります。</p><ul class="butir"><li><b>1 日の目標</b>は、見ただけのカードではなく、今日本当に覚えた単語と漢字を数えます。</li><li><b>通知：</b>カードの復習時期が来たときと、目標を達成するまで毎日お知らせします。</li><li><b>休んでも連続記録が途切れません：</b>週に 1 日の休みは保護され、ホーム画面のウィジェットには今日の単語、連続記録、復習待ちのカードが表示されます。</li><li><b>統計：</b>連続学習日数、復習予定、レベル別の覚えた単語、模擬試験のスコアグラフ、学習記録マップ。</li></ul><p class="tautan-baris"><a class="tautan" href="./faq/">よくある質問 &rarr;</a></p></div>
+        <div class="fitur-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/beranda.webp" width="720" height="1600" loading="lazy" decoding="async" alt="TokuGo のホーム画面：日本のことわざのあいさつカード、1 日の目標のリング、7 日間の記録、「単語を学習」と「漢字を復習」の入口、「続きから」の一覧"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/statistik.webp" width="720" height="1600" loading="lazy" decoding="async" alt="統計タブ：連続学習日数、7 日間のグラフ、復習予定、覚えた単語と漢字"></div></figure></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="bagian malam" id="layar">
+    <div class="wadah">
+      <div class="tampil">
+        <div class="tampil-teks"><span class="label-kecil">見た目と言語</span><h2>ライトでもダークでも、<b>あなたの言語で</b></h2><p>昼は紙の色のライトテーマ、夜の学習には藍色のダークテーマ。どの画面でも上部から切り替えられます。表示言語は 17 で、単語の意味の言語は別に選べます。</p><ul class="bahasa-keping"><li><a href="../id/" lang="id" hreflang="id" data-bahasa="id">Bahasa Indonesia</a></li><li><a href="../en/" lang="en" hreflang="en" data-bahasa="en">English</a></li><li><a href="../vi/" lang="vi" hreflang="vi" data-bahasa="vi">Tiếng Việt</a></li><li><a href="../ne/" lang="ne" hreflang="ne" data-bahasa="ne">नेपाली</a></li><li><a href="../my/" lang="my" hreflang="my" data-bahasa="my">မြန်မာဘာသာ</a></li><li><a href="../fil/" lang="fil" hreflang="tl" data-bahasa="fil">Filipino</a></li><li><a href="../th/" lang="th" hreflang="th" data-bahasa="th">ไทย</a></li><li><a href="../km/" lang="km" hreflang="km" data-bahasa="km">ខ្មែរ</a></li><li><a href="../mn/" lang="mn" hreflang="mn" data-bahasa="mn">Монгол</a></li><li><a href="../si/" lang="si" hreflang="si" data-bahasa="si">සිංහල</a></li><li><a href="../bn/" lang="bn" hreflang="bn" data-bahasa="bn">বাংলা</a></li><li><a href="../hi/" lang="hi" hreflang="hi" data-bahasa="hi">हिन्दी</a></li><li><a href="../zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh">简体中文</a></li><li><a href="../zh-tw/" lang="zh-TW" hreflang="zh-TW" data-bahasa="zh-tw">繁體中文（台灣）</a></li><li><a href="../zh-hk/" lang="zh-HK" hreflang="zh-HK" data-bahasa="zh-hk">繁體中文（香港）</a></li><li><a href="../ko/" lang="ko" hreflang="ko" data-bahasa="ko">한국어</a></li><li><a href="../ja/" lang="ja" hreflang="ja" data-bahasa="ja">日本語</a></li></ul></div>
+        <div class="tampil-layar geser"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/beranda.webp" width="720" height="1600" loading="lazy" decoding="async" alt="TokuGo のホーム画面：日本のことわざのあいさつカード、1 日の目標のリング、7 日間の記録、「単語を学習」と「漢字を復習」の入口、「続きから」の一覧"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/beranda-gelap.webp" width="720" height="1600" loading="lazy" decoding="async" alt="ダークテーマのホーム画面"></div></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/bahasa.webp" width="720" height="1600" loading="lazy" decoding="async" alt="17 の表示言語が並んだ言語選択のダイアログ"></div></figure></div>
+      </div>
+      <h2 class="galeri-judul">画面を見てみる</h2>
+      <div class="galeri-kelompok"><h3>単語</h3><div class="galeri geser" style="--kolom: 5"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/beranda.webp" width="720" height="1600" loading="lazy" decoding="async" alt="TokuGo のホーム画面：日本のことわざのあいさつカード、1 日の目標のリング、7 日間の記録、「単語を学習」と「漢字を復習」の入口、「続きから」の一覧"></div><figcaption><b>ホーム</b><span>毎日のあいさつ、目標のリング、7 日間の記録</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kartu.webp" width="720" height="1600" loading="lazy" decoding="async" alt="裏返した 確認 のカード：読み、ローマ字、意味、構成する漢字、そして間隔つきの「わからない」「自信なし」「わかる」のボタン"></div><figcaption><b>単語カード</b><span>次の間隔が書かれた 3 つのボタン</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/deck.webp" width="720" height="1600" loading="lazy" decoding="async" alt="「Instructions from Supervisors」（上司の指示）デッキ：進み具合のリング、「学習」と「クイズ」のボタン、学習中・覚えた・習得済みが表示された単語一覧"></div><figcaption><b>デッキ画面</b><span>達成率と全単語の状況</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kuis.webp" width="720" height="1600" loading="lazy" decoding="async" alt="クイズの問題：日本語の単語一つと、四つの意味の選択肢"></div><figcaption><b>デッキのクイズ</b><span>習得済みへの唯一の道</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kamus.webp" width="720" height="1600" loading="lazy" decoding="async" alt="辞書の検索結果：病院 などの単語と、その読み、ローマ字、意味"></div><figcaption><b>ポケット辞書</b><span>漢字、かな、ローマ字、意味で検索</span></figcaption></figure></div></div>
+      <div class="galeri-kelompok"><h3>漢字</h3><div class="galeri geser" style="--kolom: 5"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kanji-tab.webp" width="720" height="1600" loading="lazy" decoding="async" alt="漢字タブの N5 レベル：漢字のセットごとの漢字、進み具合のバー、覚えた数と習得済みの数"></div><figcaption><b>漢字タブ</b><span>学校の順番で 25 字ずつのセット</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kanji-deck.webp" width="720" height="1600" loading="lazy" decoding="async" alt="N5 の漢字セット：進み具合のリング、「学習」と「クイズ」のボタン、意味・音読み・訓読み・段階が並んだ漢字一覧"></div><figcaption><b>漢字のセット</b><span>各漢字の意味と音読み・訓読み</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kanji.webp" width="720" height="1600" loading="lazy" decoding="async" alt="裏返した 金 の漢字カード：意味、音読みと訓読み、筆順、例語"></div><figcaption><b>漢字カード</b><span>意味、読み、筆順、例語</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kanji-detail.webp" width="720" height="1600" loading="lazy" decoding="async" alt="金 の漢字の詳細：段階、読み、筆順の図、例語"></div><figcaption><b>漢字の詳細</b><span>一画ごとに一コマ</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/tulis-kanji.webp" width="720" height="1600" loading="lazy" decoding="async" alt="漢字を書く画面：問題として示される意味と読み、補助線のある書き込み枠、「ヒント」「アニメーション」「スキップ」のボタン"></div><figcaption><b>漢字を書く</b><span>一画ずつ、書きながらチェック</span></figcaption></figure></div></div>
+      <div class="galeri-kelompok"><h3>ゼロから</h3><div class="galeri geser" style="--kolom: 7"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kana.webp" width="720" height="1600" loading="lazy" decoding="async" alt="ひらがなのページ：覚えた文字のまとめと行ごとの文字表、覚えた文字はマスが塗られている"></div><figcaption><b>ひらがな</b><span>そのままレッスン一覧になる表</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/kana-pelajaran.webp" width="720" height="1600" loading="lazy" decoding="async" alt="か行のレッスン：タップできる 5 つの文字、筆順、もう読める単語"></div><figcaption><b>行のレッスン</b><span>音、筆順、読める単語</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/tata-bahasa.webp" width="720" height="1600" loading="lazy" decoding="async" alt="文法のページ：合格したレッスン数、N5〜N1 のレベルチップ、練習コーナー、章の一覧"></div><figcaption><b>文法</b><span>5 つのレベルと練習コーナー</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/pelajaran.webp" width="720" height="1600" loading="lazy" decoding="async" alt="文法レッスンのページ：文型、例つきの作り方、解説"></div><figcaption><b>文法レッスン</b><span>文型、作り方、例文、練習</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/pelajaran-latihan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="文法レッスンの練習問題：空欄のある文と四つの選択肢"></div><figcaption><b>レッスンの練習</b><span>解説つきの短い問題</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/latihan-bentuk.webp" width="720" height="1600" loading="lazy" decoding="async" alt="活用練習：読みと意味つきの動詞 働く、問われている形、四つの選択肢"></div><figcaption><b>活用練習</b><span>動詞の形 ます、て、ない、た</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/percakapan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="職場の場面の会話：ふりがな、ローマ字、意味、再生ボタンのついたせりふ"></div><figcaption><b>表現と会話</b><span>12 の場面、48 の会話</span></figcaption></figure></div></div>
+      <div class="galeri-kelompok"><h3>模擬試験</h3><div class="galeri geser" style="--kolom: 5"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/latihan.webp" width="720" height="1600" loading="lazy" decoding="async" alt="模擬試験タブ：JFT-Basic 60 分から JLPT N1 165 分までの 6 つのレベルカードと、解き終えたセット"></div><figcaption><b>模擬試験タブ</b><span><span class="rapat">JFT-Basic</span> と JLPT <span class="rapat">N5–N1</span></span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/level.webp" width="720" height="1600" loading="lazy" decoding="async" alt="JFT-Basic のレベルページ：次のセットを始めるボタン、8 つのセットのタイル、ミックス模擬試験、履歴"></div><figcaption><b>レベルのページ</b><span>番号つきのセットと履歴</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/soal-dengar.webp" width="720" height="1600" loading="lazy" decoding="async" alt="オーディオプレーヤーと三つの絵の選択肢がある聴解問題"></div><figcaption><b>聴解問題</b><span>スマホの日本語音声で読み上げ、絵で選ぶ</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/soal-baca.webp" width="720" height="1600" loading="lazy" decoding="async" alt="メッセージのやりとりの形で出された読解問題と、質問、選択肢"></div><figcaption><b>読解問題</b><span>試験と同じようなメッセージ、メモ、文書</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/hasil.webp" width="720" height="1600" loading="lazy" decoding="async" alt="JFT-Basic の模擬試験の結果：A1、A2.1、A2.2 の区分が記された 10–250 の線上のスコアと、パートごとの正答率"></div><figcaption><b>模擬試験の結果</b><span><span class="rapat">10–250</span> のスコアと A1・A2.1・<span class="rapat">A2.2</span> の区分</span></figcaption></figure></div></div>
+      <div class="galeri-kelompok"><h3>聞く、話す、ほか</h3><div class="galeri geser" style="--kolom: 5"><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/audio-pemutar.webp" width="720" height="1600" loading="lazy" decoding="async" alt="音声デッキのプレーヤー：意味とともに大きく表示された今の単語、再生ボタン、単語一覧"></div><figcaption><b>音声デッキ</b><span>シャッフル、リピート、速さ、意味の読み上げ</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/ucap.webp" width="720" height="1600" loading="lazy" decoding="async" alt="話す練習のカード：意味つきの単語とマイクのボタン"></div><figcaption><b>話す練習</b><span>もう覚えた単語を言ってみる</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/statistik.webp" width="720" height="1600" loading="lazy" decoding="async" alt="統計タブ：連続学習日数、7 日間のグラフ、復習予定、覚えた単語と漢字"></div><figcaption><b>統計</b><span>連続記録、復習予定、覚えたもの</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/bahasa.webp" width="720" height="1600" loading="lazy" decoding="async" alt="17 の表示言語が並んだ言語選択のダイアログ"></div><figcaption><b>言語を選択</b><span>表示言語 17</span></figcaption></figure><figure class="layar"><div class="bingkai"><img src="../aset/layar/ja/beranda-gelap.webp" width="720" height="1600" loading="lazy" decoding="async" alt="ダークテーマのホーム画面"></div><figcaption><b>ダークテーマ</b><span>夜の学習のための藍色</span></figcaption></figure></div></div>
+      <p class="catatan-galeri">画面はアプリ 1.5 版をもとにサンプルデータで描き直したものです。日本語の表示言語では、単語の意味とデッキ名は英語で表示されます。模擬試験のスコアは上達を確かめるための目安で、本番の結果を予測するものではありません。</p>
+    </div>
+  </section>
+
+  <section class="bagian" id="gratis">
+    <div class="wadah dua">
+      <article class="kartu gratis">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v4H4z"/><path d="M6 11v9h12v-9"/><path d="M12 7v13"/><path d="M12 7c-2-3-5-3-5-1s3 1 5 1c2 0 5-1 5-3s-3-1-5 1"/></svg></span><h3>無料で始められます</h3></div>
+        <p>無料版はお試し版ではありません。広告は入りますが、ゼロから学び、あらゆる種類の試験を試すのに十分です。</p>
+        <ul class="daftar"><li><b>9,406 語：</b>各トピックの上位 100 語。N5 の単語はほぼすべて含まれます。</li><li><b>N5・N4 の漢字 284 字すべて。</b></li><li><b>ひらがな、カタカナ、漢字入門、N5・N4 の文法レッスン 178、最初の 3 つの会話場面。</b>レッスン画面に広告はありません。</li><li><b>すべての模擬試験セット：</b>レベルごとに 7 日に 1 回、広告を見ればもう 1 回。</li><li><b>辞書、音声デッキ 3 つ、話す練習、漢字を書く。</b></li></ul>
+        <p class="kecil">無料版では、学習や模擬試験を始めるときにインターネット接続が必要です。</p>
+      </article>
+      <article class="kartu premium">
+        <div class="kartu-kepala"><span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.6 5.6 6.1.7-4.5 4.2 1.2 6.1L12 16.6l-5.4 3 1.2-6.1-4.5-4.2 6.1-.7z"/></svg></span><h3>プレミアム</h3></div>
+        <p>すべてを使いたい方に。アプリ内で Google Play から購入でき、プランと価格はそこに表示されます。</p>
+        <ul class="daftar"><li>全 38,085 語と <span class="rapat">N3–N1</span> の漢字</li><li><span class="rapat">N3–N1</span> の文法と全 48 の会話</li><li>広告なし</li><li>オフライン学習</li><li>7 日間の間隔なしの模擬試験</li><li>音声デッキ無制限、音声ファイルとしてダウンロード可能</li></ul>
+        <p class="kecil">サブスクリプションが終わっても、学習済みの単語は引き続き復習できます。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="bagian">
+    <div class="wadah">
+      <article class="kartu privasi-kartu">
+        <div class="kartu-kepala">
+          <span class="ubin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+          <h3>学習記録はスマホの中だけに</h3>
+        </div>
+        <p>アカウントも、登録も、パスワードもありません。開発者はサーバーを持っておらず、学習記録はスマホに保存され、開発者に送られることはありません。話す練習はスマホの音声認識サービスを使い、アプリが声を録音・保存することはありません。</p>
+        <p class="kecil">広告、利用状況の計測、クラッシュレポートには Google のサービスを使っています。詳しくはプライバシーポリシーをご覧ください。</p>
+        <a class="tautan" href="../privacy/?lang=en">プライバシーポリシー &rarr;</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="bagian" id="faq">
+    <div class="wadah sempit">
+      <h2>よくある質問</h2>
+      <div class="faq">
+        <details class="tanya"><summary><span>TokuGo は無料ですか？</span></summary><div class="jawab"><p>はい。広告つきの無料版で、9,406 語（各トピックの上位 100 語）、N5・N4 の漢字すべて、ひらがな、カタカナ、漢字入門、N5・N4 文法、最初の 3 つの会話場面、全模擬試験セット（レベルごとに 7 日間の間隔あり）、辞書、音声デッキ 3 つを使えます。プレミアムでは、すべての単語と漢字、N3〜N1 文法とすべての会話が使えるようになり、広告がなくなり、オフライン学習と間隔なしの模擬試験が加わります。</p></div></details>
+        <details class="tanya"><summary><span>オフラインで使えますか？</span></summary><div class="jawab"><p>コンテンツはすべてアプリに入っていて、学習中に何かをダウンロードすることはありません。無料版では、学習や模擬試験を始めるときにインターネット接続が必要です。プレミアムは完全にオフラインで使えます。日本語の音声はスマホの音声読み上げ（TTS）エンジンを使うため、音声データを一度インストールする必要があります。</p></div></details>
+        <details class="tanya"><summary><span>アカウントは必要ですか？</span></summary><div class="jawab"><p>いいえ。アカウント、登録、パスワードはありません。学習記録はスマホに保存されます。新しいスマホに移るときは、サイドパネルからバックアップファイルを書き出し、新しいスマホで読み込んでください。</p></div></details>
+        <details class="tanya"><summary><span>どの言語に対応していますか？</span></summary><div class="jawab"><p>表示言語は 17 です：インドネシア語、英語、ベトナム語、ネパール語、ミャンマー語、フィリピン語、タイ語、クメール語、モンゴル語、シンハラ語、ベンガル語、ヒンディー語、中国語（簡体字）、中国語（繁体字、台湾・香港）、韓国語、日本語。単語と漢字の意味は日本語以外のすべての言語でそろっていて、日本語の画面では英語の意味が表示されます。文法レッスン、会話、模擬試験の解説は 14 言語で用意しており、中国語（簡体字）と日本語の画面では英語で表示されます。</p></div></details>
+        <details class="tanya"><summary><span>模擬試験のスコアは公式のスコアと同じですか？</span></summary><div class="jawab"><p>いいえ。TokuGo のスコアは正答率にもとづく目安で、上達を確かめるためのものです。公式の試験は別の尺度得点を使っており、スマホの音声読み上げによる聴解の声も機種によって異なります。</p></div></details>
+        <details class="tanya"><summary><span>単語、漢字、問題はどこから来ていますか？</span></summary><div class="jawab"><p>単語と漢字は JMdict と KANJIDIC（Electronic Dictionary Research and Development Group）、筆順は KanjiVG、単語の頻度は wordfreq によるものです。文法レッスンと模擬試験の問題はすべて TokuGo のために書き下ろし、公開前に何度も見直しています。公式の問題は一切コピーしていません。</p></div></details>
+        <details class="tanya"><summary><span>どのスマホで使えますか？</span></summary><div class="jawab"><p>Android 7.0 以上。発音と聴解問題には、スマホに日本語の音声（ふつうは Google の音声認識・合成）が必要です。ない場合は、アプリがインストール方法を案内します。</p></div></details>
+      </div>
+      <p class="tautan-baris"><a class="tautan" href="./faq/">すべての質問と回答 &rarr;</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="malam">
+  <div class="wadah">
+    <div class="penutup">
+      <h2>日本で働く準備ですか？ それとも <b>JLPT の受験</b>ですか？</h2>
+      <p>どちらも必要なものは同じです。しっかり身につく単語と、本番と同じ形式の練習です。</p>
+      <div class="aksi">
+        <a class="tombol" href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
+          Google Play で手に入れよう
+        </a>
+      </div>
+      <p class="catatan">無料で始められ、アカウント不要。</p>
+    </div>
+    <div class="kaki-kolom">
+      <div>
+        <h3>機能</h3>
+        <ul>
+          <li><a href="./vocabulary/">単語</a></li>
+          <li><a href="./kanji/">漢字</a></li>
+          <li><a href="./exam-practice/">模擬試験</a></li>
+          <li><a href="./hiragana-katakana/">ひらがな・カタカナ</a></li>
+          <li><a href="./grammar/">文法</a></li>
+          <li><a href="./listen-speak-write/">聞く・話す・書く</a></li>
+          <li><a href="./faq/">よくある質問</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>言語</h3>
+        <ul class="kaki-bahasa">
+          <li><a href="../id/" lang="id" hreflang="id" data-bahasa="id">Bahasa Indonesia</a></li>
+          <li><a href="../en/" lang="en" hreflang="en" data-bahasa="en">English</a></li>
+          <li><a href="../vi/" lang="vi" hreflang="vi" data-bahasa="vi">Tiếng Việt</a></li>
+          <li><a href="../ne/" lang="ne" hreflang="ne" data-bahasa="ne">नेपाली</a></li>
+          <li><a href="../my/" lang="my" hreflang="my" data-bahasa="my">မြန်မာဘာသာ</a></li>
+          <li><a href="../fil/" lang="fil" hreflang="tl" data-bahasa="fil">Filipino</a></li>
+          <li><a href="../th/" lang="th" hreflang="th" data-bahasa="th">ไทย</a></li>
+          <li><a href="../km/" lang="km" hreflang="km" data-bahasa="km">ខ្មែរ</a></li>
+          <li><a href="../mn/" lang="mn" hreflang="mn" data-bahasa="mn">Монгол</a></li>
+          <li><a href="../si/" lang="si" hreflang="si" data-bahasa="si">සිංහල</a></li>
+          <li><a href="../bn/" lang="bn" hreflang="bn" data-bahasa="bn">বাংলা</a></li>
+          <li><a href="../hi/" lang="hi" hreflang="hi" data-bahasa="hi">हिन्दी</a></li>
+          <li><a href="../zh/" lang="zh-CN" hreflang="zh-CN" data-bahasa="zh">简体中文</a></li>
+          <li><a href="../zh-tw/" lang="zh-TW" hreflang="zh-TW" data-bahasa="zh-tw">繁體中文（台灣）</a></li>
+          <li><a href="../zh-hk/" lang="zh-HK" hreflang="zh-HK" data-bahasa="zh-hk">繁體中文（香港）</a></li>
+          <li><a href="../ko/" lang="ko" hreflang="ko" data-bahasa="ko">한국어</a></li>
+          <li><a href="../ja/" lang="ja" hreflang="ja" data-bahasa="ja">日本語</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>その他</h3>
+        <ul>
+          <li><a href="../privacy/?lang=en">プライバシーポリシー</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.tokugo.app" rel="noopener">Google Play</a></li>
+          <li><a href="mailto:amdigracrative@gmail.com">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="kaki">
+      <span>&copy; 2026 TokuGo</span>
+      <span class="sumber">単語と漢字：JMdict/KANJIDIC &copy; EDRDG（CC BY-SA 4.0）。筆順：KanjiVG（CC BY-SA 3.0）。Google Play は Google LLC の商標です。</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  // Bahasa yang dipilih sendiri diingat, supaya halaman akar tidak mengantar pengunjung
+  // kembali ke bahasa HP-nya setiap kali dibuka.
+  var pemilih = document.querySelector('.bahasa');
+  var menu = document.querySelector('.menu-kecil');
+  pemilih.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a[data-bahasa]') : null;
+    if (a) { try { localStorage.setItem('bahasa', a.getAttribute('data-bahasa')); } catch (x) {} }
+  });
+  // Daftar bahasa dan menu menutup sendiri saat mengetuk di luarnya atau menekan Esc.
+  document.addEventListener('click', function (e) {
+    if (pemilih.open && !pemilih.contains(e.target)) pemilih.open = false;
+    if (menu && menu.open && !menu.contains(e.target)) menu.open = false;
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { pemilih.open = false; if (menu) menu.open = false; }
+  });
+  // Windows tidak punya gambar bendera di font emojinya dan menampilkan dua huruf kode
+  // negara. Kalau begitu benderanya disembunyikan; kode bahasa di sebelahnya sudah cukup.
+  try {
+    var k = document.createElement('canvas');
+    k.width = k.height = 24;
+    var c = k.getContext('2d');
+    c.font = '18px sans-serif';
+    c.textBaseline = 'top';
+    c.fillText('🇮🇩', 0, 2);
+    var d = c.getImageData(0, 0, 24, 24).data, berwarna = false;
+    for (var i = 0; i < d.length; i += 4) {
+      if (d[i + 3] > 40 && (Math.abs(d[i] - d[i + 1]) > 40 || Math.abs(d[i] - d[i + 2]) > 40)) { berwarna = true; break; }
+    }
+    if (!berwarna) document.documentElement.className += ' tanpa-bendera';
+  } catch (x) {}
+})();
+</script>
+</body>
+</html>

@@ -803,10 +803,14 @@ td:last-child, th:last-child { white-space: normal; }
    docs/play-listing/template/tema.css.
    -------------------------------------------------------------------------- */
 html:lang(vi) { --b-h1: 1.2; --b-h2: 1.25; --b-h3: 1.3; }
-html:lang(zh-CN) {
+html:lang(zh-CN), html:lang(zh-TW), html:lang(zh-HK), html:lang(ja), html:lang(ko) {
   --b-isi: 1.7; --b-h1: 1.25; --b-h2: 1.3; --b-h3: 1.4; --b-kecil: 1.45;
   --u-h1: clamp(2rem, 8vw, 3.4rem); --ls: 0;
 }
+/* Hangeul dipenggal di antara kata (spasi), bukan di antara suku kata. Judul Jepang dipenggal per frasa
+   (auto-phrase, Chrome 119+; peramban lain memenggal seperti biasa), supaya tidak terbaca "ゼロか / ら". */
+html:lang(ko) { word-break: keep-all; overflow-wrap: anywhere; }
+html:lang(ja) h1, html:lang(ja) h2, html:lang(ja) h3 { word-break: auto-phrase; overflow-wrap: anywhere; }
 html:lang(th), html:lang(ne), html:lang(hi), html:lang(bn) {
   --b-isi: 1.7; --b-h1: 1.34; --b-h2: 1.38; --b-h3: 1.42; --b-kecil: 1.5;
   --u-h1: clamp(1.85rem, 7.4vw, 3.2rem); --u-h1-lebar: 2.7rem; --ls: 0;
