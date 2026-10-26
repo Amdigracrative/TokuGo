@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tokugo.my.id/id/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -25,7 +25,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/id/kosakata/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -48,7 +48,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/id/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -71,7 +71,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/id/latihan-ujian/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -94,7 +94,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/id/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -117,7 +117,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/id/tata-bahasa/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -140,7 +140,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/id/dengar-ucap-tulis/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -163,7 +163,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/id/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -186,7 +186,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/en/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -209,7 +209,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/en/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -232,7 +232,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/en/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -255,7 +255,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/en/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -278,7 +278,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/en/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -301,7 +301,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/en/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -324,7 +324,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/en/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -347,7 +347,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/en/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -370,7 +370,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/vi/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -393,7 +393,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/vi/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -416,7 +416,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/vi/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -439,7 +439,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/vi/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -462,7 +462,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/vi/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -485,7 +485,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/vi/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -508,7 +508,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/vi/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -531,7 +531,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/vi/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -554,7 +554,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ne/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -577,7 +577,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ne/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -600,7 +600,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ne/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -623,7 +623,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ne/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -646,7 +646,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ne/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -669,7 +669,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ne/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -692,7 +692,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ne/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -715,7 +715,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ne/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -738,7 +738,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/my/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -761,7 +761,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/my/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -784,7 +784,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/my/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -807,7 +807,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/my/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -830,7 +830,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/my/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -853,7 +853,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/my/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -876,7 +876,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/my/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -899,7 +899,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/my/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -922,7 +922,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/fil/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -945,7 +945,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/fil/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -968,7 +968,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/fil/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -991,7 +991,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/fil/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -1014,7 +1014,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/fil/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -1037,7 +1037,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/fil/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -1060,7 +1060,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/fil/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -1083,7 +1083,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/fil/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -1106,7 +1106,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/th/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -1129,7 +1129,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/th/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -1152,7 +1152,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/th/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -1175,7 +1175,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/th/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -1198,7 +1198,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/th/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -1221,7 +1221,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/th/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -1244,7 +1244,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/th/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -1267,7 +1267,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/th/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -1290,7 +1290,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/km/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -1313,7 +1313,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/km/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -1336,7 +1336,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/km/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -1359,7 +1359,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/km/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -1382,7 +1382,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/km/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -1405,7 +1405,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/km/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -1428,7 +1428,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/km/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -1451,7 +1451,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/km/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -1474,7 +1474,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/mn/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -1497,7 +1497,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/mn/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -1520,7 +1520,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/mn/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -1543,7 +1543,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/mn/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -1566,7 +1566,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/mn/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -1589,7 +1589,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/mn/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -1612,7 +1612,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/mn/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -1635,7 +1635,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/mn/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -1658,7 +1658,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/si/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -1681,7 +1681,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/si/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -1704,7 +1704,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/si/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -1727,7 +1727,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/si/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -1750,7 +1750,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/si/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -1773,7 +1773,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/si/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -1796,7 +1796,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/si/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -1819,7 +1819,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/si/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -1842,7 +1842,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/bn/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -1865,7 +1865,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/bn/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -1888,7 +1888,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/bn/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -1911,7 +1911,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/bn/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -1934,7 +1934,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/bn/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -1957,7 +1957,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/bn/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -1980,7 +1980,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/bn/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -2003,7 +2003,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/bn/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -2026,7 +2026,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/hi/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -2049,7 +2049,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/hi/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -2072,7 +2072,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/hi/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -2095,7 +2095,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/hi/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -2118,7 +2118,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/hi/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -2141,7 +2141,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/hi/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -2164,7 +2164,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/hi/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -2187,7 +2187,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/hi/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -2210,7 +2210,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -2233,7 +2233,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -2256,7 +2256,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -2279,7 +2279,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -2302,7 +2302,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -2325,7 +2325,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -2348,7 +2348,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -2371,7 +2371,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -2394,7 +2394,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-tw/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -2417,7 +2417,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-tw/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -2440,7 +2440,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-tw/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -2463,7 +2463,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-tw/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -2486,7 +2486,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-tw/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -2509,7 +2509,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-tw/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -2532,7 +2532,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-tw/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -2555,7 +2555,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-tw/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -2578,7 +2578,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-hk/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -2601,7 +2601,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-hk/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -2624,7 +2624,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-hk/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -2647,7 +2647,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-hk/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -2670,7 +2670,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-hk/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -2693,7 +2693,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-hk/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -2716,7 +2716,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-hk/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -2739,7 +2739,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-hk/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -2762,7 +2762,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ko/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -2785,7 +2785,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ko/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -2808,7 +2808,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ko/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -2831,7 +2831,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ko/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -2854,7 +2854,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ko/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -2877,7 +2877,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ko/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -2900,7 +2900,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ko/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -2923,7 +2923,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ko/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -2946,7 +2946,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ja/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
@@ -2969,7 +2969,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ja/vocabulary/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kosakata/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/vocabulary/"/>
@@ -2992,7 +2992,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ja/kanji/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/kanji/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/kanji/"/>
@@ -3015,7 +3015,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ja/exam-practice/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/latihan-ujian/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/exam-practice/"/>
@@ -3038,7 +3038,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ja/hiragana-katakana/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/hiragana-katakana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/hiragana-katakana/"/>
@@ -3061,7 +3061,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ja/grammar/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/tata-bahasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/grammar/"/>
@@ -3084,7 +3084,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ja/listen-speak-write/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/dengar-ucap-tulis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/listen-speak-write/"/>
@@ -3107,7 +3107,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/ja/faq/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/faq/"/>
@@ -3130,7 +3130,7 @@
   </url>
   <url>
     <loc>https://tokugo.my.id/privacy/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.3</priority>
   </url>
 </urlset>
