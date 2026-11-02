@@ -16,7 +16,7 @@
        Play Console berbeda; Google membandingkan keduanya.
     2. Email kontak     - sekarang amdigracrative@gmail.com. Ganti kalau mau
        pakai email khusus aplikasi.
-    3. Tanggal berlaku  - 27 Oktober 2026 (versi 1.5).
+    3. Tanggal berlaku  - 3 November 2026 (versi 1.6).
 
   Bahasa: Indonesia (bawaan) dan Inggris dalam satu halaman.
   Tambahkan ?lang=en di belakang alamat untuk membuka versi Inggris langsung.
@@ -217,7 +217,7 @@
     <header>
       <h1>Kebijakan Privasi TokuGo</h1>
       <!-- PERIKSA 3: tanggal berlaku -->
-      <p class="stamp">Berlaku sejak 27 Oktober 2026 &middot; Versi 1.5</p>
+      <p class="stamp">Berlaku sejak 3 November 2026 &middot; Versi 1.6</p>
     </header>
 
     <div class="tldr">
@@ -226,10 +226,11 @@
       HP-mu sendiri dan tidak pernah dikirim ke pengembang &mdash; kami memang tidak punya
       server. Yang keluar dari HP hanyalah data teknis milik layanan Google yang kami pakai
       untuk menampilkan iklan, mengukur pemakaian aplikasi dan hasil iklan TokuGo, dan menerima
-      laporan kerusakan. Satu
+      laporan kerusakan. Dua
       pengecualian yang kamu kendalikan sendiri: kalau kamu memakai Latihan Ucap, suaramu
       diproses layanan pengenal suara di HP-mu (bagian 5) &mdash; TokuGo sendiri tidak merekam
-      atau menyimpannya. Kami tidak menjual data pribadimu.</p>
+      atau menyimpannya; dan kalau kamu memilih cadangan Google Drive, progresmu masuk ke
+      Google Drive-mu sendiri, bukan ke pengembang. Kami tidak menjual data pribadimu.</p>
     </div>
 
     <h2>1. Tentang kebijakan ini</h2>
@@ -241,7 +242,9 @@
 
     <h2>2. Yang tidak kami lakukan</h2>
     <ul>
-      <li>Tidak ada pendaftaran akun, login, nama, alamat email, atau nomor telepon.</li>
+      <li>Tidak ada pendaftaran akun TokuGo, nama, atau nomor telepon. Aplikasi bisa dipakai
+      tanpa login. Login Google hanya muncul kalau kamu memilih cadangan Google Drive, dan alamat
+      emailmu lalu tetap di HP-mu dan tidak pernah dikirim ke pengembang (bagian 5).</li>
       <li>Tidak ada akses ke kontak, kamera, galeri foto, SMS, atau lokasi GPS. Aplikasi tidak
       meminta izin-izin itu sama sekali.</li>
       <li>Tidak ada rekaman suara. Mikrofon hanya dipakai Latihan Ucap, baru setelah kamu
@@ -280,6 +283,9 @@
     ke satu berkas JSON. Berkas itu disimpan ke lokasi yang <strong>kamu</strong> pilih sendiri
     lewat pemilih berkas Android. Aplikasi tidak pernah mengunggahnya ke mana pun; berkas itu
     sepenuhnya milikmu.</p>
+    <p><strong>Cadangan Google Drive.</strong> Kalau kamu mengetuk tombol Google Drive di layar
+    Cadangkan Data, progresmu disimpan ke Google Drive-mu sendiri. Rinciannya di bagian 5. Tanpa
+    ketukan itu, aplikasi tidak meminta login dan tidak mengunggah apa pun ke Drive.</p>
     <p><strong>Berkas audio unduhan.</strong> Pengguna Premium bisa menyimpan sebuah deck audio
     sebagai berkas audio (M4A). Berkas itu dibuat di HP-mu sendiri oleh mesin pembaca teks HP,
     lalu disimpan ke lokasi yang <strong>kamu</strong> pilih lewat pemilih berkas Android.
@@ -379,6 +385,19 @@
     </div>
 
     <div class="svc">
+      <h3>Cadangan Google Drive (pilihan)</h3>
+      <p><span class="label">Untuk</span> Menyimpan progres belajarmu ke Google Drive-mu sendiri
+      dan memulihkannya, hanya saat kamu mengetuk tombol Google Drive di layar Cadangkan Data.</p>
+      <p><span class="label">Data</span> Berkas cadangan (progres belajarmu) langsung dikirim dari
+      HP-mu ke akun Google-mu. Pengembang tidak punya akses ke berkas itu. TokuGo hanya meminta izin
+      untuk berkas buatannya sendiri (izin <code>drive.file</code>), jadi tidak bisa melihat isi lain
+      di Drive-mu. Alamat email Google-mu ditampilkan di layar Cadangkan Data dan disimpan di HP-mu.
+      TokuGo menyimpan tiga cadangan terbaru dan menghapus yang lebih lama. Penggunaan data ini
+      mengikuti Kebijakan Data Pengguna Layanan API Google, termasuk ketentuan Penggunaan
+      Terbatas.</p>
+    </div>
+
+    <div class="svc">
       <h3>Google Play Install Referrer</h3>
       <p><span class="label">Untuk</span> Dipakai otomatis oleh SDK Google di atas untuk
       mengetahui sumber pemasangan, misalnya dari kampanye iklan.</p>
@@ -456,7 +475,8 @@
     aplikasi.</p>
     <p><strong>Di layanan Google:</strong> mengikuti kebijakan penyimpanan Google untuk tiap
     layanan. Laporan kerusakan dan data analitik disimpan dalam jangka terbatas, lalu dihapus
-    atau disimpan hanya dalam bentuk agregat.</p>
+    atau disimpan hanya dalam bentuk agregat. Cadangan di Google Drive-mu tetap di sana sampai
+    kamu menghapusnya.</p>
 
     <h2>10. Hak kamu</h2>
     <p>Karena kami tidak menyimpan data apa pun tentangmu di server kami, sebagian besar hak
@@ -498,8 +518,8 @@
       <li>nomor acak (UUID) yang dipakai untuk mengacak urutan soal ujian.</li>
     </ul>
     <p>Yang <strong>tidak</strong> ikut terhapus hanyalah berkas yang pernah kamu simpan sendiri
-    di luar aplikasi: berkas cadangan JSON dan berkas audio deck yang kamu unduh. Berkas itu
-    milikmu dan tersimpan di tempat yang kamu pilih. Hapus manual bila memang tidak diperlukan
+    di luar aplikasi: berkas cadangan JSON, cadangan di Google Drive-mu, dan berkas audio deck
+    yang kamu unduh. Berkas itu milikmu dan tersimpan di tempat yang kamu pilih. Hapus manual bila memang tidak diperlukan
     lagi.</p>
 
     <h3>Cara 2 &mdash; minta penghapusan data teknis di layanan Google</h3>
@@ -558,7 +578,7 @@
   <main lang="en">
     <header>
       <h1>TokuGo Privacy Policy</h1>
-      <p class="stamp">Effective 27 October 2026 &middot; Version 1.5</p>
+      <p class="stamp">Effective 3 November 2026 &middot; Version 1.6</p>
     </header>
 
     <div class="tldr">
@@ -566,9 +586,9 @@
       email address or phone number. All of your study records stay on your own phone and are
       never sent to the developer &mdash; we do not run a server. The only things that leave
       your phone are technical data belonging to the Google services we use to show ads, measure
-      app usage and the results of TokuGo's own ads, and receive crash reports. One exception that you control yourself: if you use
+      app usage and the results of TokuGo's own ads, and receive crash reports. Two exceptions that you control yourself: if you use
       speaking practice, your voice is processed by the speech recognition service on your phone
-      (section 5) &mdash; TokuGo itself does not record or store it. We do not sell your personal
+      (section 5) &mdash; TokuGo itself does not record or store it; and if you choose Google Drive backup, your progress goes to your own Google Drive, not to the developer. We do not sell your personal
       data.</p>
     </div>
 
@@ -579,7 +599,9 @@
 
     <h2>2. What we do not do</h2>
     <ul>
-      <li>No sign-up, no login, no name, no email address, no phone number.</li>
+      <li>No sign-up, no account with TokuGo, no name, no phone number. The app works without
+      signing in. A Google sign-in appears only if you choose Google Drive backup, and your email
+      address then stays on your phone and is never sent to the developer (section 5).</li>
       <li>No access to contacts, camera, photo gallery, SMS or GPS location. The app does not
       request those permissions at all.</li>
       <li>No voice recordings. The microphone is used only by speaking practice, only after you
@@ -617,6 +639,9 @@
     <p><strong>Manual backup.</strong> In Settings you can export all your progress to a single
     JSON file. The file is written to a location <strong>you</strong> choose yourself through
     the Android file picker. The app never uploads it anywhere; the file is entirely yours.</p>
+    <p><strong>Google Drive backup.</strong> If you tap a Google Drive button on the Back up data
+    screen, your progress is saved to your own Google Drive. Details are in section 5. Without
+    that tap, the app does not ask you to sign in and uploads nothing to Drive.</p>
     <p><strong>Downloaded audio files.</strong> Premium users can save an audio deck as an audio
     file (M4A). The file is created on your own phone by the phone's text-to-speech engine, then
     written to a location <strong>you</strong> choose through the Android file picker. The app
@@ -715,6 +740,19 @@
     </div>
 
     <div class="svc">
+      <h3>Google Drive backup (optional)</h3>
+      <p><span class="label">Purpose</span> Saving your study progress to your own Google Drive
+      and restoring it, only when you tap a Google Drive button on the Back up data screen.</p>
+      <p><span class="label">Data</span> The backup file (your study progress) goes directly from
+      your phone to your Google account. The developer has no access to it. TokuGo requests only
+      permission for files it creates itself (the <code>drive.file</code> scope), so it cannot see
+      anything else in your Drive. Your Google email address is shown on the Back up data screen
+      and kept on your phone. TokuGo keeps your three latest backups and deletes older ones. Use
+      of this data follows the Google API Services User Data Policy, including its Limited Use
+      requirements.</p>
+    </div>
+
+    <div class="svc">
       <h3>Google Play Install Referrer</h3>
       <p><span class="label">Purpose</span> Used automatically by the Google SDKs above to
       determine the install source, for example an ad campaign.</p>
@@ -791,7 +829,8 @@
     app.</p>
     <p><strong>In Google services:</strong> according to Google's retention policy for each
     service. Crash reports and analytics data are kept for a limited period, then deleted or
-    retained only in aggregate form.</p>
+    retained only in aggregate form. Backups in your Google Drive stay there until you delete
+    them.</p>
 
     <h2>10. Your rights</h2>
     <p>Because we hold no data about you on any server of ours, you can exercise most rights
@@ -833,8 +872,9 @@
       <li>the random number (UUID) used to shuffle exam question order.</li>
     </ul>
     <p>The only things <strong>not</strong> deleted are files you saved yourself outside the app:
-    any JSON backup file and any audio deck file you downloaded. Those files are yours and are
-    stored where you chose to put them. Delete them manually if you no longer need them.</p>
+    any JSON backup file, any backup in your Google Drive, and any audio deck file you downloaded.
+    Those files are yours and are stored where you chose to put them. Delete them manually if you
+    no longer need them.</p>
 
     <h3>Route 2 &mdash; request deletion of technical data held by Google services</h3>
     <ol>
