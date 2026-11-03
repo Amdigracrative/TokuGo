@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Persyaratan Layanan TokuGo</title>
+<meta name="description" content="Persyaratan Layanan aplikasi Android TokuGo (com.tokugo.app) - Terms of Service for the TokuGo Android app.">
+
+<!--
+  ============================================================================
+  PERSYARATAN LAYANAN TokuGo - berkas tunggal, saudara docs/privacy/index.html.
+  Tayang di https://tokugo.my.id/terms/ (repo publik Amdigracrative/TokuGo,
+  folder terms/). Alamat ini yang diisikan di Play Console > Konten aplikasi >
+  Status pedagang dan Persyaratan Layanan tingkat aplikasi.
+
+  Isinya diturunkan dari aplikasi yang berjalan: paket Premium dan uji coba
+  (PRD 10.1, SubscriptionOffers.kt), pernyataan tidak berafiliasi dan daftar
+  sumber data (layar Tentang & Lisensi, about_* di :feature:settings).
+  Kalau salah satunya berubah, halaman ini ikut diubah.
+
+  Bahasa: Indonesia (bawaan) dan Inggris dalam satu halaman.
+  Tambahkan ?lang=en di belakang alamat untuk membuka versi Inggris langsung.
+  Kalau JavaScript mati, kedua bahasa tampil berurutan - halaman tetap terbaca.
+  ============================================================================
+-->
+
+<style>
+  :root {
+    color-scheme: light dark;
+    /* Washi - tema terang aplikasi */
+    --bg: #EAE3D3;
+    --card: #F1EBDE;
+    --line: #D3C9B5;
+    --text: #24201A;
+    --muted: #5E574B;
+    --accent: #A8402A;
+    --accent-soft: rgba(168, 64, 42, 0.10);
+  }
+  /* Media query DI LUAR selector, bukan bersarang: CSS nesting baru ada di
+     Chrome 112, sedangkan aplikasi ini masih mendukung Android 7. */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      /* Yoru - tema gelap aplikasi */
+      --bg: #0E0E11;
+      --card: #14161F;
+      --line: #2A2F42;
+      --text: #E6E1E9;
+      --muted: #A8A3B4;
+      --accent: #A9A1F1;
+      --accent-soft: rgba(169, 161, 241, 0.14);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0E0E11;
+    --card: #14161F;
+    --line: #2A2F42;
+    --text: #E6E1E9;
+    --muted: #A8A3B4;
+    --accent: #A9A1F1;
+    --accent-soft: rgba(169, 161, 241, 0.14);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0 16px 64px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .wrap { max-width: 720px; margin: 0 auto; }
+
+  header { padding: 32px 0 8px; }
+
+  h1 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+
+  .stamp {
+    color: var(--muted);
+    font-size: 0.875rem;
+    margin: 0 0 20px;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+    line-height: 1.35;
+    margin: 36px 0 10px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin: 22px 0 6px;
+    color: var(--accent);
+  }
+
+  p, ul, ol { margin: 0 0 12px; }
+  ul, ol { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+
+  a { color: var(--accent); overflow-wrap: anywhere; }
+
+  strong { font-weight: 650; }
+
+  .tldr {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    border-radius: 12px;
+    padding: 16px;
+    margin: 0 0 8px;
+  }
+  .tldr p:last-child { margin-bottom: 0; }
+
+  .langbar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    gap: 8px;
+    padding: 10px 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+  }
+  .langbar button {
+    flex: 0 0 auto;
+    font: inherit;
+    font-size: 0.875rem;
+    padding: 7px 16px;
+    min-height: 40px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .langbar button[aria-pressed="true"] {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+
+  /* Satu bahasa saja saat JavaScript hidup. Tanpa JavaScript, atribut
+     data-lang tidak pernah dipasang sehingga kedua bahasa tetap tampil. */
+  html[data-lang="id"] main[lang="en"] { display: none; }
+  html[data-lang="en"] main[lang="id"] { display: none; }
+  html:not([data-lang]) .langbar { display: none; }
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <nav class="langbar" aria-label="Pilih bahasa / Choose language">
+    <button type="button" data-set="id" aria-pressed="true">Bahasa Indonesia</button>
+    <button type="button" data-set="en" aria-pressed="false">English</button>
+  </nav>
+
+  <!-- ===================== INDONESIA ===================== -->
+  <main lang="id">
+    <header>
+      <h1>Persyaratan Layanan TokuGo</h1>
+      <p class="stamp">Berlaku sejak 4 November 2026 &middot; Versi 1.0</p>
+    </header>
+
+    <div class="tldr">
+      <p><strong>Ringkasnya.</strong> TokuGo bisa dipakai gratis dengan iklan. Premium dibeli
+      lewat Google Play: langganan diperpanjang otomatis sampai kamu membatalkannya di Google
+      Play, dan isi Premium hanya terbuka selama Premium aktif. Progres belajarmu tersimpan di
+      HP-mu sendiri, jadi buat cadangan kalau tidak ingin kehilangannya. TokuGo adalah aplikasi
+      latihan mandiri, bukan aplikasi resmi JLPT atau JFT-Basic, dan tidak menjamin kelulusan
+      ujian.</p>
+    </div>
+
+    <h2>1. Tentang syarat ini</h2>
+    <p>Syarat ini mengatur pemakaian aplikasi Android <strong>TokuGo</strong> (nama paket
+    <code>com.tokugo.app</code>) di Google Play, yang dibuat dan dikelola
+    <strong>Amdigra Creative Dev</strong> (&ldquo;kami&rdquo;). Dengan memasang atau memakai
+    TokuGo, kamu menyetujui syarat ini.</p>
+    <p>Cara kami menangani data dijelaskan terpisah di
+    <a href="https://tokugo.my.id/privacy/">Kebijakan Privasi TokuGo</a>.</p>
+    <p>Kalau kamu belum dewasa menurut hukum di negaramu, pakai TokuGo dan lakukan pembelian
+    dengan izin orang tua atau walimu.</p>
+
+    <h2>2. Isi aplikasi</h2>
+    <ul>
+      <li>TokuGo adalah alat bantu belajar bahasa Jepang: kartu hafalan kosakata dan kanji,
+      pelajaran hiragana, katakana, dan tata bahasa, kuis, serta latihan ujian.</li>
+      <li>TokuGo adalah aplikasi independen. TokuGo tidak berafiliasi dengan, dan tidak didukung
+      oleh, Japan Foundation maupun Japan Educational Exchanges and Services (JEES), penyelenggara
+      JFT-Basic dan JLPT. Soal latihan ujian ditulis khusus untuk TokuGo dan bukan soal ujian
+      resmi.</li>
+      <li>Level JLPT kata dan kanji di aplikasi adalah perkiraan, karena daftar kosakata dan
+      kanji JLPT resmi tidak diterbitkan lagi sejak 2010.</li>
+      <li>Kami berusaha agar arti, bacaan, pelajaran, dan soal benar, tetapi kesalahan tetap
+      mungkin ada. Kalau menemukannya, laporkan lewat tombol laporkan di aplikasi atau lewat
+      email di bagian 11.</li>
+      <li>TokuGo membantu persiapan, tetapi tidak menjamin kamu lulus ujian apa pun.</li>
+    </ul>
+
+    <h2>3. Versi gratis dan iklan</h2>
+    <ul>
+      <li>TokuGo bisa dipakai gratis. Versi gratis menampilkan iklan dari Google AdMob dan membuka
+      sebagian isi aplikasi. Isi yang termasuk Premium ditandai gembok di aplikasi.</li>
+      <li>Jangan mengeklik iklan dengan sengaja berulang kali, menyuruh orang lain melakukannya,
+      atau memakai alat otomatis untuk menampilkan atau mengeklik iklan.</li>
+    </ul>
+
+    <h2>4. Premium</h2>
+    <h3>Isi dan paket</h3>
+    <p>Premium membuka isi yang bergembok dan menghilangkan iklan. Rincian isinya, paket yang
+    tersedia (langganan bulanan, 3 bulan, atau tahunan, dan pembelian sekali bayar), serta
+    harganya tertulis di layar Premium di aplikasi.</p>
+
+    <h3>Pembayaran</h3>
+    <p>Semua pembelian diproses Google Play dengan metode pembayaran di akun Google-mu, dan juga
+    tunduk pada <a href="https://play.google.com/about/play-terms/">Persyaratan Layanan Google
+    Play</a>. Harga yang berlaku adalah harga yang ditampilkan Google Play sebelum kamu membayar,
+    dalam mata uang negaramu, dan bisa sudah termasuk pajak. Kami tidak pernah menerima atau
+    menyimpan data kartu atau metode pembayaranmu.</p>
+
+    <h3>Perpanjangan otomatis dan pembatalan</h3>
+    <p>Langganan diperpanjang otomatis di akhir tiap periode dan ditagih lagi sampai kamu
+    membatalkannya. Kamu bisa membatalkan kapan saja di aplikasi Google Play: Profil &rarr;
+    Pembayaran &amp; langganan &rarr; Langganan. Tombol &ldquo;Kelola atau batalkan
+    langganan&rdquo; di Pengaturan TokuGo membuka halaman yang sama. Pembatalan berlaku di akhir periode yang sudah dibayar, dan
+    sampai saat itu Premium tetap aktif. <strong>Menghapus aplikasi tidak membatalkan
+    langganan.</strong></p>
+
+    <h3>Uji coba gratis</h3>
+    <p>Paket tahunan bisa menawarkan uji coba gratis 7 hari untuk yang belum pernah berlangganan
+    paket itu. Kalau uji coba tidak dibatalkan sebelum berakhir, Google Play menagih harga paket
+    tahunan dan langganan berlanjut seperti biasa. Uji coba hanya bisa dipakai sekali.</p>
+
+    <h3>Pembelian sekali bayar</h3>
+    <p>Pembelian sekali bayar membuka Premium tanpa tagihan berulang, untuk akun Google yang
+    membelinya, selama TokuGo masih tersedia di Google Play.</p>
+
+    <h3>Saat Premium berakhir</h3>
+    <p>Isi Premium terkunci lagi, termasuk kata, kanji, dan pelajaran Premium yang pernah kamu
+    pelajari, dan iklan tampil kembali. Progresmu tidak dihapus: progres itu tetap tersimpan di
+    HP dan terbuka lagi begitu Premium aktif kembali.</p>
+
+    <h3>Memulihkan Premium</h3>
+    <p>Premium terikat pada akun Google yang dipakai untuk membeli. Di HP baru atau sesudah
+    memasang ulang, pakai akun Google yang sama di Google Play, dan TokuGo akan mengenali
+    Premium-mu.</p>
+
+    <h3>Pengembalian dana</h3>
+    <p>Pengembalian dana untuk pembelian lewat Google Play mengikuti
+    <a href="https://support.google.com/googleplay/answer/2479637">kebijakan pengembalian dana
+    Google Play</a>. Kalau ada masalah dengan pembelianmu, hubungi kami dan sebutkan ID pesanan
+    dari email tanda terima Google Play.</p>
+
+    <h3>Perubahan harga dan isi</h3>
+    <p>Harga, paket, dan isi Premium bisa berubah. Perubahan harga untuk langganan yang sedang
+    berjalan mengikuti aturan Google Play, yang memberi tahu pelanggan lebih dulu.</p>
+
+    <h2>5. Data belajar dan cadangan</h2>
+    <p>Progres belajarmu disimpan di HP-mu sendiri. Progres itu hilang kalau aplikasi dihapus
+    atau datanya dibersihkan, kecuali kamu sudah membuat cadangan lewat Pengaturan &rarr;
+    Cadangkan Data, ke berkas atau ke Google Drive-mu. Membuat cadangan adalah tanggung jawabmu:
+    kami tidak menyimpan progresmu, jadi kami tidak bisa memulihkannya.</p>
+
+    <h2>6. Fitur yang memakai layanan lain</h2>
+    <p>Suara pelafalan dan Audio Hafalan memakai mesin pembaca teks di HP-mu, Latihan Ucap memakai
+    layanan pengenal suara di HP-mu, dan cadangan Drive memakai Google Drive-mu. Ketersediaan dan
+    mutunya bergantung pada HP dan penyedianya, dan pemakaiannya tunduk pada syarat penyedia
+    masing-masing. Kalau HP-mu tidak punya suara bahasa Jepang, fitur suara bisa tidak
+    berfungsi.</p>
+
+    <h2>7. Hak cipta dan lisensi</h2>
+    <p>Aplikasi TokuGo, desainnya, serta pelajaran, soal latihan, gambar, dan teks yang kami tulis
+    adalah milik Amdigra Creative Dev.</p>
+    <p>Sebagian data berasal dari sumber terbuka (JMdict, KANJIDIC2, KanjiVG, Kanji alive,
+    wordfreq, dan Twemoji) yang tercantum di Pengaturan &rarr; Tentang &amp; lisensi. Data itu
+    tetap berada di bawah lisensinya masing-masing, dan syarat ini tidak membatasi hak yang
+    diberikan lisensi tersebut. Data turunan dari JMdict, KANJIDIC2, KanjiVG, dan wordfreq,
+    termasuk arti terjemahannya, dibagikan dengan lisensi
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+
+    <h2>8. Pemakaian yang tidak diizinkan</h2>
+    <ul>
+      <li>Membongkar, mengubah, atau menyebarkan ulang aplikasi untuk melewati gembok Premium
+      atau iklan.</li>
+      <li>Menyalin lalu menjual atau menerbitkan ulang pelajaran dan soal latihan TokuGo tanpa
+      izin tertulis dari kami.</li>
+      <li>Memakai TokuGo untuk melanggar hukum.</li>
+    </ul>
+
+    <h2>9. Batas tanggung jawab</h2>
+    <p>TokuGo disediakan &ldquo;sebagaimana adanya&rdquo;. Sejauh diizinkan hukum, kami tidak
+    bertanggung jawab atas kerugian tidak langsung, termasuk hasil ujian, hilangnya progres yang
+    belum dicadangkan, atau gangguan pada layanan pihak lain.</p>
+    <p>Tidak ada bagian syarat ini yang mengurangi hak yang kamu miliki sebagai konsumen menurut
+    hukum yang berlaku di negaramu.</p>
+
+    <h2>10. Perubahan syarat ini</h2>
+    <p>Kami dapat memperbarui aplikasi dan syarat ini. Versi terbaru selalu ada di halaman ini,
+    dengan tanggal berlaku di bagian atas. Kalau perubahannya penting, kami memberitahukannya di
+    aplikasi atau di halaman ini. Dengan tetap memakai TokuGo sesudah tanggal berlaku, kamu
+    menyetujui versi yang baru.</p>
+
+    <h2>11. Hubungi kami</h2>
+    <p>Pertanyaan, laporan kesalahan, atau masalah pembelian:</p>
+    <p>Email: <a href="mailto:amdigracrative@gmail.com">amdigracrative@gmail.com</a><br>
+    Pengembang: Amdigra Creative Dev<br>
+    Aplikasi: TokuGo (<code>com.tokugo.app</code>)</p>
+
+    <footer>
+      <p>&copy; 2026 Amdigra Creative Dev. Syarat ini berlaku untuk aplikasi Android TokuGo.</p>
+    </footer>
+  </main>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <main lang="en">
+    <header>
+      <h1>TokuGo Terms of Service</h1>
+      <p class="stamp">Effective 4 November 2026 &middot; Version 1.0</p>
+    </header>
+
+    <div class="tldr">
+      <p><strong>In short.</strong> TokuGo is free to use with ads. Premium is bought through
+      Google Play: subscriptions renew automatically until you cancel them in Google Play, and
+      Premium content is open only while Premium is active. Your study progress is stored on your
+      own phone, so make a backup if you don't want to lose it. TokuGo is a self-study practice
+      app, not an official JLPT or JFT-Basic app, and it does not guarantee that you will pass an
+      exam.</p>
+    </div>
+
+    <h2>1. About these terms</h2>
+    <p>These terms govern your use of the <strong>TokuGo</strong> Android app (package name
+    <code>com.tokugo.app</code>) on Google Play, made and run by
+    <strong>Amdigra Creative Dev</strong> (&ldquo;we&rdquo;). By installing or using TokuGo, you
+    agree to these terms.</p>
+    <p>How we handle data is explained separately in the
+    <a href="https://tokugo.my.id/privacy/?lang=en">TokuGo Privacy Policy</a>.</p>
+    <p>If you are not yet an adult under the law of your country, use TokuGo and make purchases
+    with the permission of a parent or guardian.</p>
+
+    <h2>2. What the app contains</h2>
+    <ul>
+      <li>TokuGo is a Japanese study aid: vocabulary and kanji flashcards, hiragana, katakana, and
+      grammar lessons, quizzes, and practice exams.</li>
+      <li>TokuGo is an independent app. It is not affiliated with or endorsed by the Japan
+      Foundation or Japan Educational Exchanges and Services (JEES), which run JFT-Basic and the
+      JLPT. Its practice exams were written for TokuGo and are not official exam questions.</li>
+      <li>The JLPT levels of words and kanji in the app are estimates, because official JLPT
+      vocabulary and kanji lists have not been published since 2010.</li>
+      <li>We work to keep meanings, readings, lessons, and questions correct, but mistakes are
+      still possible. If you find one, report it with the report button in the app or by email
+      (section 11).</li>
+      <li>TokuGo helps you prepare, but it does not guarantee that you will pass any exam.</li>
+    </ul>
+
+    <h2>3. Free version and ads</h2>
+    <ul>
+      <li>TokuGo is free to use. The free version shows ads from Google AdMob and opens part of
+      the app's content. Premium content is marked with a lock in the app.</li>
+      <li>Do not deliberately click ads repeatedly, ask others to do so, or use automated tools to
+      load or click ads.</li>
+    </ul>
+
+    <h2>4. Premium</h2>
+    <h3>What you get and the plans</h3>
+    <p>Premium opens locked content and removes ads. What it includes, the plans on offer
+    (monthly, 3-month, or yearly subscriptions, and a one-time purchase), and their prices are
+    shown on the Premium screen in the app.</p>
+
+    <h3>Payment</h3>
+    <p>All purchases are processed by Google Play with the payment method in your Google account,
+    and are also subject to the <a href="https://play.google.com/about/play-terms/">Google Play
+    Terms of Service</a>. The price that applies is the one Google Play shows before you pay, in
+    your local currency, and it may include tax. We never receive or store your card or payment
+    details.</p>
+
+    <h3>Automatic renewal and cancellation</h3>
+    <p>Subscriptions renew automatically at the end of each period and are charged again until
+    you cancel. You can cancel at any time in the Google Play app: Profile &rarr; Payments &amp;
+    subscriptions &rarr; Subscriptions. The &ldquo;Manage or cancel subscription&rdquo; button in
+    TokuGo's Settings opens the same page. Cancellation takes effect at the end of the period you have paid for, and
+    Premium stays active until then. <strong>Uninstalling the app does not cancel a
+    subscription.</strong></p>
+
+    <h3>Free trial</h3>
+    <p>The yearly plan may offer a 7-day free trial to people who have never subscribed to that
+    plan. If you don't cancel before the trial ends, Google Play charges the yearly price and the
+    subscription continues as normal. A trial can be used only once.</p>
+
+    <h3>One-time purchase</h3>
+    <p>The one-time purchase opens Premium with no recurring charge, for the Google account that
+    bought it, for as long as TokuGo is available on Google Play.</p>
+
+    <h3>When Premium ends</h3>
+    <p>Premium content locks again, including Premium words, kanji, and lessons you have already
+    studied, and ads return. Your progress is not deleted: it stays on your phone and opens again
+    as soon as Premium is active again.</p>
+
+    <h3>Restoring Premium</h3>
+    <p>Premium is tied to the Google account used to buy it. On a new phone or after
+    reinstalling, use the same Google account in Google Play and TokuGo will recognize your
+    Premium.</p>
+
+    <h3>Refunds</h3>
+    <p>Refunds for purchases made through Google Play follow the
+    <a href="https://support.google.com/googleplay/answer/2479637">Google Play refund
+    policy</a>. If something is wrong with your purchase, contact us and include the order ID
+    from your Google Play receipt email.</p>
+
+    <h3>Changes to prices and content</h3>
+    <p>Premium prices, plans, and content may change. Price changes for running subscriptions
+    follow Google Play's rules, which notify subscribers in advance.</p>
+
+    <h2>5. Study data and backups</h2>
+    <p>Your study progress is stored on your own phone. It is lost if the app is uninstalled or
+    its data is cleared, unless you have made a backup in Settings &rarr; Back Up Data, to a file
+    or to your Google Drive. Making backups is your responsibility: we don't store your progress,
+    so we can't restore it.</p>
+
+    <h2>6. Features that rely on other services</h2>
+    <p>Pronunciation audio and audio decks use your phone's text-to-speech engine, Speaking
+    practice uses your phone's speech recognition service, and Drive backup uses your Google
+    Drive. Their availability and quality depend on your phone and its providers, and their use
+    is subject to each provider's terms. If your phone has no Japanese voice, audio features may
+    not work.</p>
+
+    <h2>7. Copyright and licences</h2>
+    <p>The TokuGo app, its design, and the lessons, practice questions, pictures, and text we
+    wrote belong to Amdigra Creative Dev.</p>
+    <p>Some data comes from open sources (JMdict, KANJIDIC2, KanjiVG, Kanji alive, wordfreq, and
+    Twemoji), listed in Settings &rarr; About &amp; licenses. That data remains under its own
+    licences, and these terms do not limit the rights those licences give you. Data derived from
+    JMdict, KANJIDIC2, KanjiVG, and wordfreq, including the translated meanings, is shared under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+
+    <h2>8. What you may not do</h2>
+    <ul>
+      <li>Take apart, modify, or redistribute the app to get around Premium locks or ads.</li>
+      <li>Copy TokuGo's lessons and practice questions and then sell or republish them without
+      our written permission.</li>
+      <li>Use TokuGo to break the law.</li>
+    </ul>
+
+    <h2>9. Limitation of liability</h2>
+    <p>TokuGo is provided &ldquo;as is&rdquo;. To the extent the law allows, we are not liable
+    for indirect losses, including exam results, loss of progress that was not backed up, or
+    disruptions to other parties' services.</p>
+    <p>Nothing in these terms reduces the rights you have as a consumer under the law that
+    applies in your country.</p>
+
+    <h2>10. Changes to these terms</h2>
+    <p>We may update the app and these terms. The latest version is always on this page, with
+    its effective date at the top. If a change is important, we will announce it in the app or
+    on this page. By continuing to use TokuGo after the effective date, you agree to the new
+    version.</p>
+
+    <h2>11. Contact us</h2>
+    <p>Questions, error reports, or purchase problems:</p>
+    <p>Email: <a href="mailto:amdigracrative@gmail.com">amdigracrative@gmail.com</a><br>
+    Developer: Amdigra Creative Dev<br>
+    App: TokuGo (<code>com.tokugo.app</code>)</p>
+
+    <footer>
+      <p>&copy; 2026 Amdigra Creative Dev. These terms apply to the TokuGo Android app.</p>
+    </footer>
+  </main>
+
+</div>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var buttons = document.querySelectorAll('.langbar button');
+
+    function apply(lang, remember) {
+      if (lang !== 'en') { lang = 'id'; }
+      root.setAttribute('data-lang', lang);
+      root.setAttribute('lang', lang);
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].setAttribute('aria-pressed', buttons[i].dataset.set === lang ? 'true' : 'false');
+      }
+      if (remember) {
+        try { localStorage.setItem('tokugo-terms-lang', lang); } catch (e) { /* mode privat */ }
+      }
+    }
+
+    // Urutan: ?lang= atau #en di alamat, lalu pilihan tersimpan, lalu bahasa peramban.
+    var wanted = null;
+    var match = /[?&]lang=(id|en)/i.exec(location.search);
+    if (match) { wanted = match[1].toLowerCase(); }
+    else if (location.hash === '#en') { wanted = 'en'; }
+    if (!wanted) {
+      try { wanted = localStorage.getItem('tokugo-terms-lang'); } catch (e) { /* mode privat */ }
+    }
+    if (!wanted) {
+      var nav = (navigator.language || 'id').toLowerCase();
+      wanted = (nav.indexOf('id') === 0 || nav.indexOf('in') === 0) ? 'id' : 'en';
+    }
+    apply(wanted, false);
+
+    for (var j = 0; j < buttons.length; j++) {
+      buttons[j].addEventListener('click', function () {
+        apply(this.dataset.set, true);
+        window.scrollTo(0, 0);
+      });
+    }
+  })();
+</script>
+</body>
+</html>
