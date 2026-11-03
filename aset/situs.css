@@ -335,6 +335,13 @@ h1, h2, h3 { text-wrap: balance; }
 .tombol:hover { background: #F68A6B; transform: translateY(-1px); }
 .tombol:active { transform: none; }
 .tombol svg { width: 20px; height: 20px; flex: none; }
+/* Lencana resmi Google Play (sejak 3 Nov 2026 menggantikan tombol koral ke Play): gambar Google apa adanya, hanya ruang
+   transparan di tepinya yang dipangkas. Pedoman Google: jangan diubah warna/bentuknya, beri ruang kosong di sekelilingnya. */
+.lencana-play { display: inline-flex; flex: none; border-radius: 10px; line-height: 0; transition: transform 0.15s; }
+.lencana-play img { display: block; height: 56px; width: auto; }
+.lencana-play:hover { transform: translateY(-1px); }
+.lencana-play:active { transform: none; }
+.lencana-play:focus-visible { outline: 3px solid var(--koral); outline-offset: 4px; }
 
 .tautan-fitur {
   display: inline-flex;
@@ -822,5 +829,5 @@ html:lang(my), html:lang(km), html:lang(si) {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .tombol, .kartu-tautan { transition: none; }
+  .tombol, .kartu-tautan, .lencana-play { transition: none; }
 }
