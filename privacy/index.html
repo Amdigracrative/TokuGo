@@ -16,7 +16,7 @@
        Play Console berbeda; Google membandingkan keduanya.
     2. Email kontak     - sekarang amdigracrative@gmail.com. Ganti kalau mau
        pakai email khusus aplikasi.
-    3. Tanggal berlaku  - 3 November 2026 (versi 1.7).
+    3. Tanggal berlaku  - 5 November 2026 (versi 1.8).
 
   Bahasa: Indonesia (bawaan) dan Inggris dalam satu halaman.
   Tambahkan ?lang=en di belakang alamat untuk membuka versi Inggris langsung.
@@ -217,7 +217,7 @@
     <header>
       <h1>Kebijakan Privasi TokuGo</h1>
       <!-- PERIKSA 3: tanggal berlaku -->
-      <p class="stamp">Berlaku sejak 3 November 2026 &middot; Versi 1.7</p>
+      <p class="stamp">Berlaku sejak 5 November 2026 &middot; Versi 1.8</p>
     </header>
 
     <div class="tldr">
@@ -284,8 +284,10 @@
     lewat pemilih berkas Android. Aplikasi tidak pernah mengunggahnya ke mana pun; berkas itu
     sepenuhnya milikmu.</p>
     <p><strong>Cadangan Google Drive.</strong> Kalau kamu mengetuk tombol Google Drive di layar
-    Cadangkan Data, progresmu disimpan ke Google Drive-mu sendiri. Rinciannya di bagian 5. Tanpa
-    ketukan itu, aplikasi tidak meminta login dan tidak mengunggah apa pun ke Drive.</p>
+    Cadangkan Data, progresmu disimpan ke Google Drive-mu sendiri. Sesudah itu TokuGo juga
+    mencadangkannya otomatis sekali sehari selama ada progres baru; saklar Cadangan otomatis di layar
+    yang sama mematikannya. Rinciannya di bagian 5. Tanpa ketukan pertama itu, aplikasi tidak meminta
+    login dan tidak mengunggah apa pun ke Drive.</p>
     <p><strong>Berkas audio unduhan.</strong> Pengguna Premium bisa menyimpan sebuah deck audio
     sebagai berkas audio (M4A). Berkas itu dibuat di HP-mu sendiri oleh mesin pembaca teks HP,
     lalu disimpan ke lokasi yang <strong>kamu</strong> pilih lewat pemilih berkas Android.
@@ -388,12 +390,14 @@
     <div class="svc">
       <h3>Cadangan Google Drive (pilihan)</h3>
       <p><span class="label">Untuk</span> Menyimpan progres belajarmu ke Google Drive-mu sendiri
-      dan memulihkannya, hanya saat kamu mengetuk tombol Google Drive di layar Cadangkan Data.</p>
+      dan memulihkannya. Dimulai saat kamu mengetuk tombol Google Drive di layar Cadangkan Data;
+      sesudah itu cadangan juga dibuat otomatis sekali sehari kalau ada progres baru, sampai kamu
+      mematikan saklar Cadangan otomatis di layar itu.</p>
       <p><span class="label">Data</span> Berkas cadangan (progres belajarmu) langsung dikirim dari
       HP-mu ke akun Google-mu. Pengembang tidak punya akses ke berkas itu. TokuGo hanya meminta izin
       untuk berkas buatannya sendiri (izin <code>drive.file</code>), jadi tidak bisa melihat isi lain
       di Drive-mu. Alamat email Google-mu ditampilkan di layar Cadangkan Data dan disimpan di HP-mu.
-      TokuGo menyimpan tiga cadangan terbaru dan menghapus yang lebih lama. Penggunaan data ini
+      TokuGo menyimpan tujuh cadangan terbaru dan menghapus yang lebih lama. Penggunaan data ini
       mengikuti Kebijakan Data Pengguna Layanan API Google, termasuk ketentuan Penggunaan
       Terbatas.</p>
     </div>
@@ -556,8 +560,9 @@
 
     <h2>13. Keamanan</h2>
     <p>Catatan belajarmu berada di penyimpanan pribadi aplikasi yang dilindungi sistem Android
-    dan tidak dapat dibaca aplikasi lain. Karena data belajar tidak pernah dikirim keluar dari
-    HP, tidak ada basis data pengguna di sisi kami yang bisa bocor.</p>
+    dan tidak dapat dibaca aplikasi lain. Karena data belajar tidak pernah dikirim ke server kami
+    (cadangan Google Drive masuk ke akun Google-mu sendiri), tidak ada basis data pengguna di sisi
+    kami yang bisa bocor.</p>
 
     <h2>14. Perubahan kebijakan</h2>
     <p>Bila kebijakan ini berubah, tanggal "Berlaku sejak" di bagian atas akan diperbarui dan
@@ -579,7 +584,7 @@
   <main lang="en">
     <header>
       <h1>TokuGo Privacy Policy</h1>
-      <p class="stamp">Effective 3 November 2026 &middot; Version 1.7</p>
+      <p class="stamp">Effective 5 November 2026 &middot; Version 1.8</p>
     </header>
 
     <div class="tldr">
@@ -641,8 +646,10 @@
     JSON file. The file is written to a location <strong>you</strong> choose yourself through
     the Android file picker. The app never uploads it anywhere; the file is entirely yours.</p>
     <p><strong>Google Drive backup.</strong> If you tap a Google Drive button on the Back up data
-    screen, your progress is saved to your own Google Drive. Details are in section 5. Without
-    that tap, the app does not ask you to sign in and uploads nothing to Drive.</p>
+    screen, your progress is saved to your own Google Drive. After that, TokuGo also backs it up
+    automatically once a day whenever there is new progress; the Automatic backup switch on the same
+    screen turns this off. Details are in section 5. Without that first tap, the app does not ask you
+    to sign in and uploads nothing to Drive.</p>
     <p><strong>Downloaded audio files.</strong> Premium users can save an audio deck as an audio
     file (M4A). The file is created on your own phone by the phone's text-to-speech engine, then
     written to a location <strong>you</strong> choose through the Android file picker. The app
@@ -744,12 +751,14 @@
     <div class="svc">
       <h3>Google Drive backup (optional)</h3>
       <p><span class="label">Purpose</span> Saving your study progress to your own Google Drive
-      and restoring it, only when you tap a Google Drive button on the Back up data screen.</p>
+      and restoring it. It starts when you tap a Google Drive button on the Back up data screen;
+      after that a backup is also made automatically once a day when there is new progress, until
+      you turn off the Automatic backup switch on that screen.</p>
       <p><span class="label">Data</span> The backup file (your study progress) goes directly from
       your phone to your Google account. The developer has no access to it. TokuGo requests only
       permission for files it creates itself (the <code>drive.file</code> scope), so it cannot see
       anything else in your Drive. Your Google email address is shown on the Back up data screen
-      and kept on your phone. TokuGo keeps your three latest backups and deletes older ones. Use
+      and kept on your phone. TokuGo keeps your seven latest backups and deletes older ones. Use
       of this data follows the Google API Services User Data Policy, including its Limited Use
       requirements.</p>
     </div>
@@ -911,8 +920,8 @@
 
     <h2>13. Security</h2>
     <p>Your study records sit in the app's private storage, protected by Android and unreadable
-    by other apps. Because study data never leaves your phone, there is no user database on our
-    side that could be breached.</p>
+    by other apps. Because study data is never sent to our servers (a Google Drive backup goes to
+    your own Google account), there is no user database on our side that could be breached.</p>
 
     <h2>14. Changes to this policy</h2>
     <p>If this policy changes, the "Effective" date at the top will be updated and significant
