@@ -217,20 +217,21 @@
     <header>
       <h1>Kebijakan Privasi TokuGo</h1>
       <!-- PERIKSA 3: tanggal berlaku -->
-      <p class="stamp">Berlaku sejak 5 November 2026 &middot; Versi 1.8</p>
+      <p class="stamp">Berlaku sejak 17 November 2026 &middot; Versi 1.9</p>
     </header>
 
     <div class="tldr">
-      <p><strong>Ringkasnya.</strong> TokuGo tidak punya sistem akun dan tidak pernah meminta
-      nama, alamat email, atau nomor teleponmu. Seluruh catatan belajarmu disimpan di dalam
-      HP-mu sendiri dan tidak pernah dikirim ke pengembang &mdash; kami memang tidak punya
-      server. Yang keluar dari HP hanyalah data teknis milik layanan Google yang kami pakai
-      untuk menampilkan iklan, mengukur pemakaian aplikasi dan hasil iklan TokuGo, dan menerima
-      laporan kerusakan. Dua
-      pengecualian yang kamu kendalikan sendiri: kalau kamu memakai Latihan Ucap, suaramu
-      diproses layanan pengenal suara di HP-mu (bagian 5) &mdash; TokuGo sendiri tidak merekam
-      atau menyimpannya; dan kalau kamu memilih cadangan Google Drive, progresmu masuk ke
-      Google Drive-mu sendiri, bukan ke pengembang. Kami tidak menjual data pribadimu.</p>
+      <p><strong>Ringkasnya.</strong> TokuGo bisa dipakai penuh tanpa akun dan tidak pernah
+      meminta nomor teleponmu. Catatan belajarmu disimpan di dalam HP-mu sendiri dan tidak
+      dikirim ke pengembang. Yang keluar dari HP hanyalah data teknis milik layanan Google yang
+      kami pakai untuk menampilkan iklan, mengukur pemakaian aplikasi dan hasil iklan TokuGo, dan
+      menerima laporan kerusakan. Tiga pengecualian yang kamu pilih sendiri: kalau kamu memakai
+      Latihan Ucap, suaramu diproses layanan pengenal suara di HP-mu (bagian 5) &mdash; TokuGo
+      sendiri tidak merekam atau menyimpannya; kalau kamu memilih cadangan Google Drive, progresmu
+      masuk ke Google Drive-mu sendiri, bukan ke pengembang; dan kalau kamu ikut papan peringkat,
+      kamu masuk dengan akun Google lalu nama panggilan, avatar, dan jumlah XP-mu disimpan di
+      Google Firebase dan terlihat oleh pengguna TokuGo lain. Akun papan peringkat bisa kamu hapus
+      kapan saja (bagian 11). Kami tidak menjual data pribadimu.</p>
     </div>
 
     <h2>1. Tentang kebijakan ini</h2>
@@ -242,16 +243,17 @@
 
     <h2>2. Yang tidak kami lakukan</h2>
     <ul>
-      <li>Tidak ada pendaftaran akun TokuGo, nama, atau nomor telepon. Aplikasi bisa dipakai
-      tanpa login. Login Google hanya muncul kalau kamu memilih cadangan Google Drive, dan alamat
-      emailmu lalu tetap di HP-mu dan tidak pernah dikirim ke pengembang (bagian 5).</li>
+      <li>Akun tidak wajib dan kami tidak pernah meminta nomor telepon. Aplikasi bisa dipakai
+      penuh tanpa login. Login Google hanya muncul kalau kamu memilih cadangan Google Drive atau ikut
+      papan peringkat (bagian 5).</li>
       <li>Tidak ada akses ke kontak, kamera, galeri foto, SMS, atau lokasi GPS. Aplikasi tidak
       meminta izin-izin itu sama sekali.</li>
       <li>Tidak ada rekaman suara. Mikrofon hanya dipakai Latihan Ucap, baru setelah kamu
       mengizinkannya, dan suaramu tidak direkam atau disimpan aplikasi (lihat bagian 5
       dan 6).</li>
       <li>Tidak ada catatan belajar &mdash; kata yang kamu pelajari, nilai kuis, hasil ujian
-      &mdash; yang dikirim ke pengembang.</li>
+      &mdash; yang dikirim ke pengembang. Papan peringkat hanya menerima jumlah XP, bukan kata atau
+      jawabanmu.</li>
       <li>Kami tidak menjual data pribadi kepada siapa pun.</li>
     </ul>
 
@@ -263,7 +265,7 @@
       jadwal ulangan berikutnya, dan tahap penguasaan tiap kata.</li>
       <li>Progres pelajaran dasar: hiragana, katakana, dan pelajaran tata bahasa yang sudah
       kamu buka beserta hasil latihannya.</li>
-      <li>Statistik harian: jumlah kartu, waktu belajar, dan rentetan hari.</li>
+      <li>Statistik harian: jumlah kartu, waktu belajar, XP, dan rentetan hari.</li>
       <li>Kuis dan ujian: sesi kuis, sesi latihan ujian, jawabanmu, dan skornya.</li>
       <li>Deck audio yang kamu susun di Audio Hafalan: nama deck dan daftar katanya.</li>
       <li>Tanda (bookmark), target belajar termasuk target harian, serta laporan yang kamu
@@ -276,13 +278,17 @@
       <li>Satu nomor acak (UUID) yang dibuat aplikasi saat pertama kali dijalankan. Nomor ini
       hanya dipakai untuk mengacak urutan soal ujian agar tidak sama di tiap sesi. Nomor itu
       tidak pernah dikirim ke mana pun dan tidak terhubung dengan identitasmu.</li>
+      <li>Kalau kamu ikut papan peringkat: salinan nama panggilan, nomor avatar, dan alamat email
+      akun Google-mu untuk ditampilkan di menu samping, serta waktu kiriman XP terakhir.</li>
     </ul>
 
     <h2>4. Cadangan dan berkas yang kamu simpan sendiri</h2>
-    <p><strong>Cadangan manual.</strong> Lewat Pengaturan kamu bisa mengekspor seluruh progres
-    ke satu berkas JSON. Berkas itu disimpan ke lokasi yang <strong>kamu</strong> pilih sendiri
-    lewat pemilih berkas Android. Aplikasi tidak pernah mengunggahnya ke mana pun; berkas itu
-    sepenuhnya milikmu.</p>
+    <p><strong>Cadangan manual.</strong> Lewat Pengaturan kamu bisa mengekspor seluruh progres,
+    termasuk XP, ke satu berkas cadangan (<code>.tokugo</code>). Berkas itu disimpan ke lokasi yang
+    <strong>kamu</strong> pilih sendiri lewat pemilih berkas Android. Aplikasi tidak pernah
+    mengunggahnya ke mana pun; berkas itu sepenuhnya milikmu. Sejak 17 November 2026 isi berkas
+    cadangan dienkripsi supaya tidak bisa diubah dengan penyunting teks; berkas cadangan JSON lama
+    tetap bisa dipulihkan.</p>
     <p><strong>Cadangan Google Drive.</strong> Kalau kamu mengetuk tombol Google Drive di layar
     Cadangkan Data, progresmu disimpan ke Google Drive-mu sendiri. Sesudah itu TokuGo juga
     mencadangkannya otomatis sekali sehari selama ada progres baru; saklar Cadangan otomatis di layar
@@ -397,9 +403,25 @@
       HP-mu ke akun Google-mu. Pengembang tidak punya akses ke berkas itu. TokuGo hanya meminta izin
       untuk berkas buatannya sendiri (izin <code>drive.file</code>), jadi tidak bisa melihat isi lain
       di Drive-mu. Alamat email Google-mu ditampilkan di layar Cadangkan Data dan disimpan di HP-mu.
-      TokuGo menyimpan tujuh cadangan terbaru dan menghapus yang lebih lama. Penggunaan data ini
+      TokuGo menyimpan tujuh cadangan terbaru dan menghapus yang lebih lama. Kalau kamu ikut papan
+      peringkat, cadangan Drive memakai akun Google yang sama. Penggunaan data ini
       mengikuti Kebijakan Data Pengguna Layanan API Google, termasuk ketentuan Penggunaan
       Terbatas.</p>
+    </div>
+
+    <div class="svc">
+      <h3>Papan peringkat (pilihan): Firebase Authentication &amp; Cloud Firestore</h3>
+      <p><span class="label">Untuk</span> Masuk dengan akun Google dan menampilkan papan peringkat
+      XP mingguan dan sepanjang waktu. Hanya berjalan kalau kamu mengetuk &ldquo;Masuk dengan
+      Google&rdquo; atau &ldquo;Ikut&rdquo;; tanpa itu tidak ada yang dikirim.</p>
+      <p><span class="label">Data</span> Firebase Authentication menerima identitas akun Google-mu
+      (alamat email dan ID akun) untuk membuat akun papan peringkat; email itu tidak tampil kepada
+      pengguna lain. Cloud Firestore (pusat data Google di Jakarta) menyimpan nama panggilan yang kamu
+      pilih, nomor avatar bawaan, XP minggu ini dan XP total, serta waktu kiriman terakhir. Nama
+      panggilan, avatar, dan XP terlihat oleh semua pengguna TokuGo. Kalau kamu melaporkan nama
+      pengguna lain, laporan berisi ID akunmu, ID akun yang dilaporkan, dan nama itu; pengembang
+      membacanya untuk memeriksa nama yang kasar. Kamu bisa keluar kapan saja, dan menghapus akun
+      beserta datanya (bagian 11).</p>
     </div>
 
     <div class="svc">
@@ -482,15 +504,17 @@
     layanan. Laporan kerusakan dan data analitik disimpan dalam jangka terbatas, lalu dihapus
     atau disimpan hanya dalam bentuk agregat. Cadangan di Google Drive-mu tetap di sana sampai
     kamu menghapusnya.</p>
+    <p><strong>Papan peringkat:</strong> akun dan datanya (nama panggilan, avatar, XP) disimpan
+    sampai kamu menghapus akun. Laporan nama disimpan sampai selesai diperiksa, lalu dihapus.</p>
 
     <h2>10. Hak kamu</h2>
-    <p>Karena kami tidak menyimpan data apa pun tentangmu di server kami, sebagian besar hak
-    dapat kamu jalankan sendiri saat itu juga:</p>
+    <p>Selain akun papan peringkat yang kamu pilih sendiri, kami tidak menyimpan data tentangmu di
+    server, jadi sebagian besar hak dapat kamu jalankan sendiri saat itu juga:</p>
     <ul>
       <li><strong>Melihat data:</strong> semuanya ada di HP-mu. Pakai ekspor cadangan untuk
       membacanya dalam bentuk berkas.</li>
       <li><strong>Menghapus data:</strong> uninstall aplikasi &mdash; seluruh data lokal ikut
-      terhapus.</li>
+      terhapus. Akun papan peringkat dihapus terpisah (bagian 11, Cara 3).</li>
       <li><strong>Menolak iklan personalisasi:</strong> lihat bagian 7.</li>
       <li>Bila kamu berada di wilayah dengan undang-undang perlindungan data, misalnya GDPR di
       Uni Eropa dan Inggris, CCPA di California, atau UU PDP di Indonesia, kamu juga berhak
@@ -501,7 +525,9 @@
 
     <h2 id="hapus-data">11. Menghapus datamu</h2>
     <p>Bagian ini berlaku untuk aplikasi Android <strong>TokuGo</strong> (<code>com.tokugo.app</code>)
-    di Google Play. Ada dua cara, dan cara pertama sudah cukup untuk hampir semua orang.</p>
+    di Google Play. Ada tiga cara. Cara pertama sudah cukup untuk hampir semua orang; kalau kamu
+    pernah ikut papan peringkat, pakai juga Cara 3, karena menghapus aplikasi tidak menghapus akun
+    papan peringkat.</p>
 
     <h3>Cara 1 &mdash; hapus sendiri, seketika</h3>
     <ol>
@@ -523,7 +549,7 @@
       <li>nomor acak (UUID) yang dipakai untuk mengacak urutan soal ujian.</li>
     </ul>
     <p>Yang <strong>tidak</strong> ikut terhapus hanyalah berkas yang pernah kamu simpan sendiri
-    di luar aplikasi: berkas cadangan JSON, cadangan di Google Drive-mu, dan berkas audio deck
+    di luar aplikasi: berkas cadangan (<code>.tokugo</code> atau JSON lama), cadangan di Google Drive-mu, dan berkas audio deck
     yang kamu unduh. Berkas itu milikmu dan tersimpan di tempat yang kamu pilih. Hapus manual bila memang tidak diperlukan
     lagi.</p>
 
@@ -541,12 +567,25 @@
     ada di bagian 5. Suara dari Latihan Ucap tidak pernah kami pegang; pengelolaannya ada pada
     penyedia layanan pengenal suara di HP-mu, lewat setelan akun atau aplikasinya.</p>
 
+    <h3 id="hapus-akun">Cara 3 &mdash; hapus akun papan peringkat</h3>
+    <p><strong>Di aplikasi:</strong> buka menu samping (tombol &#9776;), ketuk baris akunmu di
+    bagian atas, lalu <strong>Hapus akun</strong>. Kamu diminta memilih akun Google sekali lagi untuk
+    memastikan. Akun dan datanya langsung dihapus.</p>
+    <p><strong>Tanpa aplikasi:</strong> kirim email ke
+    <a href="mailto:amdigracrative@gmail.com">amdigracrative@gmail.com</a> dari alamat Google yang
+    kamu pakai untuk papan peringkat, dengan subjek <strong>Hapus akun TokuGo</strong>, dan sebutkan
+    nama panggilanmu. Kami menghapusnya paling lambat <strong>30 hari</strong> dan membalas emailmu.
+    Petunjuk yang sama ada di <a href="https://tokugo.my.id/hapus-akun/">tokugo.my.id/hapus-akun</a>.</p>
+    <p>Yang dihapus: akun Firebase Authentication (alamat email dan ID akun), nama panggilan, avatar,
+    XP di papan, dan laporan nama yang pernah kamu kirim. XP di HP-mu dan cadangan Google Drive-mu
+    tidak ikut terhapus.</p>
+
     <h3>Berapa lama data disimpan sesudahnya</h3>
     <ul>
       <li><strong>Di HP-mu:</strong> tidak ada retensi tambahan sama sekali. Data hilang seketika
       saat aplikasi dihapus.</li>
-      <li><strong>Di sisi kami:</strong> tidak ada retensi tambahan, karena kami tidak punya server
-      dan tidak pernah menyimpan salinan apa pun tentangmu.</li>
+      <li><strong>Di sisi kami:</strong> data papan peringkat hilang saat akunnya dihapus; selain
+      itu kami tidak menyimpan salinan apa pun tentangmu.</li>
       <li><strong>Di layanan Google:</strong> mengikuti masa retensi yang berlaku untuk tiap
       layanan, lalu dihapus atau disimpan hanya dalam bentuk agregat yang tidak dapat dikaitkan
       dengan seseorang. Lihat <a href="https://policies.google.com/privacy">Kebijakan Privasi
@@ -556,13 +595,16 @@
     <h2>12. Pemrosesan lintas negara</h2>
     <p>Layanan Google memproses data di pusat data yang tersebar di berbagai negara, termasuk
     Amerika Serikat. Dengan memakai aplikasi ini kamu memahami bahwa data teknis tersebut dapat
-    diproses di luar negara tempat tinggalmu.</p>
+    diproses di luar negara tempat tinggalmu. Data papan peringkat di Cloud Firestore disimpan di
+    pusat data Google di Jakarta, Indonesia; Firebase Authentication diproses Google di berbagai
+    negara.</p>
 
     <h2>13. Keamanan</h2>
     <p>Catatan belajarmu berada di penyimpanan pribadi aplikasi yang dilindungi sistem Android
-    dan tidak dapat dibaca aplikasi lain. Karena data belajar tidak pernah dikirim ke server kami
-    (cadangan Google Drive masuk ke akun Google-mu sendiri), tidak ada basis data pengguna di sisi
-    kami yang bisa bocor.</p>
+    dan tidak dapat dibaca aplikasi lain. Data belajar tidak pernah dikirim ke server kami
+    (cadangan Google Drive masuk ke akun Google-mu sendiri). Papan peringkat hanya menyimpan nama
+    panggilan, avatar, dan XP; aturan keamanan Firebase membuat hanya pemilik akun yang bisa
+    mengubah datanya, dan semua pengiriman memakai sambungan terenkripsi.</p>
 
     <h2>14. Perubahan kebijakan</h2>
     <p>Bila kebijakan ini berubah, tanggal "Berlaku sejak" di bagian atas akan diperbarui dan
@@ -584,18 +626,21 @@
   <main lang="en">
     <header>
       <h1>TokuGo Privacy Policy</h1>
-      <p class="stamp">Effective 5 November 2026 &middot; Version 1.8</p>
+      <p class="stamp">Effective 17 November 2026 &middot; Version 1.9</p>
     </header>
 
     <div class="tldr">
-      <p><strong>In short.</strong> TokuGo has no account system and never asks for your name,
-      email address or phone number. All of your study records stay on your own phone and are
-      never sent to the developer &mdash; we do not run a server. The only things that leave
-      your phone are technical data belonging to the Google services we use to show ads, measure
-      app usage and the results of TokuGo's own ads, and receive crash reports. Two exceptions that you control yourself: if you use
-      speaking practice, your voice is processed by the speech recognition service on your phone
-      (section 5) &mdash; TokuGo itself does not record or store it; and if you choose Google Drive backup, your progress goes to your own Google Drive, not to the developer. We do not sell your personal
-      data.</p>
+      <p><strong>In short.</strong> TokuGo works fully without an account and never asks for your
+      phone number. Your study records stay on your own phone and are not sent to the developer.
+      The only things that leave your phone are technical data belonging to the Google services we
+      use to show ads, measure app usage and the results of TokuGo's own ads, and receive crash
+      reports. Three exceptions you choose yourself: if you use speaking practice, your voice is
+      processed by the speech recognition service on your phone (section 5) &mdash; TokuGo itself
+      does not record or store it; if you choose Google Drive backup, your progress goes to your
+      own Google Drive, not to the developer; and if you join the leaderboard, you sign in with
+      Google and your nickname, avatar and XP are stored in Google Firebase and are visible to
+      other TokuGo users. You can delete your leaderboard account at any time (section 11). We do
+      not sell your personal data.</p>
     </div>
 
     <h2>1. About this policy</h2>
@@ -605,15 +650,16 @@
 
     <h2>2. What we do not do</h2>
     <ul>
-      <li>No sign-up, no account with TokuGo, no name, no phone number. The app works without
-      signing in. A Google sign-in appears only if you choose Google Drive backup, and your email
-      address then stays on your phone and is never sent to the developer (section 5).</li>
+      <li>No account is required and we never ask for a phone number. The app works fully
+      without signing in. A Google sign-in appears only if you choose Google Drive backup or join
+      the leaderboard (section 5).</li>
       <li>No access to contacts, camera, photo gallery, SMS or GPS location. The app does not
       request those permissions at all.</li>
       <li>No voice recordings. The microphone is used only by speaking practice, only after you
       allow it, and the app does not record or store your voice (see sections 5 and 6).</li>
       <li>No study records &mdash; the words you learn, your quiz scores, your exam results
-      &mdash; are ever sent to the developer.</li>
+      &mdash; are ever sent to the developer. The leaderboard receives only XP totals, not your
+      words or answers.</li>
       <li>We do not sell personal data to anyone.</li>
     </ul>
 
@@ -625,7 +671,7 @@
       next review schedule, and the mastery stage of each word.</li>
       <li>Basics progress: hiragana, katakana, and the grammar lessons you have opened, with
       your practice results.</li>
-      <li>Daily statistics: card counts, study time and day streaks.</li>
+      <li>Daily statistics: card counts, study time, XP and day streaks.</li>
       <li>Quizzes and exams: quiz sessions, practice exam sessions, your answers and scores.</li>
       <li>The audio decks you build: deck names and their word lists.</li>
       <li>Bookmarks, study goals including your daily goal, and any reports you send through the
@@ -639,12 +685,16 @@
       <li>A single random number (UUID) created the first time the app runs. It is used only to
       shuffle exam question order so that sessions differ. It is never sent anywhere and is not
       linked to your identity.</li>
+      <li>If you join the leaderboard: a copy of your nickname, avatar number and Google account
+      email address to show in the side menu, and the time XP was last sent.</li>
     </ul>
 
     <h2>4. Backups and files you save yourself</h2>
-    <p><strong>Manual backup.</strong> In Settings you can export all your progress to a single
-    JSON file. The file is written to a location <strong>you</strong> choose yourself through
-    the Android file picker. The app never uploads it anywhere; the file is entirely yours.</p>
+    <p><strong>Manual backup.</strong> In Settings you can export all your progress, including
+    XP, to a single backup file (<code>.tokugo</code>). The file is written to a location
+    <strong>you</strong> choose yourself through the Android file picker. The app never uploads it
+    anywhere; the file is entirely yours. Since 17 November 2026 the backup file is encrypted so it
+    cannot be changed in a text editor; older JSON backups can still be restored.</p>
     <p><strong>Google Drive backup.</strong> If you tap a Google Drive button on the Back up data
     screen, your progress is saved to your own Google Drive. After that, TokuGo also backs it up
     automatically once a day whenever there is new progress; the Automatic backup switch on the same
@@ -758,9 +808,25 @@
       your phone to your Google account. The developer has no access to it. TokuGo requests only
       permission for files it creates itself (the <code>drive.file</code> scope), so it cannot see
       anything else in your Drive. Your Google email address is shown on the Back up data screen
-      and kept on your phone. TokuGo keeps your seven latest backups and deletes older ones. Use
+      and kept on your phone. TokuGo keeps your seven latest backups and deletes older ones. If you
+      join the leaderboard, Drive backup uses the same Google account. Use
       of this data follows the Google API Services User Data Policy, including its Limited Use
       requirements.</p>
+    </div>
+
+    <div class="svc">
+      <h3>Leaderboard (optional): Firebase Authentication &amp; Cloud Firestore</h3>
+      <p><span class="label">Purpose</span> Signing in with Google and showing the weekly and
+      all-time XP leaderboard. It runs only if you tap &ldquo;Sign in with Google&rdquo; or
+      &ldquo;Join&rdquo;; otherwise nothing is sent.</p>
+      <p><span class="label">Data</span> Firebase Authentication receives your Google account
+      identity (email address and account ID) to create your leaderboard account; the email is not
+      shown to other users. Cloud Firestore (a Google data centre in Jakarta) stores the nickname you
+      choose, a built-in avatar number, your XP this week and in total, and the time of the last
+      update. Your nickname, avatar and XP are visible to all TokuGo users. If you report another
+      user's name, the report contains your account ID, the reported account ID and that name; the
+      developer reads it to check for offensive names. You can sign out at any time, and delete the
+      account with its data (section 11).</p>
     </div>
 
     <div class="svc">
@@ -842,14 +908,17 @@
     service. Crash reports and analytics data are kept for a limited period, then deleted or
     retained only in aggregate form. Backups in your Google Drive stay there until you delete
     them.</p>
+    <p><strong>Leaderboard:</strong> the account and its data (nickname, avatar, XP) are kept until
+    you delete the account. Name reports are kept until they have been reviewed, then deleted.</p>
 
     <h2>10. Your rights</h2>
-    <p>Because we hold no data about you on any server of ours, you can exercise most rights
-    yourself, immediately:</p>
+    <p>Apart from the leaderboard account you choose to create, we hold no data about you on any
+    server, so you can exercise most rights yourself, immediately:</p>
     <ul>
       <li><strong>Access:</strong> everything is on your phone. Use the backup export to read it
       as a file.</li>
-      <li><strong>Deletion:</strong> uninstall the app &mdash; all local data goes with it.</li>
+      <li><strong>Deletion:</strong> uninstall the app &mdash; all local data goes with it. A
+      leaderboard account is deleted separately (section 11, Route 3).</li>
       <li><strong>Opt out of personalised ads:</strong> see section 7.</li>
       <li>If you are in a region with data protection laws, such as the GDPR in the European
       Union and the United Kingdom, the CCPA in California, or the PDP Law in Indonesia, you
@@ -860,8 +929,9 @@
 
     <h2 id="delete-data">11. Deleting your data</h2>
     <p>This section applies to the <strong>TokuGo</strong> Android app
-    (<code>com.tokugo.app</code>) on Google Play. There are two routes, and the first is enough
-    for almost everyone.</p>
+    (<code>com.tokugo.app</code>) on Google Play. There are three routes. The first is enough for
+    almost everyone; if you have joined the leaderboard, also use Route 3, because uninstalling the
+    app does not delete your leaderboard account.</p>
 
     <h3>Route 1 &mdash; delete it yourself, immediately</h3>
     <ol>
@@ -883,7 +953,7 @@
       <li>the random number (UUID) used to shuffle exam question order.</li>
     </ul>
     <p>The only things <strong>not</strong> deleted are files you saved yourself outside the app:
-    any JSON backup file, any backup in your Google Drive, and any audio deck file you downloaded.
+    any backup file (<code>.tokugo</code> or older JSON), any backup in your Google Drive, and any audio deck file you downloaded.
     Those files are yours and are stored where you chose to put them. Delete them manually if you
     no longer need them.</p>
 
@@ -901,12 +971,25 @@
     data from speaking practice; it is managed by the provider of the speech recognition service
     on your phone, through that provider's account or app settings.</p>
 
+    <h3 id="delete-account">Route 3 &mdash; delete your leaderboard account</h3>
+    <p><strong>In the app:</strong> open the side menu (the &#9776; button), tap your account row at
+    the top, then <strong>Delete account</strong>. You will be asked to choose your Google account
+    once more to confirm. The account and its data are deleted immediately.</p>
+    <p><strong>Without the app:</strong> email
+    <a href="mailto:amdigracrative@gmail.com">amdigracrative@gmail.com</a> from the Google address
+    you used for the leaderboard, with the subject <strong>Delete TokuGo account</strong>, and state
+    your nickname. We delete it within <strong>30 days</strong> and reply to your email. The same
+    instructions are at <a href="https://tokugo.my.id/hapus-akun/?lang=en">tokugo.my.id/hapus-akun</a>.</p>
+    <p>What is deleted: the Firebase Authentication account (email address and account ID), your
+    nickname, avatar, leaderboard XP, and any name reports you sent. XP on your phone and your
+    Google Drive backups are not deleted.</p>
+
     <h3>How long data is kept afterwards</h3>
     <ul>
       <li><strong>On your phone:</strong> no additional retention at all. The data is gone the
       moment the app is uninstalled.</li>
-      <li><strong>On our side:</strong> no additional retention, because we run no server and
-      never hold a copy of anything about you.</li>
+      <li><strong>On our side:</strong> leaderboard data is gone once the account is deleted;
+      apart from that we hold no copy of anything about you.</li>
       <li><strong>In Google services:</strong> according to the retention period that applies to
       each service, after which it is deleted or kept only in aggregate form that cannot be linked
       to any person. See the <a href="https://policies.google.com/privacy">Google Privacy
@@ -916,12 +999,16 @@
     <h2>12. International processing</h2>
     <p>Google services process data in data centres across many countries, including the United
     States. By using this app you understand that such technical data may be processed outside
-    your country of residence.</p>
+    your country of residence. Leaderboard data in Cloud Firestore is stored in a Google data
+    centre in Jakarta, Indonesia; Firebase Authentication is processed by Google in many
+    countries.</p>
 
     <h2>13. Security</h2>
     <p>Your study records sit in the app's private storage, protected by Android and unreadable
-    by other apps. Because study data is never sent to our servers (a Google Drive backup goes to
-    your own Google account), there is no user database on our side that could be breached.</p>
+    by other apps. Study data is never sent to our servers (a Google Drive backup goes to your own
+    Google account). The leaderboard stores only nicknames, avatars and XP; Firebase security rules
+    let only the account owner change their data, and everything is sent over encrypted
+    connections.</p>
 
     <h2>14. Changes to this policy</h2>
     <p>If this policy changes, the "Effective" date at the top will be updated and significant

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hapus akun TokuGo</title>
+<meta name="description" content="Cara menghapus akun papan peringkat aplikasi Android TokuGo (com.tokugo.app) - How to delete your TokuGo leaderboard account.">
+
+<!--
+  ============================================================================
+  HAPUS AKUN TokuGo - berkas tunggal, saudara docs/privacy/index.html dan
+  docs/terms/index.html (rupa dan pengalih bahasanya disalin dari halaman Persyaratan).
+  Tayang di https://tokugo.my.id/hapus-akun/ (repo publik Amdigracrative/TokuGo,
+  folder hapus-akun/). Alamat ini yang diisikan di Play Console > Keamanan data >
+  "URL penghapusan akun" (aturan Google Play: aplikasi yang membuat akun wajib
+  menyediakan hapus akun di aplikasi DAN lewat halaman web yang tidak menyuruh
+  orang membuka aplikasinya).
+
+  Isinya mengikuti LeaderboardRepository.deleteAccount di :core:leaderboard dan
+  Kebijakan Privasi bagian 11 (Cara 3). Kalau salah satunya berubah, halaman ini
+  ikut diubah. Rencana pembaruan UP9 (docs/RENCANA_PEMBARUAN_2026-11-16.md).
+
+  Bahasa: Indonesia (bawaan) dan Inggris; ?lang=en membuka versi Inggris.
+  ============================================================================
+-->
+
+<style>
+  :root {
+    color-scheme: light dark;
+    /* Washi - tema terang aplikasi */
+    --bg: #EAE3D3;
+    --card: #F1EBDE;
+    --line: #D3C9B5;
+    --text: #24201A;
+    --muted: #5E574B;
+    --accent: #A8402A;
+    --accent-soft: rgba(168, 64, 42, 0.10);
+  }
+  /* Media query DI LUAR selector, bukan bersarang: CSS nesting baru ada di
+     Chrome 112, sedangkan aplikasi ini masih mendukung Android 7. */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      /* Yoru - tema gelap aplikasi */
+      --bg: #0E0E11;
+      --card: #14161F;
+      --line: #2A2F42;
+      --text: #E6E1E9;
+      --muted: #A8A3B4;
+      --accent: #A9A1F1;
+      --accent-soft: rgba(169, 161, 241, 0.14);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0E0E11;
+    --card: #14161F;
+    --line: #2A2F42;
+    --text: #E6E1E9;
+    --muted: #A8A3B4;
+    --accent: #A9A1F1;
+    --accent-soft: rgba(169, 161, 241, 0.14);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0 16px 64px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .wrap { max-width: 720px; margin: 0 auto; }
+
+  header { padding: 32px 0 8px; }
+
+  h1 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+
+  .stamp {
+    color: var(--muted);
+    font-size: 0.875rem;
+    margin: 0 0 20px;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+    line-height: 1.35;
+    margin: 36px 0 10px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin: 22px 0 6px;
+    color: var(--accent);
+  }
+
+  p, ul, ol { margin: 0 0 12px; }
+  ul, ol { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+
+  a { color: var(--accent); overflow-wrap: anywhere; }
+
+  strong { font-weight: 650; }
+
+  .tldr {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    border-radius: 12px;
+    padding: 16px;
+    margin: 0 0 8px;
+  }
+  .tldr p:last-child { margin-bottom: 0; }
+
+  .langbar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    gap: 8px;
+    padding: 10px 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+  }
+  .langbar button {
+    flex: 0 0 auto;
+    font: inherit;
+    font-size: 0.875rem;
+    padding: 7px 16px;
+    min-height: 40px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .langbar button[aria-pressed="true"] {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+
+  /* Satu bahasa saja saat JavaScript hidup. Tanpa JavaScript, atribut
+     data-lang tidak pernah dipasang sehingga kedua bahasa tetap tampil. */
+  html[data-lang="id"] main[lang="en"] { display: none; }
+  html[data-lang="en"] main[lang="id"] { display: none; }
+  html:not([data-lang]) .langbar { display: none; }
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <nav class="langbar" aria-label="Pilih bahasa / Choose language">
+    <button type="button" data-set="id" aria-pressed="true">Bahasa Indonesia</button>
+    <button type="button" data-set="en" aria-pressed="false">English</button>
+  </nav>
+
+  <!-- ===================== INDONESIA ===================== -->
+  <main lang="id">
+    <header>
+      <h1>Hapus akun TokuGo</h1>
+      <p class="stamp">Aplikasi Android TokuGo &middot; Amdigra Creative Dev &middot; 17 November 2026</p>
+    </header>
+
+    <div class="tldr">
+      <p><strong>Ringkasnya.</strong> TokuGo bisa dipakai tanpa akun. Akun hanya dibuat kalau kamu
+      ikut <strong>papan peringkat</strong> dengan akun Google. Halaman ini menjelaskan cara
+      menghapus akun itu beserta datanya, lewat aplikasi atau lewat email.</p>
+    </div>
+
+    <h2>1. Hapus lewat aplikasi (langsung)</h2>
+    <ol>
+      <li>Buka TokuGo, lalu buka menu samping (tombol &#9776; di kiri atas).</li>
+      <li>Ketuk baris akunmu di bagian atas menu (avatar dan nama panggilanmu).</li>
+      <li>Ketuk <strong>Hapus akun</strong>, lalu <strong>Hapus</strong>.</li>
+      <li>Pilih akun Google yang sama sekali lagi untuk memastikan.</li>
+    </ol>
+    <p>Akun dan datanya langsung dihapus.</p>
+
+    <h2>2. Hapus tanpa aplikasi (lewat email)</h2>
+    <p>Kalau aplikasinya sudah tidak terpasang atau kamu tidak bisa membukanya:</p>
+    <ol>
+      <li>Kirim email ke <a href="mailto:amdigracrative@gmail.com?subject=Hapus%20akun%20TokuGo">amdigracrative@gmail.com</a>
+      <strong>dari alamat Google yang kamu pakai untuk papan peringkat</strong>.</li>
+      <li>Tulis subjek <strong>Hapus akun TokuGo</strong>.</li>
+      <li>Sebutkan nama panggilanmu di papan peringkat.</li>
+    </ol>
+    <p>Kami menghapus akunmu paling lambat <strong>30 hari</strong> sesudah email diterima dan
+    membalas emailmu setelah selesai.</p>
+
+    <h2>3. Data yang dihapus</h2>
+    <ul>
+      <li>Akun Firebase Authentication: alamat email dan ID akun Google-mu yang tersimpan di
+      sana.</li>
+      <li>Data papan peringkat: nama panggilan, nomor avatar, XP minggu ini, XP total, dan waktu
+      kiriman terakhir.</li>
+      <li>Laporan nama yang pernah kamu kirim tentang pengguna lain.</li>
+    </ul>
+    <p>Semuanya dihapus seluruhnya; tidak ada salinan yang kami simpan sesudahnya.</p>
+
+    <h2>4. Data yang tidak ikut terhapus</h2>
+    <ul>
+      <li><strong>Data di HP-mu</strong>, termasuk progres belajar dan XP. Data itu tidak pernah
+      dikirim ke kami. Hapus lewat menu samping &rarr; Cadangkan data &rarr; Mulai dari awal, atau
+      dengan meng-uninstall aplikasi.</li>
+      <li><strong>Cadangan di Google Drive-mu</strong>. Berkasnya ada di folder TokuGo di Drive-mu
+      sendiri; hapus dari Google Drive kalau tidak diperlukan.</li>
+      <li><strong>Data teknis di layanan Google</strong> (iklan, analitik, laporan kerusakan).
+      Caranya ada di <a href="https://tokugo.my.id/privacy/#hapus-data">Kebijakan Privasi bagian 11</a>.</li>
+    </ul>
+    <p>Laporan dari pengguna lain tentang nama panggilanmu disimpan sampai selesai diperiksa,
+    lalu dihapus.</p>
+
+    <h2>5. Hubungi kami</h2>
+    <p>Email: <a href="mailto:amdigracrative@gmail.com">amdigracrative@gmail.com</a><br>
+    Pengembang: Amdigra Creative Dev<br>
+    Aplikasi: TokuGo (<code>com.tokugo.app</code>)</p>
+
+    <footer>
+      <p>&copy; 2026 Amdigra Creative Dev. Lihat juga <a href="https://tokugo.my.id/privacy/">Kebijakan
+      Privasi</a> dan <a href="https://tokugo.my.id/terms/">Persyaratan Layanan</a>.</p>
+    </footer>
+  </main>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <main lang="en">
+    <header>
+      <h1>Delete your TokuGo account</h1>
+      <p class="stamp">TokuGo Android app &middot; Amdigra Creative Dev &middot; 17 November 2026</p>
+    </header>
+
+    <div class="tldr">
+      <p><strong>In short.</strong> TokuGo works without an account. An account is created only if
+      you join the <strong>leaderboard</strong> with a Google account. This page explains how to
+      delete that account and its data, in the app or by email.</p>
+    </div>
+
+    <h2>1. Delete in the app (immediately)</h2>
+    <ol>
+      <li>Open TokuGo and open the side menu (the &#9776; button at the top left).</li>
+      <li>Tap your account row at the top of the menu (your avatar and nickname).</li>
+      <li>Tap <strong>Delete account</strong>, then <strong>Delete</strong>.</li>
+      <li>Choose the same Google account once more to confirm.</li>
+    </ol>
+    <p>The account and its data are deleted immediately.</p>
+
+    <h2>2. Delete without the app (by email)</h2>
+    <p>If the app is no longer installed or you cannot open it:</p>
+    <ol>
+      <li>Email <a href="mailto:amdigracrative@gmail.com?subject=Delete%20TokuGo%20account">amdigracrative@gmail.com</a>
+      <strong>from the Google address you used for the leaderboard</strong>.</li>
+      <li>Use the subject <strong>Delete TokuGo account</strong>.</li>
+      <li>State your leaderboard nickname.</li>
+    </ol>
+    <p>We delete your account within <strong>30 days</strong> of receiving the email and reply
+    once it is done.</p>
+
+    <h2>3. Data that is deleted</h2>
+    <ul>
+      <li>The Firebase Authentication account: the email address and Google account ID stored
+      there.</li>
+      <li>Leaderboard data: nickname, avatar number, XP this week, total XP, and the time of the
+      last update.</li>
+      <li>Any name reports you sent about other users.</li>
+    </ul>
+    <p>All of it is deleted completely; we keep no copy afterwards.</p>
+
+    <h2>4. Data that is not deleted</h2>
+    <ul>
+      <li><strong>Data on your phone</strong>, including study progress and XP. It was never sent to
+      us. Delete it through the side menu &rarr; Back up data &rarr; Start over, or by uninstalling the
+      app.</li>
+      <li><strong>Backups in your Google Drive</strong>. The files are in the TokuGo folder in your
+      own Drive; delete them from Google Drive if you no longer need them.</li>
+      <li><strong>Technical data in Google services</strong> (ads, analytics, crash reports). See
+      <a href="https://tokugo.my.id/privacy/?lang=en#delete-data">Privacy Policy section 11</a>.</li>
+    </ul>
+    <p>Reports from other users about your nickname are kept until they have been reviewed, then
+    deleted.</p>
+
+    <h2>5. Contact us</h2>
+    <p>Email: <a href="mailto:amdigracrative@gmail.com">amdigracrative@gmail.com</a><br>
+    Developer: Amdigra Creative Dev<br>
+    App: TokuGo (<code>com.tokugo.app</code>)</p>
+
+    <footer>
+      <p>&copy; 2026 Amdigra Creative Dev. See also the <a href="https://tokugo.my.id/privacy/?lang=en">Privacy
+      Policy</a> and <a href="https://tokugo.my.id/terms/?lang=en">Terms of Service</a>.</p>
+    </footer>
+  </main>
+
+</div>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var buttons = document.querySelectorAll('.langbar button');
+
+    function apply(lang, remember) {
+      if (lang !== 'en') { lang = 'id'; }
+      root.setAttribute('data-lang', lang);
+      root.setAttribute('lang', lang);
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].setAttribute('aria-pressed', buttons[i].dataset.set === lang ? 'true' : 'false');
+      }
+      if (remember) {
+        try { localStorage.setItem('tokugo-hapus-lang', lang); } catch (e) { /* mode privat */ }
+      }
+    }
+
+    // Urutan: ?lang= atau #en di alamat, lalu pilihan tersimpan, lalu bahasa peramban.
+    var wanted = null;
+    var match = /[?&]lang=(id|en)/i.exec(location.search);
+    if (match) { wanted = match[1].toLowerCase(); }
+    else if (location.hash === '#en') { wanted = 'en'; }
+    if (!wanted) {
+      try { wanted = localStorage.getItem('tokugo-hapus-lang'); } catch (e) { /* mode privat */ }
+    }
+    if (!wanted) {
+      var nav = (navigator.language || 'id').toLowerCase();
+      wanted = (nav.indexOf('id') === 0 || nav.indexOf('in') === 0) ? 'id' : 'en';
+    }
+    apply(wanted, false);
+
+    for (var j = 0; j < buttons.length; j++) {
+      buttons[j].addEventListener('click', function () {
+        apply(this.dataset.set, true);
+        window.scrollTo(0, 0);
+      });
+    }
+  })();
+</script>
+</body>
+</html>
