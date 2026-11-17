@@ -5,7 +5,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -21,7 +21,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/id/kosakata/</loc>
@@ -185,11 +185,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/faq/"/>
   </url>
   <url>
-    <loc>https://tokugo.my.id/en/</loc>
+    <loc>https://tokugo.my.id/</loc>
     <lastmod>2026-11-17</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -205,7 +205,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/en/vocabulary/</loc>
@@ -373,7 +373,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -389,7 +389,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/vi/vocabulary/</loc>
@@ -557,7 +557,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -573,7 +573,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/ne/vocabulary/</loc>
@@ -741,7 +741,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -757,7 +757,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/my/vocabulary/</loc>
@@ -925,7 +925,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -941,7 +941,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/fil/vocabulary/</loc>
@@ -1109,7 +1109,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -1125,7 +1125,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/th/vocabulary/</loc>
@@ -1293,7 +1293,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -1309,7 +1309,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/km/vocabulary/</loc>
@@ -1477,7 +1477,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -1493,7 +1493,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/mn/vocabulary/</loc>
@@ -1661,7 +1661,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -1677,7 +1677,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/si/vocabulary/</loc>
@@ -1845,7 +1845,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -1861,7 +1861,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/bn/vocabulary/</loc>
@@ -2029,7 +2029,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -2045,7 +2045,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/hi/vocabulary/</loc>
@@ -2213,7 +2213,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -2229,7 +2229,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/zh/vocabulary/</loc>
@@ -2397,7 +2397,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -2413,7 +2413,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-tw/vocabulary/</loc>
@@ -2581,7 +2581,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -2597,7 +2597,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/zh-hk/vocabulary/</loc>
@@ -2765,7 +2765,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -2781,7 +2781,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/ko/vocabulary/</loc>
@@ -2949,7 +2949,7 @@
     <lastmod>2026-11-17</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://tokugo.my.id/id/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tokugo.my.id/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://tokugo.my.id/vi/"/>
     <xhtml:link rel="alternate" hreflang="ne" href="https://tokugo.my.id/ne/"/>
     <xhtml:link rel="alternate" hreflang="my" href="https://tokugo.my.id/my/"/>
@@ -2965,7 +2965,7 @@
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://tokugo.my.id/zh-hk/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://tokugo.my.id/ko/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://tokugo.my.id/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tokugo.my.id/"/>
   </url>
   <url>
     <loc>https://tokugo.my.id/ja/vocabulary/</loc>
